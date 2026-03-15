@@ -1,0 +1,521 @@
+{
+  "synergy": [
+    {
+      "a": "bergamot",
+      "b": "rose",
+      "score": 0.9
+    },
+    {
+      "a": "bergamot",
+      "b": "jasmine",
+      "score": 0.85
+    },
+    {
+      "a": "bergamot",
+      "b": "vetiver",
+      "score": 0.8
+    },
+    {
+      "a": "bergamot",
+      "b": "neroli",
+      "score": 0.95
+    },
+    {
+      "a": "lemon",
+      "b": "lavender",
+      "score": 0.85
+    },
+    {
+      "a": "lemon",
+      "b": "green_tea",
+      "score": 0.8
+    },
+    {
+      "a": "lemon",
+      "b": "basil",
+      "score": 0.75
+    },
+    {
+      "a": "orange",
+      "b": "vanilla",
+      "score": 0.85
+    },
+    {
+      "a": "orange",
+      "b": "cinnamon",
+      "score": 0.9
+    },
+    {
+      "a": "orange",
+      "b": "neroli",
+      "score": 0.9
+    },
+    {
+      "a": "rose",
+      "b": "sandalwood",
+      "score": 0.95
+    },
+    {
+      "a": "rose",
+      "b": "musk",
+      "score": 0.9
+    },
+    {
+      "a": "rose",
+      "b": "patchouli",
+      "score": 0.85
+    },
+    {
+      "a": "rose",
+      "b": "oud",
+      "score": 0.9
+    },
+    {
+      "a": "jasmine",
+      "b": "sandalwood",
+      "score": 0.9
+    },
+    {
+      "a": "jasmine",
+      "b": "vanilla",
+      "score": 0.85
+    },
+    {
+      "a": "jasmine",
+      "b": "ylang_ylang",
+      "score": 0.8
+    },
+    {
+      "a": "lavender",
+      "b": "vanilla",
+      "score": 0.8
+    },
+    {
+      "a": "lavender",
+      "b": "cedarwood",
+      "score": 0.85
+    },
+    {
+      "a": "lavender",
+      "b": "moss",
+      "score": 0.9
+    },
+    {
+      "a": "lavender",
+      "b": "tonka_bean",
+      "score": 0.85
+    },
+    {
+      "a": "vanilla",
+      "b": "amber",
+      "score": 0.95
+    },
+    {
+      "a": "vanilla",
+      "b": "sandalwood",
+      "score": 0.9
+    },
+    {
+      "a": "vanilla",
+      "b": "tonka_bean",
+      "score": 0.95
+    },
+    {
+      "a": "vanilla",
+      "b": "musk",
+      "score": 0.85
+    },
+    {
+      "a": "sandalwood",
+      "b": "musk",
+      "score": 0.9
+    },
+    {
+      "a": "sandalwood",
+      "b": "iris",
+      "score": 0.85
+    },
+    {
+      "a": "sandalwood",
+      "b": "vanilla",
+      "score": 0.9
+    },
+    {
+      "a": "cedarwood",
+      "b": "vetiver",
+      "score": 0.85
+    },
+    {
+      "a": "cedarwood",
+      "b": "bergamot",
+      "score": 0.8
+    },
+    {
+      "a": "cedarwood",
+      "b": "moss",
+      "score": 0.85
+    },
+    {
+      "a": "patchouli",
+      "b": "vanilla",
+      "score": 0.85
+    },
+    {
+      "a": "patchouli",
+      "b": "rose",
+      "score": 0.8
+    },
+    {
+      "a": "patchouli",
+      "b": "moss",
+      "score": 0.9
+    },
+    {
+      "a": "amber",
+      "b": "vanilla",
+      "score": 0.95
+    },
+    {
+      "a": "amber",
+      "b": "frankincense",
+      "score": 0.85
+    },
+    {
+      "a": "amber",
+      "b": "sandalwood",
+      "score": 0.9
+    },
+    {
+      "a": "musk",
+      "b": "iris",
+      "score": 0.85
+    },
+    {
+      "a": "musk",
+      "b": "cedarwood",
+      "score": 0.8
+    },
+    {
+      "a": "musk",
+      "b": "white_musk",
+      "score": 0.7
+    },
+    {
+      "a": "oud",
+      "b": "saffron",
+      "score": 0.9
+    },
+    {
+      "a": "oud",
+      "b": "rose",
+      "score": 0.95
+    },
+    {
+      "a": "oud",
+      "b": "amber",
+      "score": 0.85
+    },
+    {
+      "a": "vetiver",
+      "b": "bergamot",
+      "score": 0.85
+    },
+    {
+      "a": "vetiver",
+      "b": "grapefruit",
+      "score": 0.8
+    },
+    {
+      "a": "ylang_ylang",
+      "b": "vanilla",
+      "score": 0.85
+    },
+    {
+      "a": "ylang_ylang",
+      "b": "sandalwood",
+      "score": 0.8
+    },
+    {
+      "a": "tuberose",
+      "b": "jasmine",
+      "score": 0.85
+    },
+    {
+      "a": "tuberose",
+      "b": "vanilla",
+      "score": 0.8
+    },
+    {
+      "a": "iris",
+      "b": "violet",
+      "score": 0.85
+    },
+    {
+      "a": "iris",
+      "b": "cedarwood",
+      "score": 0.8
+    },
+    {
+      "a": "peony",
+      "b": "freesia",
+      "score": 0.85
+    },
+    {
+      "a": "peony",
+      "b": "lily_of_valley",
+      "score": 0.9
+    },
+    {
+      "a": "frankincense",
+      "b": "myrrh",
+      "score": 0.9
+    },
+    {
+      "a": "frankincense",
+      "b": "amber",
+      "score": 0.85
+    },
+    {
+      "a": "tonka_bean",
+      "b": "vanilla",
+      "score": 0.95
+    },
+    {
+      "a": "tonka_bean",
+      "b": "lavender",
+      "score": 0.85
+    },
+    {
+      "a": "honey",
+      "b": "orange_blossom",
+      "score": 0.85
+    },
+    {
+      "a": "honey",
+      "b": "vanilla",
+      "score": 0.8
+    },
+    {
+      "a": "coffee",
+      "b": "vanilla",
+      "score": 0.9
+    },
+    {
+      "a": "coffee",
+      "b": "chocolate",
+      "score": 0.85
+    },
+    {
+      "a": "leather",
+      "b": "oud",
+      "score": 0.85
+    },
+    {
+      "a": "leather",
+      "b": "tobacco",
+      "score": 0.9
+    },
+    {
+      "a": "cinnamon",
+      "b": "vanilla",
+      "score": 0.85
+    },
+    {
+      "a": "cinnamon",
+      "b": "orange",
+      "score": 0.9
+    },
+    {
+      "a": "pink_pepper",
+      "b": "rose",
+      "score": 0.85
+    },
+    {
+      "a": "pink_pepper",
+      "b": "bergamot",
+      "score": 0.8
+    },
+    {
+      "a": "marine",
+      "b": "bergamot",
+      "score": 0.8
+    },
+    {
+      "a": "marine",
+      "b": "bamboo",
+      "score": 0.85
+    },
+    {
+      "a": "fig",
+      "b": "cedarwood",
+      "score": 0.8
+    },
+    {
+      "a": "fig",
+      "b": "coconut",
+      "score": 0.75
+    },
+    {
+      "a": "peach",
+      "b": "jasmine",
+      "score": 0.8
+    },
+    {
+      "a": "peach",
+      "b": "vanilla",
+      "score": 0.85
+    },
+    {
+      "a": "blackcurrant",
+      "b": "rose",
+      "score": 0.85
+    },
+    {
+      "a": "blackcurrant",
+      "b": "violet",
+      "score": 0.8
+    },
+    {
+      "a": "benzoin",
+      "b": "vanilla",
+      "score": 0.9
+    },
+    {
+      "a": "benzoin",
+      "b": "amber",
+      "score": 0.85
+    }
+  ],
+  "clash": [
+    {
+      "a": "mint",
+      "b": "oud",
+      "score": -0.8
+    },
+    {
+      "a": "mint",
+      "b": "leather",
+      "score": -0.7
+    },
+    {
+      "a": "mint",
+      "b": "vanilla",
+      "score": -0.6
+    },
+    {
+      "a": "marine",
+      "b": "oud",
+      "score": -0.7
+    },
+    {
+      "a": "marine",
+      "b": "cinnamon",
+      "score": -0.65
+    },
+    {
+      "a": "marine",
+      "b": "leather",
+      "score": -0.6
+    },
+    {
+      "a": "aldehyde",
+      "b": "oud",
+      "score": -0.5
+    },
+    {
+      "a": "aldehyde",
+      "b": "patchouli",
+      "score": -0.6
+    },
+    {
+      "a": "lemon",
+      "b": "vanilla",
+      "score": -0.3
+    },
+    {
+      "a": "lemon",
+      "b": "amber",
+      "score": -0.4
+    },
+    {
+      "a": "grapefruit",
+      "b": "chocolate",
+      "score": -0.5
+    },
+    {
+      "a": "grapefruit",
+      "b": "caramel",
+      "score": -0.4
+    },
+    {
+      "a": "grass",
+      "b": "vanilla",
+      "score": -0.5
+    },
+    {
+      "a": "grass",
+      "b": "amber",
+      "score": -0.6
+    },
+    {
+      "a": "basil",
+      "b": "vanilla",
+      "score": -0.5
+    },
+    {
+      "a": "basil",
+      "b": "chocolate",
+      "score": -0.6
+    },
+    {
+      "a": "green_apple",
+      "b": "oud",
+      "score": -0.7
+    },
+    {
+      "a": "green_apple",
+      "b": "leather",
+      "score": -0.6
+    },
+    {
+      "a": "bamboo",
+      "b": "oud",
+      "score": -0.5
+    },
+    {
+      "a": "bamboo",
+      "b": "leather",
+      "score": -0.6
+    },
+    {
+      "a": "sea_salt",
+      "b": "vanilla",
+      "score": -0.4
+    },
+    {
+      "a": "sea_salt",
+      "b": "chocolate",
+      "score": -0.5
+    },
+    {
+      "a": "mint",
+      "b": "civet",
+      "score": -0.9
+    },
+    {
+      "a": "mint",
+      "b": "castoreum",
+      "score": -0.8
+    },
+    {
+      "a": "marine",
+      "b": "civet",
+      "score": -0.7
+    },
+    {
+      "a": "marine",
+      "b": "castoreum",
+      "score": -0.6
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+[
+    {
+        "id": "linalool",
+        "name": "리날룰 (Linalool)",
+        "smiles": "CC(=CCC/C(=C/CO)/C)C",
+        "mw": 154.25,
+        "logP": 2.97,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 4,
+        "rings": 0,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "terpene"
+        ],
+        "odor_labels": [
+            "floral",
+            "woody",
+            "citrus",
+            "sweet",
+            "lavender"
+        ],
+        "odor_strength": 6,
+        "source_ingredients": [
+            "lavender",
+            "bergamot",
+            "geranium"
+        ]
+    },
+    {
+        "id": "geraniol",
+        "name": "게라니올 (Geraniol)",
+        "smiles": "CC(=CCC/C(=C/CO)/C)C",
+        "mw": 154.25,
+        "logP": 3.56,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 4,
+        "rings": 0,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "terpene"
+        ],
+        "odor_labels": [
+            "floral",
+            "rose",
+            "citrus",
+            "sweet",
+            "green"
+        ],
+        "odor_strength": 7,
+        "source_ingredients": [
+            "rose",
+            "geranium",
+            "citrus"
+        ]
+    },
+    {
+        "id": "limonene",
+        "name": "리모넨 (Limonene)",
+        "smiles": "CC1=CCC(CC1)C(=C)C",
+        "mw": 136.23,
+        "logP": 4.57,
+        "hbd": 0,
+        "hba": 0,
+        "rotatable": 1,
+        "rings": 1,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "terpene",
+            "cyclohexene"
+        ],
+        "odor_labels": [
+            "citrus",
+            "orange",
+            "fresh",
+            "sweet"
+        ],
+        "odor_strength": 7,
+        "source_ingredients": [
+            "lemon",
+            "orange",
+            "bergamot",
+            "grapefruit"
+        ]
+    },
+    {
+        "id": "citral",
+        "name": "시트랄 (Citral)",
+        "smiles": "CC(=CCC/C(=C/C=O)/C)C",
+        "mw": 152.23,
+        "logP": 3.45,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 4,
+        "rings": 0,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "aldehyde",
+            "terpene"
+        ],
+        "odor_labels": [
+            "citrus",
+            "lemon",
+            "fresh",
+            "green"
+        ],
+        "odor_strength": 8,
+        "source_ingredients": [
+            "lemon",
+            "lime",
+            "ginger"
+        ]
+    },
+    {
+        "id": "eugenol",
+        "name": "유제놀 (Eugenol)",
+        "smiles": "COc1cc(CC=C)ccc1O",
+        "mw": 164.20,
+        "logP": 2.27,
+        "hbd": 1,
+        "hba": 2,
+        "rotatable": 3,
+        "rings": 1,
+        "aromatic_rings": 1,
+        "functional_groups": [
+            "phenol",
+            "allyl",
+            "methoxy"
+        ],
+        "odor_labels": [
+            "spicy",
+            "clove",
+            "warm",
+            "woody"
+        ],
+        "odor_strength": 8,
+        "source_ingredients": [
+            "clove",
+            "cinnamon",
+            "nutmeg"
+        ]
+    },
+    {
+        "id": "vanillin",
+        "name": "바닐린 (Vanillin)",
+        "smiles": "COc1cc(C=O)ccc1O",
+        "mw": 152.15,
+        "logP": 1.21,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable": 2,
+        "rings": 1,
+        "aromatic_rings": 1,
+        "functional_groups": [
+            "aldehyde",
+            "phenol",
+            "methoxy"
+        ],
+        "odor_labels": [
+            "sweet",
+            "vanilla",
+            "warm",
+            "balsamic",
+            "gourmand"
+        ],
+        "odor_strength": 9,
+        "source_ingredients": [
+            "vanilla"
+        ]
+    },
+    {
+        "id": "coumarin",
+        "name": "쿠마린 (Coumarin)",
+        "smiles": "O=c1ccc2ccccc2o1",
+        "mw": 146.14,
+        "logP": 1.39,
+        "hbd": 0,
+        "hba": 2,
+        "rotatable": 0,
+        "rings": 2,
+        "aromatic_rings": 1,
+        "functional_groups": [
+            "lactone",
+            "benzopyranone"
+        ],
+        "odor_labels": [
+            "sweet",
+            "hay",
+            "almond",
+            "warm",
+            "tonka"
+        ],
+        "odor_strength": 7,
+        "source_ingredients": [
+            "tonka_bean",
+            "lavender"
+        ]
+    },
+    {
+        "id": "cinnamaldehyde",
+        "name": "신남알데히드 (Cinnamaldehyde)",
+        "smiles": "O=C/C=C/c1ccccc1",
+        "mw": 132.16,
+        "logP": 1.90,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 2,
+        "rings": 1,
+        "aromatic_rings": 1,
+        "functional_groups": [
+            "aldehyde",
+            "phenyl"
+        ],
+        "odor_labels": [
+            "spicy",
+            "cinnamon",
+            "warm",
+            "sweet"
+        ],
+        "odor_strength": 9,
+        "source_ingredients": [
+            "cinnamon"
+        ]
+    },
+    {
+        "id": "benzyl_acetate",
+        "name": "벤질 아세테이트 (Benzyl Acetate)",
+        "smiles": "CC(=O)OCc1ccccc1",
+        "mw": 150.17,
+        "logP": 1.96,
+        "hbd": 0,
+        "hba": 2,
+        "rotatable": 3,
+        "rings": 1,
+        "aromatic_rings": 1,
+        "functional_groups": [
+            "ester",
+            "benzyl"
+        ],
+        "odor_labels": [
+            "floral",
+            "jasmine",
+            "fruity",
+            "sweet"
+        ],
+        "odor_strength": 6,
+        "source_ingredients": [
+            "jasmine",
+            "ylang_ylang"
+        ]
+    },
+    {
+        "id": "indole",
+        "name": "인돌 (Indole)",
+        "smiles": "c1ccc2[nH]ccc2c1",
+        "mw": 117.15,
+        "logP": 2.14,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 0,
+        "rings": 2,
+        "aromatic_rings": 2,
+        "functional_groups": [
+            "indole",
+            "heteroaromatic"
+        ],
+        "odor_labels": [
+            "floral",
+            "animalic",
+            "jasmine",
+            "mothball"
+        ],
+        "odor_strength": 8,
+        "source_ingredients": [
+            "jasmine",
+            "tuberose",
+            "orange_blossom"
+        ]
+    },
+    {
+        "id": "alpha_pinene",
+        "name": "알파피넨 (α-Pinene)",
+        "smiles": "CC1=CCC2CC1C2(C)C",
+        "mw": 136.23,
+        "logP": 4.83,
+        "hbd": 0,
+        "hba": 0,
+        "rotatable": 0,
+        "rings": 2,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "terpene",
+            "bicyclic"
+        ],
+        "odor_labels": [
+            "woody",
+            "pine",
+            "green",
+            "fresh"
+        ],
+        "odor_strength": 6,
+        "source_ingredients": [
+            "cypress",
+            "cedarwood",
+            "frankincense"
+        ]
+    },
+    {
+        "id": "myrcene",
+        "name": "미르센 (Myrcene)",
+        "smiles": "CC(=CCC=C(C)C=C)C",
+        "mw": 136.23,
+        "logP": 4.17,
+        "hbd": 0,
+        "hba": 0,
+        "rotatable": 4,
+        "rings": 0,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "terpene",
+            "diene"
+        ],
+        "odor_labels": [
+            "green",
+            "herbaceous",
+            "earthy",
+            "peppery"
+        ],
+        "odor_strength": 5,
+        "source_ingredients": [
+            "basil",
+            "bay_leaf"
+        ]
+    },
+    {
+        "id": "carvone",
+        "name": "카르본 (Carvone)",
+        "smiles": "CC(=C)C1CC=C(C)C(=O)C1",
+        "mw": 150.22,
+        "logP": 2.74,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 1,
+        "rings": 1,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "ketone",
+            "terpene"
+        ],
+        "odor_labels": [
+            "minty",
+            "herbaceous",
+            "green",
+            "sweet"
+        ],
+        "odor_strength": 7,
+        "source_ingredients": [
+            "mint"
+        ]
+    },
+    {
+        "id": "santalol",
+        "name": "산탈올 (Santalol)",
+        "smiles": "CC1(C)CC(\\C=C\\CO)C=C(C1)C",
+        "mw": 220.35,
+        "logP": 4.25,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 3,
+        "rings": 2,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "sesquiterpene",
+            "bicyclic"
+        ],
+        "odor_labels": [
+            "woody",
+            "sandalwood",
+            "creamy",
+            "warm",
+            "milky"
+        ],
+        "odor_strength": 7,
+        "source_ingredients": [
+            "sandalwood"
+        ]
+    },
+    {
+        "id": "vetiverol",
+        "name": "베티베롤 (Vetiverol)",
+        "smiles": "CC(C)C1CCC2(CCCC(=C)C2O)C1",
+        "mw": 222.37,
+        "logP": 3.80,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 1,
+        "rings": 2,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "sesquiterpene"
+        ],
+        "odor_labels": [
+            "woody",
+            "earthy",
+            "smoky",
+            "vetiver",
+            "dark"
+        ],
+        "odor_strength": 8,
+        "source_ingredients": [
+            "vetiver"
+        ]
+    },
+    {
+        "id": "cedrol",
+        "name": "세드롤 (Cedrol)",
+        "smiles": "CC1CCC2C(C1(C)C)CCC2(C)O",
+        "mw": 222.37,
+        "logP": 4.53,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 0,
+        "rings": 3,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "sesquiterpene",
+            "tricyclic"
+        ],
+        "odor_labels": [
+            "woody",
+            "cedar",
+            "dry",
+            "pencil"
+        ],
+        "odor_strength": 5,
+        "source_ingredients": [
+            "cedarwood"
+        ]
+    },
+    {
+        "id": "patchoulol",
+        "name": "파출롤 (Patchoulol)",
+        "smiles": "CC1CCC2(CC3C(CCC2C1(C)C)C3(C)C)O",
+        "mw": 222.37,
+        "logP": 4.60,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 0,
+        "rings": 3,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "sesquiterpene",
+            "tricyclic"
+        ],
+        "odor_labels": [
+            "woody",
+            "earthy",
+            "dark",
+            "patchouli",
+            "sweet"
+        ],
+        "odor_strength": 8,
+        "source_ingredients": [
+            "patchouli"
+        ]
+    },
+    {
+        "id": "muscone",
+        "name": "무스콘 (Muscone)",
+        "smiles": "CC1CCCCCCCCCCCCC(=O)C1",
+        "mw": 238.41,
+        "logP": 6.35,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 12,
+        "rings": 1,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "ketone",
+            "macrocyclic"
+        ],
+        "odor_labels": [
+            "musk",
+            "animalic",
+            "warm",
+            "powdery",
+            "clean"
+        ],
+        "odor_strength": 6,
+        "source_ingredients": [
+            "musk"
+        ]
+    },
+    {
+        "id": "galaxolide",
+        "name": "갈락솔라이드 (Galaxolide)",
+        "smiles": "CC1(C)CC2=CC(=C(C(C2C(O1)(C)C)C)C)C",
+        "mw": 258.40,
+        "logP": 5.90,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 0,
+        "rings": 3,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "ether",
+            "macrocyclic",
+            "polycyclic"
+        ],
+        "odor_labels": [
+            "musk",
+            "clean",
+            "sweet",
+            "powdery",
+            "floral"
+        ],
+        "odor_strength": 5,
+        "source_ingredients": [
+            "white_musk"
+        ]
+    },
+    {
+        "id": "ambroxide",
+        "name": "암브록사이드 (Ambroxide)",
+        "smiles": "CC1(C)CCCC2(C)C1CCC1(C)OC(CC12)C",
+        "mw": 236.40,
+        "logP": 5.20,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 0,
+        "rings": 4,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "ether",
+            "terpenoid",
+            "polycyclic"
+        ],
+        "odor_labels": [
+            "amber",
+            "woody",
+            "warm",
+            "smooth",
+            "precious"
+        ],
+        "odor_strength": 6,
+        "source_ingredients": [
+            "ambergris",
+            "amber"
+        ]
+    },
+    {
+        "id": "benzaldehyde",
+        "name": "벤즈알데히드 (Benzaldehyde)",
+        "smiles": "O=Cc1ccccc1",
+        "mw": 106.12,
+        "logP": 1.48,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 1,
+        "rings": 1,
+        "aromatic_rings": 1,
+        "functional_groups": [
+            "aldehyde",
+            "aromatic"
+        ],
+        "odor_labels": [
+            "almond",
+            "cherry",
+            "sweet",
+            "nutty"
+        ],
+        "odor_strength": 7,
+        "source_ingredients": [
+            "almond"
+        ]
+    },
+    {
+        "id": "methyl_salicylate",
+        "name": "살리실산메틸 (Methyl Salicylate)",
+        "smiles": "COC(=O)c1ccccc1O",
+        "mw": 152.15,
+        "logP": 2.55,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable": 2,
+        "rings": 1,
+        "aromatic_rings": 1,
+        "functional_groups": [
+            "ester",
+            "phenol"
+        ],
+        "odor_labels": [
+            "minty",
+            "wintergreen",
+            "medicinal",
+            "sweet"
+        ],
+        "odor_strength": 8,
+        "source_ingredients": [
+            "mint"
+        ]
+    },
+    {
+        "id": "menthol",
+        "name": "멘톨 (Menthol)",
+        "smiles": "CC(C)C1CCC(C)CC1O",
+        "mw": 156.27,
+        "logP": 3.38,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 1,
+        "rings": 1,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "monoterpene",
+            "cyclohexane"
+        ],
+        "odor_labels": [
+            "minty",
+            "cooling",
+            "fresh",
+            "clean"
+        ],
+        "odor_strength": 8,
+        "source_ingredients": [
+            "mint"
+        ]
+    },
+    {
+        "id": "phenylethyl_alcohol",
+        "name": "페닐에틸알코올 (Phenylethyl Alcohol)",
+        "smiles": "OCCC1=CC=CC=C1",
+        "mw": 122.16,
+        "logP": 1.36,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 2,
+        "rings": 1,
+        "aromatic_rings": 1,
+        "functional_groups": [
+            "alcohol",
+            "phenyl"
+        ],
+        "odor_labels": [
+            "floral",
+            "rose",
+            "honey",
+            "sweet",
+            "green"
+        ],
+        "odor_strength": 6,
+        "source_ingredients": [
+            "rose",
+            "geranium"
+        ]
+    },
+    {
+        "id": "citronellol",
+        "name": "시트로넬롤 (Citronellol)",
+        "smiles": "CC(CCO)CCC=C(C)C",
+        "mw": 156.27,
+        "logP": 3.91,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 5,
+        "rings": 0,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "terpene"
+        ],
+        "odor_labels": [
+            "floral",
+            "rose",
+            "citrus",
+            "green",
+            "fresh"
+        ],
+        "odor_strength": 6,
+        "source_ingredients": [
+            "rose",
+            "geranium"
+        ]
+    },
+    {
+        "id": "cis_3_hexenol",
+        "name": "시스-3-헥세놀 (cis-3-Hexenol)",
+        "smiles": "CCC=CCCO",
+        "mw": 100.16,
+        "logP": 1.61,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 3,
+        "rings": 0,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "alkene"
+        ],
+        "odor_labels": [
+            "green",
+            "leafy",
+            "fresh",
+            "grassy",
+            "natural"
+        ],
+        "odor_strength": 7,
+        "source_ingredients": [
+            "grass",
+            "green_tea"
+        ]
+    },
+    {
+        "id": "damascenone",
+        "name": "다마세논 (Damascenone)",
+        "smiles": "CC(=CC1=CC(=O)CC1(C)C)C=CC",
+        "mw": 190.28,
+        "logP": 3.24,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 3,
+        "rings": 1,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "ketone",
+            "norisoprenoid"
+        ],
+        "odor_labels": [
+            "fruity",
+            "rose",
+            "plum",
+            "honey",
+            "warm"
+        ],
+        "odor_strength": 9,
+        "source_ingredients": [
+            "rose",
+            "plum"
+        ]
+    },
+    {
+        "id": "ionone_alpha",
+        "name": "알파이오논 (α-Ionone)",
+        "smiles": "CC(=CC1=CC(=O)CC(C)C1)C",
+        "mw": 192.30,
+        "logP": 3.70,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 2,
+        "rings": 1,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "ketone",
+            "terpenoid"
+        ],
+        "odor_labels": [
+            "floral",
+            "violet",
+            "woody",
+            "powdery",
+            "iris"
+        ],
+        "odor_strength": 7,
+        "source_ingredients": [
+            "iris",
+            "violet"
+        ]
+    },
+    {
+        "id": "hedione",
+        "name": "헤디온 (Hedione)",
+        "smiles": "CC(=O)OCC(CC1CCCC1=O)C",
+        "mw": 226.31,
+        "logP": 2.50,
+        "hbd": 0,
+        "hba": 3,
+        "rotatable": 5,
+        "rings": 1,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "ester",
+            "ketone",
+            "cyclopentanone"
+        ],
+        "odor_labels": [
+            "floral",
+            "jasmine",
+            "fresh",
+            "transparent",
+            "green"
+        ],
+        "odor_strength": 4,
+        "source_ingredients": [
+            "jasmine"
+        ]
+    },
+    {
+        "id": "iso_e_super",
+        "name": "이소이슈퍼 (Iso E Super)",
+        "smiles": "CC1(C)CC(=O)C2(CCC(CC2C1)C(C)C)C",
+        "mw": 234.38,
+        "logP": 4.90,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 1,
+        "rings": 2,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "ketone",
+            "sesquiterpene"
+        ],
+        "odor_labels": [
+            "woody",
+            "amber",
+            "velvet",
+            "smooth",
+            "warm"
+        ],
+        "odor_strength": 5,
+        "source_ingredients": [
+            "cedarwood",
+            "amber"
+        ]
+    },
+    {
+        "id": "ethyl_maltol",
+        "name": "에틸말톨 (Ethyl Maltol)",
+        "smiles": "CCC1=C(O)C(=O)C=CO1",
+        "mw": 140.14,
+        "logP": 0.36,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable": 1,
+        "rings": 1,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "pyranone",
+            "enol"
+        ],
+        "odor_labels": [
+            "sweet",
+            "caramel",
+            "cotton_candy",
+            "fruity",
+            "gourmand"
+        ],
+        "odor_strength": 8,
+        "source_ingredients": [
+            "caramel",
+            "praline"
+        ]
+    },
+    {
+        "id": "gamma_decalactone",
+        "name": "감마데카락톤 (γ-Decalactone)",
+        "smiles": "CCCCCCC1CCC(=O)O1",
+        "mw": 170.25,
+        "logP": 2.72,
+        "hbd": 0,
+        "hba": 2,
+        "rotatable": 5,
+        "rings": 1,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "lactone"
+        ],
+        "odor_labels": [
+            "fruity",
+            "peach",
+            "creamy",
+            "sweet",
+            "coconut"
+        ],
+        "odor_strength": 7,
+        "source_ingredients": [
+            "peach",
+            "coconut"
+        ]
+    },
+    {
+        "id": "calone",
+        "name": "칼론 (Calone)",
+        "smiles": "CCC1=CC2=C(C=C1)OCC(=O)O2",
+        "mw": 192.21,
+        "logP": 1.60,
+        "hbd": 0,
+        "hba": 3,
+        "rotatable": 1,
+        "rings": 2,
+        "aromatic_rings": 1,
+        "functional_groups": [
+            "lactone",
+            "benzodioxepinone"
+        ],
+        "odor_labels": [
+            "marine",
+            "aquatic",
+            "ozonic",
+            "watermelon",
+            "fresh"
+        ],
+        "odor_strength": 8,
+        "source_ingredients": [
+            "marine"
+        ]
+    },
+    {
+        "id": "dihydromyrcenol",
+        "name": "디하이드로미르세놀 (Dihydromyrcenol)",
+        "smiles": "CC(C)(O)CCCC(=C)C",
+        "mw": 156.27,
+        "logP": 3.10,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 4,
+        "rings": 0,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "terpene"
+        ],
+        "odor_labels": [
+            "citrus",
+            "fresh",
+            "clean",
+            "soapy",
+            "metallic"
+        ],
+        "odor_strength": 6,
+        "source_ingredients": [
+            "lime",
+            "marine"
+        ]
+    },
+    {
+        "id": "methyl_ionone",
+        "name": "메틸이오논 (Methyl Ionone)",
+        "smiles": "CC1=CC(=O)CC(C1)C(C)=CC",
+        "mw": 206.32,
+        "logP": 4.10,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 2,
+        "rings": 1,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "ketone",
+            "terpenoid"
+        ],
+        "odor_labels": [
+            "woody",
+            "violet",
+            "iris",
+            "powdery",
+            "orris"
+        ],
+        "odor_strength": 6,
+        "source_ingredients": [
+            "iris",
+            "violet"
+        ]
+    },
+    {
+        "id": "nerolidol",
+        "name": "네롤리돌 (Nerolidol)",
+        "smiles": "CC(=CCC/C(=C/CC(C)(C=C)O)/C)C",
+        "mw": 222.37,
+        "logP": 5.30,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 6,
+        "rings": 0,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "sesquiterpene"
+        ],
+        "odor_labels": [
+            "floral",
+            "green",
+            "woody",
+            "citrus",
+            "waxy"
+        ],
+        "odor_strength": 5,
+        "source_ingredients": [
+            "neroli",
+            "orange_blossom"
+        ]
+    },
+    {
+        "id": "farnesol",
+        "name": "파르네솔 (Farnesol)",
+        "smiles": "CC(=CCC/C(=C/CC/C(=C/CO)/C)/C)C",
+        "mw": 222.37,
+        "logP": 5.31,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 7,
+        "rings": 0,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "sesquiterpene"
+        ],
+        "odor_labels": [
+            "floral",
+            "linden",
+            "green",
+            "sweet",
+            "muguet"
+        ],
+        "odor_strength": 4,
+        "source_ingredients": [
+            "lily_of_valley",
+            "freesia"
+        ]
+    },
+    {
+        "id": "sclareol",
+        "name": "스클라레올 (Sclareol)",
+        "smiles": "CC1(C)CCCC2(C)C1CCC(C2(O)CO)C(=C)C",
+        "mw": 308.50,
+        "logP": 4.80,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable": 2,
+        "rings": 3,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "diterpene",
+            "labdane"
+        ],
+        "odor_labels": [
+            "amber",
+            "tobacco",
+            "warm",
+            "balsamic",
+            "sweet"
+        ],
+        "odor_strength": 5,
+        "source_ingredients": [
+            "tobacco",
+            "amber"
+        ]
+    },
+    {
+        "id": "terpineol",
+        "name": "테르피네올 (Terpineol)",
+        "smiles": "CC1=CCC(CC1)C(C)(C)O",
+        "mw": 154.25,
+        "logP": 2.98,
+        "hbd": 1,
+        "hba": 1,
+        "rotatable": 1,
+        "rings": 1,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "alcohol",
+            "terpene"
+        ],
+        "odor_labels": [
+            "floral",
+            "lilac",
+            "sweet",
+            "woody",
+            "pine"
+        ],
+        "odor_strength": 6,
+        "source_ingredients": [
+            "neroli",
+            "petitgrain"
+        ]
+    },
+    {
+        "id": "camphor",
+        "name": "캄포 (Camphor)",
+        "smiles": "CC1(C)C2CCC1(C)C(=O)C2",
+        "mw": 152.23,
+        "logP": 2.38,
+        "hbd": 0,
+        "hba": 1,
+        "rotatable": 0,
+        "rings": 2,
+        "aromatic_rings": 0,
+        "functional_groups": [
+            "ketone",
+            "bicyclic",
+            "terpene"
+        ],
+        "odor_labels": [
+            "camphoraceous",
+            "cooling",
+            "medicinal",
+            "woody"
+        ],
+        "odor_strength": 8,
+        "source_ingredients": [
+            "frankincense"
+        ]
+    }
+]

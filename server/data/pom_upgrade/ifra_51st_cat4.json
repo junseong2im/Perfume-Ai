@@ -1,0 +1,356 @@
+{
+  "101-86-0": {
+    "cas": "101-86-0",
+    "max_pct_cat4": 0,
+    "prohibited": true,
+    "restricted": false
+  },
+  "4602-84-0": {
+    "cas": "4602-84-0",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true
+  },
+  "90-02-8": {
+    "cas": "90-02-8",
+    "max_pct_cat4": 0,
+    "prohibited": true,
+    "restricted": false
+  },
+  "93-15-2": {
+    "cas": "93-15-2",
+    "max_pct_cat4": 0,
+    "prohibited": true,
+    "restricted": false
+  },
+  "97-53-0": {
+    "cas": "97-53-0",
+    "max_pct_cat4": 0.5,
+    "prohibited": false,
+    "restricted": true
+  },
+  "106-22-9": {
+    "cas": "106-22-9",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true
+  },
+  "106-24-1": {
+    "cas": "106-24-1",
+    "max_pct_cat4": 1.8,
+    "prohibited": false,
+    "restricted": true
+  },
+  "107-75-5": {
+    "cas": "107-75-5",
+    "max_pct_cat4": 0.5,
+    "prohibited": false,
+    "restricted": true
+  },
+  "104-55-2": {
+    "cas": "104-55-2",
+    "max_pct_cat4": 0.07,
+    "prohibited": false,
+    "restricted": true
+  },
+  "91-64-5": {
+    "cas": "91-64-5",
+    "max_pct_cat4": 0.31,
+    "prohibited": false,
+    "restricted": true
+  },
+  "140-67-0": {
+    "cas": "140-67-0",
+    "max_pct_cat4": 0.01,
+    "prohibited": false,
+    "restricted": true
+  },
+  "5392-40-5": {
+    "cas": "5392-40-5",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true
+  },
+  "5989-27-5": {
+    "cas": "5989-27-5",
+    "max_pct_cat4": 4.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "127-91-3": {
+    "cas": "127-91-3",
+    "max_pct_cat4": 4.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "80-56-8": {
+    "cas": "80-56-8",
+    "max_pct_cat4": 4.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "78-70-6": {
+    "cas": "78-70-6",
+    "max_pct_cat4": 6.8,
+    "prohibited": false,
+    "restricted": true
+  },
+  "60-12-8": {
+    "cas": "60-12-8",
+    "max_pct_cat4": 1.6,
+    "prohibited": false,
+    "restricted": true
+  },
+  "101-39-3": {
+    "cas": "101-39-3",
+    "max_pct_cat4": 0.05,
+    "prohibited": false,
+    "restricted": true
+  },
+  "104-54-1": {
+    "cas": "104-54-1",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true
+  },
+  "100-51-6": {
+    "cas": "100-51-6",
+    "max_pct_cat4": 4.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "120-51-4": {
+    "cas": "120-51-4",
+    "max_pct_cat4": 8.5,
+    "prohibited": false,
+    "restricted": true
+  },
+  "103-41-3": {
+    "cas": "103-41-3",
+    "max_pct_cat4": 0.5,
+    "prohibited": false,
+    "restricted": true
+  },
+  "118-58-1": {
+    "cas": "118-58-1",
+    "max_pct_cat4": 0.8,
+    "prohibited": false,
+    "restricted": true
+  },
+  "4180-23-8": {
+    "cas": "4180-23-8",
+    "max_pct_cat4": 1.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "98-55-5": {
+    "cas": "98-55-5",
+    "max_pct_cat4": 5.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "105-87-3": {
+    "cas": "105-87-3",
+    "max_pct_cat4": 2.6,
+    "prohibited": false,
+    "restricted": true
+  },
+  "115-95-7": {
+    "cas": "115-95-7",
+    "max_pct_cat4": 5.5,
+    "prohibited": false,
+    "restricted": true
+  },
+  "150-84-5": {
+    "cas": "150-84-5",
+    "max_pct_cat4": 4.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "121-33-5": {
+    "cas": "121-33-5",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "121-32-4": {
+    "cas": "121-32-4",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "68-12-2": {
+    "cas": "68-12-2",
+    "max_pct_cat4": 0.01,
+    "prohibited": false,
+    "restricted": true
+  },
+  "100-52-7": {
+    "cas": "100-52-7",
+    "max_pct_cat4": 2.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "98-86-2": {
+    "cas": "98-86-2",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true
+  },
+  "122-78-1": {
+    "cas": "122-78-1",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true
+  },
+  "111-12-6": {
+    "cas": "111-12-6",
+    "max_pct_cat4": 1.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "93-92-5": {
+    "cas": "93-92-5",
+    "max_pct_cat4": 3.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "5471-51-2": {
+    "cas": "5471-51-2",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "69-72-7": {
+    "cas": "69-72-7",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "81-14-1": {
+    "cas": "81-14-1",
+    "max_pct_cat4": 0,
+    "prohibited": true,
+    "restricted": false
+  },
+  "81-15-2": {
+    "cas": "81-15-2",
+    "max_pct_cat4": 0,
+    "prohibited": true,
+    "restricted": false
+  },
+  "145-39-1": {
+    "cas": "145-39-1",
+    "max_pct_cat4": 0,
+    "prohibited": true,
+    "restricted": false
+  },
+  "68647-72-3": {
+    "cas": "68647-72-3",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "8000-25-7": {
+    "cas": "8000-25-7",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "8008-99-9": {
+    "cas": "8008-99-9",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "8007-01-0": {
+    "cas": "8007-01-0",
+    "max_pct_cat4": 4.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "8000-28-0": {
+    "cas": "8000-28-0",
+    "max_pct_cat4": 8.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "8015-01-8": {
+    "cas": "8015-01-8",
+    "max_pct_cat4": 0.1,
+    "prohibited": false,
+    "restricted": true
+  },
+  "54464-57-2": {
+    "cas": "54464-57-2",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "24851-98-7": {
+    "cas": "24851-98-7",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "1222-05-5": {
+    "cas": "1222-05-5",
+    "max_pct_cat4": 5.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "18479-58-8": {
+    "cas": "18479-58-8",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "127-51-5": {
+    "cas": "127-51-5",
+    "max_pct_cat4": 2.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "6259-76-3": {
+    "cas": "6259-76-3",
+    "max_pct_cat4": 2.0,
+    "prohibited": false,
+    "restricted": true
+  },
+  "89-43-0": {
+    "cas": "89-43-0",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "1205-17-0": {
+    "cas": "1205-17-0",
+    "max_pct_cat4": 0.04,
+    "prohibited": false,
+    "restricted": true
+  },
+  "120-57-0": {
+    "cas": "120-57-0",
+    "max_pct_cat4": 0.04,
+    "prohibited": false,
+    "restricted": true
+  },
+  "123-11-5": {
+    "cas": "123-11-5",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false
+  },
+  "90028-68-5": {
+    "cas": "90028-68-5",
+    "max_pct_cat4": 0.1,
+    "prohibited": false,
+    "restricted": true
+  },
+  "90028-67-4": {
+    "cas": "90028-67-4",
+    "max_pct_cat4": 0.1,
+    "prohibited": false,
+    "restricted": true
+  }
+}

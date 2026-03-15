@@ -1,0 +1,9 @@
+{
+  "model": "weights/v6/odor_v6_best_seed42.pt",
+  "test_samples": 908,
+  "overall": {
+    "cos_sim_batch": 0.2622,
+    "cos_sim_sample": 0.2648,
+    "mse": 0.008423,
+    "rmse": 0.0918,
+    "mae": 

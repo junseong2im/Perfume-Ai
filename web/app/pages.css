@@ -1,0 +1,1604 @@
+/* ═══════════════════════════════════════════ */
+/* BOUTIQUE PAGE                               */
+/* ═══════════════════════════════════════════ */
+.boutique-page {
+    min-height: 100vh;
+    padding: 180px 3rem 6rem;
+    position: relative;
+    z-index: 1;
+}
+
+.boutique-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.boutique-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -0.02em;
+}
+
+/* ── Filters ── */
+.boutique-filters {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.filter-search {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    color: var(--text);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 0.6rem 0.8rem;
+    min-width: 140px;
+    outline: none;
+    transition: border-color 0.4s;
+}
+
+.filter-search::placeholder {
+    color: var(--text-ghost);
+    font-style: italic;
+}
+
+.filter-search:focus {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-select {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    color: var(--text-ghost);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 0.6rem 0.8rem;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.filter-select:focus,
+.filter-select:hover {
+    color: var(--text-dim);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.filter-select option {
+    background: #111;
+    color: var(--text);
+}
+
+/* ── Product Grid ── */
+.boutique-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.perfume-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem 1.5rem 3rem;
+    position: relative;
+}
+
+/* Hover line under card */
+.perfume-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    transition: width 0.6s var(--ease), left 0.6s var(--ease);
+}
+
+.perfume-card:hover::after {
+    width: 60%;
+    left: 20%;
+}
+
+.perfume-card:hover .card-name {
+    letter-spacing: 0.02em;
+}
+
+.perfume-card:hover .card-brand {
+    color: var(--text-dim);
+}
+
+.perfume-card:hover .card-art-wrapper {
+    transform: scale(1.03);
+}
+
+/* ── Card Art Container ── */
+.card-art-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.6s var(--ease);
+}
+
+/* ── Scent Galaxy ── */
+.scent-galaxy {
+    border-radius: 50%;
+    transition: transform 0.6s var(--ease), filter 0.6s var(--ease);
+}
+
+.perfume-card:hover .scent-galaxy {
+    transform: scale(1.06);
+    filter: brightness(1.15);
+}
+
+/* ── Card Content ── */
+.card-name {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--text);
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    position: relative;
+    z-index: 1;
+    transition: letter-spacing 0.6s var(--ease);
+}
+
+.card-brand {
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+    position: relative;
+    z-index: 1;
+    transition: color 0.4s;
+    margin-bottom: 0.6rem;
+}
+
+.card-tagline {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-style: italic;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.18);
+    line-height: 1.4;
+    max-width: 180px;
+    transition: color 0.4s;
+}
+
+.perfume-card:hover .card-tagline {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* ── Empty Search Result ── */
+.boutique-empty {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+.boutique-empty-text {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--text-dim);
+    margin-bottom: 1rem;
+}
+
+.boutique-empty-sub {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--text-ghost);
+    letter-spacing: 0.05em;
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* PRODUCT DETAIL PAGE                         */
+/* ═══════════════════════════════════════════ */
+.detail-page {
+    min-height: 100vh;
+    padding: 160px 3rem 4rem;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.detail-empty {
+    text-align: center;
+    padding: 8rem 0;
+}
+
+.detail-empty h2 {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.detail-hero {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.detail-name {
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.detail-meta-row {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.detail-meta {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+}
+
+/* ── Scores — thicker bars, animated ── */
+.detail-scores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--rule);
+    margin: 3rem 0;
+}
+
+.detail-score-card {
+    background: var(--bg);
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+
+.detail-score-value {
+    font-family: var(--font-display);
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 1rem;
+    line-height: 1;
+}
+
+.detail-score-bar {
+    width: 70%;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.06);
+    margin: 0 auto 1rem;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.detail-score-fill {
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.45));
+    border-radius: 2px;
+    transition: width 1.2s var(--ease);
+    animation: score-glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes score-glow {
+    from {
+        opacity: 0.7;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.score-label {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+}
+
+/* ── Note Pyramid ── */
+.detail-pyramid {
+    padding: 3rem 0;
+}
+
+.pyramid-group {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 2rem;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    transition: border-color 0.3s;
+}
+
+.pyramid-group:hover {
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+.pyramid-group:last-child {
+    border-bottom: none;
+}
+
+.pyramid-label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+}
+
+.pyramid-num {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--text-ghost);
+    transition: color 0.3s;
+}
+
+.pyramid-group:hover .pyramid-num {
+    color: var(--text-dim);
+}
+
+.pyramid-notes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: flex-start;
+}
+
+.pyramid-note {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--text-dim);
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--rule);
+    transition: all 0.3s var(--ease);
+}
+
+.pyramid-note:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+    color: var(--text);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ── Accords ── */
+.detail-accords {
+    padding: 3rem 0;
+}
+
+.accords-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.accord-tag {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0.6rem 1.4rem;
+    border: 1px solid var(--rule);
+    color: var(--text-dim);
+    transition: all 0.3s var(--ease);
+}
+
+.accord-tag:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    color: var(--text);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ── Save CTA ── */
+.detail-cta {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.btn-save {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    background: transparent;
+    padding: 1.1rem 3.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: all 0.4s var(--ease);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-save::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.03), transparent);
+    transform: translateX(-100%);
+    transition: transform 0.6s var(--ease);
+}
+
+.btn-save:hover {
+    border-color: rgba(255, 255, 255, 0.25);
+    color: var(--text);
+    letter-spacing: 0.35em;
+}
+
+.btn-save:hover::before {
+    transform: translateX(100%);
+}
+
+.btn-save.saved {
+    border-color: rgba(255, 255, 255, 0.18);
+    color: var(--text-dim);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* VAULT PAGE                                  */
+/* ═══════════════════════════════════════════ */
+.vault-page {
+    min-height: 100vh;
+    padding: 160px 3rem 4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.vault-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.vault-title {
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 8vw, 7rem);
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -0.03em;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.vault-count {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+}
+
+.vault-empty {
+    text-align: center;
+    padding: 8rem 0;
+}
+
+.vault-empty-text {
+    font-family: var(--font-display);
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+    font-style: italic;
+    font-weight: 400;
+    line-height: 2;
+    color: var(--text-dim);
+    margin-bottom: 3rem;
+}
+
+.vault-empty-actions {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.vault-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--rule);
+    max-width: 1300px;
+    margin: 0 auto 4rem;
+}
+
+.vault-card {
+    background: var(--bg);
+    padding: 3rem 2.5rem;
+    transition: background 0.4s, transform 0.4s var(--ease);
+}
+
+.vault-card:hover {
+    background: var(--bg-elevated);
+    transform: translateY(-2px);
+}
+
+.vault-card-link {
+    display: block;
+    transition: opacity 0.3s;
+}
+
+.vault-card-link:hover {
+    opacity: 0.8;
+}
+
+.vault-remove {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 1.2rem;
+    padding: 0.4rem 0;
+    transition: color 0.3s;
+}
+
+.vault-remove:hover {
+    color: rgba(255, 120, 120, 0.7);
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* PERFUME DETAIL PAGE                         */
+/* ═══════════════════════════════════════════ */
+.detail-page {
+    min-height: 100vh;
+    padding: 140px 2rem 4rem;
+    max-width: 680px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.detail-empty {
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.detail-empty h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+/* ── Hero ── */
+.detail-hero {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.detail-galaxy {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.detail-galaxy .scent-galaxy {
+    border-radius: 50%;
+}
+
+.detail-brand-year {
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+    margin-bottom: 0.8rem;
+}
+
+.detail-name {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin-bottom: 0.6rem;
+}
+
+.detail-tagline {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--text-ghost);
+    margin-bottom: 1.5rem;
+}
+
+.detail-meta-pills {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.detail-pill {
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 0.35rem 0.8rem;
+}
+
+/* ── Scores ── */
+.detail-scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-bottom: 3.5rem;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.detail-stat {
+    text-align: center;
+}
+
+.detail-stat-value {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-style: italic;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    line-height: 1;
+    margin-bottom: 0.4rem;
+}
+
+.detail-stat-label {
+    font-family: var(--font-body);
+    font-size: 0.55rem;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+}
+
+.detail-stat-divider {
+    width: 1px;
+    height: 2.5rem;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+/* ── Section Title ── */
+.detail-section-title {
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    font-weight: 300;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+    margin-bottom: 1.8rem;
+}
+
+/* ── Notes ── */
+.detail-notes {
+    margin-bottom: 3rem;
+}
+
+.note-layer {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.note-layer:last-child {
+    border-bottom: none;
+}
+
+.note-layer-label {
+    min-width: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.note-layer-num {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--text-dim);
+    line-height: 1;
+}
+
+.note-layer-name {
+    font-family: var(--font-body);
+    font-size: 0.5rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+}
+
+.note-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.note-tag {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: var(--text-dim);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 0.35rem 0.75rem;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.note-tag:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+    color: var(--text);
+}
+
+/* ── Accords ── */
+.detail-accords {
+    margin-bottom: 3rem;
+}
+
+.accord-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.accord-tag {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 0.4rem 0.8rem;
+    transition: border-color 0.3s;
+}
+
+.accord-tag:hover {
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+/* ── Save Button ── */
+.detail-save {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.btn-vault {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.8rem 2.4rem;
+    cursor: pointer;
+    transition: all 0.4s var(--ease);
+}
+
+.btn-vault:hover {
+    border-color: rgba(255, 255, 255, 0.25);
+    color: var(--text);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.03);
+}
+
+.btn-vault.saved {
+    color: var(--text-ghost);
+    border-color: rgba(255, 255, 255, 0.06);
+}
+
+/* ── Similar Fragrances ── */
+.detail-similar {
+    margin-bottom: 4rem;
+}
+
+.similar-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.similar-card {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.3s;
+}
+
+.similar-card:hover {
+    opacity: 0.7;
+}
+
+.similar-galaxy {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
+.similar-name {
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 0.25rem;
+}
+
+.similar-brand {
+    font-family: var(--font-body);
+    font-size: 0.55rem;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* PAGE ENTER ANIMATION                        */
+/* ═══════════════════════════════════════════ */
+.boutique-page,
+.detail-page,
+.vault-page {
+    animation: page-fade-in 0.7s var(--ease) both;
+}
+
+@keyframes page-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ═══════════════════════════════════════════ */
+/* BESPOKE / ALCHEMY PAGE                      */
+/* ═══════════════════════════════════════════ */
+.alchemy-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 160px 2rem 6rem;
+    position: relative;
+    z-index: 1;
+}
+
+.alchemy-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.alchemy-label {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.alchemy-header h2 {
+    font-family: var(--font-kr);
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 200;
+    color: var(--text);
+    line-height: 1.4;
+}
+
+.memory-container {
+    width: 100%;
+    max-width: 560px;
+}
+
+.memory-textarea {
+    width: 100%;
+    min-height: 140px;
+    font-family: var(--font-kr);
+    font-size: 0.95rem;
+    font-weight: 300;
+    line-height: 1.8;
+    color: var(--text);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    resize: none;
+    outline: none;
+    transition: border-color 0.4s var(--ease);
+}
+
+.memory-textarea::placeholder {
+    color: var(--text-ghost);
+    font-style: italic;
+}
+
+.memory-textarea:focus {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.memory-hint {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    color: var(--text-ghost);
+    margin-top: 0.8rem;
+    letter-spacing: 0.05em;
+}
+
+.memory-keywords {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1.2rem;
+}
+
+.keyword-tag {
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--text-dim);
+}
+
+.alchemy-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.btn-primary {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.9rem 2.5rem;
+    cursor: pointer;
+    transition: all 0.4s var(--ease);
+}
+
+.btn-primary:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-primary:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.btn-ghost {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    color: var(--text-dim);
+    background: transparent;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.btn-ghost:hover {
+    color: var(--text);
+}
+
+/* ── Brewing Phase ── */
+.brewing {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.brewing-text {
+    font-family: var(--font-kr);
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--text-dim);
+    margin-bottom: 2rem;
+}
+
+.brewing-bar {
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+}
+
+.brewing-fill {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transition: width 0.3s ease;
+}
+
+/* ── Result Phase ── */
+.result-section {
+    width: 100%;
+    max-width: 700px;
+}
+
+.result-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.result-name {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+}
+
+.result-theme {
+    font-family: var(--font-kr);
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: var(--text-ghost);
+}
+
+.result-scores {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.score-card {
+    text-align: center;
+    padding: 1.5rem 0;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.score-value {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--text);
+    margin-bottom: 0.4rem;
+}
+
+.score-label {
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+}
+
+.viz-3d {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.notes-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.note-group-title {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 1rem;
+    color: var(--text-dim);
+}
+
+.note-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 50px 100px;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.note-name {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--text);
+}
+
+.note-category {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+}
+
+.note-percent {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    text-align: right;
+}
+
+.note-bar-wrapper {
+    height: 3px;
+    background: rgba(255, 255, 255, 0.04);
+    overflow: hidden;
+}
+
+.note-bar {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.note-bar.top {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.note-bar.middle {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.note-bar.base {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* RESPONSIVE — New Pages                      */
+/* ═══════════════════════════════════════════ */
+@media (max-width: 768px) {
+    .boutique-page {
+        padding: 140px 1rem 3rem;
+    }
+
+    .boutique-header {
+        margin-bottom: 4rem;
+    }
+
+    .boutique-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .boutique-filters {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .detail-page {
+        padding: 120px 1.5rem 2rem;
+    }
+
+    .detail-scores {
+        grid-template-columns: 1fr;
+    }
+
+    .pyramid-group {
+        grid-template-columns: 90px 1fr;
+        gap: 1rem;
+    }
+
+    .vault-page {
+        padding: 120px 1.5rem 2rem;
+    }
+
+    .vault-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .vault-empty-actions {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .perfume-card {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .vault-card {
+        padding: 2rem 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .boutique-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* SCENT ART — Generative Canvas               */
+/* ═══════════════════════════════════════════ */
+.scent-art {
+    border-radius: 8px;
+    display: block;
+}
+
+.card-art {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1;
+    max-width: 160px;
+    opacity: 0.85;
+    transition: opacity 0.5s, transform 0.6s var(--ease);
+}
+
+.perfume-card:hover .card-art {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+.detail-art-hero {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.detail-hero-art {
+    opacity: 0.9;
+    transition: opacity 0.5s;
+}
+
+.detail-hero-art:hover {
+    opacity: 1;
+}
+
+.vault-art {
+    margin-bottom: 1.5rem;
+}
+
+.similar-art {
+    margin-bottom: 1rem;
+}
+
+.similar-art canvas {
+    border-radius: 2px;
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* CARD REVEAL ANIMATION                       */
+/* ═══════════════════════════════════════════ */
+.card-reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+}
+
+.card-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* LOAD SENTINEL                               */
+/* ═══════════════════════════════════════════ */
+.load-sentinel {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.load-text {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+    animation: pulse-load 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-load {
+
+    0%,
+    100% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* SIMILAR FRAGRANCES                          */
+/* ═══════════════════════════════════════════ */
+.similar-section {
+    padding: 3rem 0 4rem;
+}
+
+.similar-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--rule);
+    margin-top: 2rem;
+}
+
+.similar-card {
+    background: var(--bg);
+    padding: 2rem 1.5rem;
+    transition: background 0.4s, transform 0.4s var(--ease);
+    display: block;
+}
+
+.similar-card:hover {
+    background: var(--bg-elevated);
+    transform: translateY(-2px);
+}
+
+.similar-name {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 0.4rem;
+    transition: letter-spacing 0.4s var(--ease);
+}
+
+.similar-card:hover .similar-name {
+    letter-spacing: 0.01em;
+}
+
+.similar-brand {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+    margin-bottom: 0.6rem;
+}
+
+.similar-rating {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    color: var(--text-dim);
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* MOBILE MENU                                 */
+/* ═══════════════════════════════════════════ */
+.mobile-burger {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 200;
+    position: relative;
+}
+
+.burger-line {
+    display: block;
+    width: 24px;
+    height: 1px;
+    background: var(--text);
+    transition: transform 0.4s var(--ease), opacity 0.3s;
+}
+
+.burger-line.open:first-child {
+    transform: rotate(45deg) translate(2px, 2px);
+}
+
+.burger-line.open:last-child {
+    transform: rotate(-45deg) translate(2px, -2px);
+}
+
+.mobile-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 150;
+    background: var(--bg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s var(--ease);
+}
+
+.mobile-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.mobile-nav-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mobile-nav-item {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 8vw, 3.5rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--text-ghost);
+    transition: color 0.3s, letter-spacing 0.4s var(--ease);
+    letter-spacing: -0.02em;
+}
+
+.mobile-nav-item.current {
+    color: var(--text);
+}
+
+.mobile-nav-item:hover {
+    color: var(--text);
+    letter-spacing: 0.02em;
+}
+
+.mobile-nav-brand {
+    position: absolute;
+    bottom: 3rem;
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--text-ghost);
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* RESPONSIVE — All New Components             */
+/* ═══════════════════════════════════════════ */
+@media (max-width: 768px) {
+
+    /* Show mobile menu, hide desktop nav */
+    .mobile-burger {
+        display: flex;
+    }
+
+    .mobile-overlay {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .similar-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-art-wrapper {
+        margin-bottom: 1rem;
+    }
+
+    .card-art {
+        max-width: 120px;
+    }
+
+    .detail-hero-art {
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .similar-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ═══════════════════════════════════════════ */
+/* BADGE SYSTEM                                */
+/* ═══════════════════════════════════════════ */
+.card-badges {
+    display: flex;
+    gap: 0.35rem;
+    margin-bottom: 0.6rem;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+
+.card-badge {
+    font-family: var(--font-body);
+    font-size: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.5rem;
+    border-radius: 100px;
+    line-height: 1.4;
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: all 0.3s;
+}
+
+.perfume-card:hover .card-badge {
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+
+/* ═══════════════════════════════════════════ */
+/* CARD TAGLINE                                */
+/* ═══════════════════════════════════════════ */
+.card-tagline {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    font-style: italic;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+    line-height: 1.5;
+    margin-bottom: 0.6rem;
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s;
+}
+
+.perfume-card:hover .card-tagline {
+    color: var(--text-dim);
+}

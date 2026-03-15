@@ -1,0 +1,14 @@
+{
+  "total_molecules": 3522,
+  "with_113d_vector": 3522,
+  "with_21d_perception": 0,
+  "multi_source_confirmed": 0,
+  "total_odor_dimensions": 113,
+  "sources": {
+    "leffingwell": 3522,
+    "goodscents": 0,
+    "dream": 0,
+    "arctander": 0,
+    "extra": 0
+  }
+}

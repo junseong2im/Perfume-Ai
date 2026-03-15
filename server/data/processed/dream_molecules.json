@@ -1,0 +1,2372 @@
+[
+  {
+    "smiles": "S=C=NCCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CC(CCCCC)OC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1cc(C)sc1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC12C=CCC1C1CCC3=CC(=O)CCC3(C)C1CC2",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)C(=O)OCc1ccc2c(c1)OCO2",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)CC(O)C(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccc(C(C)=O)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C1CCSC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOc1ccc(C=O)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(=O)Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1ccc(Oc2ccccc2)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(Cc1ccccc1)Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)COC(=O)Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(Cc1ccccc1)OCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(Cc1ccccc1)OCCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OCC(COC(C)=O)OC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)(O)CCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCC(CC)COC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)C=Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OCCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1ccc(COCc2ccccc2)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)C(=O)OCCOc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccc(COC(C)=O)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OCC=Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCC(CC)CO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccc(C)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCC=CC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OCCCCCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)CC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(C)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C1CCCCCN1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCOC(=O)CCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OCC=C(C)CCC=C(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1cc(C)oc1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C1CCCCCCCCCCCCCCO1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)CCCC(C)CCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)=CCCC(C)=CCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(=O)OCCC(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCOC(=O)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccc(O)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(=O)CCC(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC(=O)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCC(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1cc(C)ccc1C(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)CCN",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OC(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=C(C)OC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1CCC(=O)O1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1cccc(C)n1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C1CCCCC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Sc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCOC(=O)C(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "nan",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCOC(=O)CCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCCCCCCCCC(=O)OCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCOC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCN",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1ccsc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(O)CCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(O)C=CC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCCCCC(=O)OC(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)CCCCCCCCC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCSSCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C1CCCCC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1ccncc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C1CCNCC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)CCC=C(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCC(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCSCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCCCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCC(=O)OCCCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCC=CC(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCC#CC(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCOC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1ccccn1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1nc(C)c(C)nc1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1=CC(=O)CC(C)(C)C1=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(OC)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCCCOC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC1=C(C)CCC1=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccc(C(C)=O)cc1OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CC(C)(CCC=C(C)C)OC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(OCc1ccccc1)c1ccccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1ccccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "SCCCCCCS",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(=O)c1ccccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1ccc(C)o1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(c1ccccc1)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C1CCc2ccccc2O1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccc(C=O)cc1OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=Cc1ccc(OC(=O)Cc2ccccc2)c(OC)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)COC(=O)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(OCc1ccccc1)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=Cc1ccc2c(c1)OCO2",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=Cc1ccc2c(c1)OCO2",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C1CCCC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOc1cc(C=O)ccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1cc(C=O)ccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1cc(C(=O)O)ccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)c1ccc(C=O)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC(C=O)=Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCOC(=O)Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(=O)OCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)COC(=O)C=Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(=O)OCCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(=O)OCCCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OCCCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=Cc1ccc(O)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccc(C=O)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(=O)CCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)CCC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1cnc(C)cn1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)CCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCOC(=O)CCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C1CCNC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCOC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OCCC(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(O)CCCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCCCCC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1cc(C(C)(C)C)c(O)c(C(C)(C)C)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Nc1ccccc1C(=O)OCCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(O)C(O)C(O)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(=O)c1ccccc1N",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccccc1C=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(=O)CCSC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1nc(C)c(C)s1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1coc(CSCc2ccco2)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ncsc1CCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccccc1S",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1cccc2nccnc12",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(C)CO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCc1cnccn1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(O)C=Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)Oc1ccc(C)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCc1ccc(OC)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCOC(=O)CCCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCOC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCOC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1coc(Cn2cccc2)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(C)C1CCCCC1=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(O)C1CCCN1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCC(CC)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NC(Cc1ccccc1)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1ccc(CSSCc2ccccc2)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccc(OC)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OC(C)(C)Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1cccc(OC)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=CC=CCOC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1CCC(C(C)C)C(O)C1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCc1nc(C)cs1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOc1nccs1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCc1nccnc1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCc1nccnc1CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CSCSC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)CC(=O)OC1CC(C)CCC1C(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(=O)CSC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "SC1CCCC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=CC=CCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCC(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=Cc1scnc1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCOC(=O)Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=C1CCC2CC1C2(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(C)c1nccs1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC1(O)C2(C)CCC(C2)C1(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC=CCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1(C)C2CC=C(C=O)C1C2",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)Cc1nccs1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCOC(=O)C=Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCC(=O)OCCC(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCOC(=O)CCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1cc2c(cc1C)C(C)(C)C(C)CC2(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1=CCC(C(C)(C)OC=O)CC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(O)CC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=CC=CC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1nccs1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(=O)SC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCOC(=O)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1nccnc1CC(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC=CCOC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccc(O)c(C(C)(C)C)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC=CCCOC(=O)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1COC(c2ccccc2)O1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OC1CC(C)CCC1C(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCOC(=O)CCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCOC(=O)CCC1CCCCC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCC1CCCC(=O)O1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCc1ccc(O)c(OC)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1=CC(C)C(C=O)CC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1nccnc1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1=C(O)C(=O)OC1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1cscn1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1cnccn1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1cnccn1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccc(C(C)CC=O)o1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCc1ccco1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CSCCC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCc1nccnc1C(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC=CCCOC(=O)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CC(O)CCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1cnc2c(n1)CCCC2",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCOC(=O)C(C)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1cccnc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "SCCc1cnccn1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCSCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OCCC1=CCC2CC1C2(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CSSSC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCCCCCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC=CCCOC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(O)C(C)S",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCC1OC(=O)CC1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(C)C(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OC1CSC(O)CS1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC1=C(C)OC(C)C1=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccccc1OC(=O)Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCC=CCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC=CCCOC(=O)C(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=Cc1ccc(OC)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCOC(=O)c1ccco1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(C)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC=CCCOC(=O)Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)C(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=C(C=O)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC12CCC(CC1=O)C2(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC12CCC(CC1)C(C)(C)O2",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC(CC)OC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccnc2ccccc12",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CC(O)CCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1cc(C(C)=O)ccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccc(C(C)C)cc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C1CCCCCC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)CC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CSCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CSCCCN=C=S",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OCC1OC(O)C(O)C1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OCC(O)C(O)C(O)C(O)CO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(O)C(C)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)=CCCC(C)=CC#N",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NCCc1ccc(O)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CSCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NC(CS)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccccc1C=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(O)CC1CCCCC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccc2ccc(=O)oc2c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccco1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)c1ccc(CO)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCOC(=O)CCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCOC(=O)CCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(=O)OCC(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)CC(C)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)CCS",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1ncc(C)nc1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)CCc1ccc(O)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCC(C)CCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1ccccc1N",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(N)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OCC(O)CO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NC(CC(=O)O)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NC(=O)CCC(N)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NC(CCC(=O)O)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NCCCCC(N)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC=CCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(O)CO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1CCCCC1=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(O)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1CCC(=O)CC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC(O)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCOC(=O)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=CSCc1ccco1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1CCCC(=O)C1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1cccc(C=O)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCOC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCSCC=C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=C(C)C1CC=C(C)CC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(=O)OCC(COC(=O)CCC)OC(=O)CCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CC1(C)CCC(C(C)(C)O)O1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OCCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NC(Cc1ccc(O)cc1)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(C)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC=CCC=CCCCCCCCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(=O)c1ccccc1OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(=O)c1ccco1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccccc1OC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)c1ccco1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CC(O)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)CC(N)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC=CCCOC(=O)C(C)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccc(C=O)o1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "S=C=NCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(O)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCC(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccc(C)[nH]1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCC(C)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCC(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCOC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCSSCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCOC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CSc1ccoc1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCCCC(=O)OCCC(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CSCCC(N)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OCC1CCCO1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCOC(=O)CCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCC(=O)OCCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NCCc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC=CCCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCc1ccc(O)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)CCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=C(C)C1CC=C(C)C(=O)C1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC=CCCOC(=O)c1ccccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OCCc1scnc1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(O)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ncc(C[n+]2csc(CCO)c2C)c(N)n1.Cl.[Cl-]",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC=CC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC=CCCC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CS(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CS(C)(=O)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC1CCOC(C)S1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=C(C)C(=O)OCCC=CCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCOC(=O)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1(C)CCCC2(C)C1CCC1(C)OCCC12",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1cscn1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC1OC(=O)C(O)=C1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC1CCCC(=O)O1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCC1CCC(=O)O1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NC(Cc1cnc[nH]1)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCC1CCCC(=O)O1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(OCCc1ccccc1)c1ccco1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccccc1S",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)C(N)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)C(C)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "NC(N)=NCCCC(N)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCOC(=O)c1ccccc1N",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCOC(=O)C(CC)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCOC(=O)C(C)=CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CSC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)=CCCC(C)CCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=CCO)CCCC(C)CCCC(C)CCCC(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "IC(I)I",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "II",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=P([O-])([O-])O.[Na+].[Na+]",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)(C)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)OC1CC2CCC1(C)C2(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1CCC(=O)C1=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=C(C)C1CCC(C)C(=O)C1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCCC(OC)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1c(C(C)(C)C)cc([N+](=O)[O-])c(C)c1[N+](=O)[O-]",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)CCOC(=O)C=Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)C1OC1(C)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1=CCC2CC1C2(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCCOC(=O)CC(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC12CCC(C1)C(C)(C)C2=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCOC(=O)CC(CC(=O)OCCCC)(OC(C)=O)C(=O)OCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(O)CC(O)(CC(=O)O)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)CC(O)(CC(=O)OCC)C(=O)OCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1=CC(=O)CC(C)(C)C1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CC(C)(O)CCC=C(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(=O)OCC=Cc1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)CO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)C=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)C=CC1=C(C)CCCC1(C)C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=C(C)C(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1c(C)c([N+](=O)[O-])c(C(C)(C)C)c([N+](=O)[O-])c1C",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=CC(=O)C(C)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCCCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCCCC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC1CCCC(=O)O1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OC1CCC2CCCCC2C1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CNc1ccccc1C(=O)OC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(OCCc1ccccc1)c1ccccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1cccs1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1cc(C=O)ccc1OC(C)=O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1ccc(SSc2ccccc2)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(C)c1ccccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=C(C)C1CCC(C)CC1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccc(C(C)C)c(O)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCc1ccccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=Cc1ccccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1ccc2ncccc2c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccc2ncccc2c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=c1ccc2ccccc2o1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccc2oc(=O)ccc2c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "c1ccc(-c2ccccc2)cc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCCCC(=O)CCCCC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC=CCCO",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1ccc2ccccc2c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1ccc2ccccc2c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCc1ccc(OC)c(OC)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=Cc1ccc(OC)c(OC)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCc1ccc(OC(C)=O)c(OC)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=Cc1ccc(OC(C)=O)c(OC)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1cc(C)ccc1O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(O)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(=O)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COC(=O)c1cccnc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "COc1cncc(C(C)C)n1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCOC(=O)CCSCc1ccco1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(OCCc1ccccc1)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C(C=CC=Cc1ccc2c(c1)OCO2)N1CCCCC1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCC(=O)CC",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "O=C1CCCO1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=C(C)C1CC=C(C)C(OC(C)=O)C1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "C=CCc1ccc(O)c(OC)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC=Cc1ccc(O)c(OC)c1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CCCC(C)C(=O)O",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OCC1CCCO1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "OCc1ccco1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(O)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "CC(=O)c1ccccc1",
+    "source": "dream_keller",
+    "name": ""
+  },
+  {
+    "smiles": "Cc1ccc(C(C)C)cc1",
+    "source": "dream_keller",
+    "name": ""
+  }
+]

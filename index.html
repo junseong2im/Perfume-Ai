@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Perfumer — Level 5 완전체 조향 시스템</title>
+    <meta name="description" content="3D-GNN, 경쟁적 결합, 바이오센서, 능동학습, XAI를 갖춘 AI 조향 시스템">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- TF.js 제거 — AI 연산은 Python GPU 백엔드 (localhost:8000) -->
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">⚗️</span>
+                <h1>AI Perfumer</h1>
+                <span class="level-badge" id="levelBadge">L1</span>
+            </div>
+            <p class="subtitle">분자 수준 완전체 AI 조향 시스템</p>
+        </header>
+
+        <!-- 탭 네비게이션 -->
+        <nav class="tab-nav" id="tabNav">
+            <button class="tab-btn active" data-tab="formulate"><span class="tab-icon">🧪</span><span
+                    class="tab-label">AI 조향</span></button>
+            <button class="tab-btn" data-tab="generative"><span class="tab-icon">🌀</span><span
+                    class="tab-label">생성형</span></button>
+            <button class="tab-btn" data-tab="molecular"><span class="tab-icon">🔬</span><span
+                    class="tab-label">분자</span></button>
+            <button class="tab-btn" data-tab="advanced"><span class="tab-icon">🧠</span><span
+                    class="tab-label">연구소</span></button>
+        </nav>
+
+        <!-- ===== TAB 1: AI 조향 ===== -->
+        <section class="tab-content active" id="tab-formulate">
+            <div class="step" id="step1">
+                <h2 class="step-title"><span class="step-num">01</span> 분위기</h2>
+                <div class="option-grid" id="moodGrid">
+                    <button class="option-btn" data-value="romantic"><span class="opt-emoji">💕</span>로맨틱</button>
+                    <button class="option-btn" data-value="fresh"><span class="opt-emoji">🌊</span>상쾌한</button>
+                    <button class="option-btn" data-value="elegant"><span class="opt-emoji">👑</span>우아한</button>
+                    <button class="option-btn" data-value="sexy"><span class="opt-emoji">🔥</span>섹시한</button>
+                    <button class="option-btn" data-value="mysterious"><span class="opt-emoji">🌙</span>신비로운</button>
+                    <button class="option-btn" data-value="cheerful"><span class="opt-emoji">☀️</span>쾌활한</button>
+                    <button class="option-btn" data-value="calm"><span class="opt-emoji">🍃</span>평온한</button>
+                    <button class="option-btn" data-value="luxurious"><span class="opt-emoji">💎</span>럭셔리</button>
+                    <button class="option-btn" data-value="natural"><span class="opt-emoji">🌿</span>자연</button>
+                    <button class="option-btn" data-value="cozy"><span class="opt-emoji">🧸</span>아늑한</button>
+                </div>
+            </div>
+            <div class="step hidden" id="step2">
+                <h2 class="step-title"><span class="step-num">02</span> 계절</h2>
+                <div class="option-grid season-grid" id="seasonGrid">
+                    <button class="option-btn season" data-value="spring"><span class="opt-emoji">🌸</span>봄</button>
+                    <button class="option-btn season" data-value="summer"><span class="opt-emoji">🌻</span>여름</button>
+                    <button class="option-btn season" data-value="fall"><span class="opt-emoji">🍂</span>가을</button>
+                    <button class="option-btn season" data-value="winter"><span class="opt-emoji">❄️</span>겨울</button>
+                </div>
+            </div>
+            <div class="step hidden" id="step3">
+                <h2 class="step-title"><span class="step-num">03</span> 선호 향</h2>
+                <div class="option-grid" id="prefGrid">
+                    <button class="option-btn multi" data-value="floral"><span class="opt-emoji">🌹</span>플로럴</button>
+                    <button class="option-btn multi" data-value="citrus"><span class="opt-emoji">🍋</span>시트러스</button>
+                    <button class="option-btn multi" data-value="woody"><span class="opt-emoji">🪵</span>우디</button>
+                    <button class="option-btn multi" data-value="spicy"><span class="opt-emoji">🌶️</span>스파이시</button>
+                    <button class="option-btn multi" data-value="fruity"><span class="opt-emoji">🍑</span>프루티</button>
+                    <button class="option-btn multi" data-value="gourmand"><span class="opt-emoji">🍫</span>구르망</button>
+                    <button class="option-btn multi" data-value="aquatic"><span class="opt-emoji">💧</span>아쿠아틱</button>
+                    <button class="option-btn multi" data-value="amber"><span class="opt-emoji">🟠</span>앰버</button>
+                    <button class="option-btn multi" data-value="musk"><span class="opt-emoji">🤍</span>머스크</button>
+                    <button class="option-btn multi" data-value="aromatic"><span
+                            class="opt-emoji">🌿</span>아로마틱</button>
+                </div>
+                <button class="create-btn" id="createBtn"><span class="btn-icon">⚗️</span>AI 조향 시작</button>
+            </div>
+            <div class="loading hidden" id="loading">
+                <div class="flask-animation">
+                    <div class="flask">
+                        <div class="liquid"></div>
+                        <div class="bubble b1"></div>
+                        <div class="bubble b2"></div>
+                        <div class="bubble b3"></div>
+                    </div>
+                </div>
+                <p class="loading-text" id="loadingText">AI가 향수를 조향하고 있습니다...</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+            <div class="result hidden" id="result">
+                <div class="result-header">
+                    <h2 class="perfume-name" id="perfumeName"></h2>
+                    <div class="perfume-score" id="perfumeScore"></div>
+                </div>
+                <p class="perfume-desc" id="perfumeDesc"></p>
+                <div class="chart-grid">
+                    <div class="chart-card">
+                        <h3>📐 노트 피라미드</h3>
+                        <div id="pyramidChart" class="chart-area"></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>📊 품질 레이더</h3>
+                        <div id="radarChart" class="chart-area"></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>🎨 카테고리 분포</h3>
+                        <div id="donutChart" class="chart-area"></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>⏱️ 향 타임라인</h3>
+                        <div id="timelineChart" class="chart-area"></div>
+                    </div>
+                </div>
+                <div class="formula-section">
+                    <h3>📋 배합 포뮬러</h3>
+                    <div id="formulaTable"></div>
+                </div>
+                <!-- L5: 혼합물 상호작용 -->
+                <div class="binding-section hidden" id="bindingSection">
+                    <h3>⚡ 혼합물 상호작용 (Pillar 2)</h3>
+                    <div id="bindingContent"></div>
+                </div>
+                <!-- L5: Primary Odors -->
+                <div class="primary-section hidden" id="primarySection">
+                    <h3>🎨 향의 원색 분해 (Primary Odors)</h3>
+                    <div id="primaryContent"></div>
+                </div>
+                <button class="create-btn retry-btn" id="retryBtn"><span class="btn-icon">🔄</span> 다시 조향하기</button>
+            </div>
+        </section>
+
+        <!-- ===== TAB 2: 생성형 AI ===== -->
+        <section class="tab-content" id="tab-generative">
+            <h2 class="section-title">🌀 VAE 생성형 AI</h2>
+            <p class="section-desc">잠재 공간에서 완전히 새로운 향수를 생성합니다.</p>
+            <div class="gen-controls">
+                <button class="gen-btn" id="randomGenBtn"><span class="btn-icon">🎲</span>랜덤 생성</button>
+            </div>
+            <div class="latent-map-section">
+                <h3>🗺️ 잠재 공간 맵</h3>
+                <p class="map-desc">클릭하면 해당 좌표의 향수가 생성됩니다.</p>
+                <div class="latent-map-container"><canvas id="latentCanvas" width="400" height="400"></canvas></div>
+            </div>
+            <div class="gen-result hidden" id="genResult">
+                <div class="result-header">
+                    <h2 class="perfume-name" id="genPerfumeName"></h2>
+                    <div class="perfume-score" id="genPerfumeScore"></div>
+                </div>
+                <p class="perfume-desc" id="genPerfumeDesc"></p>
+                <div class="chart-grid">
+                    <div class="chart-card">
+                        <h3>📐 노트 피라미드</h3>
+                        <div id="genPyramidChart" class="chart-area"></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>📊 품질 레이더</h3>
+                        <div id="genRadarChart" class="chart-area"></div>
+                    </div>
+                </div>
+                <div class="formula-section">
+                    <h3>📋 생성된 포뮬러</h3>
+                    <div id="genFormulaTable"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TAB 3: 분자 탐색기 ===== -->
+        <section class="tab-content" id="tab-molecular">
+            <h2 class="section-title">🔬 분자 탐색기 + XAI</h2>
+            <p class="section-desc">분자를 선택하면 AI 냄새 예측, 어텐션 맵, 반사실적 분석을 확인합니다.</p>
+            <div class="mol-grid" id="moleculeGrid"></div>
+            <div class="mol-detail hidden" id="molDetail">
+                <div class="mol-header">
+                    <h3 id="molName"></h3>
+                    <div class="mol-badges" id="molBadges"></div>
+                </div>
+                <div class="mol-info-grid">
+                    <div class="mol-info-card">
+                        <h4>🧬 SMILES</h4><code id="molSmiles" class="smiles-code"></code>
+                        <div class="mol-props" id="molProps"></div>
+                    </div>
+                    <div class="mol-info-card">
+                        <h4>👃 AI 냄새 예측</h4>
+                        <div id="odorPredictions"></div>
+                        <div class="actual-odor" id="actualOdor"></div>
+                    </div>
+                </div>
+                <!-- XAI 어텐션 맵 -->
+                <div class="xai-section">
+                    <h3>🧠 XAI 설명 (Pillar 5)</h3>
+                    <div class="xai-grid">
+                        <div class="xai-card">
+                            <h4>🔥 어텐션 히트맵</h4>
+                            <div id="attentionMap"></div>
+                        </div>
+                        <div class="xai-card">
+                            <h4>📜 화학 규칙 (뉴로-심볼릭)</h4>
+                            <div id="ruleMatches"></div>
+                        </div>
+                    </div>
+                    <div class="xai-card full-width">
+                        <h4>🔮 반사실적 시뮬레이션</h4>
+                        <p class="section-desc">"이 결합을 바꾸면 향이 어떻게 변할까?"</p>
+                        <div id="counterfactuals"></div>
+                    </div>
+                    <div class="xai-card full-width">
+                        <h4>💬 AI 설명 (한국어)</h4>
+                        <div id="aiExplanation" class="ai-explanation"></div>
+                    </div>
+                </div>
+                <div class="variants-section">
+                    <h3>⚗️ 가상 변형</h3>
+                    <div id="variantsGrid" class="variants-grid"></div>
+                </div>
+            </div>
+            <div class="smiles-input-section">
+                <h3>✏️ SMILES 직접 입력</h3>
+                <div class="smiles-input-row"><input type="text" id="smilesInput" class="smiles-input"
+                        placeholder="예: CC(=O)Oc1ccccc1C(=O)O"><button class="gen-btn" id="predictSmilesBtn"><span
+                            class="btn-icon">🔍</span>예측</button></div>
+                <div class="smiles-result hidden" id="smilesResult"></div>
+            </div>
+        </section>
+
+        <!-- ===== TAB 4: 연구소 (Pillars 1,2,3,4) ===== -->
+        <section class="tab-content" id="tab-advanced">
+            <h2 class="section-title">🧠 AI 연구소</h2>
+            <p class="section-desc">5대 연구 축의 고급 기능을 탐험하세요.</p>
+
+            <!-- P1: Chirality -->
+            <div class="research-panel">
+                <h3>🔄 Pillar 1: Chirality 데모 (3D-GNN)</h3>
+                <p class="section-desc">같은 원자 구성이지만 입체 구조가 다른 거울상 이성질체의 냄새 차이를 확인하세요.</p>
+                <div id="chiralityDemo"></div>
+            </div>
+
+            <!-- P2: Mixture -->
+            <div class="research-panel">
+                <h3>⚡ Pillar 2: 혼합물 상호작용</h3>
+                <p class="section-desc">분자를 선택하여 혼합 시 Masking/Synergy 효과를 시뮬레이션합니다.</p>
+                <div class="mixture-selector">
+                    <div class="mixture-grid" id="mixtureGrid"></div>
+                    <button class="gen-btn" id="simulateMixtureBtn"><span class="btn-icon">🧪</span>혼합 시뮬레이션</button>
+                </div>
+                <div class="mixture-result hidden" id="mixtureResult"></div>
+            </div>
+
+            <!-- P3: Sensor -->
+            <div class="research-panel">
+                <h3>📡 Pillar 3: 바이오센서 시뮬레이션</h3>
+                <p class="section-desc">분자를 선택하면 수용체 반응 곡선과 AI 초해상도 복원을 확인합니다.</p>
+                <select class="sensor-select" id="sensorMolSelect">
+                    <option value="">분자 선택...</option>
+                </select>
+                <div class="sensor-display hidden" id="sensorDisplay">
+                    <div class="sensor-grid">
+                        <div class="sensor-card">
+                            <h4>📊 고해상도 (Bio-hybrid)</h4><canvas id="sensorHiRes" width="380" height="200"></canvas>
+                        </div>
+                        <div class="sensor-card">
+                            <h4>📉 저해상도 (MOS)</h4><canvas id="sensorLoRes" width="380" height="200"></canvas>
+                        </div>
+                        <div class="sensor-card">
+                            <h4>✨ AI 초해상도 복원</h4><canvas id="sensorRestored" width="380" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- P4: Active Learning + Text -->
+            <div class="research-panel">
+                <h3>📚 Pillar 4: 능동 학습 + Zero-shot</h3>
+                <p class="section-desc">불확실한 분자 식별 + 텍스트 기반 냄새 추론</p>
+                <div class="active-learning-grid">
+                    <div class="al-card">
+                        <h4>❓ 불확실성 높은 분자 (라벨링 필요)</h4>
+                        <div id="uncertainList"></div>
+                    </div>
+                    <div class="al-card">
+                        <h4>💬 텍스트 → 냄새 (Zero-shot)</h4>
+                        <div class="text-input-row"><input type="text" id="textOdorInput" class="smiles-input"
+                                placeholder="예: 따뜻한 바닐라 같은 달콤한 향"><button class="gen-btn" id="predictTextBtn"><span
+                                    class="btn-icon">💬</span>추론</button></div>
+                        <div class="text-result hidden" id="textResult"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Primary Odors -->
+            <div class="research-panel">
+                <h3>🎨 향의 원색 (Primary Odors, 12색)</h3>
+                <p class="section-desc">12개 기저 향료만으로 세상의 모든 향을 95% 재현하는 RGB 전략</p>
+                <div id="primaryOdorsDisplay" class="primary-display"></div>
+                <div class="microfluidics-info" id="microfluidicsInfo"></div>
+            </div>
+        </section>
+
+        <!-- 학습 배너 -->
+        <div class="training-banner hidden" id="trainingBanner">
+            <div class="training-content">
+                <div class="training-spinner"></div>
+                <div class="training-info">
+                    <p class="training-stage" id="trainingStage">AI 모델 학습 중...</p>
+                    <div class="training-progress">
+                        <div class="training-fill" id="trainingFill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

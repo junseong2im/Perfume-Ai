@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: fragrance_db
+    environment:
+      POSTGRES_DB: fragrance
+      POSTGRES_USER: fragrance_admin
+      POSTGRES_PASSWORD: fragrance_ai_2024
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql/init_schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fragrance_admin -d fragrance"]
+      interval: 10s
+      retries: 5
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: fragrance_api
+    environment:
+      DATABASE_URL: postgresql://fragrance_admin:fragrance_ai_2024@db:5432/fragrance
+    ports:
+      - "8100:8100"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data:ro
+    restart: unless-stopped
+
+volumes:
+  pgdata:

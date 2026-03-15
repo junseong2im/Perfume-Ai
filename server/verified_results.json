@@ -1,0 +1,24 @@
+{
+  "model": "weights/v6/odor_v6_best_seed42.pt",
+  "test_samples": 908,
+  "label_smooth": 0.05,
+  "reproduction": {
+    "reproduced_cos": 0.4947,
+    "expected_cos": 0.4972,
+    "diff": 0.0025,
+    "verified": true
+  },
+  "overall": {
+    "cos_sim_batch": 0.4947,
+    "cos_sim_sample": 0.4941,
+    "mse": 0.006934,
+    "mae": 0.018,
+    "per_label_accuracy": 98.2
+  },
+  "top_k": {
+    "top_1": 25.0,
+    "top_3": 17.1,
+    "top_5": 26.1,
+    "top_10": 20.7
+  }
+}

@@ -1,0 +1,1372 @@
+{
+  "aldehyde": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "metallic",
+    "avg_longevity": 4.166666666666667,
+    "avg_sillage": 3.8333333333333335,
+    "total_appearances": 6
+  },
+  "bergamot": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "citrus",
+    "avg_longevity": 4.186746987951807,
+    "avg_sillage": 3.9096385542168677,
+    "total_appearances": 166
+  },
+  "lemon": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "citrus",
+    "avg_longevity": 3.765625,
+    "avg_sillage": 3.546875,
+    "total_appearances": 64
+  },
+  "neroli": {
+    "top_ratio": 0.7142857142857143,
+    "mid_ratio": 0.2857142857142857,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "citrus",
+    "avg_longevity": 3.5714285714285716,
+    "avg_sillage": 3.4761904761904763,
+    "total_appearances": 21
+  },
+  "rose": {
+    "top_ratio": 0.05309734513274336,
+    "mid_ratio": 0.9469026548672567,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 4.274336283185841,
+    "avg_sillage": 3.9026548672566372,
+    "total_appearances": 113
+  },
+  "jasmine": {
+    "top_ratio": 0.03225806451612903,
+    "mid_ratio": 0.967741935483871,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 4.346774193548387,
+    "avg_sillage": 4.064516129032258,
+    "total_appearances": 124
+  },
+  "ylang ylang": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 4.35,
+    "avg_sillage": 3.95,
+    "total_appearances": 20
+  },
+  "iris": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.9,
+    "base_ratio": 0.1,
+    "primary_position": "mid",
+    "dimension": "powdery",
+    "avg_longevity": 4.1,
+    "avg_sillage": 3.8,
+    "total_appearances": 40
+  },
+  "sandalwood": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.06818181818181818,
+    "base_ratio": 0.9318181818181818,
+    "primary_position": "base",
+    "dimension": "woody",
+    "avg_longevity": 4.356060606060606,
+    "avg_sillage": 4.007575757575758,
+    "total_appearances": 132
+  },
+  "vetiver": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.10666666666666667,
+    "base_ratio": 0.8933333333333333,
+    "primary_position": "base",
+    "dimension": "earthy",
+    "avg_longevity": 4.226666666666667,
+    "avg_sillage": 3.933333333333333,
+    "total_appearances": 75
+  },
+  "vanilla": {
+    "top_ratio": 0.015037593984962405,
+    "mid_ratio": 0.16541353383458646,
+    "base_ratio": 0.8195488721804511,
+    "primary_position": "base",
+    "dimension": "sweet",
+    "avg_longevity": 4.496240601503759,
+    "avg_sillage": 4.2556390977443606,
+    "total_appearances": 133
+  },
+  "musk": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.03508771929824561,
+    "base_ratio": 0.9649122807017544,
+    "primary_position": "base",
+    "dimension": "musk",
+    "avg_longevity": 4.12280701754386,
+    "avg_sillage": 3.8201754385964914,
+    "total_appearances": 228
+  },
+  "amber": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.09448818897637795,
+    "base_ratio": 0.905511811023622,
+    "primary_position": "base",
+    "dimension": "amber",
+    "avg_longevity": 4.2047244094488185,
+    "avg_sillage": 3.905511811023622,
+    "total_appearances": 127
+  },
+  "mandarin": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "citrus",
+    "avg_longevity": 4.125,
+    "avg_sillage": 3.890625,
+    "total_appearances": 64
+  },
+  "tonka bean": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.21739130434782608,
+    "base_ratio": 0.782608695652174,
+    "primary_position": "base",
+    "dimension": "warm",
+    "avg_longevity": 4.456521739130435,
+    "avg_sillage": 4.260869565217392,
+    "total_appearances": 46
+  },
+  "opoponax": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": "amber",
+    "avg_longevity": 5.0,
+    "avg_sillage": 4.5,
+    "total_appearances": 4
+  },
+  "tuberose": {
+    "top_ratio": 0.25,
+    "mid_ratio": 0.75,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 4.5,
+    "avg_sillage": 3.875,
+    "total_appearances": 16
+  },
+  "green tea": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "herbal",
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.0,
+    "total_appearances": 4
+  },
+  "civet": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": "leather",
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.0,
+    "total_appearances": 4
+  },
+  "rosemary": {
+    "top_ratio": 0.5,
+    "mid_ratio": 0.5,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "herbal",
+    "avg_longevity": 3.1666666666666665,
+    "avg_sillage": 3.1666666666666665,
+    "total_appearances": 12
+  },
+  "carnation": {
+    "top_ratio": 0.2,
+    "mid_ratio": 0.8,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 3.8,
+    "avg_sillage": 3.7,
+    "total_appearances": 10
+  },
+  "violet": {
+    "top_ratio": 0.2962962962962963,
+    "mid_ratio": 0.7037037037037037,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "powdery",
+    "avg_longevity": 4.0,
+    "avg_sillage": 3.7037037037037037,
+    "total_appearances": 27
+  },
+  "cedarwood": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.14285714285714285,
+    "base_ratio": 0.8571428571428571,
+    "primary_position": "base",
+    "dimension": "woody",
+    "avg_longevity": 4.08,
+    "avg_sillage": 3.8514285714285714,
+    "total_appearances": 175
+  },
+  "peach": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 4.714285714285714,
+    "avg_sillage": 3.5714285714285716,
+    "total_appearances": 7
+  },
+  "clove": {
+    "top_ratio": 0.5,
+    "mid_ratio": 0.5,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "spicy",
+    "avg_longevity": 4.666666666666667,
+    "avg_sillage": 4.166666666666667,
+    "total_appearances": 12
+  },
+  "oakmoss": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": "earthy",
+    "avg_longevity": 4.517241379310345,
+    "avg_sillage": 4.310344827586207,
+    "total_appearances": 29
+  },
+  "cinnamon": {
+    "top_ratio": 0.23333333333333334,
+    "mid_ratio": 0.7,
+    "base_ratio": 0.06666666666666667,
+    "primary_position": "mid",
+    "dimension": "spicy",
+    "avg_longevity": 4.6,
+    "avg_sillage": 4.3,
+    "total_appearances": 30
+  },
+  "black pepper": {
+    "top_ratio": 0.3333333333333333,
+    "mid_ratio": 0.5714285714285714,
+    "base_ratio": 0.09523809523809523,
+    "primary_position": "mid",
+    "dimension": "spicy",
+    "avg_longevity": 4.428571428571429,
+    "avg_sillage": 4.142857142857143,
+    "total_appearances": 21
+  },
+  "lavender": {
+    "top_ratio": 0.5961538461538461,
+    "mid_ratio": 0.40384615384615385,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "herbal",
+    "avg_longevity": 4.3076923076923075,
+    "avg_sillage": 4.115384615384615,
+    "total_appearances": 52
+  },
+  "star anise": {
+    "top_ratio": 0.5714285714285714,
+    "mid_ratio": 0.42857142857142855,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "spicy",
+    "avg_longevity": 5.0,
+    "avg_sillage": 4.857142857142857,
+    "total_appearances": 7
+  },
+  "nutmeg": {
+    "top_ratio": 0.5,
+    "mid_ratio": 0.5,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "spicy",
+    "avg_longevity": 4.4375,
+    "avg_sillage": 4.3125,
+    "total_appearances": 16
+  },
+  "ambroxan": {
+    "top_ratio": 0.09523809523809523,
+    "mid_ratio": 0.40476190476190477,
+    "base_ratio": 0.5,
+    "primary_position": "base",
+    "dimension": null,
+    "avg_longevity": 4.285714285714286,
+    "avg_sillage": 3.9523809523809526,
+    "total_appearances": 42
+  },
+  "grapefruit": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "citrus",
+    "avg_longevity": 4.297297297297297,
+    "avg_sillage": 4.027027027027027,
+    "total_appearances": 37
+  },
+  "mint": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fresh",
+    "avg_longevity": 4.2727272727272725,
+    "avg_sillage": 4.2727272727272725,
+    "total_appearances": 11
+  },
+  "iso e super": {
+    "top_ratio": 0.13333333333333333,
+    "mid_ratio": 0.6666666666666666,
+    "base_ratio": 0.2,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 3.8666666666666667,
+    "avg_sillage": 3.6666666666666665,
+    "total_appearances": 15
+  },
+  "ginger": {
+    "top_ratio": 0.5294117647058824,
+    "mid_ratio": 0.47058823529411764,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "spicy",
+    "avg_longevity": 3.9411764705882355,
+    "avg_sillage": 3.6470588235294117,
+    "total_appearances": 17
+  },
+  "incense": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.3333333333333333,
+    "base_ratio": 0.6666666666666666,
+    "primary_position": "base",
+    "dimension": "smoky",
+    "avg_longevity": 4.166666666666667,
+    "avg_sillage": 3.8333333333333335,
+    "total_appearances": 6
+  },
+  "pineapple": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 4.2727272727272725,
+    "avg_sillage": 4.2727272727272725,
+    "total_appearances": 11
+  },
+  "black currant bud": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 4.571428571428571,
+    "avg_sillage": 4.357142857142857,
+    "total_appearances": 14
+  },
+  "apple": {
+    "top_ratio": 0.8888888888888888,
+    "mid_ratio": 0.1111111111111111,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 4.0,
+    "avg_sillage": 3.8333333333333335,
+    "total_appearances": 18
+  },
+  "birch": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "woody",
+    "avg_longevity": 4.4,
+    "avg_sillage": 4.4,
+    "total_appearances": 5
+  },
+  "ambergris": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.16666666666666666,
+    "base_ratio": 0.8333333333333334,
+    "primary_position": "base",
+    "dimension": "leather",
+    "avg_longevity": 4.583333333333333,
+    "avg_sillage": 4.416666666666667,
+    "total_appearances": 12
+  },
+  "pear": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 4.0,
+    "avg_sillage": 3.6315789473684212,
+    "total_appearances": 19
+  },
+  "orange blossom": {
+    "top_ratio": 0.09090909090909091,
+    "mid_ratio": 0.9090909090909091,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 4.2272727272727275,
+    "avg_sillage": 3.772727272727273,
+    "total_appearances": 22
+  },
+  "praline": {
+    "top_ratio": 0.2857142857142857,
+    "mid_ratio": 0.42857142857142855,
+    "base_ratio": 0.2857142857142857,
+    "primary_position": "mid",
+    "dimension": "sweet",
+    "avg_longevity": 4.0,
+    "avg_sillage": 4.0,
+    "total_appearances": 7
+  },
+  "patchouli": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.06756756756756757,
+    "base_ratio": 0.9324324324324325,
+    "primary_position": "base",
+    "dimension": "earthy",
+    "avg_longevity": 4.337837837837838,
+    "avg_sillage": 4.04054054054054,
+    "total_appearances": 74
+  },
+  "pink pepper": {
+    "top_ratio": 0.9285714285714286,
+    "mid_ratio": 0.07142857142857142,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "spicy",
+    "avg_longevity": 4.142857142857143,
+    "avg_sillage": 3.9642857142857144,
+    "total_appearances": 28
+  },
+  "orange": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "citrus",
+    "avg_longevity": 3.6875,
+    "avg_sillage": 3.625,
+    "total_appearances": 16
+  },
+  "coffee": {
+    "top_ratio": 0.4,
+    "mid_ratio": 0.6,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "sweet",
+    "avg_longevity": 4.2,
+    "avg_sillage": 4.2,
+    "total_appearances": 5
+  },
+  "lychee": {
+    "top_ratio": 0.8,
+    "mid_ratio": 0.2,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 4.1,
+    "avg_sillage": 4.1,
+    "total_appearances": 10
+  },
+  "cedar": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "woody",
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "bamboo": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "green",
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "lime": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "citrus",
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.625,
+    "total_appearances": 8
+  },
+  "calone": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "coconut": {
+    "top_ratio": 0.5454545454545454,
+    "mid_ratio": 0.45454545454545453,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 3.8181818181818183,
+    "avg_sillage": 3.6363636363636362,
+    "total_appearances": 11
+  },
+  "honey": {
+    "top_ratio": 0.2,
+    "mid_ratio": 0.4,
+    "base_ratio": 0.4,
+    "primary_position": "mid",
+    "dimension": "sweet",
+    "avg_longevity": 4.9,
+    "avg_sillage": 4.7,
+    "total_appearances": 10
+  },
+  "chocolate": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "sweet",
+    "avg_longevity": 5.0,
+    "avg_sillage": 5.0,
+    "total_appearances": 2
+  },
+  "caramel": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.6666666666666666,
+    "base_ratio": 0.3333333333333333,
+    "primary_position": "mid",
+    "dimension": "sweet",
+    "avg_longevity": 4.833333333333333,
+    "avg_sillage": 4.666666666666667,
+    "total_appearances": 6
+  },
+  "geranium": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 3.8125,
+    "avg_sillage": 3.8125,
+    "total_appearances": 16
+  },
+  "benzoin": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.2777777777777778,
+    "base_ratio": 0.7222222222222222,
+    "primary_position": "base",
+    "dimension": "warm",
+    "avg_longevity": 4.611111111111111,
+    "avg_sillage": 4.333333333333333,
+    "total_appearances": 18
+  },
+  "saffron": {
+    "top_ratio": 0.75,
+    "mid_ratio": 0.16666666666666666,
+    "base_ratio": 0.08333333333333333,
+    "primary_position": "top",
+    "dimension": "spicy",
+    "avg_longevity": 4.833333333333333,
+    "avg_sillage": 4.666666666666667,
+    "total_appearances": 24
+  },
+  "cashmeran": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.21428571428571427,
+    "base_ratio": 0.7857142857142857,
+    "primary_position": "base",
+    "dimension": "musk",
+    "avg_longevity": 4.392857142857143,
+    "avg_sillage": 4.25,
+    "total_appearances": 28
+  },
+  "cardamom": {
+    "top_ratio": 0.6551724137931034,
+    "mid_ratio": 0.27586206896551724,
+    "base_ratio": 0.06896551724137931,
+    "primary_position": "top",
+    "dimension": "spicy",
+    "avg_longevity": 4.413793103448276,
+    "avg_sillage": 4.137931034482759,
+    "total_appearances": 29
+  },
+  "leather": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.25,
+    "base_ratio": 0.75,
+    "primary_position": "base",
+    "dimension": "leather",
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.15625,
+    "total_appearances": 32
+  },
+  "cumin": {
+    "top_ratio": 0.6666666666666666,
+    "mid_ratio": 0.3333333333333333,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "spicy",
+    "avg_longevity": 4.333333333333333,
+    "avg_sillage": 3.6666666666666665,
+    "total_appearances": 3
+  },
+  "guaiac wood": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.3333333333333333,
+    "base_ratio": 0.6666666666666666,
+    "primary_position": "base",
+    "dimension": "woody",
+    "avg_longevity": 4.666666666666667,
+    "avg_sillage": 4.333333333333333,
+    "total_appearances": 12
+  },
+  "rosewood": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.0,
+    "total_appearances": 4
+  },
+  "agarwood oud": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.4782608695652174,
+    "base_ratio": 0.5217391304347826,
+    "primary_position": "base",
+    "dimension": "woody",
+    "avg_longevity": 4.826086956521739,
+    "avg_sillage": 4.391304347826087,
+    "total_appearances": 23
+  },
+  "tobacco": {
+    "top_ratio": 0.125,
+    "mid_ratio": 0.125,
+    "base_ratio": 0.75,
+    "primary_position": "base",
+    "dimension": "smoky",
+    "avg_longevity": 4.4375,
+    "avg_sillage": 4.0625,
+    "total_appearances": 16
+  },
+  "cocoa": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.6,
+    "base_ratio": 0.4,
+    "primary_position": "mid",
+    "dimension": "sweet",
+    "avg_longevity": 4.4,
+    "avg_sillage": 4.4,
+    "total_appearances": 5
+  },
+  "plum": {
+    "top_ratio": 0.6666666666666666,
+    "mid_ratio": 0.1111111111111111,
+    "base_ratio": 0.2222222222222222,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 3.7777777777777777,
+    "avg_sillage": 3.7777777777777777,
+    "total_appearances": 9
+  },
+  "cherry": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.5,
+    "total_appearances": 2
+  },
+  "bitter almond": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 4.75,
+    "avg_sillage": 4.75,
+    "total_appearances": 4
+  },
+  "cherry blossom": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.5,
+    "total_appearances": 2
+  },
+  "peru balsam": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": null,
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.5,
+    "total_appearances": 2
+  },
+  "truffle": {
+    "top_ratio": 0.5,
+    "mid_ratio": 0.5,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 5.0,
+    "avg_sillage": 4.5,
+    "total_appearances": 4
+  },
+  "oud": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": "woody",
+    "avg_longevity": 5.0,
+    "avg_sillage": 4.5,
+    "total_appearances": 2
+  },
+  "juniper berry": {
+    "top_ratio": 0.45454545454545453,
+    "mid_ratio": 0.5454545454545454,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 4.0,
+    "avg_sillage": 3.8181818181818183,
+    "total_appearances": 11
+  },
+  "pine needle": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 4.0,
+    "avg_sillage": 3.5,
+    "total_appearances": 4
+  },
+  "ambrette": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "musk",
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "magnolia": {
+    "top_ratio": 0.3333333333333333,
+    "mid_ratio": 0.6666666666666666,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 3.8333333333333335,
+    "avg_sillage": 3.8333333333333335,
+    "total_appearances": 6
+  },
+  "cyclamen aldehyde": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "styrax": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": null,
+    "avg_longevity": 4.0,
+    "avg_sillage": 3.5,
+    "total_appearances": 4
+  },
+  "raspberry": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 4.3125,
+    "avg_sillage": 4.0625,
+    "total_appearances": 16
+  },
+  "thyme": {
+    "top_ratio": 0.3333333333333333,
+    "mid_ratio": 0.6666666666666666,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "herbal",
+    "avg_longevity": 4.0,
+    "avg_sillage": 3.6666666666666665,
+    "total_appearances": 6
+  },
+  "suede": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": "leather",
+    "avg_longevity": 3.75,
+    "avg_sillage": 3.75,
+    "total_appearances": 4
+  },
+  "angelica": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": null,
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "lotus": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 5.0,
+    "avg_sillage": 4.5,
+    "total_appearances": 2
+  },
+  "verbena": {
+    "top_ratio": 0.5,
+    "mid_ratio": 0.5,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 4
+  },
+  "violet leaf": {
+    "top_ratio": 0.2,
+    "mid_ratio": 0.8,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 4.3,
+    "avg_sillage": 4.3,
+    "total_appearances": 10
+  },
+  "basil": {
+    "top_ratio": 0.5714285714285714,
+    "mid_ratio": 0.42857142857142855,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "herbal",
+    "avg_longevity": 3.642857142857143,
+    "avg_sillage": 3.2142857142857144,
+    "total_appearances": 14
+  },
+  "coriander": {
+    "top_ratio": 0.6470588235294118,
+    "mid_ratio": 0.35294117647058826,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 4.235294117647059,
+    "avg_sillage": 3.9411764705882355,
+    "total_appearances": 17
+  },
+  "blood orange": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "citrus",
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.0,
+    "total_appearances": 8
+  },
+  "clary sage": {
+    "top_ratio": 0.5,
+    "mid_ratio": 0.5,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 3.75,
+    "avg_sillage": 3.75,
+    "total_appearances": 8
+  },
+  "rum": {
+    "top_ratio": 0.5,
+    "mid_ratio": 0.5,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 4.25,
+    "avg_sillage": 4.0,
+    "total_appearances": 4
+  },
+  "myrtle": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 4.0,
+    "avg_sillage": 3.3333333333333335,
+    "total_appearances": 3
+  },
+  "cypress": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "woody",
+    "avg_longevity": 4.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 4
+  },
+  "artemisia": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "herbal",
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.166666666666667,
+    "total_appearances": 6
+  },
+  "chamomile roman": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 4.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "galbanum": {
+    "top_ratio": 0.5,
+    "mid_ratio": 0.5,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "green",
+    "avg_longevity": 4.0,
+    "avg_sillage": 3.0,
+    "total_appearances": 4
+  },
+  "blackcurrant": {
+    "top_ratio": 0.5,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.5,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 4.0,
+    "avg_sillage": 4.0,
+    "total_appearances": 4
+  },
+  "freesia": {
+    "top_ratio": 0.2,
+    "mid_ratio": 0.8,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 3.7,
+    "avg_sillage": 3.5,
+    "total_appearances": 10
+  },
+  "osmanthus": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 4.5,
+    "avg_sillage": 3.8333333333333335,
+    "total_appearances": 6
+  },
+  "peony": {
+    "top_ratio": 0.26666666666666666,
+    "mid_ratio": 0.7333333333333333,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 3.8,
+    "avg_sillage": 3.533333333333333,
+    "total_appearances": 15
+  },
+  "lily of valley": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 3.6666666666666665,
+    "avg_sillage": 3.466666666666667,
+    "total_appearances": 15
+  },
+  "strawberry": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 3.8333333333333335,
+    "avg_sillage": 3.1666666666666665,
+    "total_appearances": 6
+  },
+  "gardenia": {
+    "top_ratio": 0.3333333333333333,
+    "mid_ratio": 0.6666666666666666,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 4.166666666666667,
+    "avg_sillage": 3.5,
+    "total_appearances": 6
+  },
+  "orris butter": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": null,
+    "avg_longevity": 4.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "almond": {
+    "top_ratio": 0.18181818181818182,
+    "mid_ratio": 0.6363636363636364,
+    "base_ratio": 0.18181818181818182,
+    "primary_position": "mid",
+    "dimension": "sweet",
+    "avg_longevity": 4.454545454545454,
+    "avg_sillage": 4.181818181818182,
+    "total_appearances": 11
+  },
+  "apricot": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.5,
+    "total_appearances": 2
+  },
+  "sage": {
+    "top_ratio": 0.07692307692307693,
+    "mid_ratio": 0.9230769230769231,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "herbal",
+    "avg_longevity": 3.923076923076923,
+    "avg_sillage": 3.769230769230769,
+    "total_appearances": 13
+  },
+  "moss": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": "earthy",
+    "avg_longevity": 4.333333333333333,
+    "avg_sillage": 4.333333333333333,
+    "total_appearances": 3
+  },
+  "fig": {
+    "top_ratio": 0.6666666666666666,
+    "mid_ratio": 0.3333333333333333,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "green",
+    "avg_longevity": 3.8333333333333335,
+    "avg_sillage": 3.1666666666666665,
+    "total_appearances": 6
+  },
+  "frankincense": {
+    "top_ratio": 0.25,
+    "mid_ratio": 0.25,
+    "base_ratio": 0.5,
+    "primary_position": "base",
+    "dimension": "amber",
+    "avg_longevity": 4.375,
+    "avg_sillage": 4.125,
+    "total_appearances": 8
+  },
+  "lilac": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 3.5,
+    "avg_sillage": 2.5,
+    "total_appearances": 2
+  },
+  "melon": {
+    "top_ratio": 0.5,
+    "mid_ratio": 0.5,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 3.0,
+    "avg_sillage": 2.5,
+    "total_appearances": 4
+  },
+  "heliotrope": {
+    "top_ratio": 0.2857142857142857,
+    "mid_ratio": 0.42857142857142855,
+    "base_ratio": 0.2857142857142857,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 4.142857142857143,
+    "avg_sillage": 3.5714285714285716,
+    "total_appearances": 7
+  },
+  "oregano": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 5.0,
+    "avg_sillage": 5.0,
+    "total_appearances": 2
+  },
+  "myrrh": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.5,
+    "base_ratio": 0.5,
+    "primary_position": "mid",
+    "dimension": "amber",
+    "avg_longevity": 5.0,
+    "avg_sillage": 4.75,
+    "total_appearances": 4
+  },
+  "labdanum": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "amber",
+    "avg_longevity": 5.0,
+    "avg_sillage": 4.5,
+    "total_appearances": 2
+  },
+  "sea salt": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "aquatic",
+    "avg_longevity": 3.0,
+    "avg_sillage": 3.0,
+    "total_appearances": 4
+  },
+  "driftwood": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": "woody",
+    "avg_longevity": 2.5,
+    "avg_sillage": 2.5,
+    "total_appearances": 2
+  },
+  "pomegranate": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 2.5,
+    "avg_sillage": 2.5,
+    "total_appearances": 2
+  },
+  "petitgrain": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "citrus",
+    "avg_longevity": 3.6,
+    "avg_sillage": 3.6,
+    "total_appearances": 5
+  },
+  "green apple": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 4.0,
+    "avg_sillage": 4.0,
+    "total_appearances": 4
+  },
+  "bay leaf": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.5,
+    "total_appearances": 2
+  },
+  "beeswax": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": null,
+    "avg_longevity": 4.5,
+    "avg_sillage": 4.5,
+    "total_appearances": 2
+  },
+  "quince": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "hyacinth": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": "floral",
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "campfire": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "narcissus": {
+    "top_ratio": 0.5,
+    "mid_ratio": 0.5,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": null,
+    "avg_longevity": 4.0,
+    "avg_sillage": 3.5,
+    "total_appearances": 4
+  },
+  "papaya": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "water lily": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 3.5,
+    "avg_sillage": 3.5,
+    "total_appearances": 2
+  },
+  "hedione": {
+    "top_ratio": 0.0,
+    "mid_ratio": 1.0,
+    "base_ratio": 0.0,
+    "primary_position": "mid",
+    "dimension": null,
+    "avg_longevity": 2.0,
+    "avg_sillage": 2.0,
+    "total_appearances": 1
+  },
+  "elemi": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "amber",
+    "avg_longevity": 3.0,
+    "avg_sillage": 3.0,
+    "total_appearances": 1
+  },
+  "habanolide": {
+    "top_ratio": 0.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 1.0,
+    "primary_position": "base",
+    "dimension": null,
+    "avg_longevity": 5.0,
+    "avg_sillage": 5.0,
+    "total_appearances": 1
+  },
+  "passion fruit": {
+    "top_ratio": 1.0,
+    "mid_ratio": 0.0,
+    "base_ratio": 0.0,
+    "primary_position": "top",
+    "dimension": "fruity",
+    "avg_longevity": 5.0,
+    "avg_sillage": 4.0,
+    "total_appearances": 1
+  }
+}

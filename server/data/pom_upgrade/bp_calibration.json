@@ -1,0 +1,31 @@
+{
+  "coefficients": {
+    "bias": 4.8489183039976895,
+    "MW": 0.46912612982241075,
+    "HBD": 27.947967543512874,
+    "HBA": 40.742064359724274,
+    "TPSA": -1.509591813952935,
+    "AromaticRings": 83.78062684783002,
+    "TotalRings": -16.808794364028003,
+    "RotBonds": 0.48921377986369297,
+    "LogP": 37.341067002756944
+  },
+  "features": [
+    "MW",
+    "HBD",
+    "HBA",
+    "TPSA",
+    "AromaticRings",
+    "TotalRings",
+    "RotBonds",
+    "LogP"
+  ],
+  "mae_celsius": 16.464204429891865,
+  "r2": 0.9000637819749229,
+  "note_thresholds": {
+    "top": 201,
+    "middle": 269
+  },
+  "training_size": 20,
+  "note_accuracy": "17/20"
+}

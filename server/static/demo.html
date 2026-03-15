@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Perfumery Lab — Odor Intelligence Platform</title>
+    <meta name="description"
+        content="AI-powered molecular odor prediction with 20D profiling, GATConv attention heatmaps, and TF-IDF weighted discovery engine">
+    <meta property="og:title" content="AI Perfumery Lab">
+    <meta property="og:description"
+        content="Explore molecular odor space with ensemble GNN, attention visualization, and IDF-weighted discovery">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#6366f1">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧪</text></svg>">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-alt: #161622;
+            --bg-hover: #1c1c2e;
+            --border: #2a2a3e;
+            --border-glow: #4f46e5;
+            --text-primary: #e8e8f0;
+            --text-secondary: #9898b0;
+            --text-muted: #5a5a78;
+            --accent-indigo: #6366f1;
+            --accent-violet: #8b5cf6;
+            --accent-pink: #ec4899;
+            --accent-emerald: #10b981;
+            --accent-amber: #f59e0b;
+            --accent-cyan: #06b6d4;
+            --accent-rose: #f43f5e;
+            --gradient-primary: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+            --gradient-card: linear-gradient(145deg, rgba(99, 102, 241, 0.08), rgba(139, 92, 246, 0.04));
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.15);
+            --radius: 12px;
+            --radius-lg: 16px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ===== Top Bar ===== */
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(10, 10, 15, 0.85);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 14px 32px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .topbar .logo {
+            font-size: 20px;
+            font-weight: 700;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.5px;
+        }
+
+        .topbar .logo span {
+            font-weight: 300;
+            opacity: 0.7;
+        }
+
+        .topbar .badge {
+            font-size: 10px;
+            font-weight: 600;
+            padding: 3px 8px;
+            border-radius: 20px;
+            background: rgba(99, 102, 241, 0.15);
+            color: var(--accent-indigo);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .topbar .stats {
+            margin-left: auto;
+            display: flex;
+            gap: 20px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .topbar .stats span {
+            color: var(--accent-emerald);
+            font-weight: 500;
+        }
+
+        /* ===== Input Bar ===== */
+        .input-section {
+            padding: 24px 32px 16px;
+        }
+
+        .input-row {
+            display: flex;
+            gap: 12px;
+            align-items: stretch;
+        }
+
+        .smiles-input {
+            flex: 1;
+            padding: 14px 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            color: var(--text-primary);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            outline: none;
+        }
+
+        .smiles-input:focus {
+            border-color: var(--accent-indigo);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+        }
+
+        .smiles-input::placeholder {
+            color: var(--text-muted);
+            font-family: 'Inter', sans-serif;
+        }
+
+        .btn-analyze {
+            padding: 14px 28px;
+            background: var(--gradient-primary);
+            border: none;
+            border-radius: var(--radius);
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: transform 0.15s, box-shadow 0.3s;
+            letter-spacing: 0.3px;
+            white-space: nowrap;
+        }
+
+        .btn-analyze:hover {
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .btn-analyze:active {
+            transform: scale(0.97);
+        }
+
+        .btn-analyze:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Quick molecules */
+        .quick-mols {
+            display: flex;
+            gap: 8px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .quick-mol {
+            padding: 6px 14px;
+            border-radius: 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            font-size: 12px;
+            cursor: pointer;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+        }
+
+        .quick-mol:hover {
+            border-color: var(--accent-indigo);
+            color: var(--text-primary);
+            background: var(--bg-hover);
+        }
+
+        .quick-mol .name {
+            font-weight: 500;
+        }
+
+        .quick-mol .smi {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            color: var(--text-muted);
+            margin-left: 4px;
+        }
+
+        /* ===== Grid Layout ===== */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 16px;
+            padding: 16px 32px 32px;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            border-color: rgba(99, 102, 241, 0.3);
+        }
+
+        .card-header {
+            padding: 16px 20px 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .card-header .icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        .card-header h3 {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: -0.3px;
+        }
+
+        .card-header .pill {
+            margin-left: auto;
+            font-size: 10px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        /* Card specific colors */
+        .card-radar .icon {
+            background: rgba(99, 102, 241, 0.15);
+        }
+
+        .card-radar .pill {
+            background: rgba(99, 102, 241, 0.12);
+            color: var(--accent-indigo);
+        }
+
+        .card-heatmap .icon {
+            background: rgba(236, 72, 153, 0.15);
+        }
+
+        .card-heatmap .pill {
+            background: rgba(236, 72, 153, 0.12);
+            color: var(--accent-pink);
+        }
+
+        .card-umap .icon {
+            background: rgba(6, 182, 212, 0.15);
+        }
+
+        .card-umap .pill {
+            background: rgba(6, 182, 212, 0.12);
+            color: var(--accent-cyan);
+        }
+
+        .card-discover .icon {
+            background: rgba(16, 185, 129, 0.15);
+        }
+
+        .card-discover .pill {
+            background: rgba(16, 185, 129, 0.12);
+            color: var(--accent-emerald);
+        }
+
+        /* ===== Radar Chart ===== */
+        .radar-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .radar-svg {
+            flex-shrink: 0;
+        }
+
+        .radar-legend {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            max-height: 320px;
+            overflow-y: auto;
+        }
+
+        .radar-legend::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .radar-legend::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 2px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 4px 8px;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+
+        .legend-item:hover {
+            background: var(--bg-hover);
+        }
+
+        .legend-item .dim-name {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            width: 70px;
+            text-transform: capitalize;
+        }
+
+        .legend-item .bar-bg {
+            flex: 1;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .legend-item .bar-fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .legend-item .val {
+            font-size: 11px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-muted);
+            width: 40px;
+            text-align: right;
+        }
+
+        /* ===== Heatmap ===== */
+        .heatmap-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .heatmap-img {
+            max-width: 100%;
+            max-height: 280px;
+            border-radius: 8px;
+            background: white;
+        }
+
+        .heatmap-atoms {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            justify-content: center;
+        }
+
+        .atom-tag {
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* ===== Discovery ===== */
+        .discover-input-row {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .discover-input {
+            flex: 1;
+            padding: 10px 14px;
+            background: var(--bg-card-alt);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 13px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .discover-input:focus {
+            border-color: var(--accent-emerald);
+        }
+
+        .discover-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .btn-discover {
+            padding: 10px 18px;
+            background: var(--accent-emerald);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-weight: 600;
+            font-size: 13px;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .btn-discover:hover {
+            opacity: 0.85;
+        }
+
+        .discover-results {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .disc-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 14px;
+            border-radius: 8px;
+            background: var(--bg-card-alt);
+            border: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .disc-item:hover {
+            border-color: var(--border);
+        }
+
+        .disc-rank {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-muted);
+            width: 28px;
+            text-align: center;
+        }
+
+        .disc-info {
+            flex: 1;
+        }
+
+        .disc-smiles {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--text-secondary);
+            word-break: break-all;
+        }
+
+        .disc-dims {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .disc-sim {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+
+        .disc-dom {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        /* ===== UMAP Plot ===== */
+        .umap-container {
+            position: relative;
+        }
+
+        .umap-canvas {
+            width: 100%;
+            height: 320px;
+            border-radius: 8px;
+            background: var(--bg-card-alt);
+            cursor: crosshair;
+        }
+
+        .umap-controls {
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+            flex-wrap: wrap;
+        }
+
+        .umap-dim-btn {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: 500;
+            cursor: pointer;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+            text-transform: capitalize;
+        }
+
+        .umap-dim-btn.active {
+            background: var(--accent-violet);
+            border-color: var(--accent-violet);
+            color: white;
+        }
+
+        .umap-dim-btn:hover {
+            border-color: var(--accent-violet);
+        }
+
+        .umap-tooltip {
+            position: absolute;
+            pointer-events: none;
+            background: rgba(18, 18, 26, 0.95);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 8px 12px;
+            font-size: 11px;
+            display: none;
+            z-index: 10;
+            backdrop-filter: blur(10px);
+        }
+
+        /* ===== Placeholder / Loading ===== */
+        .placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 200px;
+            color: var(--text-muted);
+            gap: 8px;
+        }
+
+        .placeholder .icon-lg {
+            font-size: 40px;
+            opacity: 0.3;
+        }
+
+        .placeholder p {
+            font-size: 13px;
+        }
+
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 200px;
+        }
+
+        .spinner {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent-indigo);
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 960px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .topbar {
+                padding: 12px 16px;
+            }
+
+            .topbar .stats {
+                display: none;
+            }
+
+            .input-section,
+            .grid {
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+            .radar-container {
+                flex-direction: column;
+            }
+
+            .smiles-input {
+                font-size: 12px;
+            }
+
+            .btn-analyze {
+                padding: 14px 16px;
+                font-size: 12px;
+            }
+
+            .quick-mols {
+                gap: 6px;
+            }
+
+            .quick-mol {
+                padding: 4px 10px;
+                font-size: 11px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .input-row {
+                flex-direction: column;
+            }
+
+            .topbar .badge {
+                display: none;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+
+            to {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+        .animate-in {
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        /* Status indicator */
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent-emerald);
+            box-shadow: 0 0 6px var(--accent-emerald);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        /* Skeleton loading */
+        .skeleton {
+            background: linear-gradient(90deg, var(--bg-card-alt) 25%, rgba(99, 102, 241, 0.06) 50%, var(--bg-card-alt) 75%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s ease-in-out infinite;
+            border-radius: 6px;
+        }
+
+        @keyframes shimmer {
+            to {
+                background-position: -200% 0;
+            }
+        }
+
+        .skeleton-radar {
+            width: 100%;
+            height: 280px;
+        }
+
+        .skeleton-heatmap {
+            width: 100%;
+            height: 200px;
+        }
+
+        /* Error state */
+        .error-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            padding: 24px;
+            color: var(--accent-rose);
+        }
+
+        .error-state .error-icon {
+            font-size: 32px;
+            opacity: 0.6;
+        }
+
+        .error-state .error-msg {
+            font-size: 12px;
+            text-align: center;
+            color: var(--text-muted);
+        }
+
+        .btn-retry {
+            padding: 6px 16px;
+            border: 1px solid var(--accent-rose);
+            background: transparent;
+            color: var(--accent-rose);
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: all 0.2s;
+        }
+
+        .btn-retry:hover {
+            background: rgba(244, 63, 94, 0.1);
+        }
+
+        /* Toast */
+        .toast-container {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .toast {
+            padding: 12px 20px;
+            background: rgba(18, 18, 26, 0.95);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent-rose);
+            border-radius: 8px;
+            font-size: 12px;
+            color: var(--text-secondary);
+            backdrop-filter: blur(10px);
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .toast.success {
+            border-left-color: var(--accent-emerald);
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Top Bar -->
+    <div class="topbar">
+        <div class="logo">AI Perfumery <span>Lab</span></div>
+        <div class="badge">v2.0 Ensemble</div>
+        <div class="status-dot" title="Engine online"></div>
+        <div class="stats">
+            <div>Model <span>v4+v5</span></div>
+            <div>Dims <span>20</span></div>
+            <div>DB <span id="dbSize">5,075</span></div>
+        </div>
+    </div>
+
+    <!-- Input Section -->
+    <div class="input-section">
+        <div class="input-row">
+            <input type="text" class="smiles-input" id="smilesInput"
+                placeholder="Enter SMILES notation… (e.g. O=Cc1ccc(O)c(OC)c1)" value="O=Cc1ccc(O)c(OC)c1">
+            <button class="btn-analyze" id="btnAnalyze" onclick="analyze()">
+                ⚡ Analyze Molecule
+            </button>
+        </div>
+        <div class="quick-mols">
+            <div class="quick-mol" onclick="setSmiles('O=Cc1ccc(O)c(OC)c1')"><span class="name">Vanillin</span><span
+                    class="smi">sweet vanilla</span></div>
+            <div class="quick-mol" onclick="setSmiles('CC(=C)C1CCC(C)CC1')"><span class="name">Limonene</span><span
+                    class="smi">citrus</span></div>
+            <div class="quick-mol" onclick="setSmiles('COc1cc(CC=C)ccc1O')"><span class="name">Eugenol</span><span
+                    class="smi">spicy clove</span></div>
+            <div class="quick-mol" onclick="setSmiles('C=CC(C)(O)CCC=C(C)C')"><span class="name">Linalool</span><span
+                    class="smi">floral lavender</span></div>
+            <div class="quick-mol" onclick="setSmiles('CC(C)C1CCC(C)CC1O')"><span class="name">Menthol</span><span
+                    class="smi">fresh cool</span></div>
+            <div class="quick-mol" onclick="setSmiles('O=C1Oc2ccccc2C=C1')"><span class="name">Coumarin</span><span
+                    class="smi">warm hay</span></div>
+            <div class="quick-mol" onclick="setSmiles('O=Cc1ccccc1')"><span class="name">Benzaldehyde</span><span
+                    class="smi">almond</span></div>
+            <div class="quick-mol" onclick="setSmiles('CC(=O)c1ccccc1')"><span class="name">Acetophenone</span><span
+                    class="smi">floral</span></div>
+        </div>
+    </div>
+
+    <!-- 4-Panel Grid -->
+    <div class="grid">
+
+        <!-- 1. Radar Chart -->
+        <div class="card card-radar">
+            <div class="card-header">
+                <div class="icon">📊</div>
+                <h3>20D Odor Profile</h3>
+                <div class="pill">Ensemble</div>
+            </div>
+            <div class="card-body" id="radarBody">
+                <div class="placeholder">
+                    <div class="icon-lg">🧪</div>
+                    <p>Enter a SMILES to see the 20-dimensional odor profile</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Attention Heatmap -->
+        <div class="card card-heatmap">
+            <div class="card-header">
+                <div class="icon">🔬</div>
+                <h3>Attention Heatmap</h3>
+                <div class="pill">GATConv v5</div>
+            </div>
+            <div class="card-body" id="heatmapBody">
+                <div class="placeholder">
+                    <div class="icon-lg">🧬</div>
+                    <p>Atom-level attention visualization from GATConv layers</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. UMAP Space -->
+        <div class="card card-umap">
+            <div class="card-header">
+                <div class="icon">🌌</div>
+                <h3>Odor Space (UMAP)</h3>
+                <div class="pill" id="umapCount">Loading...</div>
+            </div>
+            <div class="card-body" id="umapBody">
+                <div class="loading">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. Discovery Engine -->
+        <div class="card card-discover">
+            <div class="card-header">
+                <div class="icon">🔍</div>
+                <h3>Discovery Engine</h3>
+                <div class="pill">IDF + Negative Prompt</div>
+            </div>
+            <div class="card-body" id="discoverBody">
+                <div class="discover-input-row">
+                    <input type="text" class="discover-input" id="discoverInput"
+                        placeholder="e.g. woody -sweet, citrus fresh, musk 60% warm 40%" value="citrus fresh">
+                    <button class="btn-discover" onclick="discover()">🔎 Search</button>
+                </div>
+                <div class="discover-results" id="discoverResults">
+                    <div class="placeholder" style="min-height:120px;">
+                        <p>Search for molecules by scent description</p>
+                        <p style="font-size:11px; color:var(--text-muted);">Supports: woody, citrus fresh, musk -sweet,
+                            floral 60% green 40%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API = '';  // Same origin
+
+        // Odor dimension colors
+        const DIM_COLORS = {
+            sweet: '#f472b6', sour: '#fbbf24', woody: '#a3866a', floral: '#c084fc',
+            citrus: '#fcd34d', fruity: '#fb923c', green: '#4ade80', herbal: '#34d399',
+            spicy: '#ef4444', warm: '#f97316', fresh: '#22d3ee', earthy: '#92400e',
+            musk: '#a78bfa', smoky: '#6b7280', metallic: '#94a3b8', aquatic: '#38bdf8',
+            powdery: '#e879f9', amber: '#d97706', leather: '#78350f', ozonic: '#67e8f9',
+        };
+
+        function dimColor(dim) { return DIM_COLORS[dim] || '#6366f1'; }
+
+        function setSmiles(s) {
+            document.getElementById('smilesInput').value = s;
+            analyze();
+        }
+
+        // ===== 1. ANALYZE =====
+        async function analyze() {
+            const smiles = document.getElementById('smilesInput').value.trim();
+            if (!smiles) return;
+
+            const btn = document.getElementById('btnAnalyze');
+            btn.disabled = true; btn.textContent = '⏳ Analyzing...';
+
+            // Show skeleton loading
+            document.getElementById('radarBody').innerHTML = '<div class="skeleton skeleton-radar"></div>';
+            document.getElementById('heatmapBody').innerHTML = '<div class="skeleton skeleton-heatmap"></div>';
+
+            // Parallel requests
+            const [predRes, attnRes] = await Promise.allSettled([
+                fetch(`${API}/api/engine/predict-odor`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ smiles: smiles })
+                }).then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
+                fetch(`${API}/api/engine/attention-map?smiles=${encodeURIComponent(smiles)}`)
+                    .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
+            ]);
+
+            btn.disabled = false; btn.textContent = '⚡ Analyze Molecule';
+
+            // Radar
+            if (predRes.status === 'fulfilled') {
+                renderRadar(predRes.value);
+                showToast(`Odor profile computed (${smiles.substring(0, 20)}...)`, 'success');
+            } else {
+                document.getElementById('radarBody').innerHTML = renderError('Prediction failed', predRes.reason?.message, 'analyze()');
+                showToast('Prediction failed: ' + (predRes.reason?.message || 'Unknown error'));
+            }
+
+            // Heatmap
+            if (attnRes.status === 'fulfilled' && !attnRes.value.detail) {
+                renderHeatmap(attnRes.value);
+            } else {
+                const msg = attnRes.reason?.message || attnRes.value?.detail || 'Heatmap unavailable';
+                document.getElementById('heatmapBody').innerHTML = renderError('Heatmap failed', msg, 'analyze()');
+            }
+
+            // Highlight on UMAP
+            highlightOnUmap(smiles);
+        }
+
+        // ===== Error State + Toast =====
+        function renderError(title, detail, retryFn) {
+            return `<div class="error-state animate-in">
+                <div class="error-icon">⚠️</div>
+                <div style="font-weight:600;font-size:13px">${title}</div>
+                <div class="error-msg">${detail || 'An unexpected error occurred'}</div>
+                ${retryFn ? `<button class="btn-retry" onclick="${retryFn}">Retry</button>` : ''}
+            </div>`;
+        }
+
+        function showToast(message, type = 'error') {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+            toast.className = `toast ${type}`;
+            toast.textContent = message;
+            container.appendChild(toast);
+            setTimeout(() => { toast.style.opacity = '0'; setTimeout(() => toast.remove(), 300); }, 3000);
+        }
+
+        // ===== RADAR CHART =====
+        function renderRadar(pred) {
+            const dims = ['sweet', 'sour', 'woody', 'floral', 'citrus', 'fruity', 'green', 'herbal',
+                'spicy', 'warm', 'fresh', 'earthy', 'musk', 'smoky', 'metallic', 'aquatic',
+                'powdery', 'amber', 'leather', 'ozonic'];
+
+            let vec = pred.odor_vector || [];
+            if (!vec.length && pred.top_descriptors) {
+                vec = new Array(20).fill(0);
+                pred.top_descriptors.forEach(d => {
+                    const idx = dims.indexOf(typeof d === 'string' ? d : d[0]);
+                    if (idx >= 0) vec[idx] = typeof d === 'string' ? 0.5 : d[1];
+                });
+            }
+
+            const n = dims.length;
+            const cx = 140, cy = 140, r = 110;
+            const angles = dims.map((_, i) => (2 * Math.PI * i / n) - Math.PI / 2);
+
+            // SVG
+            let svg = `<svg class="radar-svg" width="280" height="280" viewBox="0 0 280 280">`;
+
+            // Grid circles
+            for (let lv = 0.25; lv <= 1; lv += 0.25) {
+                const pts = angles.map(a => `${cx + r * lv * Math.cos(a)},${cy + r * lv * Math.sin(a)}`).join(' ');
+                svg += `<polygon points="${pts}" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>`;
+            }
+
+            // Axes
+            angles.forEach(a => {
+                svg += `<line x1="${cx}" y1="${cy}" x2="${cx + r * Math.cos(a)}" y2="${cy + r * Math.sin(a)}" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>`;
+            });
+
+            // Data polygon
+            const maxVal = Math.max(...vec, 0.01);
+            const dataPts = vec.map((v, i) => {
+                const scale = Math.min(v / maxVal, 1);
+                return `${cx + r * scale * Math.cos(angles[i])},${cy + r * scale * Math.sin(angles[i])}`;
+            }).join(' ');
+            svg += `<polygon points="${dataPts}" fill="rgba(99,102,241,0.2)" stroke="#6366f1" stroke-width="2"/>`;
+
+            // Dots
+            vec.forEach((v, i) => {
+                if (v > 0.01) {
+                    const scale = Math.min(v / maxVal, 1);
+                    const x = cx + r * scale * Math.cos(angles[i]);
+                    const y = cy + r * scale * Math.sin(angles[i]);
+                    svg += `<circle cx="${x}" cy="${y}" r="3" fill="${dimColor(dims[i])}" stroke="#0a0a0f" stroke-width="1"/>`;
+                }
+            });
+
+            // Labels
+            dims.forEach((d, i) => {
+                const lx = cx + (r + 18) * Math.cos(angles[i]);
+                const ly = cy + (r + 18) * Math.sin(angles[i]);
+                const anchor = Math.abs(Math.cos(angles[i])) < 0.1 ? 'middle' : (Math.cos(angles[i]) > 0 ? 'start' : 'end');
+                svg += `<text x="${lx}" y="${ly}" text-anchor="${anchor}" dominant-baseline="middle" fill="#9898b0" font-size="8" font-weight="500">${d}</text>`;
+            });
+
+            svg += `</svg>`;
+
+            // Legend
+            const sorted = dims.map((d, i) => ({ dim: d, val: vec[i] })).sort((a, b) => b.val - a.val);
+            let legend = '<div class="radar-legend">';
+            sorted.forEach(({ dim, val }) => {
+                const pct = maxVal > 0 ? (val / maxVal * 100) : 0;
+                legend += `<div class="legend-item">
+      <span class="dim-name">${dim}</span>
+      <div class="bar-bg"><div class="bar-fill" style="width:${pct}%;background:${dimColor(dim)}"></div></div>
+      <span class="val">${val.toFixed(3)}</span>
+    </div>`;
+            });
+            legend += '</div>';
+
+            document.getElementById('radarBody').innerHTML = `<div class="radar-container animate-in">${svg}${legend}</div>`;
+        }
+
+        // ===== HEATMAP =====
+        function renderHeatmap(data) {
+            let html = '<div class="heatmap-content animate-in">';
+
+            if (data.image_base64) {
+                html += `<img class="heatmap-img" src="data:image/png;base64,${data.image_base64}" alt="Attention Heatmap">`;
+            }
+
+            // Top atoms
+            if (data.atom_importance || data.top_atoms) {
+                const atoms = (data.top_atoms || data.atom_importance || []).slice(0, 8);
+                html += '<div class="heatmap-atoms">';
+                atoms.forEach(a => {
+                    const imp = a.importance || a.attention || 0;
+                    const hue = imp > 0.8 ? '0' : imp > 0.5 ? '30' : '200';
+                    const bg = `hsla(${hue}, 70%, 50%, ${0.15 + imp * 0.3})`;
+                    const color = `hsl(${hue}, 70%, 70%)`;
+                    html += `<span class="atom-tag" style="background:${bg};color:${color}">${a.symbol || a.element} #${a.index ?? a.atom_idx} ${imp.toFixed(2)}</span>`;
+                });
+                html += '</div>';
+            }
+
+            html += `<div style="font-size:11px;color:var(--text-muted)">${data.n_atoms} atoms analyzed • 3-layer GATConv attention</div>`;
+            html += '</div>';
+            document.getElementById('heatmapBody').innerHTML = html;
+        }
+
+        // ===== UMAP =====
+        let umapData = null;
+        let umapFilter = 'all';
+
+        async function loadUmap() {
+            try {
+                const res = await fetch(`${API}/api/engine/odor-space`);
+                umapData = await res.json();
+                document.getElementById('umapCount').textContent = `${umapData.n_molecules} molecules`;
+                renderUmap();
+            } catch (e) {
+                document.getElementById('umapBody').innerHTML = '<div class="placeholder"><p>UMAP data unavailable</p></div>';
+            }
+        }
+
+        function renderUmap() {
+            if (!umapData) return;
+
+            const emb = umapData.embedding;
+            const mols = umapData.molecules;
+            const dims_list = [...new Set(mols.map(m => m.dominant))];
+
+            let html = `<div class="umap-container">
+    <canvas class="umap-canvas" id="umapCanvas"></canvas>
+    <div class="umap-tooltip" id="umapTooltip"></div>
+    <div class="umap-controls">
+      <button class="umap-dim-btn ${umapFilter === 'all' ? 'active' : ''}" onclick="setUmapFilter('all')">All</button>`;
+
+            dims_list.sort().slice(0, 12).forEach(d => {
+                html += `<button class="umap-dim-btn ${umapFilter === d ? 'active' : ''}" onclick="setUmapFilter('${d}')" style="--accent: ${dimColor(d)}">${d}</button>`;
+            });
+
+            html += '</div></div>';
+            document.getElementById('umapBody').innerHTML = html;
+
+            const canvas = document.getElementById('umapCanvas');
+            const ctx = canvas.getContext('2d');
+            const rect = canvas.getBoundingClientRect();
+            canvas.width = rect.width * 2;
+            canvas.height = rect.height * 2;
+            ctx.scale(2, 2);
+
+            const xArr = emb.map(e => e[0]);
+            const yArr = emb.map(e => e[1]);
+            const xMin = Math.min(...xArr), xMax = Math.max(...xArr);
+            const yMin = Math.min(...yArr), yMax = Math.max(...yArr);
+            const pad = 20;
+            const w = rect.width - 2 * pad;
+            const h = rect.height - 2 * pad;
+
+            function toScreen(x, y) {
+                return [pad + (x - xMin) / (xMax - xMin) * w, pad + (y - yMin) / (yMax - yMin) * h];
+            }
+
+            // Draw points
+            ctx.clearRect(0, 0, rect.width, rect.height);
+
+            emb.forEach((pt, i) => {
+                const mol = mols[i];
+                const active = umapFilter === 'all' || mol.dominant === umapFilter;
+                const [sx, sy] = toScreen(pt[0], pt[1]);
+
+                ctx.beginPath();
+                ctx.arc(sx, sy, active ? 2.5 : 1.2, 0, Math.PI * 2);
+                const color = dimColor(mol.dominant);
+                ctx.fillStyle = active ? color : 'rgba(40,40,60,0.5)';
+                ctx.globalAlpha = active ? 0.7 : 0.15;
+                ctx.fill();
+            });
+            ctx.globalAlpha = 1;
+
+            // Hover tooltip
+            canvas.onmousemove = (e) => {
+                const cr = canvas.getBoundingClientRect();
+                const mx = e.clientX - cr.left;
+                const my = e.clientY - cr.top;
+
+                let closest = -1, minDist = 15;
+                emb.forEach((pt, i) => {
+                    const [sx, sy] = toScreen(pt[0], pt[1]);
+                    const d = Math.hypot(mx - sx, my - sy);
+                    if (d < minDist) { minDist = d; closest = i; }
+                });
+
+                const tip = document.getElementById('umapTooltip');
+                if (closest >= 0) {
+                    const mol = mols[closest];
+                    tip.style.display = 'block';
+                    tip.style.left = (e.clientX - cr.left + 12) + 'px';
+                    tip.style.top = (e.clientY - cr.top - 10) + 'px';
+                    tip.innerHTML = `<b style="color:${dimColor(mol.dominant)}">${mol.dominant}</b><br>
+        <span style="font-family:'JetBrains Mono',monospace;font-size:10px">${mol.smiles.substring(0, 35)}</span>`;
+                } else {
+                    tip.style.display = 'none';
+                }
+            };
+            canvas.onmouseleave = () => { document.getElementById('umapTooltip').style.display = 'none'; };
+        }
+
+        function setUmapFilter(f) { umapFilter = f; renderUmap(); }
+
+        function highlightOnUmap(smiles) {
+            // TODO: highlight the given molecule on the UMAP plot
+        }
+
+        // ===== DISCOVERY =====
+        async function discover() {
+            const q = document.getElementById('discoverInput').value.trim();
+            if (!q) return;
+
+            const cont = document.getElementById('discoverResults');
+            cont.innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+
+            try {
+                const res = await fetch(`${API}/api/engine/discover?query=${encodeURIComponent(q)}&top_k=8`);
+                const data = await res.json();
+
+                if (data.detail) throw new Error(data.detail);
+
+                document.getElementById('dbSize').textContent = (data.db_size || 0).toLocaleString();
+
+                let html = '';
+                if (data.negative_dims && data.negative_dims.length) {
+                    html += `<div style="font-size:11px;color:var(--accent-rose);margin-bottom:8px">
+        🚫 Negative filter: ${data.negative_dims.join(', ')} removed
+      </div>`;
+                }
+                html += `<div style="font-size:11px;color:var(--text-muted);margin-bottom:8px">
+      Query: ${data.query_desc || q} ${data.idf_applied ? '• TF-IDF weighted' : ''}
+    </div>`;
+
+                (data.results || []).forEach((m, i) => {
+                    const simPct = (m.similarity * 100).toFixed(1);
+                    const simColor = m.similarity > 0.7 ? 'var(--accent-emerald)' : m.similarity > 0.4 ? 'var(--accent-amber)' : 'var(--text-muted)';
+                    const dims = (m.top_dimensions || []).slice(0, 4).map(d => `${d[0]}=${d[1].toFixed(2)}`).join(', ');
+
+                    html += `<div class="disc-item animate-in" style="animation-delay:${i * 60}ms">
+        <div class="disc-rank">${i + 1}</div>
+        <div class="disc-info">
+          <div class="disc-smiles">${m.smiles}</div>
+          <div class="disc-dims">${dims}</div>
+        </div>
+        <span class="disc-dom" style="background:${dimColor(m.dominant)}22;color:${dimColor(m.dominant)}">${m.dominant}</span>
+        <span class="disc-sim" style="color:${simColor}">${simPct}%</span>
+      </div>`;
+                });
+
+                cont.innerHTML = html || '<div class="placeholder"><p>No results found</p></div>';
+            } catch (e) {
+                cont.innerHTML = `<div class="placeholder"><p style="color:var(--accent-rose)">Error: ${e.message}</p></div>`;
+            }
+        }
+
+        // Handle Enter keys
+        document.getElementById('smilesInput').addEventListener('keydown', e => { if (e.key === 'Enter') analyze(); });
+        document.getElementById('discoverInput').addEventListener('keydown', e => { if (e.key === 'Enter') discover(); });
+
+        // Init
+        loadUmap();
+    </script>
+</body>
+
+</html>

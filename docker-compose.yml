@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: perfumer-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: perfumer
+      POSTGRES_USER: perfumer
+      POSTGRES_PASSWORD: perfumer123
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./server/sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+
+volumes:
+  pgdata:

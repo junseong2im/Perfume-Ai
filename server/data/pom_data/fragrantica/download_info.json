@@ -1,0 +1,20 @@
+{
+  "source": "Fragrantica.com via Kaggle",
+  "url": "https://www.kaggle.com/datasets/miufana1/fragranticacom-fragrance-dataset",
+  "expected_columns": [
+    "Name",
+    "Brand",
+    "Year",
+    "Rating",
+    "Votes",
+    "Top Notes",
+    "Middle Notes",
+    "Base Notes",
+    "Main Accords",
+    "Gender",
+    "Season"
+  ],
+  "expected_rows": "40,000+",
+  "usage": "노트 조합 → 평점 예측 모델 학습",
+  "instruction": "fra_cleaned.csv를 이 폴더에 다운로드하세요"
+}

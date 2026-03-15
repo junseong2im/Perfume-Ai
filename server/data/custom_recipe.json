@@ -1,0 +1,73 @@
+{
+  "request": "고급스러운 남성용 우디 향수",
+  "preferred_categories": [
+    "woody",
+    "leather",
+    "spicy",
+    "amber",
+    "herbal"
+  ],
+  "moods": [
+    "masculine",
+    "luxurious",
+    "woody"
+  ],
+  "engine": "SelfPlayRL (PPO)",
+  "recipes": [
+    {
+      "rank": 1,
+      "customer_score": 1.0498,
+      "reward": 1.3687,
+      "hedonic": 0.778,
+      "longevity_hours": 8.0,
+      "smoothness": 1.0,
+      "active_receptors": 405,
+      "match_ratio": 0.5714285714285714,
+      "ingredients": [
+        {
+          "id": "ambrocenide",
+          "name_ko": "앰브로세나이드",
+          "category": "amber",
+          "percentage": 5.45
+        },
+        {
+          "id": "rooibos",
+          "name_ko": "루이보스",
+          "category": "green",
+          "percentage": 3.47
+        },
+        {
+          "id": "okoumal",
+          "name_ko": "오쿠말",
+          "category": "woody",
+          "percentage": 5.75
+        },
+        {
+          "id": "shiso",
+          "name_ko": "깻잎",
+          "category": "herbal",
+          "percentage": 5.52
+        },
+        {
+          "id": "petrichor",
+          "name_ko": "페트리코르",
+          "category": "earthy",
+          "percentage": 4.64
+        },
+        {
+          "id": "timberol",
+          "name_ko": "팀버롤",
+          "category": "amber",
+          "percentage": 4.89
+        },
+        {
+          "id": "vanillin",
+          "name_ko": "바닐린",
+          "category": "synthetic",
+          "percentage": 2.63
+        }
+      ],
+      "generation": 200
+    }
+  ]
+}

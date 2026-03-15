@@ -1,0 +1,9 @@
+{
+  "phase": 3,
+  "ensemble_test_auroc": 0.7274407957617026,
+  "individual_val_avg": 0.7473347870748365,
+  "n_models": 1,
+  "n_tasks_evaluated": 101,
+  "total_molecules": 28101,
+  "phase1_reference": 0.789
+}

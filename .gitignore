@@ -1,0 +1,78 @@
+# ================================================
+# AI Perfumery System — .gitignore
+# ================================================
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ===== Virtual Environment =====
+server/openpom_env/
+venv/
+env/
+.venv/
+
+# ===== Model Weights (too large for Git) =====
+# Use Git LFS or host separately
+*.pt
+*.pth
+*.bin
+*.pkl
+*.h5
+*.onnx
+*.safetensors
+server/weights/
+server/models/openpom_ensemble/
+server/models/*.pt
+server/data/bert_cache.*
+server/data/rl_model.*
+
+# ===== Large Data Files =====
+server/data/pom_data/pyrfume_all/
+server/data/pom_data/pyrfume_labels/
+server/data/pom_upgrade/new_embeddings_138d.json
+*.csv.gz
+*.tar.gz
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ===== Logs & Temp =====
+*.log
+/tmp/
+.tmp/
+npm-debug.log*
+
+# ===== Node (if any frontend deps) =====
+node_modules/
+package-lock.json
+
+# ===== Docker =====
+docker-compose.override.yml
+
+# ===== Secrets =====
+.env
+.env.local
+*.key
+*.pem
+
+# ===== Gemini/Antigravity Agent =====
+.gemini/
+.agent/

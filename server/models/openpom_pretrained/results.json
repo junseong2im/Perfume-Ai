@@ -1,0 +1,8 @@
+{
+  "approach": "pretrain_mega_finetune_gslf",
+  "ensemble_test_auroc": 0.7409101865677514,
+  "individual_val_avg": 0.7800696246413091,
+  "n_models": 10,
+  "phase1_reference": 0.789,
+  "improvement": -0.04808981343224861
+}

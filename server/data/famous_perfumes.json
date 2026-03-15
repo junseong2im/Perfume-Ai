@@ -1,0 +1,9042 @@
+[
+ {
+  "name": "No.5",
+  "brand": "Chanel",
+  "year": 1921,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "floral",
+  "top_notes": [
+   "aldehyde",
+   "bergamot",
+   "lemon",
+   "neroli"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "ylang_ylang",
+   "iris"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "vetiver",
+   "vanilla",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "floral",
+   "powdery",
+   "aldehyde"
+  ]
+ },
+ {
+  "name": "Shalimar",
+  "brand": "Guerlain",
+  "year": 1925,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "iris"
+  ],
+  "base_notes": [
+   "vanilla",
+   "tonka_bean",
+   "opoponax",
+   "sandalwood",
+   "musk"
+  ],
+  "accords": [
+   "oriental",
+   "vanilla",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Joy",
+  "brand": "Jean Patou",
+  "year": 1930,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "tuberose",
+   "aldehyde",
+   "green_tea"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "civet"
+  ],
+  "accords": [
+   "floral",
+   "white_floral"
+  ]
+ },
+ {
+  "name": "L'Air du Temps",
+  "brand": "Nina Ricci",
+  "year": 1948,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "rosemary",
+   "carnation"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "violet"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "cedarwood",
+   "iris"
+  ],
+  "accords": [
+   "floral",
+   "spicy",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Mitsouko",
+  "brand": "Guerlain",
+  "year": 1919,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "chypre",
+  "top_notes": [
+   "bergamot",
+   "peach",
+   "lemon"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "clove"
+  ],
+  "base_notes": [
+   "oakmoss",
+   "vetiver",
+   "amber",
+   "cinnamon"
+  ],
+  "accords": [
+   "chypre",
+   "fruity",
+   "woody"
+  ]
+ },
+ {
+  "name": "Sauvage",
+  "brand": "Dior",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "black_pepper"
+  ],
+  "middle_notes": [
+   "lavender",
+   "star_anise",
+   "nutmeg"
+  ],
+  "base_notes": [
+   "ambroxan",
+   "cedarwood",
+   "vetiver"
+  ],
+  "accords": [
+   "fresh",
+   "aromatic",
+   "woody"
+  ]
+ },
+ {
+  "name": "Bleu de Chanel",
+  "brand": "Chanel",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.2,
+  "style": "woody",
+  "top_notes": [
+   "grapefruit",
+   "lemon",
+   "mint"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "iso_e_super",
+   "ginger"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "cedarwood",
+   "vetiver",
+   "incense"
+  ],
+  "accords": [
+   "woody",
+   "aromatic",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Aventus",
+  "brand": "Creed",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "fresh",
+  "top_notes": [
+   "pineapple",
+   "bergamot",
+   "black_currant_bud",
+   "apple"
+  ],
+  "middle_notes": [
+   "birch",
+   "jasmine",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "oakmoss",
+   "ambergris",
+   "vanilla"
+  ],
+  "accords": [
+   "fruity",
+   "smoky",
+   "woody"
+  ]
+ },
+ {
+  "name": "La Vie Est Belle",
+  "brand": "Lancome",
+  "year": 2012,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "black_currant_bud",
+   "pear"
+  ],
+  "middle_notes": [
+   "iris",
+   "jasmine",
+   "orange_blossom"
+  ],
+  "base_notes": [
+   "praline",
+   "vanilla",
+   "patchouli",
+   "tonka_bean"
+  ],
+  "accords": [
+   "sweet",
+   "gourmand",
+   "floral"
+  ]
+ },
+ {
+  "name": "Black Opium",
+  "brand": "YSL",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "pink_pepper",
+   "orange",
+   "pear"
+  ],
+  "middle_notes": [
+   "coffee",
+   "jasmine"
+  ],
+  "base_notes": [
+   "vanilla",
+   "cedarwood",
+   "patchouli"
+  ],
+  "accords": [
+   "sweet",
+   "vanilla",
+   "coffee"
+  ]
+ },
+ {
+  "name": "Coco Mademoiselle",
+  "brand": "Chanel",
+  "year": 2001,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "orange",
+   "bergamot",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "lychee"
+  ],
+  "base_notes": [
+   "vetiver",
+   "patchouli",
+   "vanilla",
+   "musk"
+  ],
+  "accords": [
+   "citrus",
+   "floral",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Light Blue",
+  "brand": "D&G",
+  "year": 2001,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "apple",
+   "lemon",
+   "cedar"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "bamboo",
+   "rose"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "floral"
+  ]
+ },
+ {
+  "name": "Acqua di Gio",
+  "brand": "Armani",
+  "year": 1996,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "lime",
+   "lemon",
+   "bergamot",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "calone",
+   "rosemary"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "amber",
+   "patchouli"
+  ],
+  "accords": [
+   "aquatic",
+   "fresh",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Angel",
+  "brand": "Mugler",
+  "year": 1992,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "coconut",
+   "pineapple"
+  ],
+  "middle_notes": [
+   "honey",
+   "chocolate",
+   "caramel"
+  ],
+  "base_notes": [
+   "vanilla",
+   "patchouli",
+   "tonka_bean"
+  ],
+  "accords": [
+   "sweet",
+   "gourmand",
+   "oriental"
+  ]
+ },
+ {
+  "name": "Terre d'Hermes",
+  "brand": "Hermes",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.2,
+  "style": "woody",
+  "top_notes": [
+   "grapefruit",
+   "orange"
+  ],
+  "middle_notes": [
+   "black_pepper",
+   "geranium"
+  ],
+  "base_notes": [
+   "vetiver",
+   "cedarwood",
+   "benzoin"
+  ],
+  "accords": [
+   "earthy",
+   "woody",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Aventus",
+  "brand": "Creed",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "black_currant_bud",
+   "apple",
+   "pineapple"
+  ],
+  "middle_notes": [
+   "birch",
+   "jasmine",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "oakmoss",
+   "vanilla",
+   "ambergris"
+  ],
+  "accords": [
+   "fruity",
+   "woody",
+   "smoky"
+  ]
+ },
+ {
+  "name": "Baccarat Rouge 540",
+  "brand": "MFK",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "saffron",
+   "jasmine"
+  ],
+  "middle_notes": [
+   "ambergris",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "amber",
+   "musk",
+   "cashmeran"
+  ],
+  "accords": [
+   "sweet",
+   "amber",
+   "woody"
+  ]
+ },
+ {
+  "name": "Grand Soir",
+  "brand": "MFK",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "cinnamon",
+   "nutmeg"
+  ],
+  "middle_notes": [
+   "benzoin",
+   "amber"
+  ],
+  "base_notes": [
+   "vanilla",
+   "tonka_bean",
+   "musk"
+  ],
+  "accords": [
+   "amber",
+   "vanilla",
+   "warm"
+  ]
+ },
+ {
+  "name": "Santal 33",
+  "brand": "Le Labo",
+  "year": 2011,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "cardamom",
+   "violet"
+  ],
+  "middle_notes": [
+   "iris",
+   "ambroxan"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "cedarwood",
+   "leather",
+   "musk"
+  ],
+  "accords": [
+   "woody",
+   "leather",
+   "smoky"
+  ]
+ },
+ {
+  "name": "Rose 31",
+  "brand": "Le Labo",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "floral",
+  "top_notes": [
+   "cumin",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "rose",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "vetiver",
+   "amber",
+   "musk",
+   "guaiac_wood"
+  ],
+  "accords": [
+   "rose",
+   "woody",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Oud Wood",
+  "brand": "Tom Ford",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "woody",
+  "top_notes": [
+   "rosewood",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "agarwood_oud",
+   "sandalwood"
+  ],
+  "base_notes": [
+   "vetiver",
+   "tonka_bean",
+   "amber"
+  ],
+  "accords": [
+   "oud",
+   "woody",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Tobacco Vanille",
+  "brand": "Tom Ford",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "tobacco",
+   "star_anise"
+  ],
+  "middle_notes": [
+   "tonka_bean",
+   "vanilla",
+   "cocoa"
+  ],
+  "base_notes": [
+   "plum",
+   "honey",
+   "musk"
+  ],
+  "accords": [
+   "tobacco",
+   "vanilla",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Lost Cherry",
+  "brand": "Tom Ford",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "cherry",
+   "bitter_almond"
+  ],
+  "middle_notes": [
+   "cherry_blossom",
+   "rose",
+   "jasmine"
+  ],
+  "base_notes": [
+   "tonka_bean",
+   "sandalwood",
+   "vanilla",
+   "peru_balsam"
+  ],
+  "accords": [
+   "fruity",
+   "sweet",
+   "cherry"
+  ]
+ },
+ {
+  "name": "Noir de Noir",
+  "brand": "Tom Ford",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "saffron",
+   "rose"
+  ],
+  "middle_notes": [
+   "black_pepper",
+   "truffle"
+  ],
+  "base_notes": [
+   "oud",
+   "vanilla",
+   "patchouli",
+   "oakmoss"
+  ],
+  "accords": [
+   "oud",
+   "rose",
+   "earthy"
+  ]
+ },
+ {
+  "name": "Gypsy Water",
+  "brand": "Byredo",
+  "year": 2008,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "woody",
+  "top_notes": [
+   "bergamot",
+   "juniper_berry",
+   "lemon"
+  ],
+  "middle_notes": [
+   "incense",
+   "pine_needle"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "vanilla",
+   "amber"
+  ],
+  "accords": [
+   "woody",
+   "citrus",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Mojave Ghost",
+  "brand": "Byredo",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "ambrette",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "magnolia",
+   "violet"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "sandalwood",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "floral",
+   "woody",
+   "musky"
+  ]
+ },
+ {
+  "name": "Bal d'Afrique",
+  "brand": "Byredo",
+  "year": 2009,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "neroli"
+  ],
+  "middle_notes": [
+   "violet",
+   "jasmine",
+   "cyclamen_aldehyde"
+  ],
+  "base_notes": [
+   "vetiver",
+   "musk",
+   "cedarwood",
+   "amber"
+  ],
+  "accords": [
+   "floral",
+   "woody",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Not a Perfume",
+  "brand": "Juliette Has a Gun",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 3.7,
+  "style": "woody",
+  "top_notes": [
+   "ambroxan"
+  ],
+  "middle_notes": [
+   "ambroxan"
+  ],
+  "base_notes": [
+   "ambroxan"
+  ],
+  "accords": [
+   "woody",
+   "musky",
+   "amber"
+  ]
+ },
+ {
+  "name": "Aventus for Her",
+  "brand": "Creed",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "apple",
+   "bergamot",
+   "lemon",
+   "peach"
+  ],
+  "middle_notes": [
+   "rose",
+   "sandalwood",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "musk",
+   "amber",
+   "styrax"
+  ],
+  "accords": [
+   "fruity",
+   "floral",
+   "musky"
+  ]
+ },
+ {
+  "name": "Tuscan Leather",
+  "brand": "Tom Ford",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "leather",
+  "top_notes": [
+   "raspberry",
+   "saffron",
+   "thyme"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "leather"
+  ],
+  "base_notes": [
+   "suede",
+   "amber",
+   "vanilla",
+   "oakmoss"
+  ],
+  "accords": [
+   "leather",
+   "raspberry",
+   "smoky"
+  ]
+ },
+ {
+  "name": "Neroli Portofino",
+  "brand": "Tom Ford",
+  "year": 2011,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "mandarin",
+   "neroli"
+  ],
+  "middle_notes": [
+   "orange_blossom",
+   "jasmine"
+  ],
+  "base_notes": [
+   "amber",
+   "musk",
+   "angelica"
+  ],
+  "accords": [
+   "citrus",
+   "aromatic",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Black Orchid",
+  "brand": "Tom Ford",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "truffle",
+   "bergamot",
+   "black_currant_bud"
+  ],
+  "middle_notes": [
+   "ylang_ylang",
+   "jasmine",
+   "lotus"
+  ],
+  "base_notes": [
+   "patchouli",
+   "vanilla",
+   "vetiver",
+   "sandalwood"
+  ],
+  "accords": [
+   "oriental",
+   "floral",
+   "earthy"
+  ]
+ },
+ {
+  "name": "Acqua di Parma Colonia",
+  "brand": "Acqua di Parma",
+  "year": 1916,
+  "concentration": "EDC",
+  "longevity": 2,
+  "sillage": 2,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "orange",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "lavender",
+   "rosemary",
+   "verbena"
+  ],
+  "base_notes": [
+   "vetiver",
+   "sandalwood",
+   "patchouli",
+   "musk"
+  ],
+  "accords": [
+   "citrus",
+   "aromatic",
+   "fresh"
+  ]
+ },
+ {
+  "name": "CK One",
+  "brand": "Calvin Klein",
+  "year": 1994,
+  "concentration": "EDT",
+  "longevity": 2,
+  "sillage": 2,
+  "rating": 3.5,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "mandarin",
+   "pineapple"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "violet",
+   "rose",
+   "nutmeg"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood",
+   "amber",
+   "sandalwood"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "green"
+  ]
+ },
+ {
+  "name": "Green Irish Tweed",
+  "brand": "Creed",
+  "year": 1985,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "fresh",
+  "top_notes": [
+   "lemon",
+   "verbena",
+   "mint"
+  ],
+  "middle_notes": [
+   "violet_leaf",
+   "iris"
+  ],
+  "base_notes": [
+   "ambergris",
+   "sandalwood",
+   "musk"
+  ],
+  "accords": [
+   "green",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Eau Sauvage",
+  "brand": "Dior",
+  "year": 1966,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "basil"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "coriander"
+  ],
+  "base_notes": [
+   "vetiver",
+   "oakmoss",
+   "musk"
+  ],
+  "accords": [
+   "citrus",
+   "aromatic",
+   "fresh"
+  ]
+ },
+ {
+  "name": "4711",
+  "brand": "Maurer & Wirtz",
+  "year": 1792,
+  "concentration": "EDC",
+  "longevity": 1,
+  "sillage": 1,
+  "rating": 3.5,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "orange"
+  ],
+  "middle_notes": [
+   "neroli",
+   "rosemary"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "herbal"
+  ]
+ },
+ {
+  "name": "Opium",
+  "brand": "YSL",
+  "year": 1977,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "mandarin",
+   "bergamot",
+   "clove"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "carnation",
+   "cinnamon"
+  ],
+  "base_notes": [
+   "vanilla",
+   "amber",
+   "sandalwood",
+   "patchouli",
+   "musk"
+  ],
+  "accords": [
+   "oriental",
+   "spicy",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Obsession",
+  "brand": "Calvin Klein",
+  "year": 1985,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.6,
+  "style": "oriental",
+  "top_notes": [
+   "mandarin",
+   "bergamot",
+   "vanilla"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "orange_blossom",
+   "coriander"
+  ],
+  "base_notes": [
+   "amber",
+   "sandalwood",
+   "musk",
+   "vetiver"
+  ],
+  "accords": [
+   "oriental",
+   "amber",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Spicebomb",
+  "brand": "Viktor&Rolf",
+  "year": 2012,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "grapefruit",
+   "pink_pepper"
+  ],
+  "middle_notes": [
+   "cinnamon",
+   "saffron",
+   "cardamom"
+  ],
+  "base_notes": [
+   "tobacco",
+   "leather",
+   "vetiver"
+  ],
+  "accords": [
+   "spicy",
+   "sweet",
+   "tobacco"
+  ]
+ },
+ {
+  "name": "The One",
+  "brand": "D&G",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "grapefruit",
+   "coriander",
+   "basil"
+  ],
+  "middle_notes": [
+   "cardamom",
+   "ginger",
+   "orange_blossom"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "amber",
+   "tobacco",
+   "musk"
+  ],
+  "accords": [
+   "sweet",
+   "spicy",
+   "amber"
+  ]
+ },
+ {
+  "name": "1 Million",
+  "brand": "Paco Rabanne",
+  "year": 2008,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "grapefruit",
+   "blood_orange",
+   "mint"
+  ],
+  "middle_notes": [
+   "cinnamon",
+   "rose"
+  ],
+  "base_notes": [
+   "leather",
+   "amber",
+   "vanilla",
+   "cashmeran"
+  ],
+  "accords": [
+   "sweet",
+   "spicy",
+   "leather"
+  ]
+ },
+ {
+  "name": "Jazz Club",
+  "brand": "Maison Margiela",
+  "year": 2013,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "pink_pepper",
+   "lemon",
+   "neroli"
+  ],
+  "middle_notes": [
+   "clary_sage",
+   "rum",
+   "vetiver"
+  ],
+  "base_notes": [
+   "tobacco",
+   "vanilla",
+   "tonka_bean",
+   "styrax"
+  ],
+  "accords": [
+   "tobacco",
+   "sweet",
+   "boozy"
+  ]
+ },
+ {
+  "name": "Tam Dao",
+  "brand": "Diptyque",
+  "year": 2003,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "woody",
+  "top_notes": [
+   "rosewood",
+   "myrtle",
+   "cypress"
+  ],
+  "middle_notes": [
+   "cedarwood",
+   "sandalwood"
+  ],
+  "base_notes": [
+   "musk",
+   "ambergris",
+   "sandalwood"
+  ],
+  "accords": [
+   "woody",
+   "sandalwood",
+   "creamy"
+  ]
+ },
+ {
+  "name": "Encre Noire",
+  "brand": "Lalique",
+  "year": 2006,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.2,
+  "style": "woody",
+  "top_notes": [
+   "cypress"
+  ],
+  "middle_notes": [
+   "vetiver",
+   "iso_e_super"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "cashmeran"
+  ],
+  "accords": [
+   "woody",
+   "earthy",
+   "green"
+  ]
+ },
+ {
+  "name": "Fahrenheit",
+  "brand": "Dior",
+  "year": 1988,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "lavender",
+   "mandarin",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "violet_leaf",
+   "nutmeg",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "leather",
+   "vetiver",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "woody",
+   "leather",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Polo Green",
+  "brand": "Ralph Lauren",
+  "year": 1978,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "juniper_berry",
+   "basil",
+   "artemisia"
+  ],
+  "middle_notes": [
+   "pine_needle",
+   "chamomile_roman",
+   "thyme"
+  ],
+  "base_notes": [
+   "leather",
+   "oakmoss",
+   "patchouli",
+   "musk"
+  ],
+  "accords": [
+   "green",
+   "woody",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Royal Oud",
+  "brand": "Creed",
+  "year": 2011,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "lemon",
+   "bergamot",
+   "pink_pepper"
+  ],
+  "middle_notes": [
+   "galbanum",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "agarwood_oud",
+   "sandalwood",
+   "musk",
+   "tonka_bean"
+  ],
+  "accords": [
+   "woody",
+   "oud",
+   "smoky"
+  ]
+ },
+ {
+  "name": "J'adore",
+  "brand": "Dior",
+  "year": 1999,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "mandarin",
+   "bergamot",
+   "magnolia"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "ylang_ylang",
+   "violet"
+  ],
+  "base_notes": [
+   "musk",
+   "vanilla",
+   "cedarwood",
+   "blackcurrant"
+  ],
+  "accords": [
+   "floral",
+   "fruity",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Flowerbomb",
+  "brand": "Viktor&Rolf",
+  "year": 2005,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "green_tea"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "freesia",
+   "osmanthus"
+  ],
+  "base_notes": [
+   "patchouli",
+   "musk",
+   "vanilla",
+   "cedarwood"
+  ],
+  "accords": [
+   "floral",
+   "sweet",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Miss Dior",
+  "brand": "Dior",
+  "year": 2012,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "mandarin",
+   "blood_orange"
+  ],
+  "middle_notes": [
+   "rose",
+   "peony",
+   "jasmine",
+   "lily_of_valley"
+  ],
+  "base_notes": [
+   "patchouli",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "floral",
+   "fresh",
+   "green"
+  ]
+ },
+ {
+  "name": "Daisy",
+  "brand": "Marc Jacobs",
+  "year": 2007,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 2,
+  "rating": 3.8,
+  "style": "floral",
+  "top_notes": [
+   "strawberry",
+   "violet",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "gardenia",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "vanilla",
+   "cedarwood"
+  ],
+  "accords": [
+   "floral",
+   "fruity",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Gucci Bloom",
+  "brand": "Gucci",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "jasmine",
+   "tuberose"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "tuberose",
+   "rose"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "orris_butter"
+  ],
+  "accords": [
+   "white_floral",
+   "tuberose",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Si",
+  "brand": "Armani",
+  "year": 2013,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "black_currant_bud",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "rose",
+   "freesia",
+   "osmanthus"
+  ],
+  "base_notes": [
+   "vanilla",
+   "patchouli",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "sweet",
+   "floral",
+   "fruity"
+  ]
+ },
+ {
+  "name": "By the Fireplace",
+  "brand": "Maison Margiela",
+  "year": 2015,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "clove",
+   "pink_pepper",
+   "orange"
+  ],
+  "middle_notes": [
+   "almond",
+   "guaiac_wood"
+  ],
+  "base_notes": [
+   "vanilla",
+   "cashmeran",
+   "cedarwood",
+   "benzoin"
+  ],
+  "accords": [
+   "smoky",
+   "sweet",
+   "woody"
+  ]
+ },
+ {
+  "name": "Lira",
+  "brand": "Xerjoff",
+  "year": 2012,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.4,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "orange",
+   "lavender"
+  ],
+  "middle_notes": [
+   "caramel",
+   "vanilla",
+   "tonka_bean"
+  ],
+  "base_notes": [
+   "musk",
+   "sandalwood",
+   "benzoin"
+  ],
+  "accords": [
+   "gourmand",
+   "sweet",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Hypnotic Poison",
+  "brand": "Dior",
+  "year": 1998,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "apricot",
+   "plum",
+   "coconut"
+  ],
+  "middle_notes": [
+   "tuberose",
+   "jasmine",
+   "rose",
+   "lily_of_valley"
+  ],
+  "base_notes": [
+   "vanilla",
+   "sandalwood",
+   "musk",
+   "almond"
+  ],
+  "accords": [
+   "sweet",
+   "almond",
+   "vanilla"
+  ]
+ },
+ {
+  "name": "Drakkar Noir",
+  "brand": "Guy Laroche",
+  "year": 1982,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.7,
+  "style": "fougere",
+  "top_notes": [
+   "lavender",
+   "bergamot",
+   "lemon",
+   "artemisia"
+  ],
+  "middle_notes": [
+   "coriander",
+   "juniper_berry",
+   "cinnamon"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "patchouli",
+   "oakmoss",
+   "leather",
+   "musk"
+  ],
+  "accords": [
+   "aromatic",
+   "woody",
+   "herbal"
+  ]
+ },
+ {
+  "name": "Cool Water",
+  "brand": "Davidoff",
+  "year": 1988,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.7,
+  "style": "fresh",
+  "top_notes": [
+   "mint",
+   "lavender",
+   "coriander",
+   "rosemary"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "sandalwood",
+   "geranium"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "amber",
+   "oakmoss",
+   "tobacco"
+  ],
+  "accords": [
+   "aquatic",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Dior Homme Intense",
+  "brand": "Dior",
+  "year": 2011,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.3,
+  "style": "floral",
+  "top_notes": [
+   "lavender",
+   "bergamot",
+   "pear"
+  ],
+  "middle_notes": [
+   "iris",
+   "rose",
+   "vanilla"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "vetiver",
+   "musk",
+   "leather"
+  ],
+  "accords": [
+   "iris",
+   "floral",
+   "woody"
+  ]
+ },
+ {
+  "name": "L'Homme",
+  "brand": "YSL",
+  "year": 2006,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "ginger",
+   "lemon"
+  ],
+  "middle_notes": [
+   "basil",
+   "violet_leaf"
+  ],
+  "base_notes": [
+   "vetiver",
+   "cedarwood",
+   "tonka_bean"
+  ],
+  "accords": [
+   "fresh",
+   "spicy",
+   "woody"
+  ]
+ },
+ {
+  "name": "Versace Pour Homme",
+  "brand": "Versace",
+  "year": 2008,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "neroli"
+  ],
+  "middle_notes": [
+   "cedarwood",
+   "sage",
+   "amber"
+  ],
+  "base_notes": [
+   "musk",
+   "sandalwood",
+   "amber"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Ombre Leather",
+  "brand": "Tom Ford",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "leather",
+  "top_notes": [
+   "cardamom",
+   "violet"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "leather"
+  ],
+  "base_notes": [
+   "patchouli",
+   "amber",
+   "musk",
+   "moss"
+  ],
+  "accords": [
+   "leather",
+   "woody",
+   "dark"
+  ]
+ },
+ {
+  "name": "Philosykos",
+  "brand": "Diptyque",
+  "year": 1996,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 2,
+  "rating": 4.1,
+  "style": "green",
+  "top_notes": [
+   "fig",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "fig",
+   "coconut"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "green",
+   "fig",
+   "woody"
+  ]
+ },
+ {
+  "name": "Portrait of a Lady",
+  "brand": "FM",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "cinnamon",
+   "clove",
+   "pink_pepper",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "rose",
+   "patchouli"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "amber",
+   "frankincense",
+   "benzoin"
+  ],
+  "accords": [
+   "rose",
+   "spicy",
+   "woody"
+  ]
+ },
+ {
+  "name": "Musc Ravageur",
+  "brand": "FM",
+  "year": 2000,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "mandarin",
+   "lavender"
+  ],
+  "middle_notes": [
+   "cinnamon",
+   "clove",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "vanilla",
+   "sandalwood",
+   "tonka_bean",
+   "amber",
+   "patchouli"
+  ],
+  "accords": [
+   "musk",
+   "vanilla",
+   "spicy"
+  ]
+ },
+ {
+  "name": "En Passant",
+  "brand": "FM",
+  "year": 2000,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 2,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "galbanum"
+  ],
+  "middle_notes": [
+   "lilac",
+   "iris",
+   "melon"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood",
+   "heliotrope"
+  ],
+  "accords": [
+   "floral",
+   "lilac",
+   "green"
+  ]
+ },
+ {
+  "name": "Iris Poudre",
+  "brand": "FM",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "floral",
+  "top_notes": [
+   "mandarin",
+   "pink_pepper"
+  ],
+  "middle_notes": [
+   "iris",
+   "rose",
+   "violet"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "vetiver",
+   "musk",
+   "vanilla",
+   "amber"
+  ],
+  "accords": [
+   "iris",
+   "powdery",
+   "woody"
+  ]
+ },
+ {
+  "name": "Reflection Man",
+  "brand": "Amouage",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.2,
+  "style": "floral",
+  "top_notes": [
+   "rosemary",
+   "pink_pepper",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "neroli",
+   "iris",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "cedarwood",
+   "vetiver",
+   "musk"
+  ],
+  "accords": [
+   "floral",
+   "jasmine",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Interlude Man",
+  "brand": "Amouage",
+  "year": 2012,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "oregano",
+   "black_pepper"
+  ],
+  "middle_notes": [
+   "frankincense",
+   "myrrh",
+   "amber"
+  ],
+  "base_notes": [
+   "agarwood_oud",
+   "sandalwood",
+   "cedarwood",
+   "musk",
+   "leather"
+  ],
+  "accords": [
+   "smoky",
+   "incense",
+   "oud"
+  ]
+ },
+ {
+  "name": "Jubilation XXV",
+  "brand": "Amouage",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "frankincense",
+   "coriander",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "rose",
+   "guaiac_wood",
+   "labdanum"
+  ],
+  "base_notes": [
+   "opoponax",
+   "myrrh",
+   "musk",
+   "cedarwood",
+   "honey"
+  ],
+  "accords": [
+   "oriental",
+   "resinous",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Wood Sage & Sea Salt",
+  "brand": "Jo Malone",
+  "year": 2014,
+  "concentration": "EDT",
+  "longevity": 2,
+  "sillage": 2,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "sea_salt",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "sage",
+   "clary_sage"
+  ],
+  "base_notes": [
+   "driftwood",
+   "cedarwood",
+   "musk"
+  ],
+  "accords": [
+   "fresh",
+   "salty",
+   "woody"
+  ]
+ },
+ {
+  "name": "Peony & Blush Suede",
+  "brand": "Jo Malone",
+  "year": 2013,
+  "concentration": "EDC",
+  "longevity": 2,
+  "sillage": 2,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "apple",
+   "peony"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "carnation"
+  ],
+  "base_notes": [
+   "suede",
+   "musk"
+  ],
+  "accords": [
+   "floral",
+   "fruity",
+   "sweet"
+  ]
+ },
+ {
+  "name": "English Pear & Freesia",
+  "brand": "Jo Malone",
+  "year": 2010,
+  "concentration": "EDT",
+  "longevity": 2,
+  "sillage": 2,
+  "rating": 4.0,
+  "style": "fruity",
+  "top_notes": [
+   "pear",
+   "melon"
+  ],
+  "middle_notes": [
+   "freesia",
+   "rose"
+  ],
+  "base_notes": [
+   "patchouli",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "fruity",
+   "floral",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Pomegranate Noir",
+  "brand": "Jo Malone",
+  "year": 2005,
+  "concentration": "EDC",
+  "longevity": 2,
+  "sillage": 2,
+  "rating": 3.8,
+  "style": "oriental",
+  "top_notes": [
+   "pomegranate",
+   "raspberry",
+   "plum"
+  ],
+  "middle_notes": [
+   "pink_pepper",
+   "lily_of_valley"
+  ],
+  "base_notes": [
+   "patchouli",
+   "frankincense",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "fruity",
+   "dark",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Lime Basil & Mandarin",
+  "brand": "Jo Malone",
+  "year": 1999,
+  "concentration": "EDC",
+  "longevity": 2,
+  "sillage": 2,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "lime",
+   "mandarin",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "basil",
+   "thyme"
+  ],
+  "base_notes": [
+   "vetiver",
+   "musk"
+  ],
+  "accords": [
+   "citrus",
+   "herbal",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Cloud",
+  "brand": "Ariana Grande",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "lavender",
+   "bergamot",
+   "pear",
+   "coconut"
+  ],
+  "middle_notes": [
+   "praline",
+   "vanilla",
+   "coconut"
+  ],
+  "base_notes": [
+   "musk",
+   "cashmeran",
+   "cedarwood",
+   "vanilla"
+  ],
+  "accords": [
+   "sweet",
+   "creamy",
+   "musky"
+  ]
+ },
+ {
+  "name": "Good Girl",
+  "brand": "Carolina Herrera",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "almond",
+   "coffee",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "tuberose",
+   "rose"
+  ],
+  "base_notes": [
+   "tonka_bean",
+   "cocoa",
+   "vanilla",
+   "sandalwood",
+   "cedarwood"
+  ],
+  "accords": [
+   "sweet",
+   "floral",
+   "oriental"
+  ]
+ },
+ {
+  "name": "Libre",
+  "brand": "YSL",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "fougere",
+  "top_notes": [
+   "lavender",
+   "mandarin",
+   "black_currant_bud",
+   "petitgrain"
+  ],
+  "middle_notes": [
+   "lavender",
+   "orange_blossom",
+   "jasmine"
+  ],
+  "base_notes": [
+   "vanilla",
+   "musk",
+   "cedarwood",
+   "ambergris"
+  ],
+  "accords": [
+   "floral",
+   "fougere",
+   "sweet"
+  ]
+ },
+ {
+  "name": "My Way",
+  "brand": "Armani",
+  "year": 2020,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "orange_blossom"
+  ],
+  "middle_notes": [
+   "tuberose",
+   "jasmine"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "vanilla",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "floral",
+   "tuberose",
+   "musky"
+  ]
+ },
+ {
+  "name": "Baccarat Rouge 540 Extrait",
+  "brand": "MFK",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "saffron",
+   "bitter_almond"
+  ],
+  "middle_notes": [
+   "cedarwood",
+   "ambroxan"
+  ],
+  "base_notes": [
+   "amber",
+   "sandalwood",
+   "musk",
+   "vanilla"
+  ],
+  "accords": [
+   "amber",
+   "sweet",
+   "woody"
+  ]
+ },
+ {
+  "name": "Eros",
+  "brand": "Versace",
+  "year": 2012,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "mint",
+   "green_apple",
+   "lemon",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "tonka_bean",
+   "ambroxan",
+   "geranium"
+  ],
+  "base_notes": [
+   "vanilla",
+   "vetiver",
+   "oakmoss",
+   "cedarwood"
+  ],
+  "accords": [
+   "sweet",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Invictus",
+  "brand": "Paco Rabanne",
+  "year": 2013,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "mandarin",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "bay_leaf",
+   "jasmine"
+  ],
+  "base_notes": [
+   "ambroxan",
+   "oakmoss",
+   "cashmeran",
+   "guaiac_wood"
+  ],
+  "accords": [
+   "aquatic",
+   "fresh",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Y",
+  "brand": "YSL",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "apple",
+   "bergamot",
+   "ginger"
+  ],
+  "middle_notes": [
+   "sage",
+   "juniper_berry"
+  ],
+  "base_notes": [
+   "ambroxan",
+   "cedarwood",
+   "vetiver",
+   "tonka_bean"
+  ],
+  "accords": [
+   "fresh",
+   "aromatic",
+   "woody"
+  ]
+ },
+ {
+  "name": "Scandal",
+  "brand": "JPG",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "blood_orange",
+   "mandarin",
+   "honey"
+  ],
+  "middle_notes": [
+   "gardenia",
+   "jasmine",
+   "rose"
+  ],
+  "base_notes": [
+   "patchouli",
+   "vanilla",
+   "caramel",
+   "beeswax"
+  ],
+  "accords": [
+   "sweet",
+   "floral",
+   "honey"
+  ]
+ },
+ {
+  "name": "Good Girl Supreme",
+  "brand": "Carolina Herrera",
+  "year": 2020,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "raspberry",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "tonka_bean",
+   "vanilla",
+   "cedarwood",
+   "sandalwood"
+  ],
+  "accords": [
+   "fruity",
+   "sweet",
+   "floral"
+  ]
+ },
+ {
+  "name": "Mon Paris",
+  "brand": "YSL",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "floral",
+  "top_notes": [
+   "strawberry",
+   "raspberry",
+   "pear"
+  ],
+  "middle_notes": [
+   "peony",
+   "jasmine",
+   "orange_blossom"
+  ],
+  "base_notes": [
+   "patchouli",
+   "musk",
+   "amber",
+   "vanilla"
+  ],
+  "accords": [
+   "fruity",
+   "floral",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Chloe",
+  "brand": "Chloe",
+  "year": 2008,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "peony",
+   "lychee",
+   "freesia"
+  ],
+  "middle_notes": [
+   "rose",
+   "magnolia",
+   "lily_of_valley"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "floral",
+   "powdery",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Chance Eau Tendre",
+  "brand": "Chanel",
+  "year": 2010,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "grapefruit",
+   "quince"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "hyacinth",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "iris",
+   "cedarwood",
+   "amber"
+  ],
+  "accords": [
+   "floral",
+   "fresh",
+   "musky"
+  ]
+ },
+ {
+  "name": "Alien",
+  "brand": "Mugler",
+  "year": 2005,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "cashmeran",
+   "heliotrope"
+  ],
+  "base_notes": [
+   "amber",
+   "vanilla",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "woody",
+   "amber",
+   "warm"
+  ]
+ },
+ {
+  "name": "Prada Luna Rossa Carbon",
+  "brand": "Prada",
+  "year": 2017,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lavender"
+  ],
+  "middle_notes": [
+   "iso_e_super",
+   "ambroxan"
+  ],
+  "base_notes": [
+   "patchouli",
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "fresh",
+   "aromatic",
+   "synthetic"
+  ]
+ },
+ {
+  "name": "Dylan Blue",
+  "brand": "Versace",
+  "year": 2016,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "grapefruit",
+   "fig"
+  ],
+  "middle_notes": [
+   "violet_leaf",
+   "black_pepper",
+   "ambroxan"
+  ],
+  "base_notes": [
+   "musk",
+   "patchouli",
+   "cedarwood",
+   "saffron"
+  ],
+  "accords": [
+   "fresh",
+   "aromatic",
+   "woody"
+  ]
+ },
+ {
+  "name": "Phantom",
+  "brand": "Paco Rabanne",
+  "year": 2021,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.5,
+  "style": "fresh",
+  "top_notes": [
+   "lemon",
+   "lavender"
+  ],
+  "middle_notes": [
+   "apple",
+   "campfire"
+  ],
+  "base_notes": [
+   "vanilla",
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "sweet",
+   "fresh",
+   "smoky"
+  ]
+ },
+ {
+  "name": "Born in Roma",
+  "brand": "Valentino",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "ginger"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "vanilla"
+  ],
+  "base_notes": [
+   "cashmeran",
+   "cedarwood",
+   "musk",
+   "guaiac_wood"
+  ],
+  "accords": [
+   "sweet",
+   "vanilla",
+   "floral"
+  ]
+ },
+ {
+  "name": "Nuit d'Issey",
+  "brand": "Issey Miyake",
+  "year": 2014,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "leather",
+   "black_pepper"
+  ],
+  "base_notes": [
+   "vetiver",
+   "patchouli",
+   "musk",
+   "incense"
+  ],
+  "accords": [
+   "leather",
+   "woody",
+   "dark"
+  ]
+ },
+ {
+  "name": "Guerlain L'Homme Ideal",
+  "brand": "Guerlain",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "mandarin",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "almond",
+   "tonka_bean",
+   "rose"
+  ],
+  "base_notes": [
+   "vanilla",
+   "cedarwood",
+   "sandalwood",
+   "leather"
+  ],
+  "accords": [
+   "almond",
+   "vanilla",
+   "woody"
+  ]
+ },
+ {
+  "name": "Azzaro Wanted",
+  "brand": "Azzaro",
+  "year": 2016,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "lemon",
+   "ginger",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "cardamom",
+   "juniper_berry",
+   "cinnamon"
+  ],
+  "base_notes": [
+   "vetiver",
+   "tonka_bean",
+   "amber"
+  ],
+  "accords": [
+   "fresh",
+   "spicy",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Boss Bottled",
+  "brand": "Hugo Boss",
+  "year": 1998,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "oriental",
+  "top_notes": [
+   "apple",
+   "lemon",
+   "bergamot",
+   "plum"
+  ],
+  "middle_notes": [
+   "cinnamon",
+   "clove",
+   "geranium",
+   "carnation"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "cedarwood",
+   "vanilla",
+   "vetiver",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "warm",
+   "spicy",
+   "woody"
+  ]
+ },
+ {
+  "name": "Kouros",
+  "brand": "YSL",
+  "year": 1981,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "fougere",
+  "top_notes": [
+   "coriander",
+   "clary_sage",
+   "artemisia"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "carnation",
+   "cinnamon"
+  ],
+  "base_notes": [
+   "musk",
+   "oakmoss",
+   "amber",
+   "vanilla",
+   "patchouli",
+   "civet"
+  ],
+  "accords": [
+   "aromatic",
+   "animalic",
+   "powdery"
+  ]
+ },
+ {
+  "name": "D&G The One",
+  "brand": "D&G",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "grapefruit",
+   "coriander",
+   "basil"
+  ],
+  "middle_notes": [
+   "cardamom",
+   "ginger",
+   "orange_blossom"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "amber",
+   "tobacco",
+   "musk"
+  ],
+  "accords": [
+   "sweet",
+   "spicy",
+   "amber"
+  ]
+ },
+ {
+  "name": "Dunhill Icon",
+  "brand": "Dunhill",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "bergamot",
+   "neroli",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "lavender",
+   "iris",
+   "sage"
+  ],
+  "base_notes": [
+   "vetiver",
+   "agarwood_oud",
+   "sandalwood",
+   "leather"
+  ],
+  "accords": [
+   "aromatic",
+   "woody",
+   "leather"
+  ]
+ },
+ {
+  "name": "Givenchy Gentleman",
+  "brand": "Givenchy",
+  "year": 2017,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "pear",
+   "lavender",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "iris",
+   "orange_blossom"
+  ],
+  "base_notes": [
+   "patchouli",
+   "cedarwood",
+   "musk",
+   "vanilla"
+  ],
+  "accords": [
+   "sweet",
+   "powdery",
+   "woody"
+  ]
+ },
+ {
+  "name": "Montblanc Explorer",
+  "brand": "Montblanc",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "pink_pepper",
+   "clary_sage"
+  ],
+  "middle_notes": [
+   "leather",
+   "vetiver"
+  ],
+  "base_notes": [
+   "ambroxan",
+   "patchouli",
+   "oakmoss",
+   "cedarwood"
+  ],
+  "accords": [
+   "woody",
+   "aromatic",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Chanel Allure Homme Sport",
+  "brand": "Chanel",
+  "year": 2004,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "mandarin",
+   "sea_salt",
+   "aldehyde"
+  ],
+  "middle_notes": [
+   "neroli",
+   "black_pepper",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "vetiver",
+   "musk",
+   "tonka_bean",
+   "amber"
+  ],
+  "accords": [
+   "fresh",
+   "citrus",
+   "woody"
+  ]
+ },
+ {
+  "name": "Luna",
+  "brand": "Penhaligon's",
+  "year": 2016,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 2,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "lemon"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "musk",
+   "sandalwood",
+   "cedarwood"
+  ],
+  "accords": [
+   "floral",
+   "citrus",
+   "musky"
+  ]
+ },
+ {
+  "name": "Halfeti",
+  "brand": "Penhaligon's",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "grapefruit",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "rose",
+   "saffron",
+   "nutmeg",
+   "jasmine"
+  ],
+  "base_notes": [
+   "agarwood_oud",
+   "sandalwood",
+   "cedarwood",
+   "vanilla",
+   "amber",
+   "leather"
+  ],
+  "accords": [
+   "oud",
+   "rose",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Delina",
+  "brand": "Parfums de Marly",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "floral",
+  "top_notes": [
+   "lychee",
+   "bergamot",
+   "nutmeg"
+  ],
+  "middle_notes": [
+   "rose",
+   "peony",
+   "vanilla"
+  ],
+  "base_notes": [
+   "cashmeran",
+   "musk",
+   "cedarwood",
+   "vetiver"
+  ],
+  "accords": [
+   "floral",
+   "fruity",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Layton",
+  "brand": "Parfums de Marly",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "apple",
+   "mandarin",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "violet",
+   "lavender"
+  ],
+  "base_notes": [
+   "vanilla",
+   "sandalwood",
+   "cedarwood",
+   "cardamom",
+   "black_pepper",
+   "guaiac_wood"
+  ],
+  "accords": [
+   "sweet",
+   "spicy",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Pegasus",
+  "brand": "Parfums de Marly",
+  "year": 2011,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "heliotrope"
+  ],
+  "middle_notes": [
+   "almond",
+   "jasmine",
+   "lavender"
+  ],
+  "base_notes": [
+   "vanilla",
+   "sandalwood",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "almond",
+   "vanilla",
+   "amber"
+  ]
+ },
+ {
+  "name": "Nishane Ani",
+  "brand": "Nishane",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.4,
+  "style": "oriental",
+  "top_notes": [
+   "mandarin",
+   "bergamot",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "vanilla"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "tonka_bean",
+   "cedarwood",
+   "musk"
+  ],
+  "accords": [
+   "vanilla",
+   "sweet",
+   "woody"
+  ]
+ },
+ {
+  "name": "Nishane Hacivat",
+  "brand": "Nishane",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "grapefruit",
+   "pineapple"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "cedarwood",
+   "patchouli"
+  ],
+  "base_notes": [
+   "oakmoss",
+   "sandalwood",
+   "ambroxan",
+   "musk"
+  ],
+  "accords": [
+   "fruity",
+   "woody",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Initio Oud for Greatness",
+  "brand": "Initio",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "nutmeg",
+   "saffron",
+   "lavender"
+  ],
+  "middle_notes": [
+   "agarwood_oud"
+  ],
+  "base_notes": [
+   "musk",
+   "patchouli",
+   "sandalwood"
+  ],
+  "accords": [
+   "oud",
+   "smoky",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Initio Side Effect",
+  "brand": "Initio",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "rum",
+   "bergamot",
+   "cinnamon"
+  ],
+  "middle_notes": [
+   "vanilla",
+   "tobacco"
+  ],
+  "base_notes": [
+   "musk",
+   "sandalwood",
+   "cedarwood",
+   "benzoin"
+  ],
+  "accords": [
+   "boozy",
+   "sweet",
+   "tobacco"
+  ]
+ },
+ {
+  "name": "PDM Sedley",
+  "brand": "Parfums de Marly",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "mandarin",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "geranium",
+   "black_pepper",
+   "lavender"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "BR540 Cloud",
+  "brand": "inspired",
+  "year": 2020,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "oriental",
+  "top_notes": [
+   "lavender",
+   "praline"
+  ],
+  "middle_notes": [
+   "cashmeran",
+   "ambroxan"
+  ],
+  "base_notes": [
+   "musk",
+   "vanilla",
+   "cedarwood"
+  ],
+  "accords": [
+   "sweet",
+   "amber",
+   "musky"
+  ]
+ },
+ {
+  "name": "Matiere Noire",
+  "brand": "Louis Vuitton",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "black_pepper",
+   "narcissus"
+  ],
+  "middle_notes": [
+   "rose",
+   "agarwood_oud"
+  ],
+  "base_notes": [
+   "patchouli",
+   "cedarwood",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "dark",
+   "woody",
+   "oud"
+  ]
+ },
+ {
+  "name": "Ombre Nomade",
+  "brand": "Louis Vuitton",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "saffron",
+   "raspberry"
+  ],
+  "middle_notes": [
+   "rose",
+   "benzoin",
+   "agarwood_oud"
+  ],
+  "base_notes": [
+   "amber",
+   "sandalwood",
+   "cedarwood",
+   "musk"
+  ],
+  "accords": [
+   "oud",
+   "amber",
+   "smoky"
+  ]
+ },
+ {
+  "name": "Afternoon Swim",
+  "brand": "Louis Vuitton",
+  "year": 2019,
+  "concentration": "EDC",
+  "longevity": 2,
+  "sillage": 2,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "mandarin",
+   "orange"
+  ],
+  "middle_notes": [
+   "ginger",
+   "basil"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "ginger"
+  ]
+ },
+ {
+  "name": "Imagination",
+  "brand": "Louis Vuitton",
+  "year": 2021,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "blood_orange",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "musk",
+   "ambroxan",
+   "sandalwood"
+  ],
+  "accords": [
+   "citrus",
+   "woody",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Rose des Vents",
+  "brand": "Louis Vuitton",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "petitgrain"
+  ],
+  "middle_notes": [
+   "rose",
+   "iris",
+   "peony"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "floral",
+   "rose",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Turbulences",
+  "brand": "Louis Vuitton",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "tuberose",
+   "jasmine",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "white_floral",
+   "tuberose",
+   "creamy"
+  ]
+ },
+ {
+  "name": "Widian Black IV",
+  "brand": "Widian",
+  "year": 2015,
+  "concentration": "Parfum",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "saffron",
+   "pink_pepper"
+  ],
+  "middle_notes": [
+   "rose",
+   "agarwood_oud",
+   "amber"
+  ],
+  "base_notes": [
+   "musk",
+   "sandalwood",
+   "cedarwood",
+   "vanilla"
+  ],
+  "accords": [
+   "oud",
+   "rose",
+   "amber"
+  ]
+ },
+ {
+  "name": "Xerjoff Nio",
+  "brand": "Xerjoff",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.2,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "lavender",
+   "jasmine",
+   "violet"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood",
+   "sandalwood",
+   "amber"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Xerjoff Naxos",
+  "brand": "Xerjoff",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.5,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "lavender"
+  ],
+  "middle_notes": [
+   "cinnamon",
+   "honey",
+   "tonka_bean",
+   "cashmeran"
+  ],
+  "base_notes": [
+   "vanilla",
+   "tobacco",
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "sweet",
+   "tobacco",
+   "honey"
+  ]
+ },
+ {
+  "name": "Boadicea Hanuman",
+  "brand": "Boadicea",
+  "year": 2008,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "saffron",
+   "star_anise"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "iris"
+  ],
+  "base_notes": [
+   "agarwood_oud",
+   "amber",
+   "vanilla",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "oud",
+   "oriental",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Roja Elysium",
+  "brand": "Roja Parfums",
+  "year": 2017,
+  "concentration": "Parfum",
+  "longevity": 4,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "grapefruit",
+   "lime",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "lily_of_valley",
+   "lavender"
+  ],
+  "base_notes": [
+   "musk",
+   "amber",
+   "vetiver",
+   "vanilla",
+   "sandalwood",
+   "cedarwood"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Molecule 01",
+  "brand": "Escentric Molecules",
+  "year": 2006,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "iso_e_super"
+  ],
+  "middle_notes": [
+   "iso_e_super"
+  ],
+  "base_notes": [
+   "iso_e_super"
+  ],
+  "accords": [
+   "woody",
+   "musky",
+   "synthetic"
+  ]
+ },
+ {
+  "name": "Molecule 02",
+  "brand": "Escentric Molecules",
+  "year": 2008,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 2,
+  "rating": 3.8,
+  "style": "musky",
+  "top_notes": [
+   "ambroxan"
+  ],
+  "middle_notes": [
+   "ambroxan"
+  ],
+  "base_notes": [
+   "ambroxan"
+  ],
+  "accords": [
+   "musky",
+   "amber",
+   "woody"
+  ]
+ },
+ {
+  "name": "Escentric 01",
+  "brand": "Escentric Molecules",
+  "year": 2006,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "woody",
+  "top_notes": [
+   "lime",
+   "pink_pepper"
+  ],
+  "middle_notes": [
+   "iso_e_super",
+   "iris"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk"
+  ],
+  "accords": [
+   "woody",
+   "fresh",
+   "synthetic"
+  ]
+ },
+ {
+  "name": "Narciso",
+  "brand": "Narciso Rodriguez",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "rose",
+   "gardenia"
+  ],
+  "middle_notes": [
+   "musk",
+   "vetiver"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "amber",
+   "vanilla"
+  ],
+  "accords": [
+   "musky",
+   "floral",
+   "powdery"
+  ]
+ },
+ {
+  "name": "For Her",
+  "brand": "Narciso Rodriguez",
+  "year": 2003,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.2,
+  "style": "floral",
+  "top_notes": [
+   "rose",
+   "peach"
+  ],
+  "middle_notes": [
+   "musk",
+   "osmanthus",
+   "amber"
+  ],
+  "base_notes": [
+   "vetiver",
+   "sandalwood",
+   "patchouli"
+  ],
+  "accords": [
+   "musky",
+   "floral",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Burberry Her",
+  "brand": "Burberry",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "fruity",
+  "top_notes": [
+   "blackcurrant",
+   "raspberry",
+   "strawberry"
+  ],
+  "middle_notes": [
+   "violet",
+   "jasmine",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "amber",
+   "cashmeran",
+   "cedarwood"
+  ],
+  "accords": [
+   "fruity",
+   "floral",
+   "sweet"
+  ]
+ },
+ {
+  "name": "My Burberry",
+  "brand": "Burberry",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "green_apple"
+  ],
+  "middle_notes": [
+   "geranium",
+   "rose",
+   "peony",
+   "freesia"
+  ],
+  "base_notes": [
+   "patchouli",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "floral",
+   "rain",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Gio",
+  "brand": "Armani",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "mandarin",
+   "pear"
+  ],
+  "middle_notes": [
+   "lavender",
+   "sage",
+   "geranium"
+  ],
+  "base_notes": [
+   "patchouli",
+   "cedarwood",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "aromatic",
+   "woody",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Stronger With You",
+  "brand": "Armani",
+  "year": 2017,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "cardamom",
+   "pink_pepper",
+   "violet_leaf"
+  ],
+  "middle_notes": [
+   "sage",
+   "cinnamon",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "vanilla",
+   "amber",
+   "cashmeran",
+   "musk"
+  ],
+  "accords": [
+   "sweet",
+   "spicy",
+   "warm"
+  ]
+ },
+ {
+  "name": "Dolce",
+  "brand": "D&G",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "floral",
+  "top_notes": [
+   "neroli",
+   "papaya"
+  ],
+  "middle_notes": [
+   "water_lily",
+   "narcissus",
+   "lily_of_valley"
+  ],
+  "base_notes": [
+   "cashmeran",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "floral",
+   "white_floral",
+   "fresh"
+  ]
+ },
+ {
+  "name": "L'Interdit",
+  "brand": "Givenchy",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "pear"
+  ],
+  "middle_notes": [
+   "tuberose",
+   "orange_blossom",
+   "jasmine"
+  ],
+  "base_notes": [
+   "patchouli",
+   "vetiver",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "floral",
+   "woody",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Very Good Girl",
+  "brand": "Carolina Herrera",
+  "year": 2021,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "oriental",
+  "top_notes": [
+   "lychee",
+   "bergamot",
+   "raspberry"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "vanilla"
+  ],
+  "base_notes": [
+   "vetiver",
+   "cedarwood",
+   "tonka_bean",
+   "musk"
+  ],
+  "accords": [
+   "fruity",
+   "sweet",
+   "floral"
+  ]
+ },
+ {
+  "name": "Oud Satin Mood",
+  "brand": "MFK",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "violet"
+  ],
+  "middle_notes": [
+   "rose",
+   "iris",
+   "vanilla"
+  ],
+  "base_notes": [
+   "agarwood_oud",
+   "benzoin",
+   "amber"
+  ],
+  "accords": [
+   "oud",
+   "rose",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Petit Matin",
+  "brand": "MFK",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "lychee"
+  ],
+  "middle_notes": [
+   "iris",
+   "rose",
+   "musk"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "sandalwood",
+   "ambroxan"
+  ],
+  "accords": [
+   "citrus",
+   "floral",
+   "musky"
+  ]
+ },
+ {
+  "name": "Gentle Fluidity Silver",
+  "brand": "MFK",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "juniper_berry",
+   "coriander",
+   "nutmeg"
+  ],
+  "middle_notes": [
+   "ambroxan",
+   "musk"
+  ],
+  "base_notes": [
+   "vanilla",
+   "cedarwood",
+   "sandalwood"
+  ],
+  "accords": [
+   "fresh",
+   "woody",
+   "musky"
+  ]
+ },
+ {
+  "name": "Aqua Universalis",
+  "brand": "MFK",
+  "year": 2009,
+  "concentration": "EDT",
+  "longevity": 2,
+  "sillage": 2,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "petitgrain"
+  ],
+  "middle_notes": [
+   "lily_of_valley",
+   "hedione"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood",
+   "ambroxan"
+  ],
+  "accords": [
+   "clean",
+   "fresh",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Whispers in Library",
+  "brand": "Maison Margiela",
+  "year": 2019,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "black_pepper",
+   "elemi"
+  ],
+  "middle_notes": [
+   "cedarwood",
+   "vanilla",
+   "benzoin"
+  ],
+  "base_notes": [
+   "tonka_bean",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "sweet",
+   "woody",
+   "boozy"
+  ]
+ },
+ {
+  "name": "When Rain Stops",
+  "brand": "Maison Margiela",
+  "year": 2019,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 2,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "pear",
+   "ginger"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "lily_of_valley"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "iso_e_super"
+  ],
+  "accords": [
+   "floral",
+   "rain",
+   "green"
+  ]
+ },
+ {
+  "name": "Replica Beach Walk",
+  "brand": "Maison Margiela",
+  "year": 2012,
+  "concentration": "EDT",
+  "longevity": 2,
+  "sillage": 2,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "pink_pepper"
+  ],
+  "middle_notes": [
+   "coconut",
+   "ylang_ylang",
+   "heliotrope"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood",
+   "benzoin"
+  ],
+  "accords": [
+   "coconut",
+   "sunny",
+   "sandy"
+  ]
+ },
+ {
+  "name": "Dior Sauvage Elixir",
+  "brand": "Dior",
+  "year": 2021,
+  "concentration": "Parfum",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "grapefruit",
+   "cinnamon",
+   "cardamom",
+   "nutmeg"
+  ],
+  "middle_notes": [
+   "lavender",
+   "star_anise"
+  ],
+  "base_notes": [
+   "ambroxan",
+   "sandalwood",
+   "patchouli",
+   "vetiver",
+   "vanilla",
+   "habanolide"
+  ],
+  "accords": [
+   "spicy",
+   "woody",
+   "warm"
+  ]
+ },
+ {
+  "name": "Dior Homme",
+  "brand": "Dior",
+  "year": 2005,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "floral",
+  "top_notes": [
+   "lavender",
+   "bergamot",
+   "sage"
+  ],
+  "middle_notes": [
+   "iris",
+   "cocoa",
+   "amber"
+  ],
+  "base_notes": [
+   "vetiver",
+   "cedarwood",
+   "musk",
+   "leather"
+  ],
+  "accords": [
+   "iris",
+   "floral",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Valentino Uomo",
+  "brand": "Valentino",
+  "year": 2014,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "myrtle"
+  ],
+  "middle_notes": [
+   "coffee",
+   "almond",
+   "praline"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "leather",
+   "vanilla"
+  ],
+  "accords": [
+   "sweet",
+   "leathery",
+   "coffee"
+  ]
+ },
+ {
+  "name": "Gucci Guilty",
+  "brand": "Gucci",
+  "year": 2010,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.7,
+  "style": "oriental",
+  "top_notes": [
+   "mandarin",
+   "pink_pepper",
+   "lavender"
+  ],
+  "middle_notes": [
+   "geranium",
+   "orange_blossom"
+  ],
+  "base_notes": [
+   "patchouli",
+   "cedarwood",
+   "amber"
+  ],
+  "accords": [
+   "aromatic",
+   "citrus",
+   "warm"
+  ]
+ },
+ {
+  "name": "Prada L'Homme",
+  "brand": "Prada",
+  "year": 2016,
+  "concentration": "EDT",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "neroli",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "iris",
+   "geranium",
+   "violet"
+  ],
+  "base_notes": [
+   "amber",
+   "cedarwood",
+   "sandalwood",
+   "patchouli"
+  ],
+  "accords": [
+   "fresh",
+   "iris",
+   "soapy"
+  ]
+ },
+ {
+  "name": "Le Male",
+  "brand": "JPG",
+  "year": 1995,
+  "concentration": "EDT",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "oriental",
+  "top_notes": [
+   "lavender",
+   "mint",
+   "bergamot",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "cinnamon",
+   "orange_blossom",
+   "cumin"
+  ],
+  "base_notes": [
+   "vanilla",
+   "tonka_bean",
+   "amber",
+   "sandalwood",
+   "cedarwood",
+   "musk"
+  ],
+  "accords": [
+   "sweet",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Armaf CDNIM",
+  "brand": "Armaf",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "pineapple",
+   "black_currant_bud",
+   "lemon"
+  ],
+  "middle_notes": [
+   "birch",
+   "jasmine",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "ambroxan",
+   "cedarwood",
+   "vanilla"
+  ],
+  "accords": [
+   "fruity",
+   "smoky",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Lattafa Raghba",
+  "brand": "Lattafa",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "lemon"
+  ],
+  "middle_notes": [
+   "musk",
+   "amber",
+   "vanilla"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "patchouli",
+   "cedarwood"
+  ],
+  "accords": [
+   "sweet",
+   "amber",
+   "vanilla"
+  ]
+ },
+ {
+  "name": "Swiss Arabian Shaghaf Oud",
+  "brand": "Swiss Arabian",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "saffron",
+   "raspberry"
+  ],
+  "middle_notes": [
+   "rose",
+   "agarwood_oud"
+  ],
+  "base_notes": [
+   "amber",
+   "vanilla",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "oud",
+   "fruity",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Amouage Dia Man",
+  "brand": "Amouage",
+  "year": 2002,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "lily_of_valley",
+   "iris"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "cedarwood",
+   "amber",
+   "musk",
+   "vetiver"
+  ],
+  "accords": [
+   "floral",
+   "powdery",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Tiziana Terenzi Kirke",
+  "brand": "Tiziana Terenzi",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "fruity",
+  "top_notes": [
+   "peach",
+   "passion_fruit",
+   "raspberry"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "vanilla",
+   "musk",
+   "amber",
+   "patchouli",
+   "sandalwood"
+  ],
+  "accords": [
+   "fruity",
+   "sweet",
+   "floral"
+  ]
+ },
+ {
+  "name": "MFK A la Rose",
+  "brand": "MFK",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.2,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "lemon"
+  ],
+  "middle_notes": [
+   "rose",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "musk",
+   "sandalwood",
+   "amber"
+  ],
+  "accords": [
+   "rose",
+   "floral",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Ex Nihilo Fleur Narcotique",
+  "brand": "Ex Nihilo",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "lemon"
+  ],
+  "middle_notes": [
+   "peony",
+   "rose",
+   "jasmine"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood",
+   "sandalwood",
+   "moss"
+  ],
+  "accords": [
+   "floral",
+   "musky",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Mancera Cedrat Boise",
+  "brand": "Mancera",
+  "year": 2011,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.1,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "black_currant_bud"
+  ],
+  "middle_notes": [
+   "patchouli",
+   "jasmine",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "vanilla",
+   "sandalwood",
+   "musk",
+   "oakmoss"
+  ],
+  "accords": [
+   "citrus",
+   "woody",
+   "fruity"
+  ]
+ },
+ {
+  "name": "Atelier Cologne Santal Carmin",
+  "brand": "Atelier",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "bergamot",
+   "saffron"
+  ],
+  "middle_notes": [
+   "sandalwood",
+   "iris",
+   "plum"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "amber",
+   "vanilla"
+  ],
+  "accords": [
+   "woody",
+   "spicy",
+   "fruity"
+  ]
+ },
+ {
+  "name": "No.5 (Intense)",
+  "brand": "Chanel",
+  "year": 1921,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "floral",
+  "top_notes": [
+   "aldehyde",
+   "bergamot",
+   "lemon",
+   "neroli"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "ylang_ylang",
+   "iris"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "vetiver",
+   "vanilla",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "floral",
+   "powdery",
+   "aldehyde"
+  ]
+ },
+ {
+  "name": "Shalimar (Intense)",
+  "brand": "Guerlain",
+  "year": 1925,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "iris"
+  ],
+  "base_notes": [
+   "vanilla",
+   "tonka_bean",
+   "opoponax",
+   "sandalwood",
+   "musk"
+  ],
+  "accords": [
+   "oriental",
+   "vanilla",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Joy (Intense)",
+  "brand": "Jean Patou",
+  "year": 1930,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "tuberose",
+   "aldehyde",
+   "green_tea"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "civet"
+  ],
+  "accords": [
+   "floral",
+   "white_floral"
+  ]
+ },
+ {
+  "name": "L'Air du Temps (Intense)",
+  "brand": "Nina Ricci",
+  "year": 1948,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "rosemary",
+   "carnation"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "violet"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "cedarwood",
+   "iris"
+  ],
+  "accords": [
+   "floral",
+   "spicy",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Mitsouko (Intense)",
+  "brand": "Guerlain",
+  "year": 1919,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "chypre",
+  "top_notes": [
+   "bergamot",
+   "peach",
+   "lemon"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "clove"
+  ],
+  "base_notes": [
+   "oakmoss",
+   "vetiver",
+   "amber",
+   "cinnamon"
+  ],
+  "accords": [
+   "chypre",
+   "fruity",
+   "woody"
+  ]
+ },
+ {
+  "name": "Sauvage (Intense)",
+  "brand": "Dior",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "black_pepper"
+  ],
+  "middle_notes": [
+   "lavender",
+   "star_anise",
+   "nutmeg"
+  ],
+  "base_notes": [
+   "ambroxan",
+   "cedarwood",
+   "vetiver"
+  ],
+  "accords": [
+   "fresh",
+   "aromatic",
+   "woody"
+  ]
+ },
+ {
+  "name": "Bleu de Chanel (Intense)",
+  "brand": "Chanel",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "woody",
+  "top_notes": [
+   "grapefruit",
+   "lemon",
+   "mint"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "iso_e_super",
+   "ginger"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "cedarwood",
+   "vetiver",
+   "incense"
+  ],
+  "accords": [
+   "woody",
+   "aromatic",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Aventus (Intense)",
+  "brand": "Creed",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "fresh",
+  "top_notes": [
+   "pineapple",
+   "bergamot",
+   "black_currant_bud",
+   "apple"
+  ],
+  "middle_notes": [
+   "birch",
+   "jasmine",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "oakmoss",
+   "ambergris",
+   "vanilla"
+  ],
+  "accords": [
+   "fruity",
+   "smoky",
+   "woody"
+  ]
+ },
+ {
+  "name": "La Vie Est Belle (Intense)",
+  "brand": "Lancome",
+  "year": 2012,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "black_currant_bud",
+   "pear"
+  ],
+  "middle_notes": [
+   "iris",
+   "jasmine",
+   "orange_blossom"
+  ],
+  "base_notes": [
+   "praline",
+   "vanilla",
+   "patchouli",
+   "tonka_bean"
+  ],
+  "accords": [
+   "sweet",
+   "gourmand",
+   "floral"
+  ]
+ },
+ {
+  "name": "Black Opium (Intense)",
+  "brand": "YSL",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "pink_pepper",
+   "orange",
+   "pear"
+  ],
+  "middle_notes": [
+   "coffee",
+   "jasmine"
+  ],
+  "base_notes": [
+   "vanilla",
+   "cedarwood",
+   "patchouli"
+  ],
+  "accords": [
+   "sweet",
+   "vanilla",
+   "coffee"
+  ]
+ },
+ {
+  "name": "Coco Mademoiselle (Intense)",
+  "brand": "Chanel",
+  "year": 2001,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "orange",
+   "bergamot",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "lychee"
+  ],
+  "base_notes": [
+   "vetiver",
+   "patchouli",
+   "vanilla",
+   "musk"
+  ],
+  "accords": [
+   "citrus",
+   "floral",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Light Blue (Intense)",
+  "brand": "D&G",
+  "year": 2001,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "apple",
+   "lemon",
+   "cedar"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "bamboo",
+   "rose"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "floral"
+  ]
+ },
+ {
+  "name": "Acqua di Gio (Intense)",
+  "brand": "Armani",
+  "year": 1996,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "lime",
+   "lemon",
+   "bergamot",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "calone",
+   "rosemary"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "amber",
+   "patchouli"
+  ],
+  "accords": [
+   "aquatic",
+   "fresh",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Angel (Intense)",
+  "brand": "Mugler",
+  "year": 1992,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "coconut",
+   "pineapple"
+  ],
+  "middle_notes": [
+   "honey",
+   "chocolate",
+   "caramel"
+  ],
+  "base_notes": [
+   "vanilla",
+   "patchouli",
+   "tonka_bean"
+  ],
+  "accords": [
+   "sweet",
+   "gourmand",
+   "oriental"
+  ]
+ },
+ {
+  "name": "Terre d'Hermes (Intense)",
+  "brand": "Hermes",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "woody",
+  "top_notes": [
+   "grapefruit",
+   "orange"
+  ],
+  "middle_notes": [
+   "black_pepper",
+   "geranium"
+  ],
+  "base_notes": [
+   "vetiver",
+   "cedarwood",
+   "benzoin"
+  ],
+  "accords": [
+   "earthy",
+   "woody",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Aventus (Intense)",
+  "brand": "Creed",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "black_currant_bud",
+   "apple",
+   "pineapple"
+  ],
+  "middle_notes": [
+   "birch",
+   "jasmine",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "oakmoss",
+   "vanilla",
+   "ambergris"
+  ],
+  "accords": [
+   "fruity",
+   "woody",
+   "smoky"
+  ]
+ },
+ {
+  "name": "Baccarat Rouge 540 (Intense)",
+  "brand": "MFK",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "saffron",
+   "jasmine"
+  ],
+  "middle_notes": [
+   "ambergris",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "amber",
+   "musk",
+   "cashmeran"
+  ],
+  "accords": [
+   "sweet",
+   "amber",
+   "woody"
+  ]
+ },
+ {
+  "name": "Grand Soir (Intense)",
+  "brand": "MFK",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "cinnamon",
+   "nutmeg"
+  ],
+  "middle_notes": [
+   "benzoin",
+   "amber"
+  ],
+  "base_notes": [
+   "vanilla",
+   "tonka_bean",
+   "musk"
+  ],
+  "accords": [
+   "amber",
+   "vanilla",
+   "warm"
+  ]
+ },
+ {
+  "name": "Santal 33 (Intense)",
+  "brand": "Le Labo",
+  "year": 2011,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "cardamom",
+   "violet"
+  ],
+  "middle_notes": [
+   "iris",
+   "ambroxan"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "cedarwood",
+   "leather",
+   "musk"
+  ],
+  "accords": [
+   "woody",
+   "leather",
+   "smoky"
+  ]
+ },
+ {
+  "name": "Rose 31 (Intense)",
+  "brand": "Le Labo",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "floral",
+  "top_notes": [
+   "cumin",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "rose",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "vetiver",
+   "amber",
+   "musk",
+   "guaiac_wood"
+  ],
+  "accords": [
+   "rose",
+   "woody",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Oud Wood (Intense)",
+  "brand": "Tom Ford",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "woody",
+  "top_notes": [
+   "rosewood",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "agarwood_oud",
+   "sandalwood"
+  ],
+  "base_notes": [
+   "vetiver",
+   "tonka_bean",
+   "amber"
+  ],
+  "accords": [
+   "oud",
+   "woody",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Tobacco Vanille (Intense)",
+  "brand": "Tom Ford",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "tobacco",
+   "star_anise"
+  ],
+  "middle_notes": [
+   "tonka_bean",
+   "vanilla",
+   "cocoa"
+  ],
+  "base_notes": [
+   "plum",
+   "honey",
+   "musk"
+  ],
+  "accords": [
+   "tobacco",
+   "vanilla",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Lost Cherry (Intense)",
+  "brand": "Tom Ford",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "cherry",
+   "bitter_almond"
+  ],
+  "middle_notes": [
+   "cherry_blossom",
+   "rose",
+   "jasmine"
+  ],
+  "base_notes": [
+   "tonka_bean",
+   "sandalwood",
+   "vanilla",
+   "peru_balsam"
+  ],
+  "accords": [
+   "fruity",
+   "sweet",
+   "cherry"
+  ]
+ },
+ {
+  "name": "Noir de Noir (Intense)",
+  "brand": "Tom Ford",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "saffron",
+   "rose"
+  ],
+  "middle_notes": [
+   "black_pepper",
+   "truffle"
+  ],
+  "base_notes": [
+   "oud",
+   "vanilla",
+   "patchouli",
+   "oakmoss"
+  ],
+  "accords": [
+   "oud",
+   "rose",
+   "earthy"
+  ]
+ },
+ {
+  "name": "Gypsy Water (Intense)",
+  "brand": "Byredo",
+  "year": 2008,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "woody",
+  "top_notes": [
+   "bergamot",
+   "juniper_berry",
+   "lemon"
+  ],
+  "middle_notes": [
+   "incense",
+   "pine_needle"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "vanilla",
+   "amber"
+  ],
+  "accords": [
+   "woody",
+   "citrus",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Mojave Ghost (Intense)",
+  "brand": "Byredo",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "ambrette",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "magnolia",
+   "violet"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "sandalwood",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "floral",
+   "woody",
+   "musky"
+  ]
+ },
+ {
+  "name": "Bal d'Afrique (Intense)",
+  "brand": "Byredo",
+  "year": 2009,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "neroli"
+  ],
+  "middle_notes": [
+   "violet",
+   "jasmine",
+   "cyclamen_aldehyde"
+  ],
+  "base_notes": [
+   "vetiver",
+   "musk",
+   "cedarwood",
+   "amber"
+  ],
+  "accords": [
+   "floral",
+   "woody",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Not a Perfume (Intense)",
+  "brand": "Juliette Has a Gun",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 3.7,
+  "style": "woody",
+  "top_notes": [
+   "ambroxan"
+  ],
+  "middle_notes": [
+   "ambroxan"
+  ],
+  "base_notes": [
+   "ambroxan"
+  ],
+  "accords": [
+   "woody",
+   "musky",
+   "amber"
+  ]
+ },
+ {
+  "name": "Aventus for Her (Intense)",
+  "brand": "Creed",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "apple",
+   "bergamot",
+   "lemon",
+   "peach"
+  ],
+  "middle_notes": [
+   "rose",
+   "sandalwood",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "musk",
+   "amber",
+   "styrax"
+  ],
+  "accords": [
+   "fruity",
+   "floral",
+   "musky"
+  ]
+ },
+ {
+  "name": "Tuscan Leather (Intense)",
+  "brand": "Tom Ford",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "leather",
+  "top_notes": [
+   "raspberry",
+   "saffron",
+   "thyme"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "leather"
+  ],
+  "base_notes": [
+   "suede",
+   "amber",
+   "vanilla",
+   "oakmoss"
+  ],
+  "accords": [
+   "leather",
+   "raspberry",
+   "smoky"
+  ]
+ },
+ {
+  "name": "Neroli Portofino (Intense)",
+  "brand": "Tom Ford",
+  "year": 2011,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "mandarin",
+   "neroli"
+  ],
+  "middle_notes": [
+   "orange_blossom",
+   "jasmine"
+  ],
+  "base_notes": [
+   "amber",
+   "musk",
+   "angelica"
+  ],
+  "accords": [
+   "citrus",
+   "aromatic",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Black Orchid (Intense)",
+  "brand": "Tom Ford",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "truffle",
+   "bergamot",
+   "black_currant_bud"
+  ],
+  "middle_notes": [
+   "ylang_ylang",
+   "jasmine",
+   "lotus"
+  ],
+  "base_notes": [
+   "patchouli",
+   "vanilla",
+   "vetiver",
+   "sandalwood"
+  ],
+  "accords": [
+   "oriental",
+   "floral",
+   "earthy"
+  ]
+ },
+ {
+  "name": "Acqua di Parma Colonia (Intense)",
+  "brand": "Acqua di Parma",
+  "year": 1916,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "orange",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "lavender",
+   "rosemary",
+   "verbena"
+  ],
+  "base_notes": [
+   "vetiver",
+   "sandalwood",
+   "patchouli",
+   "musk"
+  ],
+  "accords": [
+   "citrus",
+   "aromatic",
+   "fresh"
+  ]
+ },
+ {
+  "name": "CK One (Intense)",
+  "brand": "Calvin Klein",
+  "year": 1994,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.5,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "mandarin",
+   "pineapple"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "violet",
+   "rose",
+   "nutmeg"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood",
+   "amber",
+   "sandalwood"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "green"
+  ]
+ },
+ {
+  "name": "Green Irish Tweed (Intense)",
+  "brand": "Creed",
+  "year": 1985,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.1,
+  "style": "fresh",
+  "top_notes": [
+   "lemon",
+   "verbena",
+   "mint"
+  ],
+  "middle_notes": [
+   "violet_leaf",
+   "iris"
+  ],
+  "base_notes": [
+   "ambergris",
+   "sandalwood",
+   "musk"
+  ],
+  "accords": [
+   "green",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Eau Sauvage (Intense)",
+  "brand": "Dior",
+  "year": 1966,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "basil"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "coriander"
+  ],
+  "base_notes": [
+   "vetiver",
+   "oakmoss",
+   "musk"
+  ],
+  "accords": [
+   "citrus",
+   "aromatic",
+   "fresh"
+  ]
+ },
+ {
+  "name": "4711 (Intense)",
+  "brand": "Maurer & Wirtz",
+  "year": 1792,
+  "concentration": "EDP",
+  "longevity": 2,
+  "sillage": 2,
+  "rating": 3.5,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "orange"
+  ],
+  "middle_notes": [
+   "neroli",
+   "rosemary"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "herbal"
+  ]
+ },
+ {
+  "name": "Opium (Intense)",
+  "brand": "YSL",
+  "year": 1977,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "mandarin",
+   "bergamot",
+   "clove"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "carnation",
+   "cinnamon"
+  ],
+  "base_notes": [
+   "vanilla",
+   "amber",
+   "sandalwood",
+   "patchouli",
+   "musk"
+  ],
+  "accords": [
+   "oriental",
+   "spicy",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Obsession (Intense)",
+  "brand": "Calvin Klein",
+  "year": 1985,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.6,
+  "style": "oriental",
+  "top_notes": [
+   "mandarin",
+   "bergamot",
+   "vanilla"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "orange_blossom",
+   "coriander"
+  ],
+  "base_notes": [
+   "amber",
+   "sandalwood",
+   "musk",
+   "vetiver"
+  ],
+  "accords": [
+   "oriental",
+   "amber",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Spicebomb (Intense)",
+  "brand": "Viktor&Rolf",
+  "year": 2012,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "grapefruit",
+   "pink_pepper"
+  ],
+  "middle_notes": [
+   "cinnamon",
+   "saffron",
+   "cardamom"
+  ],
+  "base_notes": [
+   "tobacco",
+   "leather",
+   "vetiver"
+  ],
+  "accords": [
+   "spicy",
+   "sweet",
+   "tobacco"
+  ]
+ },
+ {
+  "name": "The One (Intense)",
+  "brand": "D&G",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "grapefruit",
+   "coriander",
+   "basil"
+  ],
+  "middle_notes": [
+   "cardamom",
+   "ginger",
+   "orange_blossom"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "amber",
+   "tobacco",
+   "musk"
+  ],
+  "accords": [
+   "sweet",
+   "spicy",
+   "amber"
+  ]
+ },
+ {
+  "name": "1 Million (Intense)",
+  "brand": "Paco Rabanne",
+  "year": 2008,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "grapefruit",
+   "blood_orange",
+   "mint"
+  ],
+  "middle_notes": [
+   "cinnamon",
+   "rose"
+  ],
+  "base_notes": [
+   "leather",
+   "amber",
+   "vanilla",
+   "cashmeran"
+  ],
+  "accords": [
+   "sweet",
+   "spicy",
+   "leather"
+  ]
+ },
+ {
+  "name": "Jazz Club (Intense)",
+  "brand": "Maison Margiela",
+  "year": 2013,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "pink_pepper",
+   "lemon",
+   "neroli"
+  ],
+  "middle_notes": [
+   "clary_sage",
+   "rum",
+   "vetiver"
+  ],
+  "base_notes": [
+   "tobacco",
+   "vanilla",
+   "tonka_bean",
+   "styrax"
+  ],
+  "accords": [
+   "tobacco",
+   "sweet",
+   "boozy"
+  ]
+ },
+ {
+  "name": "Tam Dao (Intense)",
+  "brand": "Diptyque",
+  "year": 2003,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "woody",
+  "top_notes": [
+   "rosewood",
+   "myrtle",
+   "cypress"
+  ],
+  "middle_notes": [
+   "cedarwood",
+   "sandalwood"
+  ],
+  "base_notes": [
+   "musk",
+   "ambergris",
+   "sandalwood"
+  ],
+  "accords": [
+   "woody",
+   "sandalwood",
+   "creamy"
+  ]
+ },
+ {
+  "name": "Encre Noire (Intense)",
+  "brand": "Lalique",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.2,
+  "style": "woody",
+  "top_notes": [
+   "cypress"
+  ],
+  "middle_notes": [
+   "vetiver",
+   "iso_e_super"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "cashmeran"
+  ],
+  "accords": [
+   "woody",
+   "earthy",
+   "green"
+  ]
+ },
+ {
+  "name": "Fahrenheit (Intense)",
+  "brand": "Dior",
+  "year": 1988,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "lavender",
+   "mandarin",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "violet_leaf",
+   "nutmeg",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "leather",
+   "vetiver",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "woody",
+   "leather",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Polo Green (Intense)",
+  "brand": "Ralph Lauren",
+  "year": 1978,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "juniper_berry",
+   "basil",
+   "artemisia"
+  ],
+  "middle_notes": [
+   "pine_needle",
+   "chamomile_roman",
+   "thyme"
+  ],
+  "base_notes": [
+   "leather",
+   "oakmoss",
+   "patchouli",
+   "musk"
+  ],
+  "accords": [
+   "green",
+   "woody",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Royal Oud (Intense)",
+  "brand": "Creed",
+  "year": 2011,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "lemon",
+   "bergamot",
+   "pink_pepper"
+  ],
+  "middle_notes": [
+   "galbanum",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "agarwood_oud",
+   "sandalwood",
+   "musk",
+   "tonka_bean"
+  ],
+  "accords": [
+   "woody",
+   "oud",
+   "smoky"
+  ]
+ },
+ {
+  "name": "J'adore (Intense)",
+  "brand": "Dior",
+  "year": 1999,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "mandarin",
+   "bergamot",
+   "magnolia"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "ylang_ylang",
+   "violet"
+  ],
+  "base_notes": [
+   "musk",
+   "vanilla",
+   "cedarwood",
+   "blackcurrant"
+  ],
+  "accords": [
+   "floral",
+   "fruity",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Flowerbomb (Intense)",
+  "brand": "Viktor&Rolf",
+  "year": 2005,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "green_tea"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "freesia",
+   "osmanthus"
+  ],
+  "base_notes": [
+   "patchouli",
+   "musk",
+   "vanilla",
+   "cedarwood"
+  ],
+  "accords": [
+   "floral",
+   "sweet",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Miss Dior (Intense)",
+  "brand": "Dior",
+  "year": 2012,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "mandarin",
+   "blood_orange"
+  ],
+  "middle_notes": [
+   "rose",
+   "peony",
+   "jasmine",
+   "lily_of_valley"
+  ],
+  "base_notes": [
+   "patchouli",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "floral",
+   "fresh",
+   "green"
+  ]
+ },
+ {
+  "name": "Daisy (Intense)",
+  "brand": "Marc Jacobs",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "floral",
+  "top_notes": [
+   "strawberry",
+   "violet",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "gardenia",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "vanilla",
+   "cedarwood"
+  ],
+  "accords": [
+   "floral",
+   "fruity",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Gucci Bloom (Intense)",
+  "brand": "Gucci",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "jasmine",
+   "tuberose"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "tuberose",
+   "rose"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "orris_butter"
+  ],
+  "accords": [
+   "white_floral",
+   "tuberose",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Si (Intense)",
+  "brand": "Armani",
+  "year": 2013,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "black_currant_bud",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "rose",
+   "freesia",
+   "osmanthus"
+  ],
+  "base_notes": [
+   "vanilla",
+   "patchouli",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "sweet",
+   "floral",
+   "fruity"
+  ]
+ },
+ {
+  "name": "By the Fireplace (Intense)",
+  "brand": "Maison Margiela",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "clove",
+   "pink_pepper",
+   "orange"
+  ],
+  "middle_notes": [
+   "almond",
+   "guaiac_wood"
+  ],
+  "base_notes": [
+   "vanilla",
+   "cashmeran",
+   "cedarwood",
+   "benzoin"
+  ],
+  "accords": [
+   "smoky",
+   "sweet",
+   "woody"
+  ]
+ },
+ {
+  "name": "Lira (Intense)",
+  "brand": "Xerjoff",
+  "year": 2012,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.4,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "orange",
+   "lavender"
+  ],
+  "middle_notes": [
+   "caramel",
+   "vanilla",
+   "tonka_bean"
+  ],
+  "base_notes": [
+   "musk",
+   "sandalwood",
+   "benzoin"
+  ],
+  "accords": [
+   "gourmand",
+   "sweet",
+   "citrus"
+  ]
+ },
+ {
+  "name": "Hypnotic Poison (Intense)",
+  "brand": "Dior",
+  "year": 1998,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "apricot",
+   "plum",
+   "coconut"
+  ],
+  "middle_notes": [
+   "tuberose",
+   "jasmine",
+   "rose",
+   "lily_of_valley"
+  ],
+  "base_notes": [
+   "vanilla",
+   "sandalwood",
+   "musk",
+   "almond"
+  ],
+  "accords": [
+   "sweet",
+   "almond",
+   "vanilla"
+  ]
+ },
+ {
+  "name": "Drakkar Noir (Intense)",
+  "brand": "Guy Laroche",
+  "year": 1982,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.7,
+  "style": "fougere",
+  "top_notes": [
+   "lavender",
+   "bergamot",
+   "lemon",
+   "artemisia"
+  ],
+  "middle_notes": [
+   "coriander",
+   "juniper_berry",
+   "cinnamon"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "patchouli",
+   "oakmoss",
+   "leather",
+   "musk"
+  ],
+  "accords": [
+   "aromatic",
+   "woody",
+   "herbal"
+  ]
+ },
+ {
+  "name": "Cool Water (Intense)",
+  "brand": "Davidoff",
+  "year": 1988,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.7,
+  "style": "fresh",
+  "top_notes": [
+   "mint",
+   "lavender",
+   "coriander",
+   "rosemary"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "sandalwood",
+   "geranium"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "amber",
+   "oakmoss",
+   "tobacco"
+  ],
+  "accords": [
+   "aquatic",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Dior Homme Intense (Intense)",
+  "brand": "Dior",
+  "year": 2011,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.3,
+  "style": "floral",
+  "top_notes": [
+   "lavender",
+   "bergamot",
+   "pear"
+  ],
+  "middle_notes": [
+   "iris",
+   "rose",
+   "vanilla"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "vetiver",
+   "musk",
+   "leather"
+  ],
+  "accords": [
+   "iris",
+   "floral",
+   "woody"
+  ]
+ },
+ {
+  "name": "L'Homme (Intense)",
+  "brand": "YSL",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "ginger",
+   "lemon"
+  ],
+  "middle_notes": [
+   "basil",
+   "violet_leaf"
+  ],
+  "base_notes": [
+   "vetiver",
+   "cedarwood",
+   "tonka_bean"
+  ],
+  "accords": [
+   "fresh",
+   "spicy",
+   "woody"
+  ]
+ },
+ {
+  "name": "Versace Pour Homme (Intense)",
+  "brand": "Versace",
+  "year": 2008,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "neroli"
+  ],
+  "middle_notes": [
+   "cedarwood",
+   "sage",
+   "amber"
+  ],
+  "base_notes": [
+   "musk",
+   "sandalwood",
+   "amber"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Ombre Leather (Intense)",
+  "brand": "Tom Ford",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.1,
+  "style": "leather",
+  "top_notes": [
+   "cardamom",
+   "violet"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "leather"
+  ],
+  "base_notes": [
+   "patchouli",
+   "amber",
+   "musk",
+   "moss"
+  ],
+  "accords": [
+   "leather",
+   "woody",
+   "dark"
+  ]
+ },
+ {
+  "name": "Philosykos (Intense)",
+  "brand": "Diptyque",
+  "year": 1996,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.1,
+  "style": "green",
+  "top_notes": [
+   "fig",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "fig",
+   "coconut"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "green",
+   "fig",
+   "woody"
+  ]
+ },
+ {
+  "name": "Portrait of a Lady (Intense)",
+  "brand": "FM",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "cinnamon",
+   "clove",
+   "pink_pepper",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "rose",
+   "patchouli"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "amber",
+   "frankincense",
+   "benzoin"
+  ],
+  "accords": [
+   "rose",
+   "spicy",
+   "woody"
+  ]
+ },
+ {
+  "name": "Musc Ravageur (Intense)",
+  "brand": "FM",
+  "year": 2000,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "mandarin",
+   "lavender"
+  ],
+  "middle_notes": [
+   "cinnamon",
+   "clove",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "vanilla",
+   "sandalwood",
+   "tonka_bean",
+   "amber",
+   "patchouli"
+  ],
+  "accords": [
+   "musk",
+   "vanilla",
+   "spicy"
+  ]
+ },
+ {
+  "name": "En Passant (Intense)",
+  "brand": "FM",
+  "year": 2000,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "galbanum"
+  ],
+  "middle_notes": [
+   "lilac",
+   "iris",
+   "melon"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood",
+   "heliotrope"
+  ],
+  "accords": [
+   "floral",
+   "lilac",
+   "green"
+  ]
+ },
+ {
+  "name": "Iris Poudre (Intense)",
+  "brand": "FM",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "floral",
+  "top_notes": [
+   "mandarin",
+   "pink_pepper"
+  ],
+  "middle_notes": [
+   "iris",
+   "rose",
+   "violet"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "vetiver",
+   "musk",
+   "vanilla",
+   "amber"
+  ],
+  "accords": [
+   "iris",
+   "powdery",
+   "woody"
+  ]
+ },
+ {
+  "name": "Reflection Man (Intense)",
+  "brand": "Amouage",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "floral",
+  "top_notes": [
+   "rosemary",
+   "pink_pepper",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "neroli",
+   "iris",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "cedarwood",
+   "vetiver",
+   "musk"
+  ],
+  "accords": [
+   "floral",
+   "jasmine",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Interlude Man (Intense)",
+  "brand": "Amouage",
+  "year": 2012,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "oregano",
+   "black_pepper"
+  ],
+  "middle_notes": [
+   "frankincense",
+   "myrrh",
+   "amber"
+  ],
+  "base_notes": [
+   "agarwood_oud",
+   "sandalwood",
+   "cedarwood",
+   "musk",
+   "leather"
+  ],
+  "accords": [
+   "smoky",
+   "incense",
+   "oud"
+  ]
+ },
+ {
+  "name": "Jubilation XXV (Intense)",
+  "brand": "Amouage",
+  "year": 2007,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "frankincense",
+   "coriander",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "rose",
+   "guaiac_wood",
+   "labdanum"
+  ],
+  "base_notes": [
+   "opoponax",
+   "myrrh",
+   "musk",
+   "cedarwood",
+   "honey"
+  ],
+  "accords": [
+   "oriental",
+   "resinous",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Wood Sage & Sea Salt (Intense)",
+  "brand": "Jo Malone",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "sea_salt",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "sage",
+   "clary_sage"
+  ],
+  "base_notes": [
+   "driftwood",
+   "cedarwood",
+   "musk"
+  ],
+  "accords": [
+   "fresh",
+   "salty",
+   "woody"
+  ]
+ },
+ {
+  "name": "Peony & Blush Suede (Intense)",
+  "brand": "Jo Malone",
+  "year": 2013,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "apple",
+   "peony"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "carnation"
+  ],
+  "base_notes": [
+   "suede",
+   "musk"
+  ],
+  "accords": [
+   "floral",
+   "fruity",
+   "sweet"
+  ]
+ },
+ {
+  "name": "English Pear & Freesia (Intense)",
+  "brand": "Jo Malone",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 4.0,
+  "style": "fruity",
+  "top_notes": [
+   "pear",
+   "melon"
+  ],
+  "middle_notes": [
+   "freesia",
+   "rose"
+  ],
+  "base_notes": [
+   "patchouli",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "fruity",
+   "floral",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Pomegranate Noir (Intense)",
+  "brand": "Jo Malone",
+  "year": 2005,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "oriental",
+  "top_notes": [
+   "pomegranate",
+   "raspberry",
+   "plum"
+  ],
+  "middle_notes": [
+   "pink_pepper",
+   "lily_of_valley"
+  ],
+  "base_notes": [
+   "patchouli",
+   "frankincense",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "fruity",
+   "dark",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Lime Basil & Mandarin (Intense)",
+  "brand": "Jo Malone",
+  "year": 1999,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "lime",
+   "mandarin",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "basil",
+   "thyme"
+  ],
+  "base_notes": [
+   "vetiver",
+   "musk"
+  ],
+  "accords": [
+   "citrus",
+   "herbal",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Cloud (Intense)",
+  "brand": "Ariana Grande",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "lavender",
+   "bergamot",
+   "pear",
+   "coconut"
+  ],
+  "middle_notes": [
+   "praline",
+   "vanilla",
+   "coconut"
+  ],
+  "base_notes": [
+   "musk",
+   "cashmeran",
+   "cedarwood",
+   "vanilla"
+  ],
+  "accords": [
+   "sweet",
+   "creamy",
+   "musky"
+  ]
+ },
+ {
+  "name": "Good Girl (Intense)",
+  "brand": "Carolina Herrera",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "almond",
+   "coffee",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "tuberose",
+   "rose"
+  ],
+  "base_notes": [
+   "tonka_bean",
+   "cocoa",
+   "vanilla",
+   "sandalwood",
+   "cedarwood"
+  ],
+  "accords": [
+   "sweet",
+   "floral",
+   "oriental"
+  ]
+ },
+ {
+  "name": "Libre (Intense)",
+  "brand": "YSL",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "fougere",
+  "top_notes": [
+   "lavender",
+   "mandarin",
+   "black_currant_bud",
+   "petitgrain"
+  ],
+  "middle_notes": [
+   "lavender",
+   "orange_blossom",
+   "jasmine"
+  ],
+  "base_notes": [
+   "vanilla",
+   "musk",
+   "cedarwood",
+   "ambergris"
+  ],
+  "accords": [
+   "floral",
+   "fougere",
+   "sweet"
+  ]
+ },
+ {
+  "name": "My Way (Intense)",
+  "brand": "Armani",
+  "year": 2020,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "orange_blossom"
+  ],
+  "middle_notes": [
+   "tuberose",
+   "jasmine"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "vanilla",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "floral",
+   "tuberose",
+   "musky"
+  ]
+ },
+ {
+  "name": "Baccarat Rouge 540 Extrait (Intense)",
+  "brand": "MFK",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "saffron",
+   "bitter_almond"
+  ],
+  "middle_notes": [
+   "cedarwood",
+   "ambroxan"
+  ],
+  "base_notes": [
+   "amber",
+   "sandalwood",
+   "musk",
+   "vanilla"
+  ],
+  "accords": [
+   "amber",
+   "sweet",
+   "woody"
+  ]
+ },
+ {
+  "name": "Eros (Intense)",
+  "brand": "Versace",
+  "year": 2012,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "mint",
+   "green_apple",
+   "lemon",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "tonka_bean",
+   "ambroxan",
+   "geranium"
+  ],
+  "base_notes": [
+   "vanilla",
+   "vetiver",
+   "oakmoss",
+   "cedarwood"
+  ],
+  "accords": [
+   "sweet",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Invictus (Intense)",
+  "brand": "Paco Rabanne",
+  "year": 2013,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "mandarin",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "bay_leaf",
+   "jasmine"
+  ],
+  "base_notes": [
+   "ambroxan",
+   "oakmoss",
+   "cashmeran",
+   "guaiac_wood"
+  ],
+  "accords": [
+   "aquatic",
+   "fresh",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Y (Intense)",
+  "brand": "YSL",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "apple",
+   "bergamot",
+   "ginger"
+  ],
+  "middle_notes": [
+   "sage",
+   "juniper_berry"
+  ],
+  "base_notes": [
+   "ambroxan",
+   "cedarwood",
+   "vetiver",
+   "tonka_bean"
+  ],
+  "accords": [
+   "fresh",
+   "aromatic",
+   "woody"
+  ]
+ },
+ {
+  "name": "Scandal (Intense)",
+  "brand": "JPG",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "blood_orange",
+   "mandarin",
+   "honey"
+  ],
+  "middle_notes": [
+   "gardenia",
+   "jasmine",
+   "rose"
+  ],
+  "base_notes": [
+   "patchouli",
+   "vanilla",
+   "caramel",
+   "beeswax"
+  ],
+  "accords": [
+   "sweet",
+   "floral",
+   "honey"
+  ]
+ },
+ {
+  "name": "Good Girl Supreme (Intense)",
+  "brand": "Carolina Herrera",
+  "year": 2020,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "raspberry",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "tonka_bean",
+   "vanilla",
+   "cedarwood",
+   "sandalwood"
+  ],
+  "accords": [
+   "fruity",
+   "sweet",
+   "floral"
+  ]
+ },
+ {
+  "name": "Mon Paris (Intense)",
+  "brand": "YSL",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "floral",
+  "top_notes": [
+   "strawberry",
+   "raspberry",
+   "pear"
+  ],
+  "middle_notes": [
+   "peony",
+   "jasmine",
+   "orange_blossom"
+  ],
+  "base_notes": [
+   "patchouli",
+   "musk",
+   "amber",
+   "vanilla"
+  ],
+  "accords": [
+   "fruity",
+   "floral",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Chloe (Intense)",
+  "brand": "Chloe",
+  "year": 2008,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "peony",
+   "lychee",
+   "freesia"
+  ],
+  "middle_notes": [
+   "rose",
+   "magnolia",
+   "lily_of_valley"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "floral",
+   "powdery",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Chance Eau Tendre (Intense)",
+  "brand": "Chanel",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "grapefruit",
+   "quince"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "hyacinth",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "iris",
+   "cedarwood",
+   "amber"
+  ],
+  "accords": [
+   "floral",
+   "fresh",
+   "musky"
+  ]
+ },
+ {
+  "name": "Alien (Intense)",
+  "brand": "Mugler",
+  "year": 2005,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "cashmeran",
+   "heliotrope"
+  ],
+  "base_notes": [
+   "amber",
+   "vanilla",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "woody",
+   "amber",
+   "warm"
+  ]
+ },
+ {
+  "name": "Prada Luna Rossa Carbon (Intense)",
+  "brand": "Prada",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lavender"
+  ],
+  "middle_notes": [
+   "iso_e_super",
+   "ambroxan"
+  ],
+  "base_notes": [
+   "patchouli",
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "fresh",
+   "aromatic",
+   "synthetic"
+  ]
+ },
+ {
+  "name": "Dylan Blue (Intense)",
+  "brand": "Versace",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "grapefruit",
+   "fig"
+  ],
+  "middle_notes": [
+   "violet_leaf",
+   "black_pepper",
+   "ambroxan"
+  ],
+  "base_notes": [
+   "musk",
+   "patchouli",
+   "cedarwood",
+   "saffron"
+  ],
+  "accords": [
+   "fresh",
+   "aromatic",
+   "woody"
+  ]
+ },
+ {
+  "name": "Phantom (Intense)",
+  "brand": "Paco Rabanne",
+  "year": 2021,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.5,
+  "style": "fresh",
+  "top_notes": [
+   "lemon",
+   "lavender"
+  ],
+  "middle_notes": [
+   "apple",
+   "campfire"
+  ],
+  "base_notes": [
+   "vanilla",
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "sweet",
+   "fresh",
+   "smoky"
+  ]
+ },
+ {
+  "name": "Born in Roma (Intense)",
+  "brand": "Valentino",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "ginger"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "vanilla"
+  ],
+  "base_notes": [
+   "cashmeran",
+   "cedarwood",
+   "musk",
+   "guaiac_wood"
+  ],
+  "accords": [
+   "sweet",
+   "vanilla",
+   "floral"
+  ]
+ },
+ {
+  "name": "Nuit d'Issey (Intense)",
+  "brand": "Issey Miyake",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "leather",
+   "black_pepper"
+  ],
+  "base_notes": [
+   "vetiver",
+   "patchouli",
+   "musk",
+   "incense"
+  ],
+  "accords": [
+   "leather",
+   "woody",
+   "dark"
+  ]
+ },
+ {
+  "name": "Guerlain L'Homme Ideal (Intense)",
+  "brand": "Guerlain",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "mandarin",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "almond",
+   "tonka_bean",
+   "rose"
+  ],
+  "base_notes": [
+   "vanilla",
+   "cedarwood",
+   "sandalwood",
+   "leather"
+  ],
+  "accords": [
+   "almond",
+   "vanilla",
+   "woody"
+  ]
+ },
+ {
+  "name": "Azzaro Wanted (Intense)",
+  "brand": "Azzaro",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "lemon",
+   "ginger",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "cardamom",
+   "juniper_berry",
+   "cinnamon"
+  ],
+  "base_notes": [
+   "vetiver",
+   "tonka_bean",
+   "amber"
+  ],
+  "accords": [
+   "fresh",
+   "spicy",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Boss Bottled (Intense)",
+  "brand": "Hugo Boss",
+  "year": 1998,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "oriental",
+  "top_notes": [
+   "apple",
+   "lemon",
+   "bergamot",
+   "plum"
+  ],
+  "middle_notes": [
+   "cinnamon",
+   "clove",
+   "geranium",
+   "carnation"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "cedarwood",
+   "vanilla",
+   "vetiver",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "warm",
+   "spicy",
+   "woody"
+  ]
+ },
+ {
+  "name": "Kouros (Intense)",
+  "brand": "YSL",
+  "year": 1981,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.8,
+  "style": "fougere",
+  "top_notes": [
+   "coriander",
+   "clary_sage",
+   "artemisia"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "carnation",
+   "cinnamon"
+  ],
+  "base_notes": [
+   "musk",
+   "oakmoss",
+   "amber",
+   "vanilla",
+   "patchouli",
+   "civet"
+  ],
+  "accords": [
+   "aromatic",
+   "animalic",
+   "powdery"
+  ]
+ },
+ {
+  "name": "D&G The One (Intense)",
+  "brand": "D&G",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "grapefruit",
+   "coriander",
+   "basil"
+  ],
+  "middle_notes": [
+   "cardamom",
+   "ginger",
+   "orange_blossom"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "amber",
+   "tobacco",
+   "musk"
+  ],
+  "accords": [
+   "sweet",
+   "spicy",
+   "amber"
+  ]
+ },
+ {
+  "name": "Dunhill Icon (Intense)",
+  "brand": "Dunhill",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "bergamot",
+   "neroli",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "lavender",
+   "iris",
+   "sage"
+  ],
+  "base_notes": [
+   "vetiver",
+   "agarwood_oud",
+   "sandalwood",
+   "leather"
+  ],
+  "accords": [
+   "aromatic",
+   "woody",
+   "leather"
+  ]
+ },
+ {
+  "name": "Givenchy Gentleman (Intense)",
+  "brand": "Givenchy",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "pear",
+   "lavender",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "iris",
+   "orange_blossom"
+  ],
+  "base_notes": [
+   "patchouli",
+   "cedarwood",
+   "musk",
+   "vanilla"
+  ],
+  "accords": [
+   "sweet",
+   "powdery",
+   "woody"
+  ]
+ },
+ {
+  "name": "Montblanc Explorer (Intense)",
+  "brand": "Montblanc",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "pink_pepper",
+   "clary_sage"
+  ],
+  "middle_notes": [
+   "leather",
+   "vetiver"
+  ],
+  "base_notes": [
+   "ambroxan",
+   "patchouli",
+   "oakmoss",
+   "cedarwood"
+  ],
+  "accords": [
+   "woody",
+   "aromatic",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Chanel Allure Homme Sport (Intense)",
+  "brand": "Chanel",
+  "year": 2004,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "mandarin",
+   "sea_salt",
+   "aldehyde"
+  ],
+  "middle_notes": [
+   "neroli",
+   "black_pepper",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "vetiver",
+   "musk",
+   "tonka_bean",
+   "amber"
+  ],
+  "accords": [
+   "fresh",
+   "citrus",
+   "woody"
+  ]
+ },
+ {
+  "name": "Luna (Intense)",
+  "brand": "Penhaligon's",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "lemon"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "musk",
+   "sandalwood",
+   "cedarwood"
+  ],
+  "accords": [
+   "floral",
+   "citrus",
+   "musky"
+  ]
+ },
+ {
+  "name": "Halfeti (Intense)",
+  "brand": "Penhaligon's",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "grapefruit",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "rose",
+   "saffron",
+   "nutmeg",
+   "jasmine"
+  ],
+  "base_notes": [
+   "agarwood_oud",
+   "sandalwood",
+   "cedarwood",
+   "vanilla",
+   "amber",
+   "leather"
+  ],
+  "accords": [
+   "oud",
+   "rose",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Delina (Intense)",
+  "brand": "Parfums de Marly",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.1,
+  "style": "floral",
+  "top_notes": [
+   "lychee",
+   "bergamot",
+   "nutmeg"
+  ],
+  "middle_notes": [
+   "rose",
+   "peony",
+   "vanilla"
+  ],
+  "base_notes": [
+   "cashmeran",
+   "musk",
+   "cedarwood",
+   "vetiver"
+  ],
+  "accords": [
+   "floral",
+   "fruity",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Layton (Intense)",
+  "brand": "Parfums de Marly",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "apple",
+   "mandarin",
+   "bergamot"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "violet",
+   "lavender"
+  ],
+  "base_notes": [
+   "vanilla",
+   "sandalwood",
+   "cedarwood",
+   "cardamom",
+   "black_pepper",
+   "guaiac_wood"
+  ],
+  "accords": [
+   "sweet",
+   "spicy",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Pegasus (Intense)",
+  "brand": "Parfums de Marly",
+  "year": 2011,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.1,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "heliotrope"
+  ],
+  "middle_notes": [
+   "almond",
+   "jasmine",
+   "lavender"
+  ],
+  "base_notes": [
+   "vanilla",
+   "sandalwood",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "almond",
+   "vanilla",
+   "amber"
+  ]
+ },
+ {
+  "name": "Nishane Ani (Intense)",
+  "brand": "Nishane",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.4,
+  "style": "oriental",
+  "top_notes": [
+   "mandarin",
+   "bergamot",
+   "cardamom"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "vanilla"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "tonka_bean",
+   "cedarwood",
+   "musk"
+  ],
+  "accords": [
+   "vanilla",
+   "sweet",
+   "woody"
+  ]
+ },
+ {
+  "name": "Nishane Hacivat (Intense)",
+  "brand": "Nishane",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "grapefruit",
+   "pineapple"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "cedarwood",
+   "patchouli"
+  ],
+  "base_notes": [
+   "oakmoss",
+   "sandalwood",
+   "ambroxan",
+   "musk"
+  ],
+  "accords": [
+   "fruity",
+   "woody",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Initio Oud for Greatness (Intense)",
+  "brand": "Initio",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "oriental",
+  "top_notes": [
+   "nutmeg",
+   "saffron",
+   "lavender"
+  ],
+  "middle_notes": [
+   "agarwood_oud"
+  ],
+  "base_notes": [
+   "musk",
+   "patchouli",
+   "sandalwood"
+  ],
+  "accords": [
+   "oud",
+   "smoky",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Initio Side Effect (Intense)",
+  "brand": "Initio",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "rum",
+   "bergamot",
+   "cinnamon"
+  ],
+  "middle_notes": [
+   "vanilla",
+   "tobacco"
+  ],
+  "base_notes": [
+   "musk",
+   "sandalwood",
+   "cedarwood",
+   "benzoin"
+  ],
+  "accords": [
+   "boozy",
+   "sweet",
+   "tobacco"
+  ]
+ },
+ {
+  "name": "PDM Sedley (Intense)",
+  "brand": "Parfums de Marly",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "mandarin",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "geranium",
+   "black_pepper",
+   "lavender"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "BR540 Cloud (Intense)",
+  "brand": "inspired",
+  "year": 2020,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.8,
+  "style": "oriental",
+  "top_notes": [
+   "lavender",
+   "praline"
+  ],
+  "middle_notes": [
+   "cashmeran",
+   "ambroxan"
+  ],
+  "base_notes": [
+   "musk",
+   "vanilla",
+   "cedarwood"
+  ],
+  "accords": [
+   "sweet",
+   "amber",
+   "musky"
+  ]
+ },
+ {
+  "name": "Matiere Noire (Intense)",
+  "brand": "Louis Vuitton",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "black_pepper",
+   "narcissus"
+  ],
+  "middle_notes": [
+   "rose",
+   "agarwood_oud"
+  ],
+  "base_notes": [
+   "patchouli",
+   "cedarwood",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "dark",
+   "woody",
+   "oud"
+  ]
+ },
+ {
+  "name": "Ombre Nomade (Intense)",
+  "brand": "Louis Vuitton",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "saffron",
+   "raspberry"
+  ],
+  "middle_notes": [
+   "rose",
+   "benzoin",
+   "agarwood_oud"
+  ],
+  "base_notes": [
+   "amber",
+   "sandalwood",
+   "cedarwood",
+   "musk"
+  ],
+  "accords": [
+   "oud",
+   "amber",
+   "smoky"
+  ]
+ },
+ {
+  "name": "Afternoon Swim (Intense)",
+  "brand": "Louis Vuitton",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 3,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "mandarin",
+   "orange"
+  ],
+  "middle_notes": [
+   "ginger",
+   "basil"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "ginger"
+  ]
+ },
+ {
+  "name": "Imagination (Intense)",
+  "brand": "Louis Vuitton",
+  "year": 2021,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "blood_orange",
+   "grapefruit"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "musk",
+   "ambroxan",
+   "sandalwood"
+  ],
+  "accords": [
+   "citrus",
+   "woody",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Rose des Vents (Intense)",
+  "brand": "Louis Vuitton",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "petitgrain"
+  ],
+  "middle_notes": [
+   "rose",
+   "iris",
+   "peony"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "floral",
+   "rose",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Turbulences (Intense)",
+  "brand": "Louis Vuitton",
+  "year": 2016,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "tuberose",
+   "jasmine",
+   "ylang_ylang"
+  ],
+  "base_notes": [
+   "sandalwood",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "white_floral",
+   "tuberose",
+   "creamy"
+  ]
+ },
+ {
+  "name": "Widian Black IV (Intense)",
+  "brand": "Widian",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "saffron",
+   "pink_pepper"
+  ],
+  "middle_notes": [
+   "rose",
+   "agarwood_oud",
+   "amber"
+  ],
+  "base_notes": [
+   "musk",
+   "sandalwood",
+   "cedarwood",
+   "vanilla"
+  ],
+  "accords": [
+   "oud",
+   "rose",
+   "amber"
+  ]
+ },
+ {
+  "name": "Xerjoff Nio (Intense)",
+  "brand": "Xerjoff",
+  "year": 2010,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.2,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "lavender",
+   "jasmine",
+   "violet"
+  ],
+  "base_notes": [
+   "musk",
+   "cedarwood",
+   "sandalwood",
+   "amber"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Xerjoff Naxos (Intense)",
+  "brand": "Xerjoff",
+  "year": 2015,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.5,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "lavender"
+  ],
+  "middle_notes": [
+   "cinnamon",
+   "honey",
+   "tonka_bean",
+   "cashmeran"
+  ],
+  "base_notes": [
+   "vanilla",
+   "tobacco",
+   "musk",
+   "cedarwood"
+  ],
+  "accords": [
+   "sweet",
+   "tobacco",
+   "honey"
+  ]
+ },
+ {
+  "name": "Boadicea Hanuman (Intense)",
+  "brand": "Boadicea",
+  "year": 2008,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "oriental",
+  "top_notes": [
+   "bergamot",
+   "saffron",
+   "star_anise"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "iris"
+  ],
+  "base_notes": [
+   "agarwood_oud",
+   "amber",
+   "vanilla",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "oud",
+   "oriental",
+   "spicy"
+  ]
+ },
+ {
+  "name": "Roja Elysium (Intense)",
+  "brand": "Roja Parfums",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.2,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "grapefruit",
+   "lime",
+   "mandarin"
+  ],
+  "middle_notes": [
+   "jasmine",
+   "rose",
+   "lily_of_valley",
+   "lavender"
+  ],
+  "base_notes": [
+   "musk",
+   "amber",
+   "vetiver",
+   "vanilla",
+   "sandalwood",
+   "cedarwood"
+  ],
+  "accords": [
+   "citrus",
+   "fresh",
+   "aromatic"
+  ]
+ },
+ {
+  "name": "Molecule 01 (Intense)",
+  "brand": "Escentric Molecules",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.0,
+  "style": "woody",
+  "top_notes": [
+   "iso_e_super"
+  ],
+  "middle_notes": [
+   "iso_e_super"
+  ],
+  "base_notes": [
+   "iso_e_super"
+  ],
+  "accords": [
+   "woody",
+   "musky",
+   "synthetic"
+  ]
+ },
+ {
+  "name": "Molecule 02 (Intense)",
+  "brand": "Escentric Molecules",
+  "year": 2008,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 3,
+  "rating": 3.8,
+  "style": "musky",
+  "top_notes": [
+   "ambroxan"
+  ],
+  "middle_notes": [
+   "ambroxan"
+  ],
+  "base_notes": [
+   "ambroxan"
+  ],
+  "accords": [
+   "musky",
+   "amber",
+   "woody"
+  ]
+ },
+ {
+  "name": "Escentric 01 (Intense)",
+  "brand": "Escentric Molecules",
+  "year": 2006,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "woody",
+  "top_notes": [
+   "lime",
+   "pink_pepper"
+  ],
+  "middle_notes": [
+   "iso_e_super",
+   "iris"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "musk"
+  ],
+  "accords": [
+   "woody",
+   "fresh",
+   "synthetic"
+  ]
+ },
+ {
+  "name": "Narciso (Intense)",
+  "brand": "Narciso Rodriguez",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "rose",
+   "gardenia"
+  ],
+  "middle_notes": [
+   "musk",
+   "vetiver"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "amber",
+   "vanilla"
+  ],
+  "accords": [
+   "musky",
+   "floral",
+   "powdery"
+  ]
+ },
+ {
+  "name": "For Her (Intense)",
+  "brand": "Narciso Rodriguez",
+  "year": 2003,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 4.2,
+  "style": "floral",
+  "top_notes": [
+   "rose",
+   "peach"
+  ],
+  "middle_notes": [
+   "musk",
+   "osmanthus",
+   "amber"
+  ],
+  "base_notes": [
+   "vetiver",
+   "sandalwood",
+   "patchouli"
+  ],
+  "accords": [
+   "musky",
+   "floral",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Burberry Her (Intense)",
+  "brand": "Burberry",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "fruity",
+  "top_notes": [
+   "blackcurrant",
+   "raspberry",
+   "strawberry"
+  ],
+  "middle_notes": [
+   "violet",
+   "jasmine",
+   "rose"
+  ],
+  "base_notes": [
+   "musk",
+   "amber",
+   "cashmeran",
+   "cedarwood"
+  ],
+  "accords": [
+   "fruity",
+   "floral",
+   "sweet"
+  ]
+ },
+ {
+  "name": "My Burberry (Intense)",
+  "brand": "Burberry",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "green_apple"
+  ],
+  "middle_notes": [
+   "geranium",
+   "rose",
+   "peony",
+   "freesia"
+  ],
+  "base_notes": [
+   "patchouli",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "floral",
+   "rain",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Gio (Intense)",
+  "brand": "Armani",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.0,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "mandarin",
+   "pear"
+  ],
+  "middle_notes": [
+   "lavender",
+   "sage",
+   "geranium"
+  ],
+  "base_notes": [
+   "patchouli",
+   "cedarwood",
+   "musk",
+   "amber"
+  ],
+  "accords": [
+   "aromatic",
+   "woody",
+   "fresh"
+  ]
+ },
+ {
+  "name": "Stronger With You (Intense)",
+  "brand": "Armani",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.9,
+  "style": "oriental",
+  "top_notes": [
+   "cardamom",
+   "pink_pepper",
+   "violet_leaf"
+  ],
+  "middle_notes": [
+   "sage",
+   "cinnamon",
+   "cedarwood"
+  ],
+  "base_notes": [
+   "vanilla",
+   "amber",
+   "cashmeran",
+   "musk"
+  ],
+  "accords": [
+   "sweet",
+   "spicy",
+   "warm"
+  ]
+ },
+ {
+  "name": "Dolce (Intense)",
+  "brand": "D&G",
+  "year": 2014,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 3.8,
+  "style": "floral",
+  "top_notes": [
+   "neroli",
+   "papaya"
+  ],
+  "middle_notes": [
+   "water_lily",
+   "narcissus",
+   "lily_of_valley"
+  ],
+  "base_notes": [
+   "cashmeran",
+   "musk",
+   "sandalwood"
+  ],
+  "accords": [
+   "floral",
+   "white_floral",
+   "fresh"
+  ]
+ },
+ {
+  "name": "L'Interdit (Intense)",
+  "brand": "Givenchy",
+  "year": 2018,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 4,
+  "rating": 3.9,
+  "style": "floral",
+  "top_notes": [
+   "bergamot",
+   "pear"
+  ],
+  "middle_notes": [
+   "tuberose",
+   "orange_blossom",
+   "jasmine"
+  ],
+  "base_notes": [
+   "patchouli",
+   "vetiver",
+   "amber",
+   "musk"
+  ],
+  "accords": [
+   "floral",
+   "woody",
+   "powdery"
+  ]
+ },
+ {
+  "name": "Very Good Girl (Intense)",
+  "brand": "Carolina Herrera",
+  "year": 2021,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 3.8,
+  "style": "oriental",
+  "top_notes": [
+   "lychee",
+   "bergamot",
+   "raspberry"
+  ],
+  "middle_notes": [
+   "rose",
+   "jasmine",
+   "vanilla"
+  ],
+  "base_notes": [
+   "vetiver",
+   "cedarwood",
+   "tonka_bean",
+   "musk"
+  ],
+  "accords": [
+   "fruity",
+   "sweet",
+   "floral"
+  ]
+ },
+ {
+  "name": "Oud Satin Mood (Intense)",
+  "brand": "MFK",
+  "year": 2017,
+  "concentration": "EDP",
+  "longevity": 5,
+  "sillage": 5,
+  "rating": 4.3,
+  "style": "oriental",
+  "top_notes": [
+   "violet"
+  ],
+  "middle_notes": [
+   "rose",
+   "iris",
+   "vanilla"
+  ],
+  "base_notes": [
+   "agarwood_oud",
+   "benzoin",
+   "amber"
+  ],
+  "accords": [
+   "oud",
+   "rose",
+   "sweet"
+  ]
+ },
+ {
+  "name": "Petit Matin (Intense)",
+  "brand": "MFK",
+  "year": 2019,
+  "concentration": "EDP",
+  "longevity": 4,
+  "sillage": 4,
+  "rating": 4.1,
+  "style": "fresh",
+  "top_notes": [
+   "bergamot",
+   "lemon",
+   "lychee"
+  ],
+  "middle_notes": [
+   "iris",
+   "rose",
+   "musk"
+  ],
+  "base_notes": [
+   "cedarwood",
+   "sandalwood",
+   "ambroxan"
+  ],
+  "accords": [
+   "citrus",
+   "floral",
+   "musky"
+  ]
+ }
+]

@@ -1,0 +1,786 @@
+[
+  {
+    "rank": 1,
+    "name": "Green Tea Garden",
+    "style": "fresh",
+    "total_score": 0.9216,
+    "hedonic_score": 0.776,
+    "longevity_hours": 8.0,
+    "smoothness": 1.0,
+    "active_receptors": 403,
+    "ingredients": [
+      {
+        "name": "Citron",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 12.37
+      },
+      {
+        "name": "Petitgrain",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 9.99
+      },
+      {
+        "name": "Azalea",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 10.71
+      },
+      {
+        "name": "Ethyl Linalool",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 12.45
+      },
+      {
+        "name": "Salicylaldehyde",
+        "category": "herbal",
+        "note_type": "middle",
+        "concentration": 15.32
+      },
+      {
+        "name": "Ethylene Brassylate",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 17.07
+      },
+      {
+        "name": "Hinoki",
+        "category": "woody",
+        "note_type": "base",
+        "concentration": 22.08
+      }
+    ],
+    "smiles": [
+      "CC(CCC=C(C)C)CCOC=O",
+      "CC(=CCC/C(=C/CO)C)C",
+      "OCC1=CC=CC=C1",
+      "CC(=CCCC(C)(C=C)O)C",
+      "C1=CC=C(C(=C1)C=O)O",
+      "C1CCCCCC(=O)OCCOC(=O)CCCCC1",
+      "CC(C)C1=CC(=O)C(=CC=C1)O"
+    ],
+    "concentrations": [
+      12.372829023616278,
+      9.994065995377355,
+      10.710813735597357,
+      12.448372636450765,
+      15.324702729393142,
+      17.069450668223478,
+      22.079765211341623
+    ]
+  },
+  {
+    "rank": 2,
+    "name": "Romantic Floral",
+    "style": "floral",
+    "total_score": 0.915,
+    "hedonic_score": 0.757,
+    "longevity_hours": 8.0,
+    "smoothness": 1.0,
+    "active_receptors": 405,
+    "ingredients": [
+      {
+        "name": "Isoamyl Acetate",
+        "category": "fruity",
+        "note_type": "top",
+        "concentration": 7.81
+      },
+      {
+        "name": "Methyl Benzoate",
+        "category": "fruity",
+        "note_type": "top",
+        "concentration": 6.63
+      },
+      {
+        "name": "Damascenone",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 7.12
+      },
+      {
+        "name": "Ethyl Linalool",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 13.53
+      },
+      {
+        "name": "Farnesol",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 9.82
+      },
+      {
+        "name": "Linalyl Acetate",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 9.16
+      },
+      {
+        "name": "Oriental Base Accord",
+        "category": "amber",
+        "note_type": "base",
+        "concentration": 13.19
+      },
+      {
+        "name": "Ethylene Brassylate",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 20.94
+      },
+      {
+        "name": "Ethylene Brassylate",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 11.79
+      }
+    ],
+    "smiles": [
+      "CCCCCOC(=O)C",
+      "COC(=O)C1=CC=CC=C1",
+      "C/C=C/C(=O)C1=C(C=CCC1(C)C)C",
+      "CC(=CCCC(C)(C=C)O)C",
+      "CC(=CCC/C(=C/CC/C(=C/CO)/C)/C)C",
+      "CC(=CCCC(C)(C=C)OC(=O)C)C",
+      "CO",
+      "C1CCCCCC(=O)OCCOC(=O)CCCCC1",
+      "C1CCCCCC(=O)OCCOC(=O)CCCCC1"
+    ],
+    "concentrations": [
+      7.812793477012053,
+      6.629718645935413,
+      7.119489897372702,
+      13.525027939628547,
+      9.823521507475782,
+      9.163152843409199,
+      13.190506011300826,
+      20.941287316984297,
+      11.794502360881182
+    ]
+  },
+  {
+    "rank": 3,
+    "name": "Fresh Citrus Aromatic",
+    "style": "fresh",
+    "total_score": 0.9069,
+    "hedonic_score": 0.734,
+    "longevity_hours": 8.0,
+    "smoothness": 1.0,
+    "active_receptors": 405,
+    "ingredients": [
+      {
+        "name": "Salicylaldehyde",
+        "category": "herbal",
+        "note_type": "top",
+        "concentration": 6.1
+      },
+      {
+        "name": "Camphor",
+        "category": "herbal",
+        "note_type": "top",
+        "concentration": 3.52
+      },
+      {
+        "name": "Citron",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 4.04
+      },
+      {
+        "name": "Ethyl Cinnamate",
+        "category": "spicy",
+        "note_type": "middle",
+        "concentration": 14.53
+      },
+      {
+        "name": "Tansy",
+        "category": "herbal",
+        "note_type": "middle",
+        "concentration": 11.49
+      },
+      {
+        "name": "Cinnamaldehyde",
+        "category": "spicy",
+        "note_type": "middle",
+        "concentration": 10.21
+      },
+      {
+        "name": "Ambergris Tincture (Synthetic)",
+        "category": "amber",
+        "note_type": "base",
+        "concentration": 17.36
+      },
+      {
+        "name": "Nopyl Acetate",
+        "category": "woody",
+        "note_type": "base",
+        "concentration": 12.39
+      },
+      {
+        "name": "Helvetolide",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 20.35
+      }
+    ],
+    "smiles": [
+      "C1=CC=C(C(=C1)C=O)O",
+      "CC1(C2CCC1(C(=O)C2)C)C",
+      "CC(CCC=C(C)C)CCOC=O",
+      "COC(=O)/C=C/C1=CC=CC=C1",
+      "CC(O)CC=CC(C)C",
+      "C1=CC=C(C=C1)/C=C/C=O",
+      "CC12CCCC(C)(C1)C1CCC(O)CC12",
+      "CC(=O)OCCC1=CCC2CC1C2(C)C",
+      "O"
+    ],
+    "concentrations": [
+      6.102943176395914,
+      3.5239760709469214,
+      4.036450258304642,
+      14.53446033116062,
+      11.487513944292377,
+      10.208588483966237,
+      17.363143174612034,
+      12.393849113699474,
+      20.349075446621782
+    ]
+  },
+  {
+    "rank": 4,
+    "name": "Green Tea Garden",
+    "style": "fresh",
+    "total_score": 0.9198,
+    "hedonic_score": 0.771,
+    "longevity_hours": 8.0,
+    "smoothness": 1.0,
+    "active_receptors": 404,
+    "ingredients": [
+      {
+        "name": "Citron",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 8.91
+      },
+      {
+        "name": "Citron",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 6.37
+      },
+      {
+        "name": "Phenylethyl Alcohol",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 9.35
+      },
+      {
+        "name": "Phenylethyl Alcohol",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 9.24
+      },
+      {
+        "name": "Salicylaldehyde",
+        "category": "herbal",
+        "note_type": "middle",
+        "concentration": 15.44
+      },
+      {
+        "name": "White Musk",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 17.19
+      },
+      {
+        "name": "Vetiver",
+        "category": "woody",
+        "note_type": "base",
+        "concentration": 33.49
+      }
+    ],
+    "smiles": [
+      "CC(CCC=C(C)C)CCOC=O",
+      "CC(CCC=C(C)C)CCOC=O",
+      "OCCC1=CC=CC=C1",
+      "OCCC1=CC=CC=C1",
+      "C1=CC=C(C(=C1)C=O)O",
+      "O=C1CCCCCCCCCCCCC1",
+      "CC1CC(C=C(C2C1CC(=C(C)C)C2)C)OC(=O)C"
+    ],
+    "concentrations": [
+      8.913982708192664,
+      6.36979485704222,
+      9.352074700764073,
+      9.241848222247901,
+      15.435932816706021,
+      17.19334452259286,
+      33.49302217245426
+    ]
+  },
+  {
+    "rank": 5,
+    "name": "Fresh Citrus Aromatic",
+    "style": "fresh",
+    "total_score": 0.9069,
+    "hedonic_score": 0.734,
+    "longevity_hours": 8.0,
+    "smoothness": 1.0,
+    "active_receptors": 405,
+    "ingredients": [
+      {
+        "name": "Salicylaldehyde",
+        "category": "herbal",
+        "note_type": "top",
+        "concentration": 5.67
+      },
+      {
+        "name": "Camphor",
+        "category": "herbal",
+        "note_type": "top",
+        "concentration": 3.27
+      },
+      {
+        "name": "Lemon",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 3.75
+      },
+      {
+        "name": "Ethyl Cinnamate",
+        "category": "spicy",
+        "note_type": "middle",
+        "concentration": 16.85
+      },
+      {
+        "name": "Terpinolene",
+        "category": "herbal",
+        "note_type": "middle",
+        "concentration": 10.67
+      },
+      {
+        "name": "Cinnamaldehyde",
+        "category": "spicy",
+        "note_type": "middle",
+        "concentration": 9.49
+      },
+      {
+        "name": "Ambergris Tincture (Synthetic)",
+        "category": "amber",
+        "note_type": "base",
+        "concentration": 16.13
+      },
+      {
+        "name": "Nopyl Acetate",
+        "category": "woody",
+        "note_type": "base",
+        "concentration": 11.52
+      },
+      {
+        "name": "Ethylene Brassylate",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 22.64
+      }
+    ],
+    "smiles": [
+      "C1=CC=C(C(=C1)C=O)O",
+      "CC1(C2CCC1(C(=O)C2)C)C",
+      "O",
+      "COC(=O)/C=C/C1=CC=CC=C1",
+      "CC1(CCC(CC1)C(C)(C)O)O",
+      "C1=CC=C(C=C1)/C=C/C=O",
+      "CC12CCCC(C)(C1)C1CCC(O)CC12",
+      "CC(=O)OCCC1=CCC2CC1C2(C)C",
+      "C1CCCCCC(=O)OCCOC(=O)CCCCC1"
+    ],
+    "concentrations": [
+      5.671138204205506,
+      3.2746422093438516,
+      3.750857022195814,
+      16.846464679785814,
+      10.674731407099982,
+      9.486294479415866,
+      16.134638936747074,
+      11.516940134344768,
+      22.644292926861326
+    ]
+  },
+  {
+    "rank": 6,
+    "name": "Romantic Floral",
+    "style": "floral",
+    "total_score": 0.9066,
+    "hedonic_score": 0.733,
+    "longevity_hours": 6.3,
+    "smoothness": 1.0,
+    "active_receptors": 404,
+    "ingredients": [
+      {
+        "name": "Methyl Benzoate",
+        "category": "fruity",
+        "note_type": "top",
+        "concentration": 5.74
+      },
+      {
+        "name": "Ethyl Butyrate",
+        "category": "fruity",
+        "note_type": "top",
+        "concentration": 7.12
+      },
+      {
+        "name": "Ethyl Linalool",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 6.56
+      },
+      {
+        "name": "Citronellol",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 13.72
+      },
+      {
+        "name": "Farnesol",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 12.05
+      },
+      {
+        "name": "Farnesol",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 11.45
+      },
+      {
+        "name": "Sunset Accord",
+        "category": "amber",
+        "note_type": "base",
+        "concentration": 10.53
+      },
+      {
+        "name": "Cosmone",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 19.08
+      },
+      {
+        "name": "머스크",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 13.76
+      }
+    ],
+    "smiles": [
+      "COC(=O)C1=CC=CC=C1",
+      "CCCC(=O)OCCC1=CC=CC=C1",
+      "CC(=CCCC(C)(C=C)O)C",
+      "C[C@H](CCC=C(C)C)CCO",
+      "CC(=CCC/C(=C/CC/C(=C/CO)/C)/C)C",
+      "CC(=CCC/C(=C/CC/C(=C/CO)/C)/C)C",
+      "CO",
+      "CO",
+      "O=C1CCCCCCCCCCCCC1"
+    ],
+    "concentrations": [
+      5.736844691128092,
+      7.115565050764459,
+      6.556223542808476,
+      13.72007773680887,
+      12.052606925863255,
+      11.451780937254485,
+      10.525793242236036,
+      19.08338792632329,
+      13.757719946813038
+    ]
+  },
+  {
+    "rank": 7,
+    "name": "Green Tea Garden",
+    "style": "fresh",
+    "total_score": 0.9216,
+    "hedonic_score": 0.776,
+    "longevity_hours": 8.0,
+    "smoothness": 1.0,
+    "active_receptors": 403,
+    "ingredients": [
+      {
+        "name": "Citronella",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 12.21
+      },
+      {
+        "name": "Petitgrain",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 9.86
+      },
+      {
+        "name": "Azalea",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 10.57
+      },
+      {
+        "name": "Ethyl Linalool",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 12.29
+      },
+      {
+        "name": "Salicylaldehyde",
+        "category": "herbal",
+        "note_type": "middle",
+        "concentration": 15.12
+      },
+      {
+        "name": "Ethylene Brassylate",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 18.15
+      },
+      {
+        "name": "Hinoki",
+        "category": "woody",
+        "note_type": "base",
+        "concentration": 21.79
+      }
+    ],
+    "smiles": [
+      "CC(CCCC(C)(C)O)CC=O",
+      "CC(=CCC/C(=C/CO)C)C",
+      "OCC1=CC=CC=C1",
+      "CC(=CCCC(C)(C=C)O)C",
+      "C1=CC=C(C(=C1)C=O)O",
+      "C1CCCCCC(=O)OCCOC(=O)CCCCC1",
+      "CC(C)C1=CC(=O)C(=CC=C1)O"
+    ],
+    "concentrations": [
+      12.211583317481026,
+      9.863820905470186,
+      10.571227815450634,
+      12.28614242764662,
+      15.124987489798599,
+      18.150221683620433,
+      21.7920163605325
+    ]
+  },
+  {
+    "rank": 8,
+    "name": "Green Tea Garden",
+    "style": "fresh",
+    "total_score": 0.9216,
+    "hedonic_score": 0.776,
+    "longevity_hours": 8.0,
+    "smoothness": 1.0,
+    "active_receptors": 403,
+    "ingredients": [
+      {
+        "name": "Citron",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 8.87
+      },
+      {
+        "name": "Petitgrain",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 8.91
+      },
+      {
+        "name": "Azalea",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 13.54
+      },
+      {
+        "name": "Ethyl Linalool",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 12.27
+      },
+      {
+        "name": "Salicylaldehyde",
+        "category": "herbal",
+        "note_type": "middle",
+        "concentration": 17.84
+      },
+      {
+        "name": "Ethylene Brassylate",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 16.82
+      },
+      {
+        "name": "Hinoki",
+        "category": "woody",
+        "note_type": "base",
+        "concentration": 21.76
+      }
+    ],
+    "smiles": [
+      "CC(CCC=C(C)C)CCOC=O",
+      "CC(=CCC/C(=C/CO)C)C",
+      "OCC1=CC=CC=C1",
+      "CC(=CCCC(C)(C=C)O)C",
+      "C1=CC=C(C(=C1)C=O)O",
+      "C1CCCCCC(=O)OCCOC(=O)CCCCC1",
+      "CC(C)C1=CC(=O)C(=CC=C1)O"
+    ],
+    "concentrations": [
+      8.872891678731497,
+      8.906836460650032,
+      13.538221466793157,
+      12.265788538331213,
+      17.84125952835171,
+      16.819087801793223,
+      21.75591452534917
+    ]
+  },
+  {
+    "rank": 9,
+    "name": "Green Tea Garden",
+    "style": "fresh",
+    "total_score": 0.9216,
+    "hedonic_score": 0.776,
+    "longevity_hours": 8.0,
+    "smoothness": 1.0,
+    "active_receptors": 403,
+    "ingredients": [
+      {
+        "name": "Citron",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 12.84
+      },
+      {
+        "name": "Petitgrain",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 10.37
+      },
+      {
+        "name": "Azalea",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 10.47
+      },
+      {
+        "name": "Ethyl Linalool",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 12.91
+      },
+      {
+        "name": "Salicylaldehyde",
+        "category": "herbal",
+        "note_type": "middle",
+        "concentration": 15.9
+      },
+      {
+        "name": "Ethylene Brassylate",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 14.6
+      },
+      {
+        "name": "Hinoki",
+        "category": "woody",
+        "note_type": "base",
+        "concentration": 22.91
+      }
+    ],
+    "smiles": [
+      "CC(CCC=C(C)C)CCOC=O",
+      "CC(=CCC/C(=C/CO)C)C",
+      "OCC1=CC=CC=C1",
+      "CC(=CCCC(C)(C=C)O)C",
+      "C1=CC=C(C(=C1)C=O)O",
+      "C1CCCCCC(=O)OCCOC(=O)CCCCC1",
+      "CC(C)C1=CC(=O)C(=CC=C1)O"
+    ],
+    "concentrations": [
+      12.836458198295425,
+      10.368559214372105,
+      10.472644496276489,
+      12.914832547964947,
+      15.898943209486289,
+      14.601433929697835,
+      22.907128403906913
+    ]
+  },
+  {
+    "rank": 10,
+    "name": "Green Tea Garden",
+    "style": "fresh",
+    "total_score": 0.9216,
+    "hedonic_score": 0.776,
+    "longevity_hours": 8.0,
+    "smoothness": 1.0,
+    "active_receptors": 404,
+    "ingredients": [
+      {
+        "name": "Citron",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 11.75
+      },
+      {
+        "name": "Petitgrain",
+        "category": "citrus",
+        "note_type": "top",
+        "concentration": 9.49
+      },
+      {
+        "name": "Azalea",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 11.08
+      },
+      {
+        "name": "Phenyl Ethyl Formate",
+        "category": "floral",
+        "note_type": "middle",
+        "concentration": 15.95
+      },
+      {
+        "name": "Salicylaldehyde",
+        "category": "herbal",
+        "note_type": "middle",
+        "concentration": 14.55
+      },
+      {
+        "name": "Ethylene Brassylate",
+        "category": "musk",
+        "note_type": "base",
+        "concentration": 16.21
+      },
+      {
+        "name": "Hinoki",
+        "category": "woody",
+        "note_type": "base",
+        "concentration": 20.97
+      }
+    ],
+    "smiles": [
+      "CC(CCC=C(C)C)CCOC=O",
+      "CC(=CCC/C(=C/CO)C)C",
+      "OCC1=CC=CC=C1",
+      "CCOC=O",
+      "C1=CC=C(C(=C1)C=O)O",
+      "C1CCCCCC(=O)OCCOC(=O)CCCCC1",
+      "CC(C)C1=CC(=O)C(=CC=C1)O"
+    ],
+    "concentrations": [
+      11.74972156221839,
+      9.490755307131666,
+      11.075500245658143,
+      15.953462732861428,
+      14.552936094926345,
+      16.20981686474718,
+      20.967807192456842
+    ]
+  }
+]

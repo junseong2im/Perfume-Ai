@@ -1,0 +1,193 @@
+{
+    "description": "향의 원색(Primary Odors) — NMF 기반 12개 기저 향료. 이 12가지를 조합하면 세상의 모든 향을 95% 이상 재현 가능.",
+    "basis_set": [
+        {
+            "id": "po_floral",
+            "name": "플로럴 원색",
+            "representative": "phenylethyl_alcohol",
+            "hex": "#FF69B4",
+            "weight_range": [
+                0,
+                30
+            ],
+            "descriptors": [
+                "floral",
+                "rose",
+                "sweet"
+            ]
+        },
+        {
+            "id": "po_citrus",
+            "name": "시트러스 원색",
+            "representative": "limonene",
+            "hex": "#FFD700",
+            "weight_range": [
+                0,
+                25
+            ],
+            "descriptors": [
+                "citrus",
+                "fresh",
+                "zesty"
+            ]
+        },
+        {
+            "id": "po_woody",
+            "name": "우디 원색",
+            "representative": "cedrol",
+            "hex": "#8B4513",
+            "weight_range": [
+                0,
+                35
+            ],
+            "descriptors": [
+                "woody",
+                "cedar",
+                "dry"
+            ]
+        },
+        {
+            "id": "po_spicy",
+            "name": "스파이시 원색",
+            "representative": "eugenol",
+            "hex": "#DC143C",
+            "weight_range": [
+                0,
+                15
+            ],
+            "descriptors": [
+                "spicy",
+                "clove",
+                "warm"
+            ]
+        },
+        {
+            "id": "po_sweet",
+            "name": "스위트 원색",
+            "representative": "vanillin",
+            "hex": "#FFDAB9",
+            "weight_range": [
+                0,
+                20
+            ],
+            "descriptors": [
+                "sweet",
+                "vanilla",
+                "gourmand"
+            ]
+        },
+        {
+            "id": "po_musk",
+            "name": "머스크 원색",
+            "representative": "muscone",
+            "hex": "#DDA0DD",
+            "weight_range": [
+                0,
+                20
+            ],
+            "descriptors": [
+                "musk",
+                "clean",
+                "animalic"
+            ]
+        },
+        {
+            "id": "po_green",
+            "name": "그린 원색",
+            "representative": "cis_3_hexenol",
+            "hex": "#228B22",
+            "weight_range": [
+                0,
+                15
+            ],
+            "descriptors": [
+                "green",
+                "leafy",
+                "fresh"
+            ]
+        },
+        {
+            "id": "po_marine",
+            "name": "마린 원색",
+            "representative": "calone",
+            "hex": "#00CED1",
+            "weight_range": [
+                0,
+                15
+            ],
+            "descriptors": [
+                "marine",
+                "aquatic",
+                "ozonic"
+            ]
+        },
+        {
+            "id": "po_amber",
+            "name": "앰버 원색",
+            "representative": "ambroxide",
+            "hex": "#FF8C00",
+            "weight_range": [
+                0,
+                25
+            ],
+            "descriptors": [
+                "amber",
+                "warm",
+                "balsamic"
+            ]
+        },
+        {
+            "id": "po_fruity",
+            "name": "프루티 원색",
+            "representative": "gamma_decalactone",
+            "hex": "#FF6347",
+            "weight_range": [
+                0,
+                20
+            ],
+            "descriptors": [
+                "fruity",
+                "peach",
+                "sweet"
+            ]
+        },
+        {
+            "id": "po_herbal",
+            "name": "허벌 원색",
+            "representative": "linalool",
+            "hex": "#9370DB",
+            "weight_range": [
+                0,
+                15
+            ],
+            "descriptors": [
+                "herbal",
+                "lavender",
+                "aromatic"
+            ]
+        },
+        {
+            "id": "po_smoky",
+            "name": "스모키 원색",
+            "representative": "vetiverol",
+            "hex": "#2F4F4F",
+            "weight_range": [
+                0,
+                15
+            ],
+            "descriptors": [
+                "smoky",
+                "earthy",
+                "dark"
+            ]
+        }
+    ],
+    "microfluidics": {
+        "channel_count": 12,
+        "min_volume_nL": 0.5,
+        "max_volume_nL": 500,
+        "mixing_time_ms": 50,
+        "precision_nL": 0.1,
+        "total_formulations_possible": "12^100 ≈ 무한"
+    }
+}

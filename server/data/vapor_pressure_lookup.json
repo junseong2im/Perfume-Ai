@@ -1,0 +1,1496 @@
+{
+ "CC1=CCC(CC1)C(=C)C": {
+  "vp_mmHg": 1.98,
+  "bp_C": 176,
+  "source": "nist_experimental",
+  "name": "limonene"
+ },
+ "CC1=CCC2CC1C2(C)C": {
+  "vp_mmHg": 4.75,
+  "bp_C": 155,
+  "source": "nist_experimental",
+  "name": "alpha-pinene"
+ },
+ "CC1(C2CCC(=C)C1C2)C": {
+  "vp_mmHg": 2.93,
+  "bp_C": 166,
+  "source": "nist_experimental",
+  "name": "beta-pinene"
+ },
+ "CC(=CCC=C(C)C=C)C": {
+  "vp_mmHg": 2.09,
+  "bp_C": 167,
+  "source": "nist_experimental",
+  "name": "myrcene"
+ },
+ "CC(=CCCC(C)(C=C)O)C": {
+  "vp_mmHg": 0.159,
+  "bp_C": 198,
+  "source": "nist_experimental",
+  "name": "linalool"
+ },
+ "CC(=CCCC(C)(C=C)OC(=O)C)C": {
+  "vp_mmHg": 0.054,
+  "bp_C": 220,
+  "source": "nist_experimental",
+  "name": "linalyl_acetate"
+ },
+ "CC(=CCC/C(=C/CO)/C)C": {
+  "vp_mmHg": 0.03,
+  "bp_C": 230,
+  "source": "nist_experimental",
+  "name": "geraniol"
+ },
+ "CC(=CCC/C(=C\\CO)/C)C": {
+  "vp_mmHg": 0.032,
+  "bp_C": 225,
+  "source": "nist_experimental",
+  "name": "nerol"
+ },
+ "C[C@H](CCC=C(C)C)CCO": {
+  "vp_mmHg": 0.02,
+  "bp_C": 225,
+  "source": "nist_experimental",
+  "name": "citronellol"
+ },
+ "CC(=CCC/C(=C/C=O)/C)C": {
+  "vp_mmHg": 0.092,
+  "bp_C": 229,
+  "source": "nist_experimental",
+  "name": "citral"
+ },
+ "CC1(CCC(CC1)C(C)(C)O)O": {
+  "vp_mmHg": 0.042,
+  "bp_C": 219,
+  "source": "nist_experimental",
+  "name": "terpineol"
+ },
+ "CC1=CCC(=C(C)C)CC1": {
+  "vp_mmHg": 1.12,
+  "bp_C": 186,
+  "source": "nist_experimental",
+  "name": "terpinolene"
+ },
+ "CC(=CC/C=C(\\C)/C=C)C": {
+  "vp_mmHg": 2.5,
+  "bp_C": 177,
+  "source": "nist_experimental",
+  "name": "ocimene"
+ },
+ "CC1CCC(CC1=O)C(=C)C": {
+  "vp_mmHg": 0.097,
+  "bp_C": 231,
+  "source": "nist_experimental",
+  "name": "carvone"
+ },
+ "CC1CCC(C(C1)O)C(C)C": {
+  "vp_mmHg": 0.064,
+  "bp_C": 212,
+  "source": "nist_experimental",
+  "name": "menthol"
+ },
+ "CC1(C2CCC1(C(=O)C2)C)C": {
+  "vp_mmHg": 0.065,
+  "bp_C": 204,
+  "source": "nist_experimental",
+  "name": "camphor"
+ },
+ "CC1(C2CCC(O1)(CC2)C)C": {
+  "vp_mmHg": 1.56,
+  "bp_C": 176,
+  "source": "nist_experimental",
+  "name": "eucalyptol"
+ },
+ "CCCC(=O)OCC": {
+  "vp_mmHg": 9.6,
+  "bp_C": 133,
+  "source": "nist_experimental",
+  "name": "ethyl_butyrate"
+ },
+ "CCOC(=O)C": {
+  "vp_mmHg": 93.2,
+  "bp_C": 77,
+  "source": "nist_experimental",
+  "name": "ethyl_acetate"
+ },
+ "CC(C)CCOC(=O)C": {
+  "vp_mmHg": 5.6,
+  "bp_C": 142,
+  "source": "nist_experimental",
+  "name": "isoamyl_acetate"
+ },
+ "CC(=O)OCC1=CC=CC=C1": {
+  "vp_mmHg": 0.13,
+  "bp_C": 213,
+  "source": "nist_experimental",
+  "name": "benzyl_acetate"
+ },
+ "COC(=O)C1=CC=CC=C1O": {
+  "vp_mmHg": 0.043,
+  "bp_C": 222,
+  "source": "nist_experimental",
+  "name": "methyl_salicylate"
+ },
+ "COC(=O)C1=CC=CC=C1": {
+  "vp_mmHg": 0.44,
+  "bp_C": 199,
+  "source": "nist_experimental",
+  "name": "methyl_benzoate"
+ },
+ "C1=CC=C(C=C1)/C=C/C=O": {
+  "vp_mmHg": 0.029,
+  "bp_C": 248,
+  "source": "nist_experimental",
+  "name": "cinnamaldehyde"
+ },
+ "C1=CC=C(C=C1)C=O": {
+  "vp_mmHg": 1.27,
+  "bp_C": 179,
+  "source": "nist_experimental",
+  "name": "benzaldehyde"
+ },
+ "COC1=C(C=CC(=C1)C=O)O": {
+  "vp_mmHg": 0.0002,
+  "bp_C": 285,
+  "source": "nist_experimental",
+  "name": "vanillin"
+ },
+ "CCCCCC=O": {
+  "vp_mmHg": 11.3,
+  "bp_C": 131,
+  "source": "nist_experimental",
+  "name": "hexanal"
+ },
+ "CCCCCCCC=O": {
+  "vp_mmHg": 2.07,
+  "bp_C": 171,
+  "source": "nist_experimental",
+  "name": "octanal"
+ },
+ "CCCCCCCCCC=O": {
+  "vp_mmHg": 0.24,
+  "bp_C": 208,
+  "source": "nist_experimental",
+  "name": "decanal"
+ },
+ "CCCCCCCCC=O": {
+  "vp_mmHg": 0.53,
+  "bp_C": 191,
+  "source": "nist_experimental",
+  "name": "nonanal"
+ },
+ "CC(CCCC(C)(C)O)CC=O": {
+  "vp_mmHg": 0.21,
+  "bp_C": 207,
+  "source": "nist_experimental",
+  "name": "citronellal"
+ },
+ "OCCC1=CC=CC=C1": {
+  "vp_mmHg": 0.045,
+  "bp_C": 219,
+  "source": "nist_experimental",
+  "name": "phenylethyl_alcohol"
+ },
+ "C1=CC=C(C=C1)CO": {
+  "vp_mmHg": 0.094,
+  "bp_C": 205,
+  "source": "nist_experimental",
+  "name": "benzyl_alcohol"
+ },
+ "CCC=CCCO": {
+  "vp_mmHg": 1.55,
+  "bp_C": 157,
+  "source": "nist_experimental",
+  "name": "cis_3_hexenol"
+ },
+ "CC(C)(C)C1CCC(CC1)O": {
+  "vp_mmHg": 0.93,
+  "bp_C": 157,
+  "source": "nist_experimental",
+  "name": "hexanol"
+ },
+ "COC1=C(C=CC(=C1)CC=C)O": {
+  "vp_mmHg": 0.011,
+  "bp_C": 254,
+  "source": "nist_experimental",
+  "name": "eugenol"
+ },
+ "CC1=CC(=C(C=C1)C(C)C)O": {
+  "vp_mmHg": 0.016,
+  "bp_C": 233,
+  "source": "nist_experimental",
+  "name": "thymol"
+ },
+ "C/C=C/C1=CC=C(C=C1)OC": {
+  "vp_mmHg": 0.054,
+  "bp_C": 234,
+  "source": "nist_experimental",
+  "name": "anethole"
+ },
+ "COC1=CC=C(C=C1)CC=C": {
+  "vp_mmHg": 0.36,
+  "bp_C": 216,
+  "source": "nist_experimental",
+  "name": "estragole"
+ },
+ "C1CC(=O)OC2=CC=CC=C21": {
+  "vp_mmHg": 0.0007,
+  "bp_C": 301,
+  "source": "nist_experimental",
+  "name": "coumarin"
+ },
+ "CCCCCCC1CCC(=O)O1": {
+  "vp_mmHg": 0.006,
+  "bp_C": 281,
+  "source": "nist_experimental",
+  "name": "gamma_decalactone"
+ },
+ "CCCCCCC[C@H]1CCC(=O)O1": {
+  "vp_mmHg": 0.003,
+  "bp_C": 297,
+  "source": "nist_experimental",
+  "name": "gamma_undecalactone"
+ },
+ "CC1(C)CC2=CC(=C(C(C2C(O1)(C)C)C)C)C": {
+  "vp_mmHg": 0.00073,
+  "bp_C": 327,
+  "source": "nist_experimental",
+  "name": "galaxolide"
+ },
+ "C1CCCCCC(=O)OCCOC(=O)CCCCC1": {
+  "vp_mmHg": 0.00015,
+  "bp_C": 332,
+  "source": "nist_experimental",
+  "name": "ethylene_brassylate"
+ },
+ "O": {
+  "vp_mmHg": 0.006,
+  "bp_C": 265,
+  "source": "nist_experimental",
+  "name": "musk_ketone"
+ },
+ "CC1(C)CCCC2(C)C1CCC1(C)OC(CC12)C": {
+  "vp_mmHg": 0.0004,
+  "bp_C": 310,
+  "source": "nist_experimental",
+  "name": "ambroxide"
+ },
+ "CC1(C)CC(=O)C2(CCC(CC2C1)C(C)C)C": {
+  "vp_mmHg": 0.003,
+  "bp_C": 285,
+  "source": "nist_experimental",
+  "name": "iso_e_super"
+ },
+ "CC(=O)OCC(CC1CCCC1=O)C": {
+  "vp_mmHg": 0.0015,
+  "bp_C": 295,
+  "source": "nist_experimental",
+  "name": "hedione"
+ },
+ "CC(C)(CCCC1=CCC(CC1)C=O)O": {
+  "vp_mmHg": 0.002,
+  "bp_C": 290,
+  "source": "nist_experimental",
+  "name": "lyral"
+ },
+ "CCCCCC1C(CCC1=O)CC(=O)OC": {
+  "vp_mmHg": 0.0015,
+  "bp_C": 295,
+  "source": "nist_experimental",
+  "name": "methyl_dihydrojasmonate"
+ },
+ "CO": {
+  "vp_mmHg": 0.052,
+  "bp_C": 225,
+  "source": "nist_experimental",
+  "name": "damascone_beta"
+ },
+ "CC(=O)C1=CC=CC=C1": {
+  "vp_mmHg": 0.45,
+  "bp_C": 202,
+  "source": "nist_experimental",
+  "name": "acetophenone"
+ },
+ "C1=CC=C2C(=C1)C=CN2": {
+  "vp_mmHg": 0.012,
+  "bp_C": 254,
+  "source": "nist_experimental",
+  "name": "indole"
+ },
+ "C1=CC=C(C=C1)O": {
+  "vp_mmHg": 0.2,
+  "bp_C": 182.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "phenol"
+ },
+ "COC1=CC=CC=C1O": {
+  "vp_mmHg": 5.0,
+  "bp_C": 206.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "guaiacol"
+ },
+ "CC(CN)O": {
+  "vp_mmHg": 2.59,
+  "bp_C": 157.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "1-aminopropan-2-ol"
+ },
+ "CC(=O)O": {
+  "vp_mmHg": 11.4,
+  "bp_C": 117.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "acetic acid"
+ },
+ "CC=O": {
+  "vp_mmHg": 400.0,
+  "bp_C": 21.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "acetaldehyde"
+ },
+ "CC(=O)C": {
+  "vp_mmHg": 180.0,
+  "bp_C": 56.111111111111114,
+  "source": "pubchem_experimental",
+  "name": "acetone"
+ },
+ "C1=CC=C(C=C1)C(=O)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 248.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "benzoic acid"
+ },
+ "CCCC=O": {
+  "vp_mmHg": 91.5,
+  "bp_C": 75.0,
+  "source": "pubchem_experimental",
+  "name": "butyraldehyde"
+ },
+ "CCCCO": {
+  "vp_mmHg": 15.51,
+  "bp_C": 117.72222222222223,
+  "source": "pubchem_experimental",
+  "name": "1-butanol"
+ },
+ "CCCC(=O)O": {
+  "vp_mmHg": 0.43,
+  "bp_C": 163.5,
+  "source": "pubchem_experimental",
+  "name": "butyric acid"
+ },
+ "C(=O)O": {
+  "vp_mmHg": 35.0,
+  "bp_C": 100.72222222222223,
+  "source": "pubchem_experimental",
+  "name": "formic acid"
+ },
+ "C1=CC=C(C(=C1)O)O": {
+  "vp_mmHg": 5.0,
+  "bp_C": 245.0,
+  "source": "pubchem_experimental",
+  "name": "pyrocatechol"
+ },
+ "CC1=CC=CC=C1O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 191.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "o-cresol"
+ },
+ "CC1=CC(=CC=C1)O": {
+  "vp_mmHg": 0.04,
+  "bp_C": 202.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "m-cresol"
+ },
+ "CCCCCCCC": {
+  "vp_mmHg": 10.0,
+  "bp_C": 125.61111111111111,
+  "source": "pubchem_experimental",
+  "name": "octane"
+ },
+ "CCCCCCCC(=O)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 239.72222222222223,
+  "source": "pubchem_experimental",
+  "name": "octanoic acid"
+ },
+ "CCC=O": {
+  "vp_mmHg": 235.0,
+  "bp_C": 48.888888888888886,
+  "source": "pubchem_experimental",
+  "name": "propionaldehyde"
+ },
+ "CC(C(=O)O)O": {
+  "vp_mmHg": 0.0813,
+  "bp_C": 122.0,
+  "source": "pubchem_experimental",
+  "name": "lactic acid"
+ },
+ "CC(=O)C(=O)C": {
+  "vp_mmHg": 56.8,
+  "bp_C": 87.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "2,3-butanedione"
+ },
+ "CNC": {
+  "vp_mmHg": 1388.03,
+  "bp_C": 7.3888888888888875,
+  "source": "pubchem_experimental",
+  "name": "dimethylamine"
+ },
+ "CCO": {
+  "vp_mmHg": 40.0,
+  "bp_C": 78.5,
+  "source": "pubchem_experimental",
+  "name": "ethanol"
+ },
+ "CS": {
+  "vp_mmHg": 400.0,
+  "bp_C": 5.944444444444446,
+  "source": "pubchem_experimental",
+  "name": "methanethiol"
+ },
+ "C1=CC=C2C=CC=CC2=C1": {
+  "vp_mmHg": 0.05,
+  "bp_C": 217.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "naphthalene"
+ },
+ "C1=CC=C(C=C1)CCN": {
+  "vp_mmHg": 0.23,
+  "bp_C": 197.5,
+  "source": "pubchem_experimental",
+  "name": "phenethylamine"
+ },
+ "CC(CO)O": {
+  "vp_mmHg": 0.08,
+  "bp_C": 188.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "propylene glycol"
+ },
+ "CCCO": {
+  "vp_mmHg": 44.98,
+  "bp_C": 97.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "1-propanol"
+ },
+ "CCC(=O)O": {
+  "vp_mmHg": 2.9,
+  "bp_C": 140.72222222222223,
+  "source": "pubchem_experimental",
+  "name": "propionic acid"
+ },
+ "C1=CC=NC=C1": {
+  "vp_mmHg": 18.0,
+  "bp_C": 115.0,
+  "source": "pubchem_experimental",
+  "name": "pyridine"
+ },
+ "CSC": {
+  "vp_mmHg": 502.0,
+  "bp_C": 37.22222222222222,
+  "source": "pubchem_experimental",
+  "name": "dimethyl sulfide"
+ },
+ "C(C(=O)O)S": {
+  "vp_mmHg": 10.0,
+  "bp_C": 120.0,
+  "source": "pubchem_experimental",
+  "name": "mercaptoacetic acid"
+ },
+ "CN(C)C": {
+  "vp_mmHg": 1487.83,
+  "bp_C": 2.8888888888888906,
+  "source": "pubchem_experimental",
+  "name": "trimethylamine"
+ },
+ "C(CS)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 157.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "2-mercaptoethanol"
+ },
+ "C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2": {
+  "vp_mmHg": 0.000224,
+  "bp_C": 321.3,
+  "source": "pubchem_experimental",
+  "name": "benzyl benzoate"
+ },
+ "CC1=CC=C(C=C1)O": {
+  "vp_mmHg": 0.04,
+  "bp_C": 201.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "p-cresol"
+ },
+ "CCCCCCCCCC(=O)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 270.0,
+  "source": "pubchem_experimental",
+  "name": "decanoic acid"
+ },
+ "C(C(CS)S)O": {
+  "vp_mmHg": 4.92,
+  "bp_C": 120.0,
+  "source": "pubchem_experimental",
+  "name": "dimercaprol"
+ },
+ "C(CC=O)CC=O": {
+  "vp_mmHg": 17.0,
+  "bp_C": 188.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "glutaraldehyde"
+ },
+ "CC(C)O": {
+  "vp_mmHg": 33.0,
+  "bp_C": 82.5,
+  "source": "pubchem_experimental",
+  "name": "isopropyl alcohol"
+ },
+ "CCCCCCCCCCCC(=O)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 225.0,
+  "source": "pubchem_experimental",
+  "name": "lauric acid"
+ },
+ "CC(=C)C(=O)O": {
+  "vp_mmHg": 0.65,
+  "bp_C": 162.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "methacrylic acid"
+ },
+ "C1CNCCN1": {
+  "vp_mmHg": 0.16,
+  "bp_C": 146.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "piperazine"
+ },
+ "C1=CC(=CC(=C1)O)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 280.0,
+  "source": "pubchem_experimental",
+  "name": "resorcinol"
+ },
+ "C=CCC1=CC2=C(C=C1)OCO2": {
+  "vp_mmHg": 1.0,
+  "bp_C": 233.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "safrole"
+ },
+ "CCCCCCCCCCCCCCCCCC(=O)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 382.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "stearic acid"
+ },
+ "CC(=O)OCC(COC(=O)C)OC(=O)C": {
+  "vp_mmHg": 1.0,
+  "bp_C": 258.5,
+  "source": "pubchem_experimental",
+  "name": "triacetin"
+ },
+ "C=CCN=C=S": {
+  "vp_mmHg": 5.0,
+  "bp_C": 151.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "allyl isothiocyanate"
+ },
+ "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O": {
+  "vp_mmHg": 0.0,
+  "bp_C": null,
+  "source": "pubchem_experimental",
+  "name": "sucrose"
+ },
+ "CCCCCO": {
+  "vp_mmHg": 1.0,
+  "bp_C": 137.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "1-pentanol"
+ },
+ "CN": {
+  "vp_mmHg": 1972.92,
+  "bp_C": -6.5,
+  "source": "pubchem_experimental",
+  "name": "methylamine"
+ },
+ "CCN": {
+  "vp_mmHg": 400.0,
+  "bp_C": 16.61111111111111,
+  "source": "pubchem_experimental",
+  "name": "ethanamine"
+ },
+ "CCS": {
+  "vp_mmHg": 442.0,
+  "bp_C": 34.388888888888886,
+  "source": "pubchem_experimental",
+  "name": "ethanethiol"
+ },
+ "CC(C)N": {
+  "vp_mmHg": 940.94,
+  "bp_C": 32.388888888888886,
+  "source": "pubchem_experimental",
+  "name": "isopropylamine"
+ },
+ "CC(C)S": {
+  "vp_mmHg": 277.3,
+  "bp_C": 52.55555555555556,
+  "source": "pubchem_experimental",
+  "name": "2-propanethiol"
+ },
+ "CC(C)(C)O": {
+  "vp_mmHg": 31.0,
+  "bp_C": 82.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "tert-butanol"
+ },
+ "CC(C)(C)S": {
+  "vp_mmHg": 142.5,
+  "bp_C": 67.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "2-methyl-2-propanethiol"
+ },
+ "CCC(C)(C)O": {
+  "vp_mmHg": 9.113,
+  "bp_C": 102.4,
+  "source": "pubchem_experimental",
+  "name": "2-methyl-2-butanol"
+ },
+ "CC(C)(C)C(=O)O": {
+  "vp_mmHg": 0.5,
+  "bp_C": 163.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "pivalic acid"
+ },
+ "CCCCOC(=O)CC(CC(=O)OCCCC)(C(=O)OCCCC)OC(=O)C": {
+  "vp_mmHg": 1.0,
+  "bp_C": 331.0,
+  "source": "pubchem_experimental",
+  "name": "77-90-7"
+ },
+ "CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 294.0,
+  "source": "pubchem_experimental",
+  "name": "triethyl citrate"
+ },
+ "CC1=CC(=O)CC(C1)(C)C": {
+  "vp_mmHg": 0.2,
+  "bp_C": 215.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "isophorone"
+ },
+ "CC(=C)C=C": {
+  "vp_mmHg": 400.0,
+  "bp_C": 33.888888888888886,
+  "source": "pubchem_experimental",
+  "name": "isoprene"
+ },
+ "CC(C)CN": {
+  "vp_mmHg": 100.0,
+  "bp_C": 68.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "isobutylamine"
+ },
+ "CC(C)CO": {
+  "vp_mmHg": 10.0,
+  "bp_C": 107.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "2-methyl-1-propanol"
+ },
+ "CC(C)C=O": {
+  "vp_mmHg": 170.0,
+  "bp_C": 63.888888888888886,
+  "source": "pubchem_experimental",
+  "name": "isobutyraldehyde"
+ },
+ "CCC(C)O": {
+  "vp_mmHg": 12.0,
+  "bp_C": 99.44444444444444,
+  "source": "pubchem_experimental",
+  "name": "2-butanol"
+ },
+ "CCC(=O)C": {
+  "vp_mmHg": 77.5,
+  "bp_C": 79.61111111111111,
+  "source": "pubchem_experimental",
+  "name": "2-butanone"
+ },
+ "CC(=O)C=C": {
+  "vp_mmHg": 86.0,
+  "bp_C": 81.66666666666667,
+  "source": "pubchem_experimental",
+  "name": "methyl vinyl ketone"
+ },
+ "CC(=O)OC": {
+  "vp_mmHg": 170.0,
+  "bp_C": 56.888888888888886,
+  "source": "pubchem_experimental",
+  "name": "methyl acetate"
+ },
+ "CC(C)C(=O)O": {
+  "vp_mmHg": 1.81,
+  "bp_C": 153.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "isobutyric acid"
+ },
+ "CC1(C2CCC(C2)C1=C)C": {
+  "vp_mmHg": 2.5,
+  "bp_C": 154.44444444444446,
+  "source": "pubchem_experimental",
+  "name": "camphene"
+ },
+ "CC(=C)C(=O)OC": {
+  "vp_mmHg": 40.0,
+  "bp_C": 101.0,
+  "source": "pubchem_experimental",
+  "name": "methyl methacrylate"
+ },
+ "CC1=CNC2=CC=CC=C12": {
+  "vp_mmHg": 0.0055,
+  "bp_C": 265.5,
+  "source": "pubchem_experimental",
+  "name": "3-methylindole"
+ },
+ "CCC1=CC=CC=C1O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 204.5222222222222,
+  "source": "pubchem_experimental",
+  "name": "2-ethylphenol"
+ },
+ "C1=CC=C(C(=C1)C=O)O": {
+  "vp_mmHg": 1.09,
+  "bp_C": 196.66666666666666,
+  "source": "pubchem_experimental",
+  "name": "salicylaldehyde"
+ },
+ "CC1=CC=CC2=CC=CC=C12": {
+  "vp_mmHg": 23.0,
+  "bp_C": 310.0,
+  "source": "pubchem_experimental",
+  "name": "1-methylnaphthalene"
+ },
+ "C1=CC=C(C=C1)C2=CC=CC=C2O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 275.0,
+  "source": "pubchem_experimental",
+  "name": "2-phenylphenol"
+ },
+ "C1=CC=C2C(=C1)C=CC=N2": {
+  "vp_mmHg": 1.0,
+  "bp_C": 237.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "quinoline"
+ },
+ "CC1=CC2=CC=CC=C2C=C1": {
+  "vp_mmHg": 0.055,
+  "bp_C": 242.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "2-methylnaphthalene"
+ },
+ "CC1=CC2=C(C=C1)N=CC=C2": {
+  "vp_mmHg": 3.0,
+  "bp_C": 258.6111111111111,
+  "source": "pubchem_experimental",
+  "name": "6-methylquinoline"
+ },
+ "C1=CC=C(C=C1)C2=CC=CC=C2": {
+  "vp_mmHg": 0.005,
+  "bp_C": 255.0,
+  "source": "pubchem_experimental",
+  "name": "biphenyl"
+ },
+ "COC1=C(C=C(C=C1)CC=C)OC": {
+  "vp_mmHg": 0.02,
+  "bp_C": 254.72222222222223,
+  "source": "pubchem_experimental",
+  "name": "methyl eugenol"
+ },
+ "CCC(=O)C1=CC=CC=C1": {
+  "vp_mmHg": 1.5,
+  "bp_C": 218.0,
+  "source": "pubchem_experimental",
+  "name": "propiophenone"
+ },
+ "CC1=C(C=C(C=C1)O)C": {
+  "vp_mmHg": 1.0,
+  "bp_C": 225.0,
+  "source": "pubchem_experimental",
+  "name": "3,4-dimethylphenol"
+ },
+ "CC1=CC(=C(C=C1)C)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 212.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "2,5-dimethylphenol"
+ },
+ "CCOC(=O)C(=O)OCC": {
+  "vp_mmHg": 1.0,
+  "bp_C": 185.7,
+  "source": "pubchem_experimental",
+  "name": "diethyl oxalate"
+ },
+ "CCC(=O)CC": {
+  "vp_mmHg": 25.85,
+  "bp_C": 102.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "3-pentanone"
+ },
+ "COC(=O)C=C": {
+  "vp_mmHg": 40.0,
+  "bp_C": 80.5,
+  "source": "pubchem_experimental",
+  "name": "methyl acrylate"
+ },
+ "C1CCC(C1)O": {
+  "vp_mmHg": 1892.0,
+  "bp_C": 140.4,
+  "source": "pubchem_experimental",
+  "name": "cyclopentanol"
+ },
+ "C1CC(=O)OC1": {
+  "vp_mmHg": 1.0,
+  "bp_C": 205.0,
+  "source": "pubchem_experimental",
+  "name": "gamma-butyrolactone"
+ },
+ "CCOC(=O)C(=C)C": {
+  "vp_mmHg": 14.0,
+  "bp_C": 117.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "ethyl methacrylate"
+ },
+ "CCOC(=O)C(C)O": {
+  "vp_mmHg": 1.7,
+  "bp_C": 153.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "ethyl lactate"
+ },
+ "CC(C)COC(=O)C(C)C": {
+  "vp_mmHg": 4.33,
+  "bp_C": 148.72222222222223,
+  "source": "pubchem_experimental",
+  "name": "isobutyl isobutyrate"
+ },
+ "CC(C)COC(=O)C(=C)C": {
+  "vp_mmHg": 3.63,
+  "bp_C": 155.0,
+  "source": "pubchem_experimental",
+  "name": "isobutyl methacrylate"
+ },
+ "CCCCOC(=O)C(=C)C": {
+  "vp_mmHg": 1.8,
+  "bp_C": 170.5,
+  "source": "pubchem_experimental",
+  "name": "butyl methacrylate"
+ },
+ "CCC(CC)CO": {
+  "vp_mmHg": 3.62,
+  "bp_C": 145.0,
+  "source": "pubchem_experimental",
+  "name": "2-ethyl-1-butanol"
+ },
+ "C1CC(OC1)CO": {
+  "vp_mmHg": 0.8,
+  "bp_C": 178.0,
+  "source": "pubchem_experimental",
+  "name": "tetrahydrofurfuryl alcohol"
+ },
+ "C1=COC(=C1)C=O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 161.72222222222223,
+  "source": "pubchem_experimental",
+  "name": "furfural"
+ },
+ "CC(C)(C)C1=CC=C(C=C1)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 239.5,
+  "source": "pubchem_experimental",
+  "name": "4-tert-butylphenol"
+ },
+ "CC(=C)C1=CC=CC=C1": {
+  "vp_mmHg": 1.9,
+  "bp_C": 165.38888888888889,
+  "source": "pubchem_experimental",
+  "name": "alpha-methylstyrene"
+ },
+ "CC(C1=CC=CC=C1)O": {
+  "vp_mmHg": 0.1,
+  "bp_C": 203.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "1-phenylethanol"
+ },
+ "CC1=CC=C(C=C1)C(C)C": {
+  "vp_mmHg": 1.5,
+  "bp_C": 177.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "p-cymene"
+ },
+ "C=CC1=CC=CC=C1": {
+  "vp_mmHg": 4.3,
+  "bp_C": 146.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "styrene"
+ },
+ "C1=CC=C(C=C1)C#N": {
+  "vp_mmHg": 1.0,
+  "bp_C": 190.72222222222223,
+  "source": "pubchem_experimental",
+  "name": "benzonitrile"
+ },
+ "COC1=CC=CC=C1": {
+  "vp_mmHg": 3.54,
+  "bp_C": 155.5,
+  "source": "pubchem_experimental",
+  "name": "anisole"
+ },
+ "COC(=O)CC1=CC=CC=C1": {
+  "vp_mmHg": 2.7152307946175425,
+  "bp_C": 215.0,
+  "source": "pubchem_experimental",
+  "name": "methyl phenylacetate"
+ },
+ "C1=CC=C(C=C1)CC2=CC=CC=C2": {
+  "vp_mmHg": 1.0,
+  "bp_C": 264.5,
+  "source": "pubchem_experimental",
+  "name": "diphenylmethane"
+ },
+ "C1=CC=C(C=C1)OC2=CC=CC=C2": {
+  "vp_mmHg": 0.02,
+  "bp_C": 257.92777777777775,
+  "source": "pubchem_experimental",
+  "name": "diphenyl ether"
+ },
+ "CCCN(CCC)CCC": {
+  "vp_mmHg": 1.0,
+  "bp_C": 156.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "tripropylamine"
+ },
+ "CCCCN(CCCC)CCCC": {
+  "vp_mmHg": 20.0,
+  "bp_C": 212.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "tributylamine"
+ },
+ "CCCCC(CC)COC(=O)C": {
+  "vp_mmHg": 0.23,
+  "bp_C": 192.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "2-ethylhexyl acetate"
+ },
+ "C1=CC=C(C=C1)COCC2=CC=CC=C2": {
+  "vp_mmHg": 1.0,
+  "bp_C": 297.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "dibenzyl ether"
+ },
+ "CCOC1=CC=CC=C1": {
+  "vp_mmHg": 1.56,
+  "bp_C": 172.0,
+  "source": "pubchem_experimental",
+  "name": "phenetole"
+ },
+ "CCCCC(CC)CO": {
+  "vp_mmHg": 0.05,
+  "bp_C": 185.0,
+  "source": "pubchem_experimental",
+  "name": "2-ethylhexan-1-ol"
+ },
+ "CCC1=CN=C(C=C1)C": {
+  "vp_mmHg": 5.17,
+  "bp_C": 177.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "5-ethyl-2-methylpyridine"
+ },
+ "CCCC(C)CO": {
+  "vp_mmHg": 1.1,
+  "bp_C": 148.0,
+  "source": "pubchem_experimental",
+  "name": "2-methyl-1-pentanol"
+ },
+ "CCC(=O)OCC": {
+  "vp_mmHg": 40.0,
+  "bp_C": 98.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "ethyl propionate"
+ },
+ "CC(=O)CC(=O)OC": {
+  "vp_mmHg": 0.892,
+  "bp_C": 170.0,
+  "source": "pubchem_experimental",
+  "name": "methyl acetoacetate"
+ },
+ "CCC(C)OC(=O)C": {
+  "vp_mmHg": 51.7,
+  "bp_C": 112.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "sec-butyl acetate"
+ },
+ "CCOC(=O)CC(=O)OCC": {
+  "vp_mmHg": 0.19,
+  "bp_C": 200.0,
+  "source": "pubchem_experimental",
+  "name": "diethyl malonate"
+ },
+ "CCOC(C)OCC": {
+  "vp_mmHg": 56.87,
+  "bp_C": 102.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "acetal"
+ },
+ "CCOC(=O)OCC": {
+  "vp_mmHg": 10.0,
+  "bp_C": 126.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "diethyl carbonate"
+ },
+ "C1CCC(=O)NCC1": {
+  "vp_mmHg": 0.001,
+  "bp_C": 266.8888888888889,
+  "source": "pubchem_experimental",
+  "name": "azepan-2-one"
+ },
+ "CC1=CC(=C(C=C1)O)C": {
+  "vp_mmHg": 0.0621,
+  "bp_C": 212.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "2,4-dimethylphenol"
+ },
+ "CCCCC(=O)CC": {
+  "vp_mmHg": 4.0,
+  "bp_C": 147.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "3-heptanone"
+ },
+ "COC(=O)CCC(=O)OC": {
+  "vp_mmHg": 0.3,
+  "bp_C": 196.38888888888889,
+  "source": "pubchem_experimental",
+  "name": "dimethyl succinate"
+ },
+ "CCC(C)CC(=O)CC": {
+  "vp_mmHg": 2.0,
+  "bp_C": 157.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "5-methylheptan-3-one"
+ },
+ "CCCCCC(=O)OC": {
+  "vp_mmHg": 1.0,
+  "bp_C": 150.0,
+  "source": "pubchem_experimental",
+  "name": "methyl hexanoate"
+ },
+ "C=CC=O": {
+  "vp_mmHg": 210.0,
+  "bp_C": 52.22222222222222,
+  "source": "pubchem_experimental",
+  "name": "acrolein"
+ },
+ "CCCS": {
+  "vp_mmHg": 155.0,
+  "bp_C": 67.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "1-propanethiol"
+ },
+ "CCCN": {
+  "vp_mmHg": 310.0,
+  "bp_C": 48.611111111111114,
+  "source": "pubchem_experimental",
+  "name": "propylamine"
+ },
+ "C=CCO": {
+  "vp_mmHg": 23.8,
+  "bp_C": 96.66666666666667,
+  "source": "pubchem_experimental",
+  "name": "allyl alcohol"
+ },
+ "C(=O)C=O": {
+  "vp_mmHg": 18.0,
+  "bp_C": 51.111111111111114,
+  "source": "pubchem_experimental",
+  "name": "glyoxal"
+ },
+ "COC=O": {
+  "vp_mmHg": 400.0,
+  "bp_C": 31.5,
+  "source": "pubchem_experimental",
+  "name": "methyl formate"
+ },
+ "CCCC(=O)C": {
+  "vp_mmHg": 12.0,
+  "bp_C": 101.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "2-pentanone"
+ },
+ "CC(COC)O": {
+  "vp_mmHg": 11.8,
+  "bp_C": 120.0,
+  "source": "pubchem_experimental",
+  "name": "1-methoxy-2-propanol"
+ },
+ "CC(C)CC(=O)C": {
+  "vp_mmHg": 5.0,
+  "bp_C": 117.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "4-methyl-2-pentanone"
+ },
+ "CC(C)CC(C)O": {
+  "vp_mmHg": 3.0,
+  "bp_C": 131.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "4-methyl-2-pentanol"
+ },
+ "CC(C)OC(=O)C": {
+  "vp_mmHg": 1.0,
+  "bp_C": 91.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "isopropyl acetate"
+ },
+ "CC(=C)OC(=O)C": {
+  "vp_mmHg": 45.0,
+  "bp_C": 97.0,
+  "source": "pubchem_experimental",
+  "name": "isopropenyl acetate"
+ },
+ "CC1CCC(=O)O1": {
+  "vp_mmHg": 0.5,
+  "bp_C": 207.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "gamma-valerolactone"
+ },
+ "CC1=NC(=CC=C1)C": {
+  "vp_mmHg": 5.65,
+  "bp_C": 144.0,
+  "source": "pubchem_experimental",
+  "name": "2,6-dimethylpyridine"
+ },
+ "CC1=CC(=CC(=C1)O)C": {
+  "vp_mmHg": 1.0,
+  "bp_C": 219.5,
+  "source": "pubchem_experimental",
+  "name": "3,5-dimethylphenol"
+ },
+ "CC1=CC(=NC(=C1)C)C": {
+  "vp_mmHg": 1.99,
+  "bp_C": 170.4,
+  "source": "pubchem_experimental",
+  "name": "2,4,6-trimethylpyridine"
+ },
+ "CC(C)CC(CC(C)C)O": {
+  "vp_mmHg": 3.1,
+  "bp_C": 177.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "2,6-dimethylheptan-4-ol"
+ },
+ "CC(C)CC(=O)CC(C)C": {
+  "vp_mmHg": 2.4,
+  "bp_C": 166.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "2,6-dimethyl-4-heptanone"
+ },
+ "CC(C)CC(C)OC(=O)C": {
+  "vp_mmHg": 10.86,
+  "bp_C": 146.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "1,3-dimethylbutyl acetate"
+ },
+ "CC1=CC=NC=C1": {
+  "vp_mmHg": 5.77,
+  "bp_C": 144.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "4-methylpyridine"
+ },
+ "C1CCC(CC1)O": {
+  "vp_mmHg": 5.17,
+  "bp_C": 161.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "cyclohexanol"
+ },
+ "C1CCC(=O)CC1": {
+  "vp_mmHg": 5.2,
+  "bp_C": 155.61111111111111,
+  "source": "pubchem_experimental",
+  "name": "cyclohexanone"
+ },
+ "C1=CC=C(C=C1)S": {
+  "vp_mmHg": 1.0,
+  "bp_C": 168.27777777777777,
+  "source": "pubchem_experimental",
+  "name": "benzenethiol"
+ },
+ "CC1=CN=CC=C1": {
+  "vp_mmHg": 6.05,
+  "bp_C": 143.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "3-methylpyridine"
+ },
+ "CC1=CC=CC=N1": {
+  "vp_mmHg": 8.0,
+  "bp_C": 128.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "2-methylpyridine"
+ },
+ "CCCCOC(=O)CCC": {
+  "vp_mmHg": 10.34,
+  "bp_C": 166.66666666666666,
+  "source": "pubchem_experimental",
+  "name": "butyl butyrate"
+ },
+ "CCCCC(=O)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 185.0,
+  "source": "pubchem_experimental",
+  "name": "valeric acid"
+ },
+ "CCCOC(=O)C": {
+  "vp_mmHg": 67.21,
+  "bp_C": 101.61111111111111,
+  "source": "pubchem_experimental",
+  "name": "propyl acetate"
+ },
+ "CCCCN": {
+  "vp_mmHg": 72.0,
+  "bp_C": 78.0,
+  "source": "pubchem_experimental",
+  "name": "butylamine"
+ },
+ "CCCCS": {
+  "vp_mmHg": 35.0,
+  "bp_C": 109.61111111111111,
+  "source": "pubchem_experimental",
+  "name": "1-butanethiol"
+ },
+ "C(CS)CS": {
+  "vp_mmHg": 16.3,
+  "bp_C": 168.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "1,3-propanedithiol"
+ },
+ "COCOC": {
+  "vp_mmHg": 337.08,
+  "bp_C": 42.22222222222222,
+  "source": "pubchem_experimental",
+  "name": "dimethoxymethane"
+ },
+ "CCNCC": {
+  "vp_mmHg": 195.0,
+  "bp_C": 55.5,
+  "source": "pubchem_experimental",
+  "name": "diethylamine"
+ },
+ "CCOC=O": {
+  "vp_mmHg": 200.0,
+  "bp_C": 54.22222222222222,
+  "source": "pubchem_experimental",
+  "name": "ethyl formate"
+ },
+ "C1=CNC=C1": {
+  "vp_mmHg": 8.35,
+  "bp_C": 129.7,
+  "source": "pubchem_experimental",
+  "name": "pyrrole"
+ },
+ "C1=COC=C1": {
+  "vp_mmHg": 493.0,
+  "bp_C": 32.22222222222222,
+  "source": "pubchem_experimental",
+  "name": "furan"
+ },
+ "C1=CSC=C1": {
+  "vp_mmHg": 20.0,
+  "bp_C": 84.38888888888889,
+  "source": "pubchem_experimental",
+  "name": "thiophene"
+ },
+ "CC(C)CCC(=O)C": {
+  "vp_mmHg": 5.0,
+  "bp_C": 143.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "5-methyl-2-hexanone"
+ },
+ "CC(=O)CCC(=O)C": {
+  "vp_mmHg": 0.43,
+  "bp_C": 191.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "2,5-hexanedione"
+ },
+ "CC(C)COC(=O)C": {
+  "vp_mmHg": 20.68,
+  "bp_C": 117.27777777777777,
+  "source": "pubchem_experimental",
+  "name": "isobutyl acetate"
+ },
+ "CCCCCCCCCC(=O)OC": {
+  "vp_mmHg": 0.037,
+  "bp_C": 224.0,
+  "source": "pubchem_experimental",
+  "name": "methyl decanoate"
+ },
+ "CCCCCC(=O)C": {
+  "vp_mmHg": 3.0,
+  "bp_C": 148.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "2-heptanone"
+ },
+ "CCCCC=O": {
+  "vp_mmHg": 50.0,
+  "bp_C": 102.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "pentanal"
+ },
+ "CCCCCS": {
+  "vp_mmHg": 14.0,
+  "bp_C": 120.0,
+  "source": "pubchem_experimental",
+  "name": "1-pentanethiol"
+ },
+ "COCCOC": {
+  "vp_mmHg": 40.0,
+  "bp_C": 85.0,
+  "source": "pubchem_experimental",
+  "name": "1,2-dimethoxyethane"
+ },
+ "C1CCCCC1": {
+  "vp_mmHg": 95.0,
+  "bp_C": 80.72222222222223,
+  "source": "pubchem_experimental",
+  "name": "cyclohexane"
+ },
+ "C1CCNCC1": {
+  "vp_mmHg": 40.0,
+  "bp_C": 106.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "piperidine"
+ },
+ "CCCCCCC(=O)C": {
+  "vp_mmHg": 1.35,
+  "bp_C": 175.0,
+  "source": "pubchem_experimental",
+  "name": "2-octanone"
+ },
+ "CCCCCCC(=O)O": {
+  "vp_mmHg": 1.0,
+  "bp_C": 245.0,
+  "source": "pubchem_experimental",
+  "name": "heptanoic acid"
+ },
+ "CCOCCOC(=O)C": {
+  "vp_mmHg": 1.2,
+  "bp_C": 156.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "2-ethoxyethyl acetate"
+ },
+ "CCCCCCN": {
+  "vp_mmHg": 6.53,
+  "bp_C": 132.0,
+  "source": "pubchem_experimental",
+  "name": "hexylamine"
+ },
+ "CCCCCCO": {
+  "vp_mmHg": 38.78,
+  "bp_C": 157.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "1-hexanol"
+ },
+ "CC(=O)OCCOC(=O)C": {
+  "vp_mmHg": 0.4,
+  "bp_C": 187.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "ethylene glycol diacetate"
+ },
+ "CCCCCCC=C": {
+  "vp_mmHg": 17.4,
+  "bp_C": 121.27777777777777,
+  "source": "pubchem_experimental",
+  "name": "1-octene"
+ },
+ "CCCCCCCO": {
+  "vp_mmHg": 0.2163,
+  "bp_C": 176.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "1-heptanol"
+ },
+ "CCCCCCC=O": {
+  "vp_mmHg": 3.0,
+  "bp_C": 152.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "heptanal"
+ },
+ "CCCCOCCO": {
+  "vp_mmHg": 0.76,
+  "bp_C": 171.11111111111111,
+  "source": "pubchem_experimental",
+  "name": "2-butoxyethanol"
+ },
+ "CCCCCCCCC": {
+  "vp_mmHg": 3.22,
+  "bp_C": 150.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "nonane"
+ },
+ "CCCCCCCCS": {
+  "vp_mmHg": 3.0,
+  "bp_C": 198.88888888888889,
+  "source": "pubchem_experimental",
+  "name": "1-octanethiol"
+ },
+ "CCCCOCCOC(=O)C": {
+  "vp_mmHg": 0.3,
+  "bp_C": 192.22222222222223,
+  "source": "pubchem_experimental",
+  "name": "2-butoxyethyl acetate"
+ },
+ "CCCCCCCCCCO": {
+  "vp_mmHg": 0.00851,
+  "bp_C": 230.0,
+  "source": "pubchem_experimental",
+  "name": "1-decanol"
+ },
+ "CCCCCCCCCCCC": {
+  "vp_mmHg": 1.0,
+  "bp_C": 216.27777777777777,
+  "source": "pubchem_experimental",
+  "name": "dodecane"
+ },
+ "CCCCCCCCCCC=C": {
+  "vp_mmHg": 0.52,
+  "bp_C": 212.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "1-dodecene"
+ },
+ "CCCCCCCCCCCCO": {
+  "vp_mmHg": 1.0,
+  "bp_C": 258.8888888888889,
+  "source": "pubchem_experimental",
+  "name": "1-dodecanol"
+ },
+ "CCCCCCCCCCCCS": {
+  "vp_mmHg": 1.0,
+  "bp_C": 282.77777777777777,
+  "source": "pubchem_experimental",
+  "name": "1-dodecanethiol"
+ },
+ "CCCCCCCCCCCCCO": {
+  "vp_mmHg": 3.62,
+  "bp_C": 273.8888888888889,
+  "source": "pubchem_experimental",
+  "name": "1-tridecanol"
+ },
+ "CCCCCCCCCCCCCCCCCCO": {
+  "vp_mmHg": 0.1,
+  "bp_C": 210.5,
+  "source": "pubchem_experimental",
+  "name": "stearyl alcohol"
+ },
+ "CC1CC(CC(C1)(C)C)O": {
+  "vp_mmHg": 0.1,
+  "bp_C": 198.0,
+  "source": "pubchem_experimental",
+  "name": "3,3,5-trimethylcyclohexanol"
+ },
+ "cas:80-54-6": {
+  "vp_mmHg": 0.008,
+  "bp_C": 270,
+  "source": "nist_curated",
+  "name": "lilial"
+ }
+}

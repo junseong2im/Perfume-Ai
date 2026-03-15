@@ -1,0 +1,80 @@
+# A100 Training Configuration
+# ================================================================
+# Optimized for NVIDIA A100 (40GB/80GB) with 128d backbone features
+# ================================================================
+
+training:
+  # Data
+  data_sources:
+    - type: csv
+      path: data/curated_GS_LF_merged_4983.csv
+      priority: 1
+    - type: csv
+      path: data/multi_source_unified.csv
+      priority: 2
+    - type: database
+      priority: 0  # highest priority if available
+
+  # Model
+  model:
+    type: backbone_mixture_net
+    input_dim: 128
+    nhead: 8
+    num_layers: 6
+    output_dim: 22
+
+  # Optimization
+  optimizer:
+    type: adamw
+    lr: 3e-4
+    weight_decay: 0.01
+    betas: [0.9, 0.999]
+
+  scheduler:
+    type: cosine_warmup
+    warmup_steps: 500
+    T_max: 300  # = max_epochs
+
+  # Batch & Precision
+  batch_size: 512
+  gradient_accumulation_steps: 4  # effective batch = 2048
+  fp16: true
+  grad_clip_norm: 1.0
+
+  # Epochs & Early stopping
+  max_epochs: 300
+  patience: 30
+  min_delta: 1e-5
+
+  # EMA (Exponential Moving Average)
+  ema:
+    enabled: true
+    decay: 0.9995
+
+  # SWA (Stochastic Weight Averaging)
+  swa:
+    enabled: true
+    start_epoch: 200
+    lr: 1e-5
+    anneal_epochs: 10
+
+  # LoRA fine-tuning (for ChemBERTa backbone)
+  lora:
+    enabled: false  # Enable after backbone pretraining
+    rank: 8
+    alpha: 16
+    target_modules: [query, value]
+    dropout: 0.05
+
+  # Logging
+  logging:
+    log_interval: 50  # steps
+    eval_interval: 1  # epochs
+    save_top_k: 3
+
+# Hardware
+hardware:
+  device: cuda
+  num_workers: 8
+  pin_memory: true
+  persistent_workers: true

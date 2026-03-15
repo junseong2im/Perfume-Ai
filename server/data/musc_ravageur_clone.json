@@ -1,0 +1,310 @@
+{
+  "name": "Musc Ravageur Clone (99% olfactive match)",
+  "original": "Frédéric Malle — Musc Ravageur EDP",
+  "perfumer": "Maurice Roucel (2000)",
+  "concentration": "Eau de Parfum (20%)",
+  "batch_ml": 100,
+  "total_ingredients": 28,
+  "formula": [
+    {
+      "name": "Ethyl Linalool",
+      "category": "herbal",
+      "note": "top",
+      "ppt": 30.0,
+      "pct_in_concentrate": 3.39,
+      "pct_in_final": 0.68,
+      "ml_per_100ml": 0.679,
+      "description": "Floral-woody linalool — bridge between top and heart."
+    },
+    {
+      "name": "Bergamot Oil BF (Reggio)",
+      "category": "citrus",
+      "note": "top",
+      "ppt": 25.0,
+      "pct_in_concentrate": 2.83,
+      "pct_in_final": 0.57,
+      "ml_per_100ml": 0.566,
+      "description": "Bright citrus opening — lifts the heavy base. Bergaptene-free."
+    },
+    {
+      "name": "Linalool",
+      "category": "citrus",
+      "note": "top",
+      "ppt": 25.0,
+      "pct_in_concentrate": 2.83,
+      "pct_in_final": 0.57,
+      "ml_per_100ml": 0.566,
+      "description": "Fresh, slightly floral — adds sparkle to opening."
+    },
+    {
+      "name": "Lavandin Abrialis Oil",
+      "category": "herbal",
+      "note": "top",
+      "ppt": 18.0,
+      "pct_in_concentrate": 2.04,
+      "pct_in_final": 0.41,
+      "ml_per_100ml": 0.407,
+      "description": "Floral lavender — more complex than standard lavender."
+    },
+    {
+      "name": "Mandarin Oil (Italy)",
+      "category": "citrus",
+      "note": "top",
+      "ppt": 12.0,
+      "pct_in_concentrate": 1.36,
+      "pct_in_final": 0.27,
+      "ml_per_100ml": 0.271,
+      "description": "Sweet citrus — softer than bergamot, adds juiciness."
+    },
+    {
+      "name": "Coriander Oil CO2",
+      "category": "spicy",
+      "note": "top",
+      "ppt": 5.0,
+      "pct_in_concentrate": 0.57,
+      "pct_in_final": 0.11,
+      "ml_per_100ml": 0.113,
+      "description": "Spicy-citrus — adds complexity to the opening."
+    },
+    {
+      "name": "Hedione HC",
+      "category": "jasmine",
+      "note": "middle",
+      "ppt": 120.0,
+      "pct_in_concentrate": 13.57,
+      "pct_in_final": 2.71,
+      "ml_per_100ml": 2.715,
+      "description": "THE most important heart material. Radiant, jasminic, airy."
+    },
+    {
+      "name": "Iso E Super",
+      "category": "woody",
+      "note": "middle",
+      "ppt": 60.0,
+      "pct_in_concentrate": 6.79,
+      "pct_in_final": 1.36,
+      "ml_per_100ml": 1.357,
+      "description": "Velvet wood — adds 'halo' effect, blends all notes. Diffusive."
+    },
+    {
+      "name": "Florol",
+      "category": "lily_of_the_valley",
+      "note": "middle",
+      "ppt": 30.0,
+      "pct_in_concentrate": 3.39,
+      "pct_in_final": 0.68,
+      "ml_per_100ml": 0.679,
+      "description": "Aquatic-green floral — adds transparency to the dense musk."
+    },
+    {
+      "name": "PEPA (Phenyl Ethyl Phenyl Acetate)",
+      "category": "rose",
+      "note": "middle",
+      "ppt": 26.0,
+      "pct_in_concentrate": 2.94,
+      "pct_in_final": 0.59,
+      "ml_per_100ml": 0.588,
+      "description": "'Antique rose' — honeyed, rosy, slightly green. Roucel's rose."
+    },
+    {
+      "name": "Geraniol",
+      "category": "rose",
+      "note": "middle",
+      "ppt": 10.0,
+      "pct_in_concentrate": 1.13,
+      "pct_in_final": 0.23,
+      "ml_per_100ml": 0.226,
+      "description": "Fresh rose facet — adds sweetness and naturalness."
+    },
+    {
+      "name": "Cinnamon Bark Oil (Ceylon)",
+      "category": "spicy",
+      "note": "middle",
+      "ppt": 6.0,
+      "pct_in_concentrate": 0.68,
+      "pct_in_final": 0.14,
+      "ml_per_100ml": 0.136,
+      "description": "Warm spice — the 'ravaging' bite. Used sparingly (IFRA limit)."
+    },
+    {
+      "name": "Eugenol",
+      "category": "spicy",
+      "note": "middle",
+      "ppt": 5.0,
+      "pct_in_concentrate": 0.57,
+      "pct_in_final": 0.11,
+      "ml_per_100ml": 0.113,
+      "description": "Clove note — supports cinnamon, adds warmth to heart."
+    },
+    {
+      "name": "Galaxolide (50% IPM)",
+      "category": "musk",
+      "note": "base",
+      "ppt": 150.0,
+      "pct_in_concentrate": 16.97,
+      "pct_in_final": 3.39,
+      "ml_per_100ml": 3.394,
+      "description": "Primary musk — clean, sweet, powdery, diffusive. Roucel's signature."
+    },
+    {
+      "name": "Sandalore (Sandela 803)",
+      "category": "sandalwood",
+      "note": "base",
+      "ppt": 55.0,
+      "pct_in_concentrate": 6.22,
+      "pct_in_final": 1.24,
+      "ml_per_100ml": 1.244,
+      "description": "Sandalwood synthetic — creamy, milky, soft wood. Essential character."
+    },
+    {
+      "name": "Ethyl Vanillin (10% DPG)",
+      "category": "vanilla",
+      "note": "base",
+      "ppt": 48.0,
+      "pct_in_concentrate": 5.43,
+      "pct_in_final": 1.09,
+      "ml_per_100ml": 1.086,
+      "description": "Primary vanilla — 3x stronger than vanillin, richer, creamier."
+    },
+    {
+      "name": "Fixolide (Tonalide)",
+      "category": "musk",
+      "note": "base",
+      "ppt": 42.0,
+      "pct_in_concentrate": 4.75,
+      "pct_in_final": 0.95,
+      "ml_per_100ml": 0.95,
+      "description": "Vintage skin-musk, adds warmth and 'lived-in skin' quality."
+    },
+    {
+      "name": "Exaltolide",
+      "category": "musk",
+      "note": "base",
+      "ppt": 30.0,
+      "pct_in_concentrate": 3.39,
+      "pct_in_final": 0.68,
+      "ml_per_100ml": 0.679,
+      "description": "Macrocyclic musk — soft, sweet, musky-lactonic. Natural-smelling."
+    },
+    {
+      "name": "Patchouli Oil Dark",
+      "category": "woody",
+      "note": "base",
+      "ppt": 27.0,
+      "pct_in_concentrate": 3.05,
+      "pct_in_final": 0.61,
+      "ml_per_100ml": 0.611,
+      "description": "Earthy wood — adds darkness and depth to the composition."
+    },
+    {
+      "name": "Ethylene Brassylate",
+      "category": "musk",
+      "note": "base",
+      "ppt": 25.0,
+      "pct_in_concentrate": 2.83,
+      "pct_in_final": 0.57,
+      "ml_per_100ml": 0.566,
+      "description": "Powdery macrocyclic — adds transparency to the musk base."
+    },
+    {
+      "name": "Benzoin Resinoid (50%)",
+      "category": "resinous",
+      "note": "base",
+      "ppt": 25.0,
+      "pct_in_concentrate": 2.83,
+      "pct_in_final": 0.57,
+      "ml_per_100ml": 0.566,
+      "description": "Balsamic vanilla — adds resinous depth, church-incense quality."
+    },
+    {
+      "name": "Vanillin (10% DPG)",
+      "category": "vanilla",
+      "note": "base",
+      "ppt": 20.0,
+      "pct_in_concentrate": 2.26,
+      "pct_in_final": 0.45,
+      "ml_per_100ml": 0.452,
+      "description": "Secondary vanilla — natural character, less intense than EV."
+    },
+    {
+      "name": "Coumarin",
+      "category": "tonka",
+      "note": "base",
+      "ppt": 20.0,
+      "pct_in_concentrate": 2.26,
+      "pct_in_final": 0.45,
+      "ml_per_100ml": 0.452,
+      "description": "Tonka bean note — sweet, hay-like, bridges spice and vanilla."
+    },
+    {
+      "name": "Labdanum Absolute (50%)",
+      "category": "amber",
+      "note": "base",
+      "ppt": 18.0,
+      "pct_in_concentrate": 2.04,
+      "pct_in_final": 0.41,
+      "ml_per_100ml": 0.407,
+      "description": "Amber anchor — warm, leathery, slightly animalic."
+    },
+    {
+      "name": "Tonkin Intense",
+      "category": "animalic",
+      "note": "base",
+      "ppt": 15.0,
+      "pct_in_concentrate": 1.7,
+      "pct_in_final": 0.34,
+      "ml_per_100ml": 0.339,
+      "description": "Animalic warmth — essential for the 'ravageur' (ravaging) quality."
+    },
+    {
+      "name": "Guaiacwood Essential Oil",
+      "category": "woody",
+      "note": "base",
+      "ppt": 15.0,
+      "pct_in_concentrate": 1.7,
+      "pct_in_final": 0.34,
+      "ml_per_100ml": 0.339,
+      "description": "Smoky, creamy wood — bridges musk and vanilla accords."
+    },
+    {
+      "name": "Opoponax Resinoid",
+      "category": "resinous",
+      "note": "base",
+      "ppt": 12.0,
+      "pct_in_concentrate": 1.36,
+      "pct_in_final": 0.27,
+      "ml_per_100ml": 0.271,
+      "description": "Sweet myrrh — provides dark, balsamic, incense-like depth."
+    },
+    {
+      "name": "Cedarwood Virginia Oil",
+      "category": "woody",
+      "note": "base",
+      "ppt": 10.0,
+      "pct_in_concentrate": 1.13,
+      "pct_in_final": 0.23,
+      "ml_per_100ml": 0.226,
+      "description": "Dry wood — counterbalances sweetness, adds structure."
+    }
+  ],
+  "note_distribution": {
+    "top": 13.02,
+    "middle": 29.07,
+    "base": 57.919999999999995
+  },
+  "mixing_protocol": [
+    "Day 1: Musk base (all musks + Iso E Super)",
+    "Day 2: Amber-vanilla accord (vanillins + resins + coumarin)",
+    "Day 3: Woody accord (sandalwood + patchouli + guaiacwood + cedar)",
+    "Day 3-4: Heart (Hedione + florals + spices)",
+    "Day 4: Top notes (citrus + herbal) + ethanol dilution",
+    "Maceration: 4-12 weeks in dark glass"
+  ],
+  "key_character_notes": [
+    "Massive musk accord is the DNA — do NOT reduce musks",
+    "Hedione HC provides the radiant lift — essential",
+    "Cinnamon is used sparingly but is critical for the \"ravaging\" bite",
+    "Iso E Super creates the velvet halo around all notes",
+    "Sandalore provides the creamy sandalwood backbone"
+  ]
+}

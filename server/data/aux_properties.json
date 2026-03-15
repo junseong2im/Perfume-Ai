@@ -1,0 +1,2492 @@
+{
+  "CC1=CCC(CC1)C(=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 176,
+    "odor_threshold": null
+  },
+  "CC1=CCC2CC1C2(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 155,
+    "odor_threshold": null
+  },
+  "CC1(C2CCC(=C)C1C2)C": {
+    "vapor_pressure": null,
+    "boiling_point": 166,
+    "odor_threshold": null
+  },
+  "CC(=CCC=C(C)C=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 167,
+    "odor_threshold": null
+  },
+  "CC(=CCCC(C)(C=C)O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 198,
+    "odor_threshold": null
+  },
+  "CC(=CCCC(C)(C=C)OC(=O)C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 220,
+    "odor_threshold": null
+  },
+  "CC(=CCC/C(=C/CO)/C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 230,
+    "odor_threshold": null
+  },
+  "CC(=CCC/C(=C\\CO)/C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 225,
+    "odor_threshold": null
+  },
+  "C[C@H](CCC=C(C)C)CCO": {
+    "vapor_pressure": null,
+    "boiling_point": 225,
+    "odor_threshold": null
+  },
+  "CC(=CCC/C(=C/C=O)/C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 229,
+    "odor_threshold": null
+  },
+  "CC1(CCC(CC1)C(C)(C)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 219,
+    "odor_threshold": null
+  },
+  "CC1=CCC(=C(C)C)CC1": {
+    "vapor_pressure": null,
+    "boiling_point": 186,
+    "odor_threshold": null
+  },
+  "CC(=CC/C=C(\\C)/C=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 177,
+    "odor_threshold": null
+  },
+  "CC1CCC(CC1=O)C(=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 231,
+    "odor_threshold": null
+  },
+  "CC1CCC(C(C1)O)C(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 212,
+    "odor_threshold": null
+  },
+  "CC1(C2CCC1(C(=O)C2)C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 204,
+    "odor_threshold": null
+  },
+  "CC1(C2CCC(O1)(CC2)C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 176,
+    "odor_threshold": null
+  },
+  "CCCC(=O)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 133,
+    "odor_threshold": null
+  },
+  "CCOC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 77,
+    "odor_threshold": null
+  },
+  "CC(C)CCOC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 142,
+    "odor_threshold": null
+  },
+  "CC(=O)OCC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 213,
+    "odor_threshold": null
+  },
+  "COC(=O)C1=CC=CC=C1O": {
+    "vapor_pressure": null,
+    "boiling_point": 222,
+    "odor_threshold": null
+  },
+  "COC(=O)C1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 199,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)/C=C/C=O": {
+    "vapor_pressure": null,
+    "boiling_point": 248,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)C=O": {
+    "vapor_pressure": null,
+    "boiling_point": 179,
+    "odor_threshold": null
+  },
+  "COC1=C(C=CC(=C1)C=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 285,
+    "odor_threshold": null
+  },
+  "CCCCCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 131,
+    "odor_threshold": null
+  },
+  "CCCCCCCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 171,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 208,
+    "odor_threshold": null
+  },
+  "CCCCCCCCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 191,
+    "odor_threshold": null
+  },
+  "CC(CCCC(C)(C)O)CC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 207,
+    "odor_threshold": null
+  },
+  "OCCC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 219,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CO": {
+    "vapor_pressure": null,
+    "boiling_point": 205,
+    "odor_threshold": null
+  },
+  "CCC=CCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 157,
+    "odor_threshold": null
+  },
+  "CC(C)(C)C1CCC(CC1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 157,
+    "odor_threshold": null
+  },
+  "COC1=C(C=CC(=C1)CC=C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 254,
+    "odor_threshold": null
+  },
+  "CC1=CC(=C(C=C1)C(C)C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 233,
+    "odor_threshold": null
+  },
+  "C/C=C/C1=CC=C(C=C1)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 234,
+    "odor_threshold": null
+  },
+  "COC1=CC=C(C=C1)CC=C": {
+    "vapor_pressure": null,
+    "boiling_point": 216,
+    "odor_threshold": null
+  },
+  "C1CC(=O)OC2=CC=CC=C21": {
+    "vapor_pressure": null,
+    "boiling_point": 301,
+    "odor_threshold": null
+  },
+  "CCCCCCC1CCC(=O)O1": {
+    "vapor_pressure": null,
+    "boiling_point": 281,
+    "odor_threshold": null
+  },
+  "CCCCCCC[C@H]1CCC(=O)O1": {
+    "vapor_pressure": null,
+    "boiling_point": 297,
+    "odor_threshold": null
+  },
+  "CC1(C)CC2=CC(=C(C(C2C(O1)(C)C)C)C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 327,
+    "odor_threshold": null
+  },
+  "C1CCCCCC(=O)OCCOC(=O)CCCCC1": {
+    "vapor_pressure": null,
+    "boiling_point": 332,
+    "odor_threshold": null
+  },
+  "O": {
+    "vapor_pressure": null,
+    "boiling_point": 265,
+    "odor_threshold": null
+  },
+  "CC1(C)CCCC2(C)C1CCC1(C)OC(CC12)C": {
+    "vapor_pressure": null,
+    "boiling_point": 310,
+    "odor_threshold": null
+  },
+  "CC1(C)CC(=O)C2(CCC(CC2C1)C(C)C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 285,
+    "odor_threshold": null
+  },
+  "CC(=O)OCC(CC1CCCC1=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 295,
+    "odor_threshold": null
+  },
+  "cas:80-54-6": {
+    "vapor_pressure": null,
+    "boiling_point": 270,
+    "odor_threshold": null
+  },
+  "CC(C)(CCCC1=CCC(CC1)C=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 290,
+    "odor_threshold": null
+  },
+  "CCCCCC1C(CCC1=O)CC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 295,
+    "odor_threshold": null
+  },
+  "CO": {
+    "vapor_pressure": null,
+    "boiling_point": 225,
+    "odor_threshold": null
+  },
+  "CC(=O)C1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 202,
+    "odor_threshold": null
+  },
+  "C1=CC=C2C(=C1)C=CN2": {
+    "vapor_pressure": null,
+    "boiling_point": 254,
+    "odor_threshold": null
+  },
+  "CC1=C(C(CCC1)(C)C)/C=C/C(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC1=CCCC(C1/C=C/C(=O)C)(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 182.22222222222223,
+    "odor_threshold": null
+  },
+  "COC1=CC=CC=C1O": {
+    "vapor_pressure": null,
+    "boiling_point": 206.11111111111111,
+    "odor_threshold": null
+  },
+  "CC(CN)O": {
+    "vapor_pressure": null,
+    "boiling_point": 157.77777777777777,
+    "odor_threshold": null
+  },
+  "CCC(=O)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C(C(=O)C(=O)O)S": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC(=CC(=C1)O)C=O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 280.0,
+    "odor_threshold": null
+  },
+  "C1=CC(=CC=C1CO)O": {
+    "vapor_pressure": null,
+    "boiling_point": 252.0,
+    "odor_threshold": null
+  },
+  "C1=CC(=CC=C1C=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 311.0,
+    "odor_threshold": null
+  },
+  "CC(C)CCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC(=CC=C1C(=O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 335.0,
+    "odor_threshold": null
+  },
+  "CC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 117.77777777777777,
+    "odor_threshold": null
+  },
+  "CC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 21.11111111111111,
+    "odor_threshold": null
+  },
+  "CC(C(=O)C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 148.0,
+    "odor_threshold": null
+  },
+  "CC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 56.111111111111114,
+    "odor_threshold": null
+  },
+  "C(CCC(=O)O)CC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 337.5,
+    "odor_threshold": null
+  },
+  "CC(C(C(=O)O)N)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 248.88888888888889,
+    "odor_threshold": null
+  },
+  "CCCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 75.0,
+    "odor_threshold": null
+  },
+  "CCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 117.72222222222223,
+    "odor_threshold": null
+  },
+  "CCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 163.5,
+    "odor_threshold": null
+  },
+  "C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 100.72222222222223,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C(=C1)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 245.0,
+    "odor_threshold": null
+  },
+  "C(C(=O)O)C(CC(=O)O)(C(=O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(C)C1=CC=C(C=C1)CO": {
+    "vapor_pressure": null,
+    "boiling_point": 136.0,
+    "odor_threshold": null
+  },
+  "CC(C)C1=CC=C(C=C1)C=O": {
+    "vapor_pressure": null,
+    "boiling_point": 235.5,
+    "odor_threshold": null
+  },
+  "COC1=C(C=CC(=C1)C=C)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC1=CC=CC=C1O": {
+    "vapor_pressure": null,
+    "boiling_point": 191.11111111111111,
+    "odor_threshold": null
+  },
+  "CC1=CC(=CC=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 202.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCCCC": {
+    "vapor_pressure": null,
+    "boiling_point": 125.61111111111111,
+    "odor_threshold": null
+  },
+  "CCCCCCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 239.72222222222223,
+    "odor_threshold": null
+  },
+  "CC(CC(=O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C(C(C(C(C(CO)O)O)O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CSCCC(=O)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C(C(C(=O)O)O)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 225.0,
+    "odor_threshold": null
+  },
+  "CCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 48.888888888888886,
+    "odor_threshold": null
+  },
+  "CSCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 247.0,
+    "odor_threshold": null
+  },
+  "C(C(C(=O)O)N)S": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C(CC(=O)O)C(C(=O)O)N": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(C(=O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 122.0,
+    "odor_threshold": null
+  },
+  "CC(=O)C(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 87.77777777777777,
+    "odor_threshold": null
+  },
+  "C(C(=O)CO)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CNC": {
+    "vapor_pressure": null,
+    "boiling_point": 7.3888888888888875,
+    "odor_threshold": null
+  },
+  "CCOC(=O)C(C)C(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCO": {
+    "vapor_pressure": null,
+    "boiling_point": 78.5,
+    "odor_threshold": null
+  },
+  "C(C(=O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 100.0,
+    "odor_threshold": null
+  },
+  "CC(C)CC(C(=O)O)N": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C(C(C(=O)O)O)(C(=O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CSCCC(C(=O)O)N": {
+    "vapor_pressure": null,
+    "boiling_point": 301.0,
+    "odor_threshold": null
+  },
+  "CS": {
+    "vapor_pressure": null,
+    "boiling_point": 5.944444444444446,
+    "odor_threshold": null
+  },
+  "CC(=O)C=O": {
+    "vapor_pressure": null,
+    "boiling_point": 72.22222222222223,
+    "odor_threshold": null
+  },
+  "C1=CC=C2C=CC=CC2=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 217.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 195.0,
+    "odor_threshold": null
+  },
+  "C(C(=O)C(=O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCCCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 351.5,
+    "odor_threshold": null
+  },
+  "CC1(COC(=O)C1O)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CC(C(=O)O)N": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CC(=O)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CC=O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 215.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CCN": {
+    "vapor_pressure": null,
+    "boiling_point": 197.5,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C(=C1)C(=O)O)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(CO)O": {
+    "vapor_pressure": null,
+    "boiling_point": 188.22222222222223,
+    "odor_threshold": null
+  },
+  "CCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 97.22222222222223,
+    "odor_threshold": null
+  },
+  "CCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 140.72222222222223,
+    "odor_threshold": null
+  },
+  "C1=CC=NC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 115.0,
+    "odor_threshold": null
+  },
+  "CC(=O)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CSC": {
+    "vapor_pressure": null,
+    "boiling_point": 37.22222222222222,
+    "odor_threshold": null
+  },
+  "C(CC(=O)O)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 235.0,
+    "odor_threshold": null
+  },
+  "C1CCSC1": {
+    "vapor_pressure": null,
+    "boiling_point": 121.12,
+    "odor_threshold": null
+  },
+  "C(C(=O)O)S": {
+    "vapor_pressure": null,
+    "boiling_point": 120.0,
+    "odor_threshold": null
+  },
+  "CC1=C(SC=N1)CCO": {
+    "vapor_pressure": null,
+    "boiling_point": 135.0,
+    "odor_threshold": null
+  },
+  "C[N+](C)(C)[O-]": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CN(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 2.8888888888888906,
+    "odor_threshold": null
+  },
+  "CC(C)C(C(=O)O)N": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC(=C(C=C1O)O)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 310.0,
+    "odor_threshold": null
+  },
+  "C(CS)O": {
+    "vapor_pressure": null,
+    "boiling_point": 157.77777777777777,
+    "odor_threshold": null
+  },
+  "CC(=O)C1=CC(=C(C=C1)O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C(CCCC(=O)O)CCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 357.1,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 321.3,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CN=C=S": {
+    "vapor_pressure": null,
+    "boiling_point": 243.0,
+    "odor_threshold": null
+  },
+  "CN1C=NC2=C1C(=O)N(C(=O)N2C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 177.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 334.0,
+    "odor_threshold": null
+  },
+  "CC1=CC=C(C=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 201.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 270.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCC(=O)NCC1=CC(=C(C=C1)O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C(C(CS)S)O": {
+    "vapor_pressure": null,
+    "boiling_point": 120.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)C(=O)C2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 305.8888888888889,
+    "odor_threshold": null
+  },
+  "C(CC=O)CC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 188.88888888888889,
+    "odor_threshold": null
+  },
+  "CC(C)C1=CC(=O)C(=CC=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 140.0,
+    "odor_threshold": null
+  },
+  "CC(C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 82.5,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 225.0,
+    "odor_threshold": null
+  },
+  "CC(=C)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 162.77777777777777,
+    "odor_threshold": null
+  },
+  "COC1=CC(=CC2=C1OCO2)CC=C": {
+    "vapor_pressure": null,
+    "boiling_point": 276.5,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 290.0,
+    "odor_threshold": null
+  },
+  "C1CNCCN1": {
+    "vapor_pressure": null,
+    "boiling_point": 146.11111111111111,
+    "odor_threshold": null
+  },
+  "CCCOC(=O)C1=CC(=C(C(=C1)O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC(=CC(=C1)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 280.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C2C(=C1)C(=O)NS2(=O)=O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C=CCC1=CC2=C(C=C1)OCO2": {
+    "vapor_pressure": null,
+    "boiling_point": 233.88888888888889,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCCCCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 382.77777777777777,
+    "odor_threshold": null
+  },
+  "CN1C=NC2=C1C(=O)NC(=O)N2C": {
+    "vapor_pressure": null,
+    "boiling_point": 295.0,
+    "odor_threshold": null
+  },
+  "CC(=O)OCC(COC(=O)C)OC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 258.5,
+    "odor_threshold": null
+  },
+  "C1=CC(=CC=C1CCN)O": {
+    "vapor_pressure": null,
+    "boiling_point": 166.0,
+    "odor_threshold": null
+  },
+  "C=CCCCCCCCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 275.0,
+    "odor_threshold": null
+  },
+  "C1[C@H](CN[C@@H]1C(=O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C(CC(=O)N)[C@@H](C(=O)O)N": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C=CCN=C=S": {
+    "vapor_pressure": null,
+    "boiling_point": 151.11111111111111,
+    "odor_threshold": null
+  },
+  "C([C@H]([C@H]([C@@H](C(=O)CO)O)O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCC(=O)OCC(COC(=O)CCC)OC(=O)CCC": {
+    "vapor_pressure": null,
+    "boiling_point": 307.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CCO": {
+    "vapor_pressure": null,
+    "boiling_point": 218.2,
+    "odor_threshold": null
+  },
+  "CSCC[C@@H](C(=O)O)N": {
+    "vapor_pressure": null,
+    "boiling_point": 186.11111111111111,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)C[C@@H](C(=O)O)N": {
+    "vapor_pressure": null,
+    "boiling_point": 295.0,
+    "odor_threshold": null
+  },
+  "C(C(C(=O)O)S)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 137.77777777777777,
+    "odor_threshold": null
+  },
+  "CC[C@H](C)[C@@H](C(=O)O)N": {
+    "vapor_pressure": null,
+    "boiling_point": 169.0,
+    "odor_threshold": null
+  },
+  "CN": {
+    "vapor_pressure": null,
+    "boiling_point": -6.5,
+    "odor_threshold": null
+  },
+  "CCN": {
+    "vapor_pressure": null,
+    "boiling_point": 16.61111111111111,
+    "odor_threshold": null
+  },
+  "CCS": {
+    "vapor_pressure": null,
+    "boiling_point": 34.388888888888886,
+    "odor_threshold": null
+  },
+  "CC(C)N": {
+    "vapor_pressure": null,
+    "boiling_point": 32.388888888888886,
+    "odor_threshold": null
+  },
+  "CC(C)S": {
+    "vapor_pressure": null,
+    "boiling_point": 52.55555555555556,
+    "odor_threshold": null
+  },
+  "CC(C)(C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 82.22222222222223,
+    "odor_threshold": null
+  },
+  "CC(C)(C)S": {
+    "vapor_pressure": null,
+    "boiling_point": 67.22222222222223,
+    "odor_threshold": null
+  },
+  "CCC(C)(C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 102.4,
+    "odor_threshold": null
+  },
+  "CC(C)(C)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 163.88888888888889,
+    "odor_threshold": null
+  },
+  "CC(C)(C(C)(C)O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(=O)OC1CC2CCC1(C2(C)C)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C[C@@H]1CC[C@@H]2C13CCC(C(C3)C2(C)C)(C)OC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCC(C)(CC)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(C)(OC)OC": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCOC(=O)C1C(O1)(C)C2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 275.0,
+    "odor_threshold": null
+  },
+  "CCCCOC(=O)CC(CC(=O)OCCCC)(C(=O)OCCCC)OC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 331.0,
+    "odor_threshold": null
+  },
+  "CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O": {
+    "vapor_pressure": null,
+    "boiling_point": 294.0,
+    "odor_threshold": null
+  },
+  "CCCCOC(=O)CC(CC(=O)OCCCC)(C(=O)OCCCC)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C(CS)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 111.0,
+    "odor_threshold": null
+  },
+  "CC(C)C(=O)OC(C)(CCC=C(C)C)C=C": {
+    "vapor_pressure": null,
+    "boiling_point": 230.0,
+    "odor_threshold": null
+  },
+  "CC1=CC(=O)CC(C1)(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 215.22222222222223,
+    "odor_threshold": null
+  },
+  "CCC(C)(CCCC(C)C)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(=C)C=C": {
+    "vapor_pressure": null,
+    "boiling_point": 33.888888888888886,
+    "odor_threshold": null
+  },
+  "CC(C)CN": {
+    "vapor_pressure": null,
+    "boiling_point": 68.88888888888889,
+    "odor_threshold": null
+  },
+  "CC(C)CO": {
+    "vapor_pressure": null,
+    "boiling_point": 107.22222222222223,
+    "odor_threshold": null
+  },
+  "CC(C)C=O": {
+    "vapor_pressure": null,
+    "boiling_point": 63.888888888888886,
+    "odor_threshold": null
+  },
+  "CCC(C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 99.44444444444444,
+    "odor_threshold": null
+  },
+  "CCC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 79.61111111111111,
+    "odor_threshold": null
+  },
+  "CC(=O)C=C": {
+    "vapor_pressure": null,
+    "boiling_point": 81.66666666666667,
+    "odor_threshold": null
+  },
+  "CC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 56.888888888888886,
+    "odor_threshold": null
+  },
+  "CC(C)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 153.88888888888889,
+    "odor_threshold": null
+  },
+  "CC1(C2CCC(C2)C1=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 154.44444444444446,
+    "odor_threshold": null
+  },
+  "CC1CCC(CC1)C(C)(C)OC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(=C)C(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 101.0,
+    "odor_threshold": null
+  },
+  "CC1=CNC2=CC=CC=C12": {
+    "vapor_pressure": null,
+    "boiling_point": 265.5,
+    "odor_threshold": null
+  },
+  "CC1=C(C=C(C(=C1[N+](=O)[O-])OC)C(C)(C)C)[N+](=O)[O-]": {
+    "vapor_pressure": null,
+    "boiling_point": 135.0,
+    "odor_threshold": null
+  },
+  "CNC1=CC=CC=C1C(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 256.0,
+    "odor_threshold": null
+  },
+  "CC(C)COC(=O)C1=CC=CC=C1O": {
+    "vapor_pressure": null,
+    "boiling_point": 261.0,
+    "odor_threshold": null
+  },
+  "CC(C)CCOC(=O)C1=CC=CC=C1O": {
+    "vapor_pressure": null,
+    "boiling_point": 278.0,
+    "odor_threshold": null
+  },
+  "CCOC(=O)C1=CC=CC=C1N": {
+    "vapor_pressure": null,
+    "boiling_point": 267.77777777777777,
+    "odor_threshold": null
+  },
+  "C1C2=CC=CC=C2C(=O)O1": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCC(CC)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 101.0,
+    "odor_threshold": null
+  },
+  "C1=COC(=C1)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 232.0,
+    "odor_threshold": null
+  },
+  "CC1=CC(=C(C=C1)C(C)(C)C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 224.0,
+    "odor_threshold": null
+  },
+  "CC(C)C1=CC=CC=C1O": {
+    "vapor_pressure": null,
+    "boiling_point": 214.0,
+    "odor_threshold": null
+  },
+  "CC1CCC(=C(C)C)CC2=C1CCC2C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC1CCC(C(C1)OC(=O)C2=CC=CC=C2O)C(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC1=CC(=C(C=C1)C(=O)C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 118.0,
+    "odor_threshold": null
+  },
+  "CC1=CC(=O)C(CC1)C(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 235.0,
+    "odor_threshold": null
+  },
+  "CCC1=CC=CC=C1O": {
+    "vapor_pressure": null,
+    "boiling_point": 204.5222222222222,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C(=C1)C=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 196.66666666666666,
+    "odor_threshold": null
+  },
+  "CC1=CC=CC2=CC=CC=C12": {
+    "vapor_pressure": null,
+    "boiling_point": 310.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)C2=CC=CC=C2O": {
+    "vapor_pressure": null,
+    "boiling_point": 275.0,
+    "odor_threshold": null
+  },
+  "COC1=C(C(=CC=C1)OC)O": {
+    "vapor_pressure": null,
+    "boiling_point": 261.0,
+    "odor_threshold": null
+  },
+  "COC1=CC=CC=C1OC": {
+    "vapor_pressure": null,
+    "boiling_point": 206.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C2C(=C1)N=CC=N2": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC=C2C(=C1)C=CC=N2": {
+    "vapor_pressure": null,
+    "boiling_point": 237.77777777777777,
+    "odor_threshold": null
+  },
+  "CC1=CC2=CC=CC=C2C=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 242.22222222222223,
+    "odor_threshold": null
+  },
+  "C1=CC=C2C=C(C=CC2=C1)S": {
+    "vapor_pressure": null,
+    "boiling_point": 288.0,
+    "odor_threshold": null
+  },
+  "CC1=CC2=C(C=C1)N=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 258.6111111111111,
+    "odor_threshold": null
+  },
+  "CC1=NC2=CC=CC=C2C=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 247.61111111111111,
+    "odor_threshold": null
+  },
+  "CC1=CC2=C(C=C1)OC(=O)C=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 302.77777777777777,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)C2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 255.0,
+    "odor_threshold": null
+  },
+  "COC1=C(C=C(C=C1)CO)OC": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "COC1=CC2=CC=CC=C2C=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 274.0,
+    "odor_threshold": null
+  },
+  "CC(=O)C1=CC2=CC=CC=C2C=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 301.0,
+    "odor_threshold": null
+  },
+  "COC1=C(C=C(C=C1)CC=C)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 254.72222222222223,
+    "odor_threshold": null
+  },
+  "CCOC1=CC2=CC=CC=C2C=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 282.0,
+    "odor_threshold": null
+  },
+  "CC(C)CC1=NC2=CC=CC=C2C=C1": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(=O)OC1=C(C=C(C=C1)CC=C)OC": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC1=CC(=C(C=C1)O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 222.0,
+    "odor_threshold": null
+  },
+  "CC(C=O)C1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 94.0,
+    "odor_threshold": null
+  },
+  "CCC(C1=CC=CC=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 103.0,
+    "odor_threshold": null
+  },
+  "CCC(=O)C1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 218.0,
+    "odor_threshold": null
+  },
+  "COC(=O)C1=CN=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 209.0,
+    "odor_threshold": null
+  },
+  "CCOC(=O)C1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 75.5,
+    "odor_threshold": null
+  },
+  "CC(=O)CC(=O)C1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)C(=O)OC2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCOC(=O)CC(=O)C1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 270.0,
+    "odor_threshold": null
+  },
+  "CCCOC(=O)C1=CC=C(C=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 132.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCCOC(=O)C1=CC=C(C=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 157.0,
+    "odor_threshold": null
+  },
+  "CC(C)CCOC(=O)C1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 262.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CCOC(=O)C2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 189.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C2C(=C1)C=CS2": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC=C2C(=C1)N=CS2": {
+    "vapor_pressure": null,
+    "boiling_point": 227.5,
+    "odor_threshold": null
+  },
+  "CC1=CC2=CC=CC=C2N1": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC1=NC2=CC=CC=C2O1": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC1=C(C=C(C=C1)O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 225.0,
+    "odor_threshold": null
+  },
+  "CC1=CC(=C(C=C1)C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 212.22222222222223,
+    "odor_threshold": null
+  },
+  "CCOC(=O)C(=O)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 185.7,
+    "odor_threshold": null
+  },
+  "CCC(C)C=O": {
+    "vapor_pressure": null,
+    "boiling_point": 93.0,
+    "odor_threshold": null
+  },
+  "CCC(=O)CC": {
+    "vapor_pressure": null,
+    "boiling_point": 102.22222222222223,
+    "odor_threshold": null
+  },
+  "COC(=O)C=C": {
+    "vapor_pressure": null,
+    "boiling_point": 80.5,
+    "odor_threshold": null
+  },
+  "C1CCC(C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 140.4,
+    "odor_threshold": null
+  },
+  "CC1CCCO1": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1CC(=O)OC1": {
+    "vapor_pressure": null,
+    "boiling_point": 205.0,
+    "odor_threshold": null
+  },
+  "CN1C=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 112.5,
+    "odor_threshold": null
+  },
+  "CC1=CCC(CC1OC(=O)C)C(=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 78.88888888888889,
+    "odor_threshold": null
+  },
+  "CCC(=O)OC1CC(CC=C1C)C(=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 80.0,
+    "odor_threshold": null
+  },
+  "CCCC(C)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCOC(=O)C(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 113.0,
+    "odor_threshold": null
+  },
+  "CCOC(=O)C(=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 117.22222222222223,
+    "odor_threshold": null
+  },
+  "CCOC(=O)C(C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 153.88888888888889,
+    "odor_threshold": null
+  },
+  "CC(C)COC(=O)C(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 148.72222222222223,
+    "odor_threshold": null
+  },
+  "CC(C)COC(=O)C(=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 155.0,
+    "odor_threshold": null
+  },
+  "CCCCOC(=O)C(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 158.0,
+    "odor_threshold": null
+  },
+  "CCCCOC(=O)C(=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 170.5,
+    "odor_threshold": null
+  },
+  "CCC(CC)CO": {
+    "vapor_pressure": null,
+    "boiling_point": 145.0,
+    "odor_threshold": null
+  },
+  "CCC(CC)C=O": {
+    "vapor_pressure": null,
+    "boiling_point": 117.0,
+    "odor_threshold": null
+  },
+  "C1CC(OC1)CO": {
+    "vapor_pressure": null,
+    "boiling_point": 178.0,
+    "odor_threshold": null
+  },
+  "C1=COC(=C1)C=O": {
+    "vapor_pressure": null,
+    "boiling_point": 161.72222222222223,
+    "odor_threshold": null
+  },
+  "C1=COC(=C1)CS": {
+    "vapor_pressure": null,
+    "boiling_point": 265.0,
+    "odor_threshold": null
+  },
+  "C1=CSC(=C1)C=O": {
+    "vapor_pressure": null,
+    "boiling_point": 77.0,
+    "odor_threshold": null
+  },
+  "CC(C)(C)C1CCC(=O)CC1": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(C)(C)C1=CC=C(C=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 239.5,
+    "odor_threshold": null
+  },
+  "CC(=C)C1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 165.38888888888889,
+    "odor_threshold": null
+  },
+  "CC(C1=CC=CC=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 203.88888888888889,
+    "odor_threshold": null
+  },
+  "C1CCC(CC1)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 233.0,
+    "odor_threshold": null
+  },
+  "CC1=CCC(CC1O)C(=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 227.22222222222223,
+    "odor_threshold": null
+  },
+  "CC1=CC=C(C=C1)C(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 217.22222222222223,
+    "odor_threshold": null
+  },
+  "CC1=CCC(C=C1)C(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC1=CCC(=CC1)C(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 183.0,
+    "odor_threshold": null
+  },
+  "CC1=CC=C(CC1)C(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 175.0,
+    "odor_threshold": null
+  },
+  "CC1=CC=C(C=C1)C(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 177.22222222222223,
+    "odor_threshold": null
+  },
+  "CC(C)C1=CC=C(C=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 223.0,
+    "odor_threshold": null
+  },
+  "CC(=O)C1=CC=C(C=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(=O)C1=CC=C(C=C1)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 254.0,
+    "odor_threshold": null
+  },
+  "COC1=CC=C(C=C1)C(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C=CC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 146.11111111111111,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)C#N": {
+    "vapor_pressure": null,
+    "boiling_point": 190.72222222222223,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CS": {
+    "vapor_pressure": null,
+    "boiling_point": 194.5,
+    "odor_threshold": null
+  },
+  "COC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 155.5,
+    "odor_threshold": null
+  },
+  "CSC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 193.0,
+    "odor_threshold": null
+  },
+  "CCC1=CC=CC=N1": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC1(OCC(O1)CO)C": {
+    "vapor_pressure": null,
+    "boiling_point": 188.5,
+    "odor_threshold": null
+  },
+  "CC1=CC(=CC=C1)OC": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(C)(CC1=CC=CC=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "COC(=O)CC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 215.0,
+    "odor_threshold": null
+  },
+  "C1COC(O1)CC2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CC2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 264.5,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)OC2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 257.92777777777775,
+    "odor_threshold": null
+  },
+  "CCOC(=O)CC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 228.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CC(=O)CC2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 331.0,
+    "odor_threshold": null
+  },
+  "COC1=CC=C(C=C1)COC(=O)CC2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 370.0,
+    "odor_threshold": null
+  },
+  "CC(C)CCOC(=O)CC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 268.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CCOC(=O)CC2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 325.0,
+    "odor_threshold": null
+  },
+  "CCCN(CCC)CCC": {
+    "vapor_pressure": null,
+    "boiling_point": 156.11111111111111,
+    "odor_threshold": null
+  },
+  "CCCCN(CCCC)CCCC": {
+    "vapor_pressure": null,
+    "boiling_point": 212.77777777777777,
+    "odor_threshold": null
+  },
+  "CC(C)(CCC1=CC=CC=C1)O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(=O)OC(C)(C)CCC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 244.0,
+    "odor_threshold": null
+  },
+  "CCCCC(CC)COC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 192.22222222222223,
+    "odor_threshold": null
+  },
+  "COC(=O)CCC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 92.0,
+    "odor_threshold": null
+  },
+  "CC(C)C(=O)OCC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 230.0,
+    "odor_threshold": null
+  },
+  "CCCC(=O)OCC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 240.0,
+    "odor_threshold": null
+  },
+  "CC(C)CC(=O)OCC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 116.0,
+    "odor_threshold": null
+  },
+  "CC(=O)OCCC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 239.0,
+    "odor_threshold": null
+  },
+  "CC(C)C(=O)OCCC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 230.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)COCC2=CC=CC=C2": {
+    "vapor_pressure": null,
+    "boiling_point": 297.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCC(=O)OCCC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 238.0,
+    "odor_threshold": null
+  },
+  "CC(C)C(=O)OCCCC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 282.0,
+    "odor_threshold": null
+  },
+  "CCOC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 172.0,
+    "odor_threshold": null
+  },
+  "CC(=O)CC1=CC=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 214.0,
+    "odor_threshold": null
+  },
+  "CC1=CC=C(C=C1)OC(=O)C(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(C)C1=CC=C(C=C1)C(C)CC=O": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(=O)OCC1=CC=C(C=C1)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 137.0,
+    "odor_threshold": null
+  },
+  "CCCC1=CC=C(C=C1)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 213.0,
+    "odor_threshold": null
+  },
+  "CCCCC1CCC(=O)O1": {
+    "vapor_pressure": null,
+    "boiling_point": 234.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 98.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)COC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 203.0,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)CCOC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 226.0,
+    "odor_threshold": null
+  },
+  "CCCCC(CC)CO": {
+    "vapor_pressure": null,
+    "boiling_point": 185.0,
+    "odor_threshold": null
+  },
+  "CC1=CC=C(C=C1)C=O": {
+    "vapor_pressure": null,
+    "boiling_point": 204.0,
+    "odor_threshold": null
+  },
+  "CCC1=CN=C(C=C1)C": {
+    "vapor_pressure": null,
+    "boiling_point": 177.77777777777777,
+    "odor_threshold": null
+  },
+  "CC1=CC=C(C=C1)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 175.5,
+    "odor_threshold": null
+  },
+  "CC(C)COC(=O)CCC1=CC=CO1": {
+    "vapor_pressure": null,
+    "boiling_point": 105.0,
+    "odor_threshold": null
+  },
+  "COC1=CC=C(C=C1)CO": {
+    "vapor_pressure": null,
+    "boiling_point": 260.0,
+    "odor_threshold": null
+  },
+  "CCCC1CCC(=O)O1": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCC(C)CO": {
+    "vapor_pressure": null,
+    "boiling_point": 148.0,
+    "odor_threshold": null
+  },
+  "CCC(=O)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 98.88888888888889,
+    "odor_threshold": null
+  },
+  "CCC(C)CC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 198.0,
+    "odor_threshold": null
+  },
+  "CC(=O)CC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 170.0,
+    "odor_threshold": null
+  },
+  "CCC(C)OC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 112.22222222222223,
+    "odor_threshold": null
+  },
+  "CCOC(=O)CC(=O)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 200.0,
+    "odor_threshold": null
+  },
+  "CCOC(C)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 102.22222222222223,
+    "odor_threshold": null
+  },
+  "CCOC(=O)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 126.11111111111111,
+    "odor_threshold": null
+  },
+  "C1CCC(=O)NCC1": {
+    "vapor_pressure": null,
+    "boiling_point": 266.8888888888889,
+    "odor_threshold": null
+  },
+  "CCCC(=O)OCCC": {
+    "vapor_pressure": null,
+    "boiling_point": 143.0,
+    "odor_threshold": null
+  },
+  "CC1=CC(=C(C=C1)O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 212.22222222222223,
+    "odor_threshold": null
+  },
+  "CCC(=O)OCCC(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 161.0,
+    "odor_threshold": null
+  },
+  "CCCCCC(=O)OCC(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC(CCC=C(C)C)CCOC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 235.0,
+    "odor_threshold": null
+  },
+  "CCC(=O)OCCC(C)CCCC(=C)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCOC(=O)CCCCC(=O)OCCC": {
+    "vapor_pressure": null,
+    "boiling_point": 274.0,
+    "odor_threshold": null
+  },
+  "CC(C)CCCC(C)CCO": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C[C@@H](CCC=C(C)C)CCO": {
+    "vapor_pressure": null,
+    "boiling_point": 225.0,
+    "odor_threshold": null
+  },
+  "CCCC(=O)OCCC(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 179.0,
+    "odor_threshold": null
+  },
+  "CCCCCCC(=O)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 189.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCC(=O)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 208.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCC(=O)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 271.0,
+    "odor_threshold": null
+  },
+  "CCCCC(=O)CC": {
+    "vapor_pressure": null,
+    "boiling_point": 147.22222222222223,
+    "odor_threshold": null
+  },
+  "CCCOC(=O)CC": {
+    "vapor_pressure": null,
+    "boiling_point": 124.0,
+    "odor_threshold": null
+  },
+  "COC(=O)CCC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 196.38888888888889,
+    "odor_threshold": null
+  },
+  "CCC(C)CC(=O)CC": {
+    "vapor_pressure": null,
+    "boiling_point": 157.22222222222223,
+    "odor_threshold": null
+  },
+  "CCCCCC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 150.0,
+    "odor_threshold": null
+  },
+  "CCCCCCC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 174.0,
+    "odor_threshold": null
+  },
+  "COC(=O)CCCCCCCCC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "C=CC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 52.22222222222222,
+    "odor_threshold": null
+  },
+  "CCCS": {
+    "vapor_pressure": null,
+    "boiling_point": 67.22222222222223,
+    "odor_threshold": null
+  },
+  "CCCN": {
+    "vapor_pressure": null,
+    "boiling_point": 48.611111111111114,
+    "odor_threshold": null
+  },
+  "C=CCO": {
+    "vapor_pressure": null,
+    "boiling_point": 96.66666666666667,
+    "odor_threshold": null
+  },
+  "C(=O)C=O": {
+    "vapor_pressure": null,
+    "boiling_point": 51.111111111111114,
+    "odor_threshold": null
+  },
+  "COC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 31.5,
+    "odor_threshold": null
+  },
+  "CC(C)CCN": {
+    "vapor_pressure": null,
+    "boiling_point": 97.0,
+    "odor_threshold": null
+  },
+  "CCCC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 101.11111111111111,
+    "odor_threshold": null
+  },
+  "CC(COC)O": {
+    "vapor_pressure": null,
+    "boiling_point": 120.0,
+    "odor_threshold": null
+  },
+  "CC(C)CC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 117.77777777777777,
+    "odor_threshold": null
+  },
+  "CC(C)CC(C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 131.77777777777777,
+    "odor_threshold": null
+  },
+  "CC(C)OC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 91.11111111111111,
+    "odor_threshold": null
+  },
+  "CC(=C)OC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 97.0,
+    "odor_threshold": null
+  },
+  "CC1CCC(=O)O1": {
+    "vapor_pressure": null,
+    "boiling_point": 207.77777777777777,
+    "odor_threshold": null
+  },
+  "CC1=CC(=NC=C1)C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CC1=NC(=CC=C1)C": {
+    "vapor_pressure": null,
+    "boiling_point": 144.0,
+    "odor_threshold": null
+  },
+  "CC1=CN=CC(=N1)C": {
+    "vapor_pressure": null,
+    "boiling_point": 155.0,
+    "odor_threshold": null
+  },
+  "COC(=O)CC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCOC(=O)CC(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 133.0,
+    "odor_threshold": null
+  },
+  "CC1=CC(=CC(=C1)O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 219.5,
+    "odor_threshold": null
+  },
+  "CC1=CC(=NC(=C1)C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 170.4,
+    "odor_threshold": null
+  },
+  "CC(C)CC(CC(C)C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 177.77777777777777,
+    "odor_threshold": null
+  },
+  "CC(C)CC(=O)CC(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 166.11111111111111,
+    "odor_threshold": null
+  },
+  "CC(C)CC(C)OC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 146.22222222222223,
+    "odor_threshold": null
+  },
+  "CC1=CC=NC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 144.88888888888889,
+    "odor_threshold": null
+  },
+  "C1CCC(CC1)O": {
+    "vapor_pressure": null,
+    "boiling_point": 161.11111111111111,
+    "odor_threshold": null
+  },
+  "C1CCC(=O)CC1": {
+    "vapor_pressure": null,
+    "boiling_point": 155.61111111111111,
+    "odor_threshold": null
+  },
+  "C1=CC=C(C=C1)S": {
+    "vapor_pressure": null,
+    "boiling_point": 168.27777777777777,
+    "odor_threshold": null
+  },
+  "CC1=CN=CC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 143.88888888888889,
+    "odor_threshold": null
+  },
+  "CC1CCCCN1": {
+    "vapor_pressure": null,
+    "boiling_point": 119.0,
+    "odor_threshold": null
+  },
+  "CC1=CC=CC=N1": {
+    "vapor_pressure": null,
+    "boiling_point": 128.88888888888889,
+    "odor_threshold": null
+  },
+  "CC1=NC=CN=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 135.0,
+    "odor_threshold": null
+  },
+  "CCCCOC(=O)CC(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 150.0,
+    "odor_threshold": null
+  },
+  "CCCCOC(=O)CCC": {
+    "vapor_pressure": null,
+    "boiling_point": 166.66666666666666,
+    "odor_threshold": null
+  },
+  "C1CCCCCCCC(=O)OCCCCCCC1": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCCOC(=O)CCCCCCCCC(=O)OCCCC": {
+    "vapor_pressure": null,
+    "boiling_point": 344.5,
+    "odor_threshold": null
+  },
+  "CC(=O)CCC=C": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 185.0,
+    "odor_threshold": null
+  },
+  "CCCOC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 101.61111111111111,
+    "odor_threshold": null
+  },
+  "CCCCN": {
+    "vapor_pressure": null,
+    "boiling_point": 78.0,
+    "odor_threshold": null
+  },
+  "CCCCS": {
+    "vapor_pressure": null,
+    "boiling_point": 109.61111111111111,
+    "odor_threshold": null
+  },
+  "C(CS)CS": {
+    "vapor_pressure": null,
+    "boiling_point": 168.88888888888889,
+    "odor_threshold": null
+  },
+  "COCOC": {
+    "vapor_pressure": null,
+    "boiling_point": 42.22222222222222,
+    "odor_threshold": null
+  },
+  "CCNCC": {
+    "vapor_pressure": null,
+    "boiling_point": 55.5,
+    "odor_threshold": null
+  },
+  "CCOC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 54.22222222222222,
+    "odor_threshold": null
+  },
+  "CCON=O": {
+    "vapor_pressure": null,
+    "boiling_point": 17.22222222222222,
+    "odor_threshold": null
+  },
+  "C1=CNC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 129.7,
+    "odor_threshold": null
+  },
+  "C1=COC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 32.22222222222222,
+    "odor_threshold": null
+  },
+  "C1=CSC=C1": {
+    "vapor_pressure": null,
+    "boiling_point": 84.38888888888889,
+    "odor_threshold": null
+  },
+  "CC(C)CCC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 143.88888888888889,
+    "odor_threshold": null
+  },
+  "CC(=O)CCC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 191.11111111111111,
+    "odor_threshold": null
+  },
+  "CC(C)COC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 117.27777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCC(=O)OC(C)C": {
+    "vapor_pressure": null,
+    "boiling_point": 315.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCC(=O)OCCCC": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCC(=O)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 245.0,
+    "odor_threshold": null
+  },
+  "CCOC(=O)CCCCCCCCC(=O)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 305.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 224.0,
+    "odor_threshold": null
+  },
+  "CCCCCC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 148.88888888888889,
+    "odor_threshold": null
+  },
+  "CC(C)CCOC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 124.0,
+    "odor_threshold": null
+  },
+  "CCCCCN": {
+    "vapor_pressure": null,
+    "boiling_point": 104.38888888888889,
+    "odor_threshold": null
+  },
+  "CCCCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 102.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCS": {
+    "vapor_pressure": null,
+    "boiling_point": 120.0,
+    "odor_threshold": null
+  },
+  "COCCOC": {
+    "vapor_pressure": null,
+    "boiling_point": 85.0,
+    "odor_threshold": null
+  },
+  "CCCOC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 82.0,
+    "odor_threshold": null
+  },
+  "CCSCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 184.5,
+    "odor_threshold": null
+  },
+  "CCSSCC": {
+    "vapor_pressure": null,
+    "boiling_point": 152.0,
+    "odor_threshold": null
+  },
+  "C1CCCCC1": {
+    "vapor_pressure": null,
+    "boiling_point": 80.72222222222223,
+    "odor_threshold": null
+  },
+  "C1CCNCC1": {
+    "vapor_pressure": null,
+    "boiling_point": 106.11111111111111,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCCCC(=O)OCCCC": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCCCCCC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 192.9,
+    "odor_threshold": null
+  },
+  "CCCCCC#CC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 220.0,
+    "odor_threshold": null
+  },
+  "CCCCCCC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 175.0,
+    "odor_threshold": null
+  },
+  "CCCCCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 245.0,
+    "odor_threshold": null
+  },
+  "CCOCCOC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 156.11111111111111,
+    "odor_threshold": null
+  },
+  "CCCCCCN": {
+    "vapor_pressure": null,
+    "boiling_point": 132.0,
+    "odor_threshold": null
+  },
+  "CCCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 157.11111111111111,
+    "odor_threshold": null
+  },
+  "CCCCCCS": {
+    "vapor_pressure": null,
+    "boiling_point": 151.11111111111111,
+    "odor_threshold": null
+  },
+  "C=CCOCCO": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCSCCC": {
+    "vapor_pressure": null,
+    "boiling_point": 143.0,
+    "odor_threshold": null
+  },
+  "CC(=O)OCCOC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 187.22222222222223,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCCCCCC(=O)OCC": {
+    "vapor_pressure": null,
+    "boiling_point": 215.0,
+    "odor_threshold": null
+  },
+  "CCCCCCC=C": {
+    "vapor_pressure": null,
+    "boiling_point": 121.27777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 176.11111111111111,
+    "odor_threshold": null
+  },
+  "CCCCCCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 152.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCCOCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 171.11111111111111,
+    "odor_threshold": null
+  },
+  "CCCCCCC#CC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 122.0,
+    "odor_threshold": null
+  },
+  "COC(=O)CCCCCCCCC=C": {
+    "vapor_pressure": null,
+    "boiling_point": 248.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCC": {
+    "vapor_pressure": null,
+    "boiling_point": 150.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCCCCS": {
+    "vapor_pressure": null,
+    "boiling_point": 198.88888888888889,
+    "odor_threshold": null
+  },
+  "CCCCCCCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 254.5,
+    "odor_threshold": null
+  },
+  "CCCCCCCOC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 192.5,
+    "odor_threshold": null
+  },
+  "CCCCOCCOC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 192.22222222222223,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 231.5,
+    "odor_threshold": null
+  },
+  "CCCCCCCCOC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 211.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCOC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 127.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCOC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 178.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 230.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCOC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 89.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCC(=O)O": {
+    "vapor_pressure": null,
+    "boiling_point": 227.88888888888889,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCCCC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 417.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCC": {
+    "vapor_pressure": null,
+    "boiling_point": 216.27777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCC=C": {
+    "vapor_pressure": null,
+    "boiling_point": 212.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 245.0,
+    "odor_threshold": null
+  },
+  "C=CCCCCCCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 133.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 115.0,
+    "odor_threshold": null
+  },
+  "C=CCCCCCCCCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 100.0,
+    "odor_threshold": null
+  },
+  "CCCCCSSCCCCC": {
+    "vapor_pressure": null,
+    "boiling_point": null,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 258.8888888888889,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCC=O": {
+    "vapor_pressure": null,
+    "boiling_point": 185.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCS": {
+    "vapor_pressure": null,
+    "boiling_point": 282.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCCCCCC(=O)OC": {
+    "vapor_pressure": null,
+    "boiling_point": 442.77777777777777,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCOC(=O)C": {
+    "vapor_pressure": null,
+    "boiling_point": 150.0,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 273.8888888888889,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 263.22222222222223,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCCCCCCO": {
+    "vapor_pressure": null,
+    "boiling_point": 210.5,
+    "odor_threshold": null
+  },
+  "CCCCCCCCCCCCCCCCCCCC": {
+    "vapor_pressure": null,
+    "boiling_point": 342.72222222222223,
+    "odor_threshold": null
+  },
+  "CC(C)(C=C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 99.0,
+    "odor_threshold": null
+  },
+  "CC1CC(CC(C1)(C)C)O": {
+    "vapor_pressure": null,
+    "boiling_point": 198.0,
+    "odor_threshold": null
+  }
+}

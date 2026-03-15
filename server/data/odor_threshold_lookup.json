@@ -1,0 +1,257 @@
+{
+ "CC1=CCC(CC1)C(=C)C": {
+  "threshold_ppb": 38,
+  "source": "literature_curated",
+  "name": "limonene"
+ },
+ "CC1=CCC2CC1C2(C)C": {
+  "threshold_ppb": 18,
+  "source": "literature_curated",
+  "name": "alpha-pinene"
+ },
+ "CC1(C2CCC(=C)C1C2)C": {
+  "threshold_ppb": 140,
+  "source": "literature_curated",
+  "name": "beta-pinene"
+ },
+ "CC(=CCC=C(C)C=C)C": {
+  "threshold_ppb": 15,
+  "source": "literature_curated",
+  "name": "myrcene"
+ },
+ "CC(=CCCC(C)(C=C)O)C": {
+  "threshold_ppb": 6.0,
+  "source": "literature_curated",
+  "name": "linalool"
+ },
+ "CC(=CCC/C(=C/CO)/C)C": {
+  "threshold_ppb": 7.5,
+  "source": "literature_curated",
+  "name": "geraniol"
+ },
+ "CC(=CCC/C(=C\\CO)/C)C": {
+  "threshold_ppb": 6.5,
+  "source": "literature_curated",
+  "name": "nerol"
+ },
+ "C[C@H](CCC=C(C)C)CCO": {
+  "threshold_ppb": 40,
+  "source": "literature_curated",
+  "name": "citronellol"
+ },
+ "CC(=CCC/C(=C/C=O)/C)C": {
+  "threshold_ppb": 32,
+  "source": "literature_curated",
+  "name": "citral"
+ },
+ "CC1=CCC(=C(C)C)CC1": {
+  "threshold_ppb": 200,
+  "source": "literature_curated",
+  "name": "terpinolene"
+ },
+ "CC(=CC/C=C(\\C)/C=C)C": {
+  "threshold_ppb": 34,
+  "source": "literature_curated",
+  "name": "ocimene"
+ },
+ "CC1CCC(CC1=O)C(=C)C": {
+  "threshold_ppb": 67,
+  "source": "literature_curated",
+  "name": "carvone"
+ },
+ "CC1CCC(C(C1)O)C(C)C": {
+  "threshold_ppb": 40,
+  "source": "literature_curated",
+  "name": "menthol"
+ },
+ "CC1(C2CCC1(C(=O)C2)C)C": {
+  "threshold_ppb": 270,
+  "source": "literature_curated",
+  "name": "camphor"
+ },
+ "CC1(C2CCC(O1)(CC2)C)C": {
+  "threshold_ppb": 12,
+  "source": "literature_curated",
+  "name": "eucalyptol"
+ },
+ "CCCC(=O)OCC": {
+  "threshold_ppb": 1.0,
+  "source": "literature_curated",
+  "name": "ethyl_butyrate"
+ },
+ "CCOC(=O)C": {
+  "threshold_ppb": 5000,
+  "source": "literature_curated",
+  "name": "ethyl_acetate"
+ },
+ "CC(C)CCOC(=O)C": {
+  "threshold_ppb": 10,
+  "source": "literature_curated",
+  "name": "isoamyl_acetate"
+ },
+ "CC(=O)OCC1=CC=CC=C1": {
+  "threshold_ppb": 170,
+  "source": "literature_curated",
+  "name": "benzyl_acetate"
+ },
+ "COC(=O)C1=CC=CC=C1O": {
+  "threshold_ppb": 100,
+  "source": "literature_curated",
+  "name": "methyl_salicylate"
+ },
+ "COC(=O)C1=CC=CC=C1": {
+  "threshold_ppb": 170,
+  "source": "literature_curated",
+  "name": "methyl_benzoate"
+ },
+ "C1=CC=C(C=C1)/C=C/C=O": {
+  "threshold_ppb": 32,
+  "source": "literature_curated",
+  "name": "cinnamaldehyde"
+ },
+ "C1=CC=C(C=C1)C=O": {
+  "threshold_ppb": 350,
+  "source": "literature_curated",
+  "name": "benzaldehyde"
+ },
+ "COC1=C(C=CC(=C1)C=O)O": {
+  "threshold_ppb": 0.029,
+  "source": "literature_curated",
+  "name": "vanillin"
+ },
+ "CCCCCC=O": {
+  "threshold_ppb": 28,
+  "source": "literature_curated",
+  "name": "hexanal"
+ },
+ "CCCCCCCC=O": {
+  "threshold_ppb": 0.7,
+  "source": "literature_curated",
+  "name": "octanal"
+ },
+ "CCCCCCCCCC=O": {
+  "threshold_ppb": 0.1,
+  "source": "literature_curated",
+  "name": "decanal"
+ },
+ "CCCCCCCCC=O": {
+  "threshold_ppb": 1.0,
+  "source": "literature_curated",
+  "name": "nonanal"
+ },
+ "CC(CCCC(C)(C)O)CC=O": {
+  "threshold_ppb": 18,
+  "source": "literature_curated",
+  "name": "citronellal"
+ },
+ "OCCC1=CC=CC=C1": {
+  "threshold_ppb": 750,
+  "source": "literature_curated",
+  "name": "phenylethyl_alcohol"
+ },
+ "CCC=CCCO": {
+  "threshold_ppb": 70,
+  "source": "literature_curated",
+  "name": "cis_3_hexenol"
+ },
+ "CC(C)(C)C1CCC(CC1)O": {
+  "threshold_ppb": 5000,
+  "source": "literature_curated",
+  "name": "hexanol"
+ },
+ "COC1=C(C=CC(=C1)CC=C)O": {
+  "threshold_ppb": 6.0,
+  "source": "literature_curated",
+  "name": "eugenol"
+ },
+ "CC1=CC(=C(C=C1)C(C)C)O": {
+  "threshold_ppb": 10,
+  "source": "literature_curated",
+  "name": "thymol"
+ },
+ "C/C=C/C1=CC=C(C=C1)OC": {
+  "threshold_ppb": 50,
+  "source": "literature_curated",
+  "name": "anethole"
+ },
+ "C1CC(=O)OC2=CC=CC=C21": {
+  "threshold_ppb": 33,
+  "source": "literature_curated",
+  "name": "coumarin"
+ },
+ "CCCCCCC1CCC(=O)O1": {
+  "threshold_ppb": 11,
+  "source": "literature_curated",
+  "name": "gamma_decalactone"
+ },
+ "CCCCCCC[C@H]1CCC(=O)O1": {
+  "threshold_ppb": 7.0,
+  "source": "literature_curated",
+  "name": "gamma_undecalactone"
+ },
+ "CC1(C)CC2=CC(=C(C(C2C(O1)(C)C)C)C)C": {
+  "threshold_ppb": 0.9,
+  "source": "literature_curated",
+  "name": "galaxolide"
+ },
+ "C1CCCCCC(=O)OCCOC(=O)CCCCC1": {
+  "threshold_ppb": 4.0,
+  "source": "literature_curated",
+  "name": "ethylene_brassylate"
+ },
+ "O": {
+  "threshold_ppb": 0.2,
+  "source": "literature_curated",
+  "name": "musk_ketone"
+ },
+ "CC1(C)CCCC2(C)C1CCC1(C)OC(CC12)C": {
+  "threshold_ppb": 0.3,
+  "source": "literature_curated",
+  "name": "ambroxide"
+ },
+ "CC1(C)CC(=O)C2(CCC(CC2C1)C(C)C)C": {
+  "threshold_ppb": 0.6,
+  "source": "literature_curated",
+  "name": "iso_e_super"
+ },
+ "CC(=O)OCC(CC1CCCC1=O)C": {
+  "threshold_ppb": 25,
+  "source": "literature_curated",
+  "name": "hedione"
+ },
+ "CO": {
+  "threshold_ppb": 0.002,
+  "source": "literature_curated",
+  "name": "damascone_beta"
+ },
+ "CC(=O)C1=CC=CC=C1": {
+  "threshold_ppb": 860,
+  "source": "literature_curated",
+  "name": "acetophenone"
+ },
+ "C1=CC=C2C(=C1)C=CN2": {
+  "threshold_ppb": 0.3,
+  "source": "literature_curated",
+  "name": "indole"
+ },
+ "CC1=C(C(CCC1)(C)C)/C=C/C(=O)C": {
+  "threshold_ppb": 0.007,
+  "source": "literature_curated",
+  "name": "beta_ionone"
+ },
+ "CC1=CCCC(C1/C=C/C(=O)C)(C)C": {
+  "threshold_ppb": 0.4,
+  "source": "literature_curated",
+  "name": "alpha_ionone"
+ },
+ "C1=CC=C(C=C1)O": {
+  "threshold_ppb": 5900,
+  "source": "literature_curated",
+  "name": "phenol"
+ },
+ "COC1=CC=CC=C1O": {
+  "threshold_ppb": 21,
+  "source": "literature_curated",
+  "name": "guaiacol"
+ }
+}

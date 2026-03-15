@@ -1,0 +1,4532 @@
+{
+  "144020-22-4": {
+    "cas": "144020-22-4",
+    "name": "Acetic acid, anhydride, reaction products with 1,5,10-Trimethyl-1,5,9-cyclododec",
+    "ifra_key": "IFRA_STD_001",
+    "max_pct_cat4": 2.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "28371-99-5": {
+    "cas": "28371-99-5",
+    "name": "Acetic acid, anhydride, reaction products with 1,5,10-Trimethyl-1,5,9-cyclododec",
+    "ifra_key": "IFRA_STD_001",
+    "max_pct_cat4": 2.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "84082-84-8": {
+    "cas": "84082-84-8",
+    "name": "Acetylated Vetiver oil",
+    "ifra_key": "IFRA_STD_002",
+    "max_pct_cat4": 0.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "68917-34-0": {
+    "cas": "68917-34-0",
+    "name": "Acetylated Vetiver oil",
+    "ifra_key": "IFRA_STD_002",
+    "max_pct_cat4": 0.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "73246-97-6": {
+    "cas": "73246-97-6",
+    "name": "Acetylated Vetiver oil",
+    "ifra_key": "IFRA_STD_002",
+    "max_pct_cat4": 0.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "62563-80-8": {
+    "cas": "62563-80-8",
+    "name": "Acetylated Vetiver oil",
+    "ifra_key": "IFRA_STD_002",
+    "max_pct_cat4": 0.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "7493-74-5": {
+    "cas": "7493-74-5",
+    "name": "Allyl phenoxyacetate",
+    "ifra_key": "IFRA_STD_003",
+    "max_pct_cat4": 0.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "863306-60-9": {
+    "cas": "863306-60-9",
+    "name": "Allyl phenoxyacetate",
+    "ifra_key": "IFRA_STD_003",
+    "max_pct_cat4": 0.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "101-85-9": {
+    "cas": "101-85-9",
+    "name": "alpha-Amyl cinnamic alcohol",
+    "ifra_key": "IFRA_STD_004",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "122-40-7": {
+    "cas": "122-40-7",
+    "name": "alpha-Amyl cinnamic aldehyde",
+    "ifra_key": "IFRA_STD_005",
+    "max_pct_cat4": 7.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "105-13-5": {
+    "cas": "105-13-5",
+    "name": "Anisyl alcohol",
+    "ifra_key": "IFRA_STD_006",
+    "max_pct_cat4": 0.21,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "1331-81-3": {
+    "cas": "1331-81-3",
+    "name": "Anisyl alcohol",
+    "ifra_key": "IFRA_STD_006",
+    "max_pct_cat4": 0.21,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "100-52-7": {
+    "cas": "100-52-7",
+    "name": "Benzaldehyde",
+    "ifra_key": "IFRA_STD_007",
+    "max_pct_cat4": 0.25,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "100-51-6": {
+    "cas": "100-51-6",
+    "name": "Benzyl alcohol",
+    "ifra_key": "IFRA_STD_008",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "120-51-4": {
+    "cas": "120-51-4",
+    "name": "Benzyl benzoate",
+    "ifra_key": "IFRA_STD_009",
+    "max_pct_cat4": 4.8,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "103-41-3": {
+    "cas": "103-41-3",
+    "name": "Benzyl cinnamate",
+    "ifra_key": "IFRA_STD_010",
+    "max_pct_cat4": 2.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "118-58-1": {
+    "cas": "118-58-1",
+    "name": "Benzyl salicylate",
+    "ifra_key": "IFRA_STD_011",
+    "max_pct_cat4": 7.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "7492-44-6": {
+    "cas": "7492-44-6",
+    "name": "alpha-Butylcinnamaldehyde",
+    "ifra_key": "IFRA_STD_012",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "62518-65-4": {
+    "cas": "62518-65-4",
+    "name": "3-(m-tert-Butylphenyl)-2-methylpropionaldehyde (m-BMHCA)",
+    "ifra_key": "IFRA_STD_013",
+    "max_pct_cat4": 1.8,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "18127-01-0": {
+    "cas": "18127-01-0",
+    "name": "p-tert-Butyldihydrocinnamaldehyde",
+    "ifra_key": "IFRA_STD_014",
+    "max_pct_cat4": 0.47,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "80-54-6": {
+    "cas": "80-54-6",
+    "name": "p-tert-Butyl-α-methylhydrocinnamic aldehyde (p-BMHCA)",
+    "ifra_key": "IFRA_STD_015",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "99-49-0": {
+    "cas": "99-49-0",
+    "name": "Carvone",
+    "ifra_key": "IFRA_STD_016",
+    "max_pct_cat4": 0.59,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "2244-16-8": {
+    "cas": "2244-16-8",
+    "name": "Carvone",
+    "ifra_key": "IFRA_STD_016",
+    "max_pct_cat4": 0.59,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "6485-40-1": {
+    "cas": "6485-40-1",
+    "name": "Carvone",
+    "ifra_key": "IFRA_STD_016",
+    "max_pct_cat4": 0.59,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "104-54-1": {
+    "cas": "104-54-1",
+    "name": "Cinnamic alcohol",
+    "ifra_key": "IFRA_STD_017",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "104-55-2": {
+    "cas": "104-55-2",
+    "name": "Cinnamic aldehyde",
+    "ifra_key": "IFRA_STD_018",
+    "max_pct_cat4": 0.25,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "4364-06-1": {
+    "cas": "4364-06-1",
+    "name": "Cinnamic aldehyde dimethyl acetal",
+    "ifra_key": "IFRA_STD_019",
+    "max_pct_cat4": 0.35,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1885-38-7": {
+    "cas": "1885-38-7",
+    "name": "Cinnamyl nitrile",
+    "ifra_key": "IFRA_STD_020",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "4360-47-8": {
+    "cas": "4360-47-8",
+    "name": "Cinnamyl nitrile",
+    "ifra_key": "IFRA_STD_020",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "5392-40-5": {
+    "cas": "5392-40-5",
+    "name": "Citral",
+    "ifra_key": "IFRA_STD_021",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "141-27-5": {
+    "cas": "141-27-5",
+    "name": "Citral",
+    "ifra_key": "IFRA_STD_021",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "106-26-3": {
+    "cas": "106-26-3",
+    "name": "Citral",
+    "ifra_key": "IFRA_STD_021",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "106-22-9": {
+    "cas": "106-22-9",
+    "name": "Citronellol",
+    "ifra_key": "IFRA_STD_022",
+    "max_pct_cat4": 12.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1117-61-9": {
+    "cas": "1117-61-9",
+    "name": "Citronellol",
+    "ifra_key": "IFRA_STD_022",
+    "max_pct_cat4": 12.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "26489-01-0": {
+    "cas": "26489-01-0",
+    "name": "Citronellol",
+    "ifra_key": "IFRA_STD_022",
+    "max_pct_cat4": 12.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "6812-78-8": {
+    "cas": "6812-78-8",
+    "name": "Citronellol",
+    "ifra_key": "IFRA_STD_022",
+    "max_pct_cat4": 12.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "141-25-3": {
+    "cas": "141-25-3",
+    "name": "Citronellol",
+    "ifra_key": "IFRA_STD_022",
+    "max_pct_cat4": 12.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "7540-51-4": {
+    "cas": "7540-51-4",
+    "name": "Citronellol",
+    "ifra_key": "IFRA_STD_022",
+    "max_pct_cat4": 12.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "91-64-5": {
+    "cas": "91-64-5",
+    "name": "Coumarin",
+    "ifra_key": "IFRA_STD_023",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "122-03-2": {
+    "cas": "122-03-2",
+    "name": "Cuminaldehyde",
+    "ifra_key": "IFRA_STD_024",
+    "max_pct_cat4": 0.47,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "103-95-7": {
+    "cas": "103-95-7",
+    "name": "Cyclamen aldehyde",
+    "ifra_key": "IFRA_STD_025",
+    "max_pct_cat4": 0.95,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "106-02-5": {
+    "cas": "106-02-5",
+    "name": "Cyclopentadecanolide",
+    "ifra_key": "IFRA_STD_026",
+    "max_pct_cat4": 2.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "103-50-4": {
+    "cas": "103-50-4",
+    "name": "Dibenzyl ether",
+    "ifra_key": "IFRA_STD_027",
+    "max_pct_cat4": 0.012,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "33704-61-9": {
+    "cas": "33704-61-9",
+    "name": "6,7-Dihydro-1,1,2,3,3-pentamethyl-4(5H)-indanone (DPMI)",
+    "ifra_key": "IFRA_STD_028",
+    "max_pct_cat4": 3.8,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "119-84-6": {
+    "cas": "119-84-6",
+    "name": "Dihydrocoumarin",
+    "ifra_key": "IFRA_STD_029",
+    "max_pct_cat4": 0.21,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "68039-49-6": {
+    "cas": "68039-49-6",
+    "name": "Dimethylcyclohex-3-ene-1-carbaldehyde (mixed isomers)",
+    "ifra_key": "IFRA_STD_030",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68039-48-5": {
+    "cas": "68039-48-5",
+    "name": "Dimethylcyclohex-3-ene-1-carbaldehyde (mixed isomers)",
+    "ifra_key": "IFRA_STD_030",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "27939-60-2": {
+    "cas": "27939-60-2",
+    "name": "Dimethylcyclohex-3-ene-1-carbaldehyde (mixed isomers)",
+    "ifra_key": "IFRA_STD_030",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "67801-65-4": {
+    "cas": "67801-65-4",
+    "name": "Dimethylcyclohex-3-ene-1-carbaldehyde (mixed isomers)",
+    "ifra_key": "IFRA_STD_030",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "36635-35-5": {
+    "cas": "36635-35-5",
+    "name": "Dimethylcyclohex-3-ene-1-carbaldehyde (mixed isomers)",
+    "ifra_key": "IFRA_STD_030",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68084-52-6": {
+    "cas": "68084-52-6",
+    "name": "Dimethylcyclohex-3-ene-1-carbaldehyde (mixed isomers)",
+    "ifra_key": "IFRA_STD_030",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "35145-02-9": {
+    "cas": "35145-02-9",
+    "name": "Dimethylcyclohex-3-ene-1-carbaldehyde (mixed isomers)",
+    "ifra_key": "IFRA_STD_030",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "56973-85-4": {
+    "cas": "56973-85-4",
+    "name": "1-(5,5-Dimethyl-1-cyclohexen-1-yl)pent-4-en-1-one",
+    "ifra_key": "IFRA_STD_031",
+    "max_pct_cat4": 1.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "103694-68-4": {
+    "cas": "103694-68-4",
+    "name": "2,2-Dimethyl-3-(3-tolyl)propan-1-ol",
+    "ifra_key": "IFRA_STD_032",
+    "max_pct_cat4": 1.7,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "2563-07-7": {
+    "cas": "2563-07-7",
+    "name": "2-Ethoxy-4-methylphenol",
+    "ifra_key": "IFRA_STD_033",
+    "max_pct_cat4": 0.099,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "4748-78-1": {
+    "cas": "4748-78-1",
+    "name": "p-Ethylbenzaldehyde",
+    "ifra_key": "IFRA_STD_034",
+    "max_pct_cat4": 0.47,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "97-53-0": {
+    "cas": "97-53-0",
+    "name": "Eugenol",
+    "ifra_key": "IFRA_STD_035",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "4602-84-0": {
+    "cas": "4602-84-0",
+    "name": "Farnesol",
+    "ifra_key": "IFRA_STD_036",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "106-28-5": {
+    "cas": "106-28-5",
+    "name": "Farnesol",
+    "ifra_key": "IFRA_STD_036",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "3790-71-4": {
+    "cas": "3790-71-4",
+    "name": "Farnesol",
+    "ifra_key": "IFRA_STD_036",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "16106-95-9": {
+    "cas": "16106-95-9",
+    "name": "Farnesol",
+    "ifra_key": "IFRA_STD_036",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "3879-60-5": {
+    "cas": "3879-60-5",
+    "name": "Farnesol",
+    "ifra_key": "IFRA_STD_036",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "106-24-1": {
+    "cas": "106-24-1",
+    "name": "Geraniol",
+    "ifra_key": "IFRA_STD_037",
+    "max_pct_cat4": 4.7,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "39189-74-7": {
+    "cas": "39189-74-7",
+    "name": "2-Heptylidene cyclopentan-1-one",
+    "ifra_key": "IFRA_STD_038",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "505-57-7": {
+    "cas": "505-57-7",
+    "name": "2-Hexenal",
+    "ifra_key": "IFRA_STD_039",
+    "max_pct_cat4": 0.0077,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "6728-26-3": {
+    "cas": "6728-26-3",
+    "name": "2-Hexenal",
+    "ifra_key": "IFRA_STD_039",
+    "max_pct_cat4": 0.0077,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "16635-54-4": {
+    "cas": "16635-54-4",
+    "name": "2-Hexenal",
+    "ifra_key": "IFRA_STD_039",
+    "max_pct_cat4": 0.0077,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "101-86-0": {
+    "cas": "101-86-0",
+    "name": "alpha-Hexyl cinnamic aldehyde",
+    "ifra_key": "IFRA_STD_040",
+    "max_pct_cat4": 9.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "17373-89-6": {
+    "cas": "17373-89-6",
+    "name": "alpha-Hexylidene cyclopentanone",
+    "ifra_key": "IFRA_STD_041",
+    "max_pct_cat4": 0.13,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "6259-76-3": {
+    "cas": "6259-76-3",
+    "name": "Hexyl salicylate",
+    "ifra_key": "IFRA_STD_042",
+    "max_pct_cat4": 6.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "107-75-5": {
+    "cas": "107-75-5",
+    "name": "Hydroxycitronellal",
+    "ifra_key": "IFRA_STD_043",
+    "max_pct_cat4": 2.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "31906-04-4": {
+    "cas": "31906-04-4",
+    "name": "3 and 4-(4-Hydroxy-4-methylpentyl)-3-cyclohexene-1-carboxaldehyde (HMPCC)",
+    "ifra_key": "IFRA_STD_044",
+    "max_pct_cat4": 0.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "51414-25-6": {
+    "cas": "51414-25-6",
+    "name": "3 and 4-(4-Hydroxy-4-methylpentyl)-3-cyclohexene-1-carboxaldehyde (HMPCC)",
+    "ifra_key": "IFRA_STD_044",
+    "max_pct_cat4": 0.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "6658-48-6": {
+    "cas": "6658-48-6",
+    "name": "p-Isobutyl-alpha-methyl hydrocinnamaldehyde",
+    "ifra_key": "IFRA_STD_045",
+    "max_pct_cat4": 0.99,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "1335-66-6": {
+    "cas": "1335-66-6",
+    "name": "Isocyclocitral",
+    "ifra_key": "IFRA_STD_046",
+    "max_pct_cat4": 3.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1423-46-7": {
+    "cas": "1423-46-7",
+    "name": "Isocyclocitral",
+    "ifra_key": "IFRA_STD_046",
+    "max_pct_cat4": 3.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "67634-07-5": {
+    "cas": "67634-07-5",
+    "name": "Isocyclocitral",
+    "ifra_key": "IFRA_STD_046",
+    "max_pct_cat4": 3.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68527-77-5": {
+    "cas": "68527-77-5",
+    "name": "Isocyclogeraniol",
+    "ifra_key": "IFRA_STD_047",
+    "max_pct_cat4": 1.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "97-54-1": {
+    "cas": "97-54-1",
+    "name": "Isoeugenol",
+    "ifra_key": "IFRA_STD_048",
+    "max_pct_cat4": 0.11,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "5932-68-3": {
+    "cas": "5932-68-3",
+    "name": "Isoeugenol",
+    "ifra_key": "IFRA_STD_048",
+    "max_pct_cat4": 0.11,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "8022-96-6": {
+    "cas": "8022-96-6",
+    "name": "Jasmine absolute (grandiflorum)",
+    "ifra_key": "IFRA_STD_049",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "8024-43-9": {
+    "cas": "8024-43-9",
+    "name": "Jasmine absolute (grandiflorum)",
+    "ifra_key": "IFRA_STD_049",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "90045-94-6": {
+    "cas": "90045-94-6",
+    "name": "Jasmine absolute (grandiflorum)",
+    "ifra_key": "IFRA_STD_049",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "84776-64-7": {
+    "cas": "84776-64-7",
+    "name": "Jasmine absolute (grandiflorum)",
+    "ifra_key": "IFRA_STD_049",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "91770-14-8": {
+    "cas": "91770-14-8",
+    "name": "Jasmine absolute (sambac)",
+    "ifra_key": "IFRA_STD_050",
+    "max_pct_cat4": 3.8,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1034798-23-6": {
+    "cas": "1034798-23-6",
+    "name": "Jasmine absolute (sambac)",
+    "ifra_key": "IFRA_STD_050",
+    "max_pct_cat4": 3.8,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "8014-71-9": {
+    "cas": "8014-71-9",
+    "name": "Melissa oil (genuine Melissa officinalis L.)",
+    "ifra_key": "IFRA_STD_051",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "84082-61-1": {
+    "cas": "84082-61-1",
+    "name": "Melissa oil (genuine Melissa officinalis L.)",
+    "ifra_key": "IFRA_STD_051",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "2111-75-3": {
+    "cas": "2111-75-3",
+    "name": "Perilla aldehyde",
+    "ifra_key": "IFRA_STD_052",
+    "max_pct_cat4": 0.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68683-20-5": {
+    "cas": "68683-20-5",
+    "name": "Menthadiene-7-methyl formate",
+    "ifra_key": "IFRA_STD_053",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "123-11-5": {
+    "cas": "123-11-5",
+    "name": "p-Methoxybenzaldehyde",
+    "ifra_key": "IFRA_STD_054",
+    "max_pct_cat4": 1.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "1504-74-1": {
+    "cas": "1504-74-1",
+    "name": "o-Methoxycinnamaldehyde",
+    "ifra_key": "IFRA_STD_055",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "86803-90-9": {
+    "cas": "86803-90-9",
+    "name": "Methoxy dicyclopentadiene carboxaldehyde",
+    "ifra_key": "IFRA_STD_056",
+    "max_pct_cat4": 1.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "5462-06-6": {
+    "cas": "5462-06-6",
+    "name": "4-Methoxy-alpha-methylbenzenepropanal",
+    "ifra_key": "IFRA_STD_057",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "93-51-6": {
+    "cas": "93-51-6",
+    "name": "2-Methoxy-4-methylphenol",
+    "ifra_key": "IFRA_STD_058",
+    "max_pct_cat4": 0.047,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1205-17-0": {
+    "cas": "1205-17-0",
+    "name": "alpha-Methyl-1,3-benzodioxole-5-propionaldehyde (MMDHCA)",
+    "ifra_key": "IFRA_STD_059",
+    "max_pct_cat4": 2.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "101-39-3": {
+    "cas": "101-39-3",
+    "name": "alpha-Methyl cinnamic aldehyde",
+    "ifra_key": "IFRA_STD_060",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1604-28-0": {
+    "cas": "1604-28-0",
+    "name": "6-Methyl-3,5-heptadien-2-one",
+    "ifra_key": "IFRA_STD_061",
+    "max_pct_cat4": 0.047,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "111-12-6": {
+    "cas": "111-12-6",
+    "name": "Methyl heptine carbonate",
+    "ifra_key": "IFRA_STD_062",
+    "max_pct_cat4": 0.047,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1335-46-2": {
+    "cas": "1335-46-2",
+    "name": "Methyl ionone, mixed isomers",
+    "ifra_key": "IFRA_STD_063",
+    "max_pct_cat4": 30.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "127-42-4": {
+    "cas": "127-42-4",
+    "name": "Methyl ionone, mixed isomers",
+    "ifra_key": "IFRA_STD_063",
+    "max_pct_cat4": 30.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "127-43-5": {
+    "cas": "127-43-5",
+    "name": "Methyl ionone, mixed isomers",
+    "ifra_key": "IFRA_STD_063",
+    "max_pct_cat4": 30.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "127-51-5": {
+    "cas": "127-51-5",
+    "name": "Methyl ionone, mixed isomers",
+    "ifra_key": "IFRA_STD_063",
+    "max_pct_cat4": 30.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "7779-30-8": {
+    "cas": "7779-30-8",
+    "name": "Methyl ionone, mixed isomers",
+    "ifra_key": "IFRA_STD_063",
+    "max_pct_cat4": 30.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "79-89-0": {
+    "cas": "79-89-0",
+    "name": "Methyl ionone, mixed isomers",
+    "ifra_key": "IFRA_STD_063",
+    "max_pct_cat4": 30.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1335-94-0": {
+    "cas": "1335-94-0",
+    "name": "Methyl ionone, mixed isomers",
+    "ifra_key": "IFRA_STD_063",
+    "max_pct_cat4": 30.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "111-80-8": {
+    "cas": "111-80-8",
+    "name": "Methyl octine carbonate",
+    "ifra_key": "IFRA_STD_064",
+    "max_pct_cat4": 0.01,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68922-13-4": {
+    "cas": "68922-13-4",
+    "name": "3-Methyl-2-(pentyloxy)cyclopent-2-en-1-one",
+    "ifra_key": "IFRA_STD_065",
+    "max_pct_cat4": 0.47,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "13257-44-8": {
+    "cas": "13257-44-8",
+    "name": "2-Nonyn-1-al dimethyl acetal",
+    "ifra_key": "IFRA_STD_066",
+    "max_pct_cat4": 9.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "90028-68-5": {
+    "cas": "90028-68-5",
+    "name": "Oakmoss extracts",
+    "ifra_key": "IFRA_STD_067",
+    "max_pct_cat4": 0.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68917-10-2": {
+    "cas": "68917-10-2",
+    "name": "Oakmoss extracts",
+    "ifra_key": "IFRA_STD_067",
+    "max_pct_cat4": 0.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "9000-50-4": {
+    "cas": "9000-50-4",
+    "name": "Oakmoss extracts",
+    "ifra_key": "IFRA_STD_067",
+    "max_pct_cat4": 0.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "54464-57-2": {
+    "cas": "54464-57-2",
+    "name": "1-(1,2,3,4,5,6,7,8 Octahydro-2,3,8,8-tetramethyl-2-naphthalenyl) ethanone (OTNE)",
+    "ifra_key": "IFRA_STD_068",
+    "max_pct_cat4": 20.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "54464-59-4": {
+    "cas": "54464-59-4",
+    "name": "1-(1,2,3,4,5,6,7,8 Octahydro-2,3,8,8-tetramethyl-2-naphthalenyl) ethanone (OTNE)",
+    "ifra_key": "IFRA_STD_068",
+    "max_pct_cat4": 20.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "68155-66-8": {
+    "cas": "68155-66-8",
+    "name": "1-(1,2,3,4,5,6,7,8 Octahydro-2,3,8,8-tetramethyl-2-naphthalenyl) ethanone (OTNE)",
+    "ifra_key": "IFRA_STD_068",
+    "max_pct_cat4": 20.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "68155-67-9": {
+    "cas": "68155-67-9",
+    "name": "1-(1,2,3,4,5,6,7,8 Octahydro-2,3,8,8-tetramethyl-2-naphthalenyl) ethanone (OTNE)",
+    "ifra_key": "IFRA_STD_068",
+    "max_pct_cat4": 20.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "2442-10-6": {
+    "cas": "2442-10-6",
+    "name": "1-Octen-3-yl acetate",
+    "ifra_key": "IFRA_STD_069",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "8021-36-1": {
+    "cas": "8021-36-1",
+    "name": "Opoponax",
+    "ifra_key": "IFRA_STD_070",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "9000-78-6": {
+    "cas": "9000-78-6",
+    "name": "Opoponax",
+    "ifra_key": "IFRA_STD_070",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "93384-32-8": {
+    "cas": "93384-32-8",
+    "name": "Opoponax",
+    "ifra_key": "IFRA_STD_070",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "8007-00-9": {
+    "cas": "8007-00-9",
+    "name": "Peru balsam",
+    "ifra_key": "IFRA_STD_071",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "13144-88-2": {
+    "cas": "13144-88-2",
+    "name": "1-(2,4,4,5,5-Pentamethyl-1-cyclopenten-1-yl)ethan-1-one",
+    "ifra_key": "IFRA_STD_072",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "122-78-1": {
+    "cas": "122-78-1",
+    "name": "Phenylacetaldehyde",
+    "ifra_key": "IFRA_STD_073",
+    "max_pct_cat4": 0.25,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "16251-77-7": {
+    "cas": "16251-77-7",
+    "name": "3-Phenylbutanal",
+    "ifra_key": "IFRA_STD_074",
+    "max_pct_cat4": 0.44,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "93-53-8": {
+    "cas": "93-53-8",
+    "name": "2-Phenylpropionaldehyde",
+    "ifra_key": "IFRA_STD_075",
+    "max_pct_cat4": 0.16,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "1340-11-0": {
+    "cas": "1340-11-0",
+    "name": "2-Phenylpropionaldehyde",
+    "ifra_key": "IFRA_STD_075",
+    "max_pct_cat4": 0.16,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "34713-70-7": {
+    "cas": "34713-70-7",
+    "name": "2-Phenylpropionaldehyde",
+    "ifra_key": "IFRA_STD_075",
+    "max_pct_cat4": 0.16,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "17369-59-4": {
+    "cas": "17369-59-4",
+    "name": "3-Propylidenephthalide",
+    "ifra_key": "IFRA_STD_076",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "23696-85-7": {
+    "cas": "23696-85-7",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "23726-93-4": {
+    "cas": "23726-93-4",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "59739-63-8": {
+    "cas": "59739-63-8",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "43052-87-5": {
+    "cas": "43052-87-5",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "24720-09-0": {
+    "cas": "24720-09-0",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "23726-94-5": {
+    "cas": "23726-94-5",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "23726-92-3": {
+    "cas": "23726-92-3",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "23726-91-2": {
+    "cas": "23726-91-2",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "35044-68-9": {
+    "cas": "35044-68-9",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "57378-68-4": {
+    "cas": "57378-68-4",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "71048-82-3": {
+    "cas": "71048-82-3",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "35087-49-1": {
+    "cas": "35087-49-1",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "39872-57-6": {
+    "cas": "39872-57-6",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "70266-48-7": {
+    "cas": "70266-48-7",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "33673-71-1": {
+    "cas": "33673-71-1",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "87064-19-5": {
+    "cas": "87064-19-5",
+    "name": "Rose ketones",
+    "ifra_key": "IFRA_STD_077",
+    "max_pct_cat4": 0.043,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "8046-19-3": {
+    "cas": "8046-19-3",
+    "name": "Styrax",
+    "ifra_key": "IFRA_STD_078",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "8024-01-9": {
+    "cas": "8024-01-9",
+    "name": "Styrax",
+    "ifra_key": "IFRA_STD_078",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "94891-27-7": {
+    "cas": "94891-27-7",
+    "name": "Styrax",
+    "ifra_key": "IFRA_STD_078",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "94891-28-8": {
+    "cas": "94891-28-8",
+    "name": "Styrax",
+    "ifra_key": "IFRA_STD_078",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "101227-15-0": {
+    "cas": "101227-15-0",
+    "name": "Styrax",
+    "ifra_key": "IFRA_STD_078",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "84650-60-2": {
+    "cas": "84650-60-2",
+    "name": "Tea leaf absolute",
+    "ifra_key": "IFRA_STD_079",
+    "max_pct_cat4": 0.21,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "90028-67-4": {
+    "cas": "90028-67-4",
+    "name": "Treemoss extracts",
+    "ifra_key": "IFRA_STD_080",
+    "max_pct_cat4": 0.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68648-41-9": {
+    "cas": "68648-41-9",
+    "name": "Treemoss extracts",
+    "ifra_key": "IFRA_STD_080",
+    "max_pct_cat4": 0.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68917-40-8": {
+    "cas": "68917-40-8",
+    "name": "Treemoss extracts",
+    "ifra_key": "IFRA_STD_080",
+    "max_pct_cat4": 0.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "529-20-4": {
+    "cas": "529-20-4",
+    "name": "o,m,p-Tolualdehydes and their mixtures",
+    "ifra_key": "IFRA_STD_081",
+    "max_pct_cat4": 0.47,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "620-23-5": {
+    "cas": "620-23-5",
+    "name": "o,m,p-Tolualdehydes and their mixtures",
+    "ifra_key": "IFRA_STD_081",
+    "max_pct_cat4": 0.47,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "104-87-0": {
+    "cas": "104-87-0",
+    "name": "o,m,p-Tolualdehydes and their mixtures",
+    "ifra_key": "IFRA_STD_081",
+    "max_pct_cat4": 0.47,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1334-78-7": {
+    "cas": "1334-78-7",
+    "name": "o,m,p-Tolualdehydes and their mixtures",
+    "ifra_key": "IFRA_STD_081",
+    "max_pct_cat4": 0.47,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "116-26-7": {
+    "cas": "116-26-7",
+    "name": "2,6,6-Trimethylcyclohex-1,3-dienyl methanal",
+    "ifra_key": "IFRA_STD_082",
+    "max_pct_cat4": 0.012,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "8024-12-2": {
+    "cas": "8024-12-2",
+    "name": "Verbena oil and absolute (Lippia citriodora Kunth.)",
+    "ifra_key": "IFRA_STD_083",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION AND PHOTOTOXICITY"
+  },
+  "85116-63-8": {
+    "cas": "85116-63-8",
+    "name": "Verbena oil and absolute (Lippia citriodora Kunth.)",
+    "ifra_key": "IFRA_STD_083",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION AND PHOTOTOXICITY"
+  },
+  "8006-81-3": {
+    "cas": "8006-81-3",
+    "name": "Ylang ylang extracts",
+    "ifra_key": "IFRA_STD_084",
+    "max_pct_cat4": 0.73,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68606-83-7": {
+    "cas": "68606-83-7",
+    "name": "Ylang ylang extracts",
+    "ifra_key": "IFRA_STD_084",
+    "max_pct_cat4": 0.73,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "83863-30-3": {
+    "cas": "83863-30-3",
+    "name": "Ylang ylang extracts",
+    "ifra_key": "IFRA_STD_084",
+    "max_pct_cat4": 0.73,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "15323-35-0": {
+    "cas": "15323-35-0",
+    "name": "Acetyl hexamethyl indan (AHMI)",
+    "ifra_key": "IFRA_STD_085",
+    "max_pct_cat4": 2.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "8015-64-3": {
+    "cas": "8015-64-3",
+    "name": "Angelica root oil",
+    "ifra_key": "IFRA_STD_086",
+    "max_pct_cat4": 0.8,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "84775-41-7": {
+    "cas": "84775-41-7",
+    "name": "Angelica root oil",
+    "ifra_key": "IFRA_STD_086",
+    "max_pct_cat4": 0.8,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "8007-75-8": {
+    "cas": "8007-75-8",
+    "name": "Bergamot oil expressed",
+    "ifra_key": "IFRA_STD_087",
+    "max_pct_cat4": 0.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "89957-91-5": {
+    "cas": "89957-91-5",
+    "name": "Bergamot oil expressed",
+    "ifra_key": "IFRA_STD_087",
+    "max_pct_cat4": 0.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "68916-04-1": {
+    "cas": "68916-04-1",
+    "name": "Bitter orange peel oil expressed",
+    "ifra_key": "IFRA_STD_088",
+    "max_pct_cat4": 1.25,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "72968-50-4": {
+    "cas": "72968-50-4",
+    "name": "Bitter orange peel oil expressed",
+    "ifra_key": "IFRA_STD_088",
+    "max_pct_cat4": 1.25,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "Not applicable.": {
+    "cas": "Not applicable.",
+    "name": "Allyl esters",
+    "ifra_key": "IFRA_STD_188",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "IRRITATION"
+  },
+  "8014-13-9": {
+    "cas": "8014-13-9",
+    "name": "Cumin oil",
+    "ifra_key": "IFRA_STD_090",
+    "max_pct_cat4": 0.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "84775-51-9": {
+    "cas": "84775-51-9",
+    "name": "Cumin oil",
+    "ifra_key": "IFRA_STD_090",
+    "max_pct_cat4": 0.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "8016-20-4": {
+    "cas": "8016-20-4",
+    "name": "Grapefruit oil expressed",
+    "ifra_key": "IFRA_STD_091",
+    "max_pct_cat4": 4.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "90045-43-5": {
+    "cas": "90045-43-5",
+    "name": "Grapefruit oil expressed",
+    "ifra_key": "IFRA_STD_091",
+    "max_pct_cat4": 4.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "8008-56-8": {
+    "cas": "8008-56-8",
+    "name": "Lemon oil cold pressed",
+    "ifra_key": "IFRA_STD_092",
+    "max_pct_cat4": 2.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "84929-31-7": {
+    "cas": "84929-31-7",
+    "name": "Lemon oil cold pressed",
+    "ifra_key": "IFRA_STD_092",
+    "max_pct_cat4": 2.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "8008-26-2": {
+    "cas": "8008-26-2",
+    "name": "Lime oil expressed",
+    "ifra_key": "IFRA_STD_093",
+    "max_pct_cat4": 0.7,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "90063-52-8": {
+    "cas": "90063-52-8",
+    "name": "Lime oil expressed",
+    "ifra_key": "IFRA_STD_093",
+    "max_pct_cat4": 0.7,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "85-91-6": {
+    "cas": "85-91-6",
+    "name": "Methyl N-methylanthranilate",
+    "ifra_key": "IFRA_STD_094",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "RS",
+    "reason": "PHOTOTOXICITY AND SYSTEMIC TOXICITY, POTENTIAL OF NITROSAMIN"
+  },
+  "93-08-3": {
+    "cas": "93-08-3",
+    "name": "Methyl beta-naphthyl ketone",
+    "ifra_key": "IFRA_STD_095",
+    "max_pct_cat4": 0.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "8014-29-7": {
+    "cas": "8014-29-7",
+    "name": "Rue oil",
+    "ifra_key": "IFRA_STD_096",
+    "max_pct_cat4": 0.15,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "84929-47-5": {
+    "cas": "84929-47-5",
+    "name": "Rue oil",
+    "ifra_key": "IFRA_STD_096",
+    "max_pct_cat4": 0.15,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "PHOTOTOXICITY"
+  },
+  "90131-43-4": {
+    "cas": "90131-43-4",
+    "name": "Tagetes oil and absolute",
+    "ifra_key": "IFRA_STD_097",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "PHOTOTOXICITY"
+  },
+  "8016-84-0": {
+    "cas": "8016-84-0",
+    "name": "Tagetes oil and absolute",
+    "ifra_key": "IFRA_STD_097",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "PHOTOTOXICITY"
+  },
+  "91722-29-1": {
+    "cas": "91722-29-1",
+    "name": "Tagetes oil and absolute",
+    "ifra_key": "IFRA_STD_097",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "PHOTOTOXICITY"
+  },
+  "91770-75-1": {
+    "cas": "91770-75-1",
+    "name": "Tagetes oil and absolute",
+    "ifra_key": "IFRA_STD_097",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "PHOTOTOXICITY"
+  },
+  "98-01-1": {
+    "cas": "98-01-1",
+    "name": "Furfural",
+    "ifra_key": "IFRA_STD_098",
+    "max_pct_cat4": 0.001,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "CARCINOGENICITY"
+  },
+  "140-67-0": {
+    "cas": "140-67-0",
+    "name": "Estragole",
+    "ifra_key": "IFRA_STD_099",
+    "max_pct_cat4": 0.014,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "1407-27-8": {
+    "cas": "1407-27-8",
+    "name": "Estragole",
+    "ifra_key": "IFRA_STD_099",
+    "max_pct_cat4": 0.014,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "77525-18-9": {
+    "cas": "77525-18-9",
+    "name": "Estragole",
+    "ifra_key": "IFRA_STD_099",
+    "max_pct_cat4": 0.014,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "93-15-2": {
+    "cas": "93-15-2",
+    "name": "Methyl eugenol",
+    "ifra_key": "IFRA_STD_100",
+    "max_pct_cat4": 0.011,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "41270-80-8": {
+    "cas": "41270-80-8",
+    "name": "Methyl N-formylanthranilate",
+    "ifra_key": "IFRA_STD_101",
+    "max_pct_cat4": 0.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "PHOTOTOXICITY, POTENTIAL OF NITROSAMINE FORMATION"
+  },
+  "546-80-5": {
+    "cas": "546-80-5",
+    "name": "Thujone",
+    "ifra_key": "IFRA_STD_102",
+    "max_pct_cat4": 1.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "NEUROTOXICITY"
+  },
+  "471-15-8": {
+    "cas": "471-15-8",
+    "name": "Thujone",
+    "ifra_key": "IFRA_STD_102",
+    "max_pct_cat4": 1.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "NEUROTOXICITY"
+  },
+  "76231-76-0": {
+    "cas": "76231-76-0",
+    "name": "Thujone",
+    "ifra_key": "IFRA_STD_102",
+    "max_pct_cat4": 1.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "NEUROTOXICITY"
+  },
+  "1125-12-8": {
+    "cas": "1125-12-8",
+    "name": "Thujone",
+    "ifra_key": "IFRA_STD_102",
+    "max_pct_cat4": 1.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "NEUROTOXICITY"
+  },
+  "88-29-9": {
+    "cas": "88-29-9",
+    "name": "Acetyl ethyl tetramethyl tetralin (AETT)",
+    "ifra_key": "IFRA_STD_103",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "NEUROTOXICITY"
+  },
+  "13706-86-0": {
+    "cas": "13706-86-0",
+    "name": "Acetyl isovaleryl",
+    "ifra_key": "IFRA_STD_104",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "84012-20-4": {
+    "cas": "84012-20-4",
+    "name": "Alantroot oil",
+    "ifra_key": "IFRA_STD_105",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "97676-35-2": {
+    "cas": "97676-35-2",
+    "name": "Alantroot oil",
+    "ifra_key": "IFRA_STD_105",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "73157-43-4": {
+    "cas": "73157-43-4",
+    "name": "Allyl heptine carbonate",
+    "ifra_key": "IFRA_STD_106",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "57-06-7": {
+    "cas": "57-06-7",
+    "name": "Allyl isothiocyanate",
+    "ifra_key": "IFRA_STD_107",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "25564-22-1": {
+    "cas": "25564-22-1",
+    "name": "Amylcyclopentenone",
+    "ifra_key": "IFRA_STD_108",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "943-88-4": {
+    "cas": "943-88-4",
+    "name": "Anisylidene acetone",
+    "ifra_key": "IFRA_STD_109",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "494-40-6": {
+    "cas": "494-40-6",
+    "name": "cis-and trans-Asarone",
+    "ifra_key": "IFRA_STD_110",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY"
+  },
+  "2883-98-9": {
+    "cas": "2883-98-9",
+    "name": "cis-and trans-Asarone",
+    "ifra_key": "IFRA_STD_110",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY"
+  },
+  "5273-86-9": {
+    "cas": "5273-86-9",
+    "name": "cis-and trans-Asarone",
+    "ifra_key": "IFRA_STD_110",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY"
+  },
+  "71-43-2": {
+    "cas": "71-43-2",
+    "name": "Benzene",
+    "ifra_key": "IFRA_STD_111",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY"
+  },
+  "140-29-4": {
+    "cas": "140-29-4",
+    "name": "Benzyl cyanide",
+    "ifra_key": "IFRA_STD_112",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "POTENTIAL OF CYANIDE RELEASE"
+  },
+  "122-57-6": {
+    "cas": "122-57-6",
+    "name": "Benzylidene acetone",
+    "ifra_key": "IFRA_STD_113",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "8001-88-5": {
+    "cas": "8001-88-5",
+    "name": "Birch wood pyrolysate",
+    "ifra_key": "IFRA_STD_114",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY, GENOTOXICITY BY RELEASE OF POLYNUCLEAR HYDR"
+  },
+  "68917-50-0": {
+    "cas": "68917-50-0",
+    "name": "Birch wood pyrolysate",
+    "ifra_key": "IFRA_STD_114",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY, GENOTOXICITY BY RELEASE OF POLYNUCLEAR HYDR"
+  },
+  "84012-15-7": {
+    "cas": "84012-15-7",
+    "name": "Birch wood pyrolysate",
+    "ifra_key": "IFRA_STD_114",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY, GENOTOXICITY BY RELEASE OF POLYNUCLEAR HYDR"
+  },
+  "85251-66-7": {
+    "cas": "85251-66-7",
+    "name": "Birch wood pyrolysate",
+    "ifra_key": "IFRA_STD_114",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY, GENOTOXICITY BY RELEASE OF POLYNUCLEAR HYDR"
+  },
+  "85940-29-0": {
+    "cas": "85940-29-0",
+    "name": "Birch wood pyrolysate",
+    "ifra_key": "IFRA_STD_114",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY, GENOTOXICITY BY RELEASE OF POLYNUCLEAR HYDR"
+  },
+  "91745-85-6": {
+    "cas": "91745-85-6",
+    "name": "Birch wood pyrolysate",
+    "ifra_key": "IFRA_STD_114",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY, GENOTOXICITY BY RELEASE OF POLYNUCLEAR HYDR"
+  },
+  "8022-81-9": {
+    "cas": "8022-81-9",
+    "name": "Boldo oil",
+    "ifra_key": "IFRA_STD_115",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "84649-96-7": {
+    "cas": "84649-96-7",
+    "name": "Boldo oil",
+    "ifra_key": "IFRA_STD_115",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "76-29-9": {
+    "cas": "76-29-9",
+    "name": "3-Bromo-1,7,7-trimethylbicyclo[2.2.1]heptane-2-one",
+    "ifra_key": "IFRA_STD_116",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "103-64-0": {
+    "cas": "103-64-0",
+    "name": "Bromostyrene",
+    "ifra_key": "IFRA_STD_117",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "98-54-4": {
+    "cas": "98-54-4",
+    "name": "p-tert-Butylphenol",
+    "ifra_key": "IFRA_STD_118",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION AND DERMAL DEPIGMENTATION"
+  },
+  "8013-10-3": {
+    "cas": "8013-10-3",
+    "name": "Cade oil",
+    "ifra_key": "IFRA_STD_119",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY, GENOTOXICITY BY RELEASE OF POLYNUCLEAR HYDR"
+  },
+  "90046-02-9": {
+    "cas": "90046-02-9",
+    "name": "Cade oil",
+    "ifra_key": "IFRA_STD_119",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY, GENOTOXICITY BY RELEASE OF POLYNUCLEAR HYDR"
+  },
+  "33204-74-9": {
+    "cas": "33204-74-9",
+    "name": "Carvone oxide",
+    "ifra_key": "IFRA_STD_120",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "8006-99-3": {
+    "cas": "8006-99-3",
+    "name": "Chenopodium oil",
+    "ifra_key": "IFRA_STD_121",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "8024-11-1": {
+    "cas": "8024-11-1",
+    "name": "Chenopodium oil",
+    "ifra_key": "IFRA_STD_121",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "89997-47-7": {
+    "cas": "89997-47-7",
+    "name": "Chenopodium oil",
+    "ifra_key": "IFRA_STD_121",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "4173-44-8": {
+    "cas": "4173-44-8",
+    "name": "Cinnamylidene acetone",
+    "ifra_key": "IFRA_STD_122",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "8050-09-7": {
+    "cas": "8050-09-7",
+    "name": "Colophony",
+    "ifra_key": "IFRA_STD_123",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "8023-88-9": {
+    "cas": "8023-88-9",
+    "name": "Costus root oil, absolute and concrete",
+    "ifra_key": "IFRA_STD_124",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "90106-55-1": {
+    "cas": "90106-55-1",
+    "name": "Costus root oil, absolute and concrete",
+    "ifra_key": "IFRA_STD_124",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "4756-19-8": {
+    "cas": "4756-19-8",
+    "name": "Cyclamen alcohol",
+    "ifra_key": "IFRA_STD_125",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "63697-53-0": {
+    "cas": "63697-53-0",
+    "name": "Musk alpha",
+    "ifra_key": "IFRA_STD_126",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "62265-99-0": {
+    "cas": "62265-99-0",
+    "name": "Musk KS",
+    "ifra_key": "IFRA_STD_127",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "3591-42-2": {
+    "cas": "3591-42-2",
+    "name": "2,2-Dichloro-1-methylcyclopropylbenzene",
+    "ifra_key": "IFRA_STD_128",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "764-40-9": {
+    "cas": "764-40-9",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "142-83-6": {
+    "cas": "142-83-6",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "80466-34-8": {
+    "cas": "80466-34-8",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "5910-85-0": {
+    "cas": "5910-85-0",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "30361-28-5": {
+    "cas": "30361-28-5",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "6750-03-4": {
+    "cas": "6750-03-4",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "2363-88-4": {
+    "cas": "2363-88-4",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "13162-46-4": {
+    "cas": "13162-46-4",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "21662-16-8": {
+    "cas": "21662-16-8",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "25152-84-5": {
+    "cas": "25152-84-5",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "30361-29-6": {
+    "cas": "30361-29-6",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "4313-03-5": {
+    "cas": "4313-03-5",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "20432-40-0": {
+    "cas": "20432-40-0",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "4488-48-6": {
+    "cas": "4488-48-6",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "5577-44-6": {
+    "cas": "5577-44-6",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "5910-87-2": {
+    "cas": "5910-87-2",
+    "name": "2,4-Dienals",
+    "ifra_key": "IFRA_STD_129",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "141-05-9": {
+    "cas": "141-05-9",
+    "name": "Diethyl maleate",
+    "ifra_key": "IFRA_STD_130",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "6248-20-0": {
+    "cas": "6248-20-0",
+    "name": "2,4-Dihydroxy-3-methylbenzaldehyde",
+    "ifra_key": "IFRA_STD_131",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "17874-34-9": {
+    "cas": "17874-34-9",
+    "name": "4,6-Dimethyl-8-tert-butylcoumarin",
+    "ifra_key": "IFRA_STD_132",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "PHOTOSENSITIZATION"
+  },
+  "40607-48-5": {
+    "cas": "40607-48-5",
+    "name": "3,7-Dimethyl-2-octen-1-ol",
+    "ifra_key": "IFRA_STD_133",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "617-54-9": {
+    "cas": "617-54-9",
+    "name": "Dimethyl citraconate",
+    "ifra_key": "IFRA_STD_134",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "122-39-4": {
+    "cas": "122-39-4",
+    "name": "Diphenylamine",
+    "ifra_key": "IFRA_STD_135",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "TOXICITY, TERATOGENICITY"
+  },
+  "18485-38-6": {
+    "cas": "18485-38-6",
+    "name": "2,4-Dodecadien-1-ol, (2E, 4E)",
+    "ifra_key": "IFRA_STD_136",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "10031-92-2": {
+    "cas": "10031-92-2",
+    "name": "Esters of 2-Nonynoic acid (except Methyl octine carbonate)",
+    "ifra_key": "IFRA_STD_137",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "10484-32-9": {
+    "cas": "10484-32-9",
+    "name": "Esters of 2-Octynoic acid (except Methyl heptine carbonate)",
+    "ifra_key": "IFRA_STD_138",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "10519-20-7": {
+    "cas": "10519-20-7",
+    "name": "Esters of 2-Octynoic acid (except Methyl heptine carbonate)",
+    "ifra_key": "IFRA_STD_138",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "140-88-5": {
+    "cas": "140-88-5",
+    "name": "Ethyl acrylate",
+    "ifra_key": "IFRA_STD_139",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "110-80-5 (ether)\n111-15-9 (acetate)": {
+    "cas": "110-80-5 (ether)\n111-15-9 (acetate)",
+    "name": "Ethylene glycol monoethyl ether and its acetate",
+    "ifra_key": "IFRA_STD_140",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "REPRODUCTIVE TOXICITY"
+  },
+  "109-86-4 (ether)\n110-49-6 (acetate)": {
+    "cas": "109-86-4 (ether)\n110-49-6 (acetate)",
+    "name": "Ethylene glycol monomethyl ether and its acetate",
+    "ifra_key": "IFRA_STD_141",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "REPRODUCTIVE TOXICITY"
+  },
+  "68916-52-9": {
+    "cas": "68916-52-9",
+    "name": "Fig leaf absolute",
+    "ifra_key": "IFRA_STD_142",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION AND PHOTOTOXICITY"
+  },
+  "90028-74-3": {
+    "cas": "90028-74-3",
+    "name": "Fig leaf absolute",
+    "ifra_key": "IFRA_STD_142",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION AND PHOTOTOXICITY"
+  },
+  "98-00-0": {
+    "cas": "98-00-0",
+    "name": "Furfuryl alcohol",
+    "ifra_key": "IFRA_STD_143",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "623-15-4": {
+    "cas": "623-15-4",
+    "name": "Furfurylidene acetone",
+    "ifra_key": "IFRA_STD_144",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "5146-66-7": {
+    "cas": "5146-66-7",
+    "name": "Geranyl nitrile",
+    "ifra_key": "IFRA_STD_145",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "GENOTOXICITY"
+  },
+  "5585-39-7": {
+    "cas": "5585-39-7",
+    "name": "Geranyl nitrile",
+    "ifra_key": "IFRA_STD_145",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "GENOTOXICITY"
+  },
+  "31983-27-4": {
+    "cas": "31983-27-4",
+    "name": "Geranyl nitrile",
+    "ifra_key": "IFRA_STD_145",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "GENOTOXICITY"
+  },
+  "18829-55-5": {
+    "cas": "18829-55-5",
+    "name": "trans-2-Heptenal",
+    "ifra_key": "IFRA_STD_146",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "111-28-4": {
+    "cas": "111-28-4",
+    "name": "2,4-Hexadien-1-ol",
+    "ifra_key": "IFRA_STD_147",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "17102-64-6": {
+    "cas": "17102-64-6",
+    "name": "2,4-Hexadien-1-ol",
+    "ifra_key": "IFRA_STD_147",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "700-82-3": {
+    "cas": "700-82-3",
+    "name": "Hexahydrocoumarin",
+    "ifra_key": "IFRA_STD_148",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "67746-30-9": {
+    "cas": "67746-30-9",
+    "name": "trans-2-Hexenal diethyl acetal",
+    "ifra_key": "IFRA_STD_149",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "18318-83-7": {
+    "cas": "18318-83-7",
+    "name": "trans-2-Hexenal dimethyl acetal",
+    "ifra_key": "IFRA_STD_150",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "13393-93-6": {
+    "cas": "13393-93-6",
+    "name": "Hydroabietyl alcohol, Dihydroabietyl alcohol",
+    "ifra_key": "IFRA_STD_151",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "26266-77-3": {
+    "cas": "26266-77-3",
+    "name": "Hydroabietyl alcohol, Dihydroabietyl alcohol",
+    "ifra_key": "IFRA_STD_151",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1333-89-7": {
+    "cas": "1333-89-7",
+    "name": "Hydroabietyl alcohol, Dihydroabietyl alcohol",
+    "ifra_key": "IFRA_STD_151",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "622-62-8": {
+    "cas": "622-62-8",
+    "name": "Hydroquinone monoethyl ether",
+    "ifra_key": "IFRA_STD_152",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DEPIGMENTATION"
+  },
+  "150-76-5": {
+    "cas": "150-76-5",
+    "name": "Hydroquinone monomethyl ether",
+    "ifra_key": "IFRA_STD_153",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DEPIGMENTATION"
+  },
+  "78-59-1": {
+    "cas": "78-59-1",
+    "name": "Isophorone",
+    "ifra_key": "IFRA_STD_154",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "34131-99-2": {
+    "cas": "34131-99-2",
+    "name": "6-Isopropyl-2-decalol",
+    "ifra_key": "IFRA_STD_155",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "85085-26-3": {
+    "cas": "85085-26-3",
+    "name": "Massoia bark oil",
+    "ifra_key": "IFRA_STD_156",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "54814-64-1": {
+    "cas": "54814-64-1",
+    "name": "Massoia lactone",
+    "ifra_key": "IFRA_STD_157",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "51154-96-2": {
+    "cas": "51154-96-2",
+    "name": "Massoia lactone",
+    "ifra_key": "IFRA_STD_157",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "531-59-9": {
+    "cas": "531-59-9",
+    "name": "7-Methoxycoumarin",
+    "ifra_key": "IFRA_STD_158",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION AND PHOTOSENSITIZATION"
+  },
+  "104-27-8": {
+    "cas": "104-27-8",
+    "name": "α-Methyl anisylidene acetone",
+    "ifra_key": "IFRA_STD_159",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "92-48-8": {
+    "cas": "92-48-8",
+    "name": "6-Methylcoumarin",
+    "ifra_key": "IFRA_STD_160",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "PHOTOSENSITIZATION"
+  },
+  "2445-83-2": {
+    "cas": "2445-83-2",
+    "name": "7-Methylcoumarin",
+    "ifra_key": "IFRA_STD_161",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION AND PHOTOSENSITIZATION"
+  },
+  "623-43-8": {
+    "cas": "623-43-8",
+    "name": "Methyl crotonate",
+    "ifra_key": "IFRA_STD_162",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "87-05-8": {
+    "cas": "87-05-8",
+    "name": "4-Methyl-7-ethoxycoumarin",
+    "ifra_key": "IFRA_STD_163",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "PHOTOSENSITIZATION"
+  },
+  "5406-12-2": {
+    "cas": "5406-12-2",
+    "name": "p-Methylhydrocinnamic aldehyde",
+    "ifra_key": "IFRA_STD_164",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "80-62-6": {
+    "cas": "80-62-6",
+    "name": "Methyl methacrylate",
+    "ifra_key": "IFRA_STD_165",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "53153-66-5": {
+    "cas": "53153-66-5",
+    "name": "3-Methyl-2(3)-nonenenitrile",
+    "ifra_key": "IFRA_STD_166",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "116-66-5": {
+    "cas": "116-66-5",
+    "name": "Musk moskene",
+    "ifra_key": "IFRA_STD_167",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "83-66-9": {
+    "cas": "83-66-9",
+    "name": "Musk ambrette",
+    "ifra_key": "IFRA_STD_168",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "PHOTOSENSITIZATION, NEUROTOXICITY"
+  },
+  "145-39-1": {
+    "cas": "145-39-1",
+    "name": "Musk tibetene",
+    "ifra_key": "IFRA_STD_169",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "81-15-2": {
+    "cas": "81-15-2",
+    "name": "Musk xylene",
+    "ifra_key": "IFRA_STD_170",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "VPVB"
+  },
+  "98-95-3": {
+    "cas": "98-95-3",
+    "name": "Nitrobenzene",
+    "ifra_key": "IFRA_STD_171",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "ACUTE TOXICITY AND SKIN TOXICITY"
+  },
+  "25677-40-1": {
+    "cas": "25677-40-1",
+    "name": "2-Pentylidene cyclohexanone",
+    "ifra_key": "IFRA_STD_172",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "103-79-7": {
+    "cas": "103-79-7",
+    "name": "Phenyl acetone",
+    "ifra_key": "IFRA_STD_174",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "93-99-2": {
+    "cas": "93-99-2",
+    "name": "Phenyl benzoate",
+    "ifra_key": "IFRA_STD_175",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "141-10-6": {
+    "cas": "141-10-6",
+    "name": "Pseudoionone",
+    "ifra_key": "IFRA_STD_176",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "26651-96-7": {
+    "cas": "26651-96-7",
+    "name": "Pseudo methylionones",
+    "ifra_key": "IFRA_STD_177",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "72968-25-3": {
+    "cas": "72968-25-3",
+    "name": "Pseudo methylionones",
+    "ifra_key": "IFRA_STD_177",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1117-41-5": {
+    "cas": "1117-41-5",
+    "name": "Pseudo methylionones",
+    "ifra_key": "IFRA_STD_177",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "91-22-5": {
+    "cas": "91-22-5",
+    "name": "Quinoline",
+    "ifra_key": "IFRA_STD_178",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY AND MUTAGENICITY"
+  },
+  "94-59-7": {
+    "cas": "94-59-7",
+    "name": "Safrole, Isosafrole and Dihydrosafrole",
+    "ifra_key": "IFRA_STD_179",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY"
+  },
+  "120-58-1": {
+    "cas": "120-58-1",
+    "name": "Safrole, Isosafrole and Dihydrosafrole",
+    "ifra_key": "IFRA_STD_179",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY"
+  },
+  "94-58-6": {
+    "cas": "94-58-6",
+    "name": "Safrole, Isosafrole and Dihydrosafrole",
+    "ifra_key": "IFRA_STD_179",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "CARCINOGENICITY"
+  },
+  "84961-58-0": {
+    "cas": "84961-58-0",
+    "name": "Santolina oil",
+    "ifra_key": "IFRA_STD_180",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "INSUFFICIENT DATA"
+  },
+  "8024-00-8": {
+    "cas": "8024-00-8",
+    "name": "Savin oil",
+    "ifra_key": "IFRA_STD_181",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "ACUTE TOXICITY"
+  },
+  "90046-04-1": {
+    "cas": "90046-04-1",
+    "name": "Savin oil",
+    "ifra_key": "IFRA_STD_181",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "ACUTE TOXICITY"
+  },
+  "68916-94-9": {
+    "cas": "68916-94-9",
+    "name": "Savin oil",
+    "ifra_key": "IFRA_STD_181",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "ACUTE TOXICITY"
+  },
+  "90046-03-0": {
+    "cas": "90046-03-0",
+    "name": "Savin oil",
+    "ifra_key": "IFRA_STD_181",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "ACUTE TOXICITY"
+  },
+  "108-88-3": {
+    "cas": "108-88-3",
+    "name": "Toluene",
+    "ifra_key": "IFRA_STD_182",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "LIVER TOXICITY"
+  },
+  "515-03-7": {
+    "cas": "515-03-7",
+    "name": "Sclareol",
+    "ifra_key": "IFRA_STD_183",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "4674-50-4": {
+    "cas": "4674-50-4",
+    "name": "Nootkatone",
+    "ifra_key": "IFRA_STD_185",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "138-86-3": {
+    "cas": "138-86-3",
+    "name": "Limonene",
+    "ifra_key": "IFRA_STD_186",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "7705-14-8": {
+    "cas": "7705-14-8",
+    "name": "Limonene",
+    "ifra_key": "IFRA_STD_186",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "5989-27-5": {
+    "cas": "5989-27-5",
+    "name": "Limonene",
+    "ifra_key": "IFRA_STD_186",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "5989-54-8": {
+    "cas": "5989-54-8",
+    "name": "Limonene",
+    "ifra_key": "IFRA_STD_186",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "78-70-6": {
+    "cas": "78-70-6",
+    "name": "Linalool",
+    "ifra_key": "IFRA_STD_187",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "126-90-9": {
+    "cas": "126-90-9",
+    "name": "Linalool",
+    "ifra_key": "IFRA_STD_187",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "126-91-0": {
+    "cas": "126-91-0",
+    "name": "Linalool",
+    "ifra_key": "IFRA_STD_187",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "81-14-1": {
+    "cas": "81-14-1",
+    "name": "Musk ketone",
+    "ifra_key": "IFRA_STD_189",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "SEE FRAGRANCE INGREDIENT SPECIFICATION"
+  },
+  "94-86-0": {
+    "cas": "94-86-0",
+    "name": "Propenylguaethol",
+    "ifra_key": "IFRA_STD_190",
+    "max_pct_cat4": 0.99,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "63477-41-8": {
+    "cas": "63477-41-8",
+    "name": "Propenylguaethol",
+    "ifra_key": "IFRA_STD_190",
+    "max_pct_cat4": 0.99,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "2785-87-7": {
+    "cas": "2785-87-7",
+    "name": "2-Methoxy-4-propylphenol",
+    "ifra_key": "IFRA_STD_191",
+    "max_pct_cat4": 0.73,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "515-69-5": {
+    "cas": "515-69-5",
+    "name": "alpha-Bisabolol",
+    "ifra_key": "IFRA_STD_192",
+    "max_pct_cat4": 2.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "23089-26-1": {
+    "cas": "23089-26-1",
+    "name": "alpha-Bisabolol",
+    "ifra_key": "IFRA_STD_192",
+    "max_pct_cat4": 2.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "23178-88-3": {
+    "cas": "23178-88-3",
+    "name": "alpha-Bisabolol",
+    "ifra_key": "IFRA_STD_192",
+    "max_pct_cat4": 2.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "78148-59-1": {
+    "cas": "78148-59-1",
+    "name": "alpha-Bisabolol",
+    "ifra_key": "IFRA_STD_192",
+    "max_pct_cat4": 2.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "76738-75-5": {
+    "cas": "76738-75-5",
+    "name": "alpha-Bisabolol",
+    "ifra_key": "IFRA_STD_192",
+    "max_pct_cat4": 2.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "72691-24-8": {
+    "cas": "72691-24-8",
+    "name": "alpha-Bisabolol",
+    "ifra_key": "IFRA_STD_192",
+    "max_pct_cat4": 2.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "589-18-4": {
+    "cas": "589-18-4",
+    "name": "p-Tolyl alcohol",
+    "ifra_key": "IFRA_STD_193",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "536-60-7": {
+    "cas": "536-60-7",
+    "name": "p-Isopropylbenzyl alcohol",
+    "ifra_key": "IFRA_STD_194",
+    "max_pct_cat4": 2.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "24048-14-4": {
+    "cas": "24048-14-4",
+    "name": "2,6,10-Trimethylundeca-5,9-dien-1-ol",
+    "ifra_key": "IFRA_STD_195",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "185019-19-6": {
+    "cas": "185019-19-6",
+    "name": "2,6,10-Trimethylundeca-5,9-dien-1-ol",
+    "ifra_key": "IFRA_STD_195",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "58001-88-0": {
+    "cas": "58001-88-0",
+    "name": "2,6,10-Trimethylundeca-5,9-dien-1-ol",
+    "ifra_key": "IFRA_STD_195",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "58001-87-9": {
+    "cas": "58001-87-9",
+    "name": "2,6,10-Trimethylundeca-5,9-dien-1-ol",
+    "ifra_key": "IFRA_STD_195",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1373932-23-0": {
+    "cas": "1373932-23-0",
+    "name": "2,6,10-Trimethylundeca-5,9-dien-1-ol",
+    "ifra_key": "IFRA_STD_195",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1018832-07-9": {
+    "cas": "1018832-07-9",
+    "name": "2,6,10-Trimethylundeca-5,9-dien-1-ol",
+    "ifra_key": "IFRA_STD_195",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "11028-42-5": {
+    "cas": "11028-42-5",
+    "name": "Cedrene",
+    "ifra_key": "IFRA_STD_197",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "469-61-4": {
+    "cas": "469-61-4",
+    "name": "Cedrene",
+    "ifra_key": "IFRA_STD_197",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "546-28-1": {
+    "cas": "546-28-1",
+    "name": "Cedrene",
+    "ifra_key": "IFRA_STD_197",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "17488-65-2": {
+    "cas": "17488-65-2",
+    "name": "4-Phenyl-3-buten-2-ol",
+    "ifra_key": "IFRA_STD_198",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "475-20-7": {
+    "cas": "475-20-7",
+    "name": "Longifolene",
+    "ifra_key": "IFRA_STD_199",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "16846-09-6": {
+    "cas": "16846-09-6",
+    "name": "Longifolene",
+    "ifra_key": "IFRA_STD_199",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "19067-29-9": {
+    "cas": "19067-29-9",
+    "name": "Longifolene",
+    "ifra_key": "IFRA_STD_199",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "3658-77-3": {
+    "cas": "3658-77-3",
+    "name": "4-Hydroxy-2,5-dimethyl-3(2H)-furanone",
+    "ifra_key": "IFRA_STD_201",
+    "max_pct_cat4": 0.25,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "19317-11-4": {
+    "cas": "19317-11-4",
+    "name": "Farnesal",
+    "ifra_key": "IFRA_STD_202",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "41448-29-7": {
+    "cas": "41448-29-7",
+    "name": "3,7-Dimethyl-2,6-nonadien-1-al",
+    "ifra_key": "IFRA_STD_203",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "762-26-5": {
+    "cas": "762-26-5",
+    "name": "5,9-Dimethyl-4,8-decadienal",
+    "ifra_key": "IFRA_STD_204",
+    "max_pct_cat4": 3.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "55722-59-3": {
+    "cas": "55722-59-3",
+    "name": "3,7-Dimethyl-3,6-octadienal",
+    "ifra_key": "IFRA_STD_205",
+    "max_pct_cat4": 3.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "1754-00-3": {
+    "cas": "1754-00-3",
+    "name": "3,7-Dimethyl-3,6-octadienal",
+    "ifra_key": "IFRA_STD_205",
+    "max_pct_cat4": 3.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "72203-98-6": {
+    "cas": "72203-98-6",
+    "name": "3,7-Dimethyl-3,6-octadienal",
+    "ifra_key": "IFRA_STD_205",
+    "max_pct_cat4": 3.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "72203-97-5": {
+    "cas": "72203-97-5",
+    "name": "3,7-Dimethyl-3,6-octadienal",
+    "ifra_key": "IFRA_STD_205",
+    "max_pct_cat4": 3.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "106-23-0": {
+    "cas": "106-23-0",
+    "name": "Citronellal",
+    "ifra_key": "IFRA_STD_206",
+    "max_pct_cat4": 0.49,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "5949-05-3": {
+    "cas": "5949-05-3",
+    "name": "Citronellal",
+    "ifra_key": "IFRA_STD_206",
+    "max_pct_cat4": 0.49,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "71077-31-1": {
+    "cas": "71077-31-1",
+    "name": "4,8-Dimethyl-4,9-decadienal",
+    "ifra_key": "IFRA_STD_207",
+    "max_pct_cat4": 0.24,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "5502-75-0": {
+    "cas": "5502-75-0",
+    "name": "cis,trans-4-(Isopropyl)cyclohexanemethanol",
+    "ifra_key": "IFRA_STD_208",
+    "max_pct_cat4": 4.7,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "13828-37-0": {
+    "cas": "13828-37-0",
+    "name": "cis,trans-4-(Isopropyl)cyclohexanemethanol",
+    "ifra_key": "IFRA_STD_208",
+    "max_pct_cat4": 4.7,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "13674-19-6": {
+    "cas": "13674-19-6",
+    "name": "cis,trans-4-(Isopropyl)cyclohexanemethanol",
+    "ifra_key": "IFRA_STD_208",
+    "max_pct_cat4": 4.7,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "67634-03-1": {
+    "cas": "67634-03-1",
+    "name": "4-(Isopropyl)-.beta.-methylcyclohexanethanol",
+    "ifra_key": "IFRA_STD_209",
+    "max_pct_cat4": 6.4,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "68480-15-9": {
+    "cas": "68480-15-9",
+    "name": "Cyclohexanemethanol, 2,4-dimethyl-",
+    "ifra_key": "IFRA_STD_210",
+    "max_pct_cat4": 0.0013,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "107898-54-4": {
+    "cas": "107898-54-4",
+    "name": "3,3-Dimethyl-5-(2,2,3-trimethyl-3-cyclopenten-1-yl)-4-penten-2-ol",
+    "ifra_key": "IFRA_STD_211",
+    "max_pct_cat4": 1.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "65113-99-7": {
+    "cas": "65113-99-7",
+    "name": "5-(2,2,3-Trimethyl-3-cyclopentenyl)-3-methylpentan-2-ol",
+    "ifra_key": "IFRA_STD_212",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "65114-03-6": {
+    "cas": "65114-03-6",
+    "name": "alpha,2,2,3-Tetramethylcyclopent-3-ene-1-butyraldehyde",
+    "ifra_key": "IFRA_STD_213",
+    "max_pct_cat4": 0.21,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "65505-24-0": {
+    "cas": "65505-24-0",
+    "name": "Isobutyl N-methylanthranylate",
+    "ifra_key": "IFRA_STD_214",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "POTENTIAL OF NITROSAMINE FORMATION"
+  },
+  "91-61-2": {
+    "cas": "91-61-2",
+    "name": "p-Methyltetrahydroquinoline",
+    "ifra_key": "IFRA_STD_215",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "POTENTIAL OF NITROSAMINE FORMATION"
+  },
+  "19343-78-3": {
+    "cas": "19343-78-3",
+    "name": "1,2,3,4-Tetrahydro-4-methylquinoline",
+    "ifra_key": "IFRA_STD_216",
+    "max_pct_cat4": 99.0,
+    "prohibited": false,
+    "restricted": false,
+    "type": "S",
+    "reason": "POTENTIAL OF NITROSAMINE FORMATION"
+  },
+  "5471-51-2": {
+    "cas": "5471-51-2",
+    "name": "4-(4-Hydroxyphenyl)butan-2-one",
+    "ifra_key": "IFRA_STD_217",
+    "max_pct_cat4": 1.0,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DEPIGMENTATION"
+  },
+  "13341-72-5": {
+    "cas": "13341-72-5",
+    "name": "Mintlactone",
+    "ifra_key": "IFRA_STD_218",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "GENOTOXICITY"
+  },
+  "38049-04-6": {
+    "cas": "38049-04-6",
+    "name": "Mintlactone",
+    "ifra_key": "IFRA_STD_218",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "GENOTOXICITY"
+  },
+  "116044-44-1": {
+    "cas": "116044-44-1",
+    "name": "Ethyl isopropyl bicycloheptene-2-carboxylate",
+    "ifra_key": "IFRA_STD_219",
+    "max_pct_cat4": 0.94,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "116126-82-0": {
+    "cas": "116126-82-0",
+    "name": "Ethyl isopropyl bicycloheptene-2-carboxylate",
+    "ifra_key": "IFRA_STD_219",
+    "max_pct_cat4": 0.94,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "33885-52-8": {
+    "cas": "33885-52-8",
+    "name": "Tetramethyl bicyclo-2-heptene-2-propionaldehyde",
+    "ifra_key": "IFRA_STD_220",
+    "max_pct_cat4": 1.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "70788-30-6": {
+    "cas": "70788-30-6",
+    "name": "1-(2,2,6-Trimethylcyclohexyl)-3-hexanol",
+    "ifra_key": "IFRA_STD_221",
+    "max_pct_cat4": 1.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "139504-68-0": {
+    "cas": "139504-68-0",
+    "name": "1-(2-tert.-Butyl cyclohexyloxy)-2-butanol",
+    "ifra_key": "IFRA_STD_222",
+    "max_pct_cat4": 1.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "1891-67-4": {
+    "cas": "1891-67-4",
+    "name": "3,6,7-Trimethyl-2,6-octadienal",
+    "ifra_key": "IFRA_STD_223",
+    "max_pct_cat4": 0.6,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "74338-72-0": {
+    "cas": "74338-72-0",
+    "name": "2,4,4,7-Tetramethyl-6-octen-3-one",
+    "ifra_key": "IFRA_STD_224",
+    "max_pct_cat4": 1.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "916887-53-1": {
+    "cas": "916887-53-1",
+    "name": "2-Cyclohexylidene-2-ortho-tolylacetonitrile",
+    "ifra_key": "IFRA_STD_225",
+    "max_pct_cat4": 0.52,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "27538-09-6": {
+    "cas": "27538-09-6",
+    "name": "Ethyl and Methyl furaneol",
+    "ifra_key": "IFRA_STD_226",
+    "max_pct_cat4": 0.25,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "27538-10-9": {
+    "cas": "27538-10-9",
+    "name": "Ethyl and Methyl furaneol",
+    "ifra_key": "IFRA_STD_226",
+    "max_pct_cat4": 0.25,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "16429-07-5": {
+    "cas": "16429-07-5",
+    "name": "2-Hexylidenecyclohexan-1-one",
+    "ifra_key": "IFRA_STD_227",
+    "max_pct_cat4": 0.13,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "623-36-9": {
+    "cas": "623-36-9",
+    "name": "2-Methyl-2-pentenal",
+    "ifra_key": "IFRA_STD_228",
+    "max_pct_cat4": 0.0077,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "4643-27-0": {
+    "cas": "4643-27-0",
+    "name": "2-Octen-4-one",
+    "ifra_key": "IFRA_STD_229",
+    "max_pct_cat4": 0.047,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "67801-33-6": {
+    "cas": "67801-33-6",
+    "name": "Methyl lavender ketone",
+    "ifra_key": "IFRA_STD_231",
+    "max_pct_cat4": 0.082,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "67633-95-8": {
+    "cas": "67633-95-8",
+    "name": "Methyl lavender ketone",
+    "ifra_key": "IFRA_STD_231",
+    "max_pct_cat4": 0.082,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "81786-75-6": {
+    "cas": "81786-75-6",
+    "name": "3,4,5,6,6-Pentamethylhept-3-en-2-one",
+    "ifra_key": "IFRA_STD_232",
+    "max_pct_cat4": 1.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "81786-73-4": {
+    "cas": "81786-73-4",
+    "name": "3,4,5,6,6-Pentamethylhept-3-en-2-one",
+    "ifra_key": "IFRA_STD_232",
+    "max_pct_cat4": 1.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "86115-11-9": {
+    "cas": "86115-11-9",
+    "name": "3,4,5,6,6-Pentamethylhept-3-en-2-one",
+    "ifra_key": "IFRA_STD_232",
+    "max_pct_cat4": 1.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "81786-74-5": {
+    "cas": "81786-74-5",
+    "name": "3,4,5,6,6-Pentamethylhept-3-en-2-one",
+    "ifra_key": "IFRA_STD_232",
+    "max_pct_cat4": 1.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "93893-89-1": {
+    "cas": "93893-89-1",
+    "name": "3-Methyl-5-phenylpent-2-enenitrile",
+    "ifra_key": "IFRA_STD_233",
+    "max_pct_cat4": 0.12,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "53243-59-7": {
+    "cas": "53243-59-7",
+    "name": "3-Methyl-5-phenylpent-2-enenitrile",
+    "ifra_key": "IFRA_STD_233",
+    "max_pct_cat4": 0.12,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "53243-60-0": {
+    "cas": "53243-60-0",
+    "name": "3-Methyl-5-phenylpent-2-enenitrile",
+    "ifra_key": "IFRA_STD_233",
+    "max_pct_cat4": 0.12,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "1669-44-9": {
+    "cas": "1669-44-9",
+    "name": "3-Octen-2-one",
+    "ifra_key": "IFRA_STD_234",
+    "max_pct_cat4": 0.047,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "2550-11-0": {
+    "cas": "2550-11-0",
+    "name": "Dimethyl octenone",
+    "ifra_key": "IFRA_STD_235",
+    "max_pct_cat4": 1.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "16587-71-6": {
+    "cas": "16587-71-6",
+    "name": "Isopentylcyclohexanone",
+    "ifra_key": "IFRA_STD_236",
+    "max_pct_cat4": 0.15,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "338735-71-0": {
+    "cas": "338735-71-0",
+    "name": "Woody furan",
+    "ifra_key": "IFRA_STD_237",
+    "max_pct_cat4": 0.94,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "351343-77-6": {
+    "cas": "351343-77-6",
+    "name": "Woody furan",
+    "ifra_key": "IFRA_STD_237",
+    "max_pct_cat4": 0.94,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "2705-87-5": {
+    "cas": "2705-87-5",
+    "name": "Allyl 3-cyclohexylpropionate",
+    "ifra_key": "IFRA_STD_238",
+    "max_pct_cat4": 0.47,
+    "prohibited": false,
+    "restricted": true,
+    "type": "RS",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "60763-41-9": {
+    "cas": "60763-41-9",
+    "name": "alpha-Amylcinnamicaldehyde diethyl acetal",
+    "ifra_key": "IFRA_STD_239",
+    "max_pct_cat4": 0.35,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "91-87-2": {
+    "cas": "91-87-2",
+    "name": "alpha-Amylcinnamicaldehyde dimethyl acetal",
+    "ifra_key": "IFRA_STD_240",
+    "max_pct_cat4": 0.35,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "10461-98-0": {
+    "cas": "10461-98-0",
+    "name": "alpha-Cyclohexylidene benzeneacetonitrile",
+    "ifra_key": "IFRA_STD_241",
+    "max_pct_cat4": 0.52,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "155514-23-1": {
+    "cas": "155514-23-1",
+    "name": "5-Hexen-1-yl 2-methylbutanoate",
+    "ifra_key": "IFRA_STD_242",
+    "max_pct_cat4": 0.64,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "97-42-7": {
+    "cas": "97-42-7",
+    "name": "Carvyl acetate",
+    "ifra_key": "IFRA_STD_243",
+    "max_pct_cat4": 0.24,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1205-42-1": {
+    "cas": "1205-42-1",
+    "name": "Carvyl acetate",
+    "ifra_key": "IFRA_STD_243",
+    "max_pct_cat4": 0.24,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1134-95-8": {
+    "cas": "1134-95-8",
+    "name": "Carvyl acetate",
+    "ifra_key": "IFRA_STD_243",
+    "max_pct_cat4": 0.24,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "1576-78-9": {
+    "cas": "1576-78-9",
+    "name": "cis-3-Heptenyl acetate",
+    "ifra_key": "IFRA_STD_244",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "35154-45-1": {
+    "cas": "35154-45-1",
+    "name": "cis-3-Hexenyl isovalerate",
+    "ifra_key": "IFRA_STD_245",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "67633-96-9": {
+    "cas": "67633-96-9",
+    "name": "cis-3-Hexenyl methyl carbonate",
+    "ifra_key": "IFRA_STD_246",
+    "max_pct_cat4": 0.56,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "13049-88-2": {
+    "cas": "13049-88-2",
+    "name": "cis-3-Nonenyl acetate",
+    "ifra_key": "IFRA_STD_247",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "150-84-5": {
+    "cas": "150-84-5",
+    "name": "Citronellyl acetate",
+    "ifra_key": "IFRA_STD_248",
+    "max_pct_cat4": 2.7,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "67601-05-2": {
+    "cas": "67601-05-2",
+    "name": "Citronellyl acetate",
+    "ifra_key": "IFRA_STD_248",
+    "max_pct_cat4": 2.7,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "141-11-7": {
+    "cas": "141-11-7",
+    "name": "Citronellyl acetate",
+    "ifra_key": "IFRA_STD_248",
+    "max_pct_cat4": 2.7,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "2550-52-9": {
+    "cas": "2550-52-9",
+    "name": "Cyclohexadecanone",
+    "ifra_key": "IFRA_STD_249",
+    "max_pct_cat4": 4.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "88642-03-9": {
+    "cas": "88642-03-9",
+    "name": "Cyclohexadecenone",
+    "ifra_key": "IFRA_STD_250",
+    "max_pct_cat4": 4.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "5365-06-0": {
+    "cas": "5365-06-0",
+    "name": "Cyclohexadecenone",
+    "ifra_key": "IFRA_STD_250",
+    "max_pct_cat4": 4.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "2550-59-6": {
+    "cas": "2550-59-6",
+    "name": "Cyclohexadecenone",
+    "ifra_key": "IFRA_STD_250",
+    "max_pct_cat4": 4.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "3100-36-5": {
+    "cas": "3100-36-5",
+    "name": "Cyclohexadecenone",
+    "ifra_key": "IFRA_STD_250",
+    "max_pct_cat4": 4.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "5120-20-7": {
+    "cas": "5120-20-7",
+    "name": "Cyclohexadecenone",
+    "ifra_key": "IFRA_STD_250",
+    "max_pct_cat4": 4.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "854373-71-0": {
+    "cas": "854373-71-0",
+    "name": "Cyclohexadecenone",
+    "ifra_key": "IFRA_STD_250",
+    "max_pct_cat4": 4.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "854373-70-9": {
+    "cas": "854373-70-9",
+    "name": "Cyclohexadecenone",
+    "ifra_key": "IFRA_STD_250",
+    "max_pct_cat4": 4.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "60241-52-3": {
+    "cas": "60241-52-3",
+    "name": "1-(2,2,6-Trimethylcyclohexyl)-3-pentanol",
+    "ifra_key": "IFRA_STD_251",
+    "max_pct_cat4": 1.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "60241-53-4": {
+    "cas": "60241-53-4",
+    "name": "1-(2,2,6-Trimethylcyclohexyl)-3-pentanol",
+    "ifra_key": "IFRA_STD_251",
+    "max_pct_cat4": 1.3,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "58567-11-6": {
+    "cas": "58567-11-6",
+    "name": "(Ethoxymethoxy)-cyclododecane",
+    "ifra_key": "IFRA_STD_252",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "62439-42-3": {
+    "cas": "62439-42-3",
+    "name": "6-Hydroxy-2,6-dimethylheptanal",
+    "ifra_key": "IFRA_STD_253",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "122-67-8": {
+    "cas": "122-67-8",
+    "name": "Isobutyl cinnamate",
+    "ifra_key": "IFRA_STD_254",
+    "max_pct_cat4": 1.2,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "93-29-8": {
+    "cas": "93-29-8",
+    "name": "Isoeugenyl acetate",
+    "ifra_key": "IFRA_STD_255",
+    "max_pct_cat4": 0.99,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "68966-86-9": {
+    "cas": "68966-86-9",
+    "name": "4-Methyl-1-propan-2-ylbicyclo[2.2.2]oct-2-ene-8-carboxylate",
+    "ifra_key": "IFRA_STD_256",
+    "max_pct_cat4": 0.94,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "5533-03-9": {
+    "cas": "5533-03-9",
+    "name": "Methyl vanillyl ether",
+    "ifra_key": "IFRA_STD_257",
+    "max_pct_cat4": 1.5,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "72403-67-9": {
+    "cas": "72403-67-9",
+    "name": "Myraldyl acetate",
+    "ifra_key": "IFRA_STD_258",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68738-94-3": {
+    "cas": "68738-94-3",
+    "name": "Octahydro-dimethylnaphthalene-2-carbaldehyde (mixed isomers)",
+    "ifra_key": "IFRA_STD_259",
+    "max_pct_cat4": 2.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68738-96-5": {
+    "cas": "68738-96-5",
+    "name": "Octahydro-dimethylnaphthalene-2-carbaldehyde (mixed isomers)",
+    "ifra_key": "IFRA_STD_259",
+    "max_pct_cat4": 2.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68991-96-8": {
+    "cas": "68991-96-8",
+    "name": "Octahydro-dimethylnaphthalene-2-carbaldehyde (mixed isomers)",
+    "ifra_key": "IFRA_STD_259",
+    "max_pct_cat4": 2.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "68991-97-9": {
+    "cas": "68991-97-9",
+    "name": "Octahydro-dimethylnaphthalene-2-carbaldehyde (mixed isomers)",
+    "ifra_key": "IFRA_STD_259",
+    "max_pct_cat4": 2.1,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "106-44-5": {
+    "cas": "106-44-5",
+    "name": "p-Cresol",
+    "ifra_key": "IFRA_STD_260",
+    "max_pct_cat4": 0.005,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DEPIGMENTATION"
+  },
+  "1319-77-3": {
+    "cas": "1319-77-3",
+    "name": "p-Cresol",
+    "ifra_key": "IFRA_STD_260",
+    "max_pct_cat4": 0.005,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DEPIGMENTATION"
+  },
+  "2120-70-9": {
+    "cas": "2120-70-9",
+    "name": "Phenoxyacetaldehyde",
+    "ifra_key": "IFRA_STD_261",
+    "max_pct_cat4": 0.25,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "499-70-7": {
+    "cas": "499-70-7",
+    "name": "Carvomenthone",
+    "ifra_key": "IFRA_STD_262",
+    "max_pct_cat4": 1.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "59471-80-6": {
+    "cas": "59471-80-6",
+    "name": "Carvomenthone",
+    "ifra_key": "IFRA_STD_262",
+    "max_pct_cat4": 1.9,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "98-53-3": {
+    "cas": "98-53-3",
+    "name": "4-tert-Butylcyclohexanone",
+    "ifra_key": "IFRA_STD_263",
+    "max_pct_cat4": 0.15,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION AND SYSTEMIC TOXICITY"
+  },
+  "53767-86-5": {
+    "cas": "53767-86-5",
+    "name": "7-Methoxy-3,7-dimethyloct-1-ene",
+    "ifra_key": "IFRA_STD_264",
+    "max_pct_cat4": 1e-05,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "SYSTEMIC TOXICITY"
+  },
+  "2986-54-1": {
+    "cas": "2986-54-1",
+    "name": "Methoxycyclododecane",
+    "ifra_key": "IFRA_STD_265",
+    "max_pct_cat4": 0.43,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "SYSTEMIC TOXICITY"
+  },
+  "10599-70-9": {
+    "cas": "10599-70-9",
+    "name": "3-Acetyl-2,5-dimethylfuran",
+    "ifra_key": "IFRA_STD_266",
+    "max_pct_cat4": 0.0,
+    "prohibited": true,
+    "restricted": false,
+    "type": "P",
+    "reason": "GENOTOXICITY"
+  },
+  "358331-95-0": {
+    "cas": "358331-95-0",
+    "name": "2,5-Octadien-4-one, 5,6,7-trimethyl-, (2E)-",
+    "ifra_key": "IFRA_STD_267",
+    "max_pct_cat4": 0.11,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "357650-26-1": {
+    "cas": "357650-26-1",
+    "name": "2,5-Octadien-4-one, 5,6,7-trimethyl-, (2E)-",
+    "ifra_key": "IFRA_STD_267",
+    "max_pct_cat4": 0.11,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  },
+  "847144-75-6": {
+    "cas": "847144-75-6",
+    "name": "2,5-Octadien-4-one, 5,6,7-trimethyl-, (2E)-",
+    "ifra_key": "IFRA_STD_267",
+    "max_pct_cat4": 0.11,
+    "prohibited": false,
+    "restricted": true,
+    "type": "R",
+    "reason": "DERMAL SENSITIZATION"
+  }
+}

@@ -1,0 +1,232 @@
+[
+    {
+        "id": "classic_chypre",
+        "name": "클래식 시프레",
+        "description": "오크모스와 베르가못의 클래식 조합",
+        "ingredients": [
+            "bergamot",
+            "moss",
+            "patchouli",
+            "rose",
+            "labdanum"
+        ],
+        "ratios": [
+            20,
+            25,
+            15,
+            25,
+            15
+        ]
+    },
+    {
+        "id": "fougere",
+        "name": "푸제르",
+        "description": "라벤더와 오크모스의 클래식 남성향",
+        "ingredients": [
+            "lavender",
+            "geranium",
+            "moss",
+            "tonka_bean",
+            "cedarwood"
+        ],
+        "ratios": [
+            25,
+            15,
+            20,
+            20,
+            20
+        ]
+    },
+    {
+        "id": "eau_de_cologne",
+        "name": "오 드 코롱",
+        "description": "시트러스 중심의 가벼운 향",
+        "ingredients": [
+            "bergamot",
+            "lemon",
+            "orange",
+            "neroli",
+            "petitgrain",
+            "lavender"
+        ],
+        "ratios": [
+            25,
+            15,
+            15,
+            20,
+            15,
+            10
+        ]
+    },
+    {
+        "id": "oriental_base",
+        "name": "오리엔탈 베이스",
+        "description": "따뜻하고 감각적인 베이스",
+        "ingredients": [
+            "vanilla",
+            "amber",
+            "benzoin",
+            "cinnamon",
+            "sandalwood"
+        ],
+        "ratios": [
+            25,
+            25,
+            20,
+            10,
+            20
+        ]
+    },
+    {
+        "id": "white_floral",
+        "name": "화이트 플로럴",
+        "description": "깨끗한 꽃향의 조합",
+        "ingredients": [
+            "jasmine",
+            "tuberose",
+            "lily_of_valley",
+            "orange_blossom",
+            "white_musk"
+        ],
+        "ratios": [
+            25,
+            20,
+            20,
+            20,
+            15
+        ]
+    },
+    {
+        "id": "woody_amber",
+        "name": "우디 앰버",
+        "description": "따뜻한 우디 앰버 조합",
+        "ingredients": [
+            "cedarwood",
+            "sandalwood",
+            "amber",
+            "vetiver",
+            "musk"
+        ],
+        "ratios": [
+            25,
+            20,
+            25,
+            15,
+            15
+        ]
+    },
+    {
+        "id": "fresh_aquatic",
+        "name": "프레시 아쿠아틱",
+        "description": "시원하고 깨끗한 아쿠아 조합",
+        "ingredients": [
+            "marine",
+            "bergamot",
+            "bamboo",
+            "white_musk",
+            "cedarwood"
+        ],
+        "ratios": [
+            25,
+            20,
+            20,
+            20,
+            15
+        ]
+    },
+    {
+        "id": "gourmand_vanilla",
+        "name": "구르망 바닐라",
+        "description": "달콤하고 따뜻한 구르망 조합",
+        "ingredients": [
+            "vanilla",
+            "tonka_bean",
+            "caramel",
+            "sandalwood",
+            "musk"
+        ],
+        "ratios": [
+            30,
+            20,
+            15,
+            20,
+            15
+        ]
+    },
+    {
+        "id": "smoky_leather",
+        "name": "스모키 레더",
+        "description": "묵직한 가죽과 스모크",
+        "ingredients": [
+            "leather",
+            "oud",
+            "birch",
+            "vetiver",
+            "frankincense"
+        ],
+        "ratios": [
+            25,
+            15,
+            20,
+            25,
+            15
+        ]
+    },
+    {
+        "id": "rose_oud",
+        "name": "로즈 우드",
+        "description": "로즈와 우드의 럭셔리 조합",
+        "ingredients": [
+            "rose",
+            "oud",
+            "sandalwood",
+            "saffron",
+            "musk"
+        ],
+        "ratios": [
+            30,
+            20,
+            20,
+            15,
+            15
+        ]
+    },
+    {
+        "id": "citrus_aromatic",
+        "name": "시트러스 아로마틱",
+        "description": "상쾌한 시트러스와 허브",
+        "ingredients": [
+            "bergamot",
+            "lemon",
+            "lavender",
+            "geranium",
+            "cedarwood"
+        ],
+        "ratios": [
+            25,
+            15,
+            25,
+            15,
+            20
+        ]
+    },
+    {
+        "id": "dark_oriental",
+        "name": "다크 오리엔탈",
+        "description": "깊고 신비로운 오리엔탈",
+        "ingredients": [
+            "oud",
+            "amber",
+            "incense",
+            "saffron",
+            "vanilla"
+        ],
+        "ratios": [
+            20,
+            25,
+            20,
+            10,
+            25
+        ]
+    }
+]

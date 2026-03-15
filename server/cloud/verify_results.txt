@@ -1,0 +1,235 @@
+﻿python : C:\Users\user\Desktop\Gam
+e\server\cloud\models\odor_predict
+or_v6.py:673: UserWarning: 'nn.glo
+b.GlobalAttention' is deprecated, 
+use 'nn.aggr.AttentionalAggregatio
+n' instead
+위치 줄:1 문자:1
++ python deep_verify.py 2>&1 | Out
+-File -Encoding utf8 verify_result
+s.t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : Not 
+   Specified: (C:\Users\user\D..  
+  .gation' instead:String) [],    
+ RemoteException
+    + FullyQualifiedErrorId : Nat 
+   iveCommandError
+ 
+  self.readout = GlobalAttention(g
+ate_nn)
+======================================================================
+  DEEP VERIFICATION: OdorPredictor v6 (Industry SOTA)
+======================================================================
+
+[1/10] Graph Construction
+  [PASS] Graph(CCO)
+  [PASS]   x shape
+  [PASS]   edge_attr dim
+  [PASS]   has pos
+  [PASS]   pos shape
+  [PASS]   no NaN in x
+  [PASS]   no NaN in pos
+  [PASS]   edge_index valid
+  [PASS] Graph(c1ccccc1)
+  [PASS]   x shape
+  [PASS]   edge_attr dim
+  [PASS]   has pos
+  [PASS]   pos shape
+  [PASS]   no NaN in x
+  [PASS]   no NaN in pos
+  [PASS]   edge_index valid
+  [PASS] Graph(CC(=O)O)
+  [PASS]   x shape
+  [PASS]   edge_attr dim
+  [PASS]   has pos
+  [PASS]   pos shape
+  [PASS]   no NaN in x
+  [PASS]   no NaN in pos
+  [PASS]   edge_index valid
+  [PASS] Graph(CCCCCC)
+  [PASS]   x shape
+  [PASS]   edge_attr dim
+  [PASS]   has pos
+  [PASS]   pos shape
+  [PASS]   no NaN in x
+  [PASS]   no NaN in pos
+  [PASS]   edge_index valid
+  [PASS] Graph(CC(C)=CCCC(C)=C)
+  [PASS]   x shape
+  [PASS]   edge_attr dim
+  [PASS]   has pos
+  [PASS]   pos shape
+  [PASS]   no NaN in x
+  [PASS]   no NaN in pos
+  [PASS]   edge_index valid
+  [PASS] Graph(OC(=O)/C=C/c1cc)
+  [PASS]   x shape
+  [PASS]   edge_attr dim
+  [PASS]   has pos
+  [PASS]   pos shape
+  [PASS]   no NaN in x
+  [PASS]   no NaN in pos
+  [PASS]   edge_index valid
+  [PASS] Graph(CC(=O)Nc1ccc(O))
+  [PASS]   x shape
+  [PASS]   edge_attr dim
+  [PASS]   has pos
+  [PASS]   pos shape
+  [PASS]   no NaN in x
+  [PASS]   no NaN in pos
+  [PASS]   edge_index valid
+  [PASS] Graph(c1ccc2c(c1)ccc1)
+  [PASS]   x shape
+  [PASS]   edge_attr dim
+  [PASS]   has pos
+  [PASS]   pos shape
+  [PASS]   no NaN in x
+  [PASS]   no NaN in pos
+  [PASS]   edge_index valid
+  [PASS] Multi-conformer support
+  [PASS]   multi_pos is list
+  [PASS] PhysProps shape
+  [PASS] PhysProps no NaN
+  [PASS] PhysProps values reasonable
+
+[2/10] Component Shapes
+  [PASS] DropPath train shape
+  [PASS] DropPath eval passthrough
+  [PASS] CosineCutoff shape
+  [PASS] CosineCutoff beyond cutoff=0
+  [PASS] CosineCutoff within cutoff>0
+  [PASS] LearnableRBF shape
+  [PASS] LearnableRBF no NaN
+  [PASS] SEBlock shape
+  [PASS] SEBlock no NaN
+  [PASS] VirtualNode x shape
+  [PASS] VirtualNode vn shape
+  [PASS] AttentionPooling shape
+  [PASS] AttentionPooling no NaN
+  [PASS] GraphormerBias shape
+
+[3/10] EGNN Equivariance
+  [PASS] EGNN feature invariance
+  [PASS] EGNN coordinate equivariance
+  [PASS] EGNN coords actually update
+
+[4/10] IndustryGNNPath
+  [PASS] GNN output shape
+  [PASS] GNN no NaN
+  [PASS] GNN no Inf
+  [PASS] GNN gradients flow
+  [PASS] GNN no zero gradients
+  [PASS] GNN no exploding gradients
+
+[5/10] CrossModalFusion
+  [PASS] Fusion output shape
+  [PASS] Fusion no NaN
+  [PASS] Fusion grads to path_a
+  [PASS] Fusion grads to path_b
+  [PASS] Fusion grads to path_c
+  [PASS] Modality embs differentiated (init)
+
+[6/10] Full Model Forward + Backward
+  [PASS] Output is dict
+  [PASS]   Key 'odor' exists
+  [PASS]   Key 'top' exists
+  [PASS]   Key 'mid' exists
+  [PASS]   Key 'base' exists
+  [PASS]   Key 'longevity' exists
+  [PASS]   Key 'sillage' exists
+  [PASS]   Key 'descriptors' exists
+  [PASS]   Key 'receptors' exists
+  [PASS]   Key 'hedonic' exists
+  [PASS]   Key 'super_res' exists
+  [PASS] odor shape
+  [PASS] top shape
+  [PASS] mid shape
+  [PASS] base shape
+  [PASS] longevity shape
+  [PASS] sillage shape
+  [PASS] descriptors shape
+  [PASS] receptors shape
+  [PASS] hedonic shape
+  [PASS] super_res shape
+  [PASS] odor in [0,1]
+  [PASS] hedonic in [-1,1]
+  [PASS] descriptors in [0,1]
+  [PASS] All outputs clean (no NaN/Inf)
+  [PASS] Loss is scalar
+  [PASS] Loss is finite
+  [PASS] Loss > 0
+  [PASS] Gradient flows to attn_pool
+  [PASS] Gradient flows to path_b (GNN)
+  [PASS] Gradient flows to path_c
+  [PASS] Gradient flows to fusion
+  [PASS] Gradient flows to backbone
+  [PASS] Gradient flows to heads
+  [PASS] return_aux=False gives odor only
+
+[7/10] Learning Ability (overfitting 1 batch)
+  [PASS] Loss decreases over 50 steps
+  [PASS] Loss decreases significantly
+  [PASS] No NaN in losses
+  [PASS] Cosine similarity > 0.3 after overfitting
+    Loss: 0.1838 -> 0.1072 (ratio=0.58), CosSim=0.9086
+
+[8/10] MC Dropout Uncertainty
+  [PASS] Uncertainty mean shape
+  [PASS] Uncertainty std shape
+  [PASS] Std > 0 (dropout is active)
+  [PASS] Std not too large
+  [PASS] Mean in [0,1]
+
+[9/10] Knowledge Distillation + Noisy Student
+  [PASS] Teacher params frozen
+  [PASS] KD loss is scalar
+  [PASS] KD loss is finite
+  [PASS] KD has hard_loss
+  [PASS] KD has soft_loss
+  [PASS] KD backward flows to student
+  [PASS] NoisyStudent pseudo labels exist
+  [PASS] NoisyStudent odor shape
+  [PASS] NoisyStudent noise added
+
+[10/10] EMA + GradNorm + Contrastive + SSL
+  [PASS] EMA shadow created
+  [PASS] EMA update works
+  [PASS] EMA apply_shadow works
+  [PASS] EMA restore works
+  [PASS] GradNorm init
+  [PASS] GradNorm updates weights
+  [PASS] GradNorm weights renormalized
+  [PASS] Contrastive loss finite
+  [PASS] Contrastive loss >= 0
+  [PASS] Focal BCE finite
+  [PASS] SSL forward shape
+  [PASS] SSL MAE loss finite
+  [PASS] SSL property loss finite
+
+[BONUS] Numerical Stability
+  [PASS] Stable with normal inputs (scale=1.0)
+  [PASS] Stable with small inputs (scale=0.001)
+  [PASS] Stable with large inputs (scale=100.0)
+  [PASS] Stable with zero inputs
+
+[BONUS] Parameter Breakdown
+  AttentionPooling         :  2,515,968 params
+  Path B (GNN)             :  6,380,449 params
+  Path C                   :     10,304 params
+  Phys Cross-Attn          :     16,640 params
+  Fusion                   : 29,397,187 params
+  Backbone                 :  1,118,720 params
+  Skip                     :    196,864 params
+  Backbone SE              :     33,088 params
+  Heads                    :  1,241,277 params
+  Other                    :      1,034 params
+  TOTAL                    : 40,911,531 params
+
+======================================================================
+  VERIFICATION COMPLETE
+  [PASS] PASSED: 168
+  [FAIL] FAILED: 0
+  [WARN] WARNINGS: 0
+  ALL TESTS PASSED - MODEL IS PRODUCTION READY
+======================================================================

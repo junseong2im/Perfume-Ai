@@ -1,0 +1,22 @@
+[
+  {
+    "smiles": "CC1(C)C2CC=C(CC=O)C1C2",
+    "molecule_name": "CC1(C)C2CC=C(CC=O)C1C2",
+    "predicted_top": [
+      "green",
+      "woody",
+      "herbal",
+      "floral",
+      "fruity"
+    ],
+    "actual_labels": [
+      "fatty",
+      "oily",
+      "pine",
+      "woody"
+    ],
+    "rating": 4,
+    "comment": "Test evaluation",
+    "timestamp": 1770882177.101539
+  }
+]

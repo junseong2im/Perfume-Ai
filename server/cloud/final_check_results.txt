@@ -1,0 +1,97 @@
+﻿python : C:\Users\user\Desktop\Gam
+e\server\cloud\models\odor_predict
+or_v6.py:673: UserWarning: 'nn.glo
+b.GlobalAttention' is deprecated, 
+use 'nn.aggr.AttentionalAggregatio
+n' instead
+위치 줄:1 문자:1
++ python cloud\final_check.py 2>&1
+ | Out-File -Encoding utf8 cloud\f
+ina ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotS
+pecifie    d: (C:\Users\user\D...g
+ation' instead    :String) [], Rem
+oteException
+    + FullyQualifiedErrorId : Nati
+veComma    ndError
+ 
+  self.readout = GlobalAttention(g
+ate_nn)
+======================================================================
+  FINAL SYSTEM CHECK: OdorPredictor v6
+======================================================================
+
+[1/7] Syntax Validation
+  [PASS] Syntax: cloud/models/odor_predictor_v6.py
+  [PASS] Syntax: cloud/train_v6.py
+  [PASS] Syntax: scripts/quality_data_collector.py
+
+[2/7] Model Architecture
+  [PASS] Model imports
+  [PASS] Model instantiation (40,911,531 params)
+  [PASS] Param count > 30M
+  [PASS] Param count < 50M
+  [PASS] Graph construction
+  [PASS] Forward pass (return_aux=True)
+  [PASS] Output has 'odor' key
+  [PASS] Odor output shape: torch.Size([2, 22])
+  [PASS] Forward pass (return_aux=False)
+  [PASS] EMA creation
+
+[3/7] Training Pipeline
+  [PASS] Training imports
+  [PASS] SMILES augmentation (CCO -> 3 variants)
+  [PASS] SMILES augmentation (aspirin -> 6 variants)
+
+[4/7] Data Pipeline
+  [PASS] quality_data_collector.py loadable
+
+[5/7] Curated Dataset
+  [PASS] curated_training_data.csv exists
+  [PASS] Row count: 6083
+  [PASS] Column count: 617
+  [PASS] 'smiles' column exists
+  [PASS] 'quality_score' column exists
+  [PASS] 'sources' column exists
+  [PASS] 'tier' column exists
+  [PASS] Label columns: 612
+  [PASS] First SMILES valid: O=Cc1ccc(O)cc1
+  [PASS] First row non-zero labels: 15
+  [PASS] Tier 1 molecules: 5659
+  [PASS] Tier 2 molecules: 424
+  [PASS] Multi-source validated: 3129 (51.4%)
+  [PASS] Avg quality score: 0.750
+
+[6/7] Label Mapping
+  [PASS] label_mapping.json exists
+  [PASS] n_labels: 612
+  [PASS] Labels list length matches n_labels
+  [PASS] Labels match CSV columns
+  [PASS] Stats.total_molecules: 6083
+
+[7/7] End-to-End Compatibility
+  Label columns detected: 612
+  Total samples: 50 (bert_dim=384, labels=612)
+  [PASS] OdorDataset loads curated data (50 samples)
+  [PASS] Labels detected: 612
+  [PASS] Sample odor shape: torch.Size([612])
+  [PASS] Sample has graph
+  [PASS] Sample has phys
+  [PASS] Sample has bert
+  [PASS] Collate works
+  [PASS] Batch odor shape: torch.Size([2, 612])
+  Label columns detected: 612
+  SMILES augmentation: generating 3x variants...
+  Augmented: 58 new variants (from 20 originals)
+  Total samples: 78 (bert_dim=384, labels=612)
+  [PASS] Augmented dataset: 78 samples (from 20)
+  [PASS] Label smoothing applied (max=0.975, min=0.025)
+
+======================================================================
+  FINAL SYSTEM CHECK COMPLETE
+  [PASS] PASSED: 46
+  [FAIL] FAILED: 0
+  [WARN] WARNINGS: 0
+  [OK] ALL CHECKS PASSED - SYSTEM READY FOR TRAINING
+======================================================================

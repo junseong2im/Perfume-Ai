@@ -1,0 +1,122 @@
+======================================================================
+  ★ VERIFIED MODEL EVALUATION v3 ★
+  (Exact train_v6.py conditions)
+======================================================================
+
+[STEP 0] LOGIC VERIFICATION
+--------------------------------------------------
+  BERT cache loaded: 6083 embeddings
+  Label columns detected: 612
+  Total samples: 6083 (bert_dim=384, labels=612)
+  Scaffold split: train=2377, val=2798, test=908
+  [CHECK 1] label_smooth = 0.05 (matches training): PASS
+  [CHECK 2] n_aug = 0 (no augmentation for eval): PASS
+  [CHECK 3] scaffold_split seed=42 (matches training): PASS
+  [CHECK 4] Total=6083 Train=2377 Val=2798 Test=908
+  [CHECK 5] Model loaded from EMA checkpoint: PASS
+  [CHECK 6] Checkpoint val_cos_sim = 0.46995330916510686
+  [CHECK 7] Checkpoint epoch = 181
+  [CHECK 8] Params: 41,321,855
+
+[STEP 1] REPRODUCE TRAINING TEST METRICS
+--------------------------------------------------
+  Reproduced Test cos_sim: 0.4947
+  Reproduced Test MSE:     0.006934
+  Training reported:       cos=0.4972, MSE=0.006989
+  ★ REPRODUCTION VERIFIED (diff=0.0025 < 0.01)
+
+[STEP 2] EXTENDED METRICS (908 test samples)
+=======================================================
+
+  OVERALL
+  Cos_sim (batch avg):  0.4947
+  Cos_sim (sample avg): 0.4941
+  MSE:                  0.006934
+  MAE (per-label avg):  0.0180
+  RMSE (per-label avg): 0.0469
+  Per-label accuracy:   98.2%
+
+  TOP-K CATEGORY ACCURACY
+  Top- 1: 25.0%
+  Top- 3: 17.1%
+  Top- 5: 26.1%
+  Top-10: 20.7%
+
+  TOP-K AMONG MAJOR 22 ODOR DIMS (sweet/floral/woody/...)
+  Top- 1 (22 dims): 39.3%
+  Top- 3 (22 dims): 42.6%
+  Top- 5 (22 dims): 56.7%
+
+  TOP 15 BEST PREDICTED LABELS
+  Label                           MAE   RMSE   Acc%
+  hedonic                      0.0019 0.0019 99.8
+  nutty aroma??????            0.0022 0.0022 99.8
+  lavender aroma??????         0.0023 0.0023 99.8
+  sulfide                      0.0024 0.0024 99.8
+  minty??????                  0.0025 0.0025 99.8
+  sweet rosey aroma??????      0.0025 0.0025 99.8
+  moldy                        0.0025 0.0025 99.7
+  garlic aroma??               0.0026 0.0026 99.7
+  slight fatty aroma??         0.0026 0.0026 99.7
+  fruity acetic aroma??????    0.0026 0.0026 99.7
+  wine                         0.0026 0.0026 99.7
+  sulfate                      0.0027 0.0027 99.7
+  iris                         0.0027 0.0027 99.7
+  decayed                      0.0027 0.0027 99.7
+  petroleum aroma??            0.0027 0.0027 99.7
+
+  BOTTOM 15 WORST PREDICTED LABELS
+  Label                           MAE   RMSE   Acc%
+  mint                         0.1160 0.1434 88.4
+  honey                        0.1168 0.2892 88.3
+  earthy                       0.1238 0.2011 87.6
+  nutty                        0.1441 0.2042 85.6
+  phenolic                     0.1490 0.3458 85.1
+  fresh                        0.1505 0.2609 84.9
+  rose                         0.1554 0.3190 84.5
+  balsamic                     0.2408 0.4066 75.9
+  herbal                       0.2708 0.3521 72.9
+  spicy                        0.2712 0.3986 72.9
+  woody                        0.2809 0.3197 71.9
+  green                        0.3458 0.4135 65.4
+  fruity                       0.3990 0.4527 60.1
+  floral                       0.4586 0.5368 54.1
+  sweet                        0.4666 0.5092 53.3
+
+  MAJOR CATEGORY ACCURACY
+  Category        MAE   Acc% #Labels
+  Floral       0.0221 97.8      40
+  Citrus       0.0140 98.6      18
+  Woody        0.0270 97.3      17
+  Sweet        0.0331 96.7      28
+  Spicy        0.0210 97.9      23
+  Fruity       0.0203 98.0      43
+  Green        0.0276 97.2      35
+  Musk         0.0288 97.1       4
+  Fresh        0.0226 97.7      10
+  Smoky        0.0178 98.2      19
+  Earthy       0.0407 95.9       4
+
+  COSINE SIMILARITY DISTRIBUTION
+  P10: 0.4007
+  P25: 0.4462
+  P50: 0.4926
+  P75: 0.5399
+  P90: 0.5913
+  Mean=0.4941 Std=0.0740
+  cos>=0.3: 99.7%
+  cos>=0.4: 90.0%
+  cos>=0.5: 46.1%
+  cos>=0.6: 8.3%
+  cos>=0.7: 0.4%
+
+[STEP 3] SAVING
+  Saved to eval_results/verified_results.json
+
+=======================================================
+  ★ FINAL SUMMARY ★
+  Test cos_sim:    0.4947 (training: 0.4972)
+  Per-label acc:   98.2%
+  Top-1 (612):     25.0%
+  Top-5 (612):     26.1%
+=======================================================
