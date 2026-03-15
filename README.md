@@ -387,99 +387,193 @@ ThreadPoolExecutor (max 3 workers)로 rate limit 준수, 100건마다 JSON check
 
 ---
 
-## 9. 시행착오 기록
+## 9. 시행착오 기록 -- 조향 AI 모델 개발의 여정
 
-이 섹션은 프로젝트 진행 과정에서 겪은 주요 실패와 그로부터 얻은 교훈을 기록한다.
+조향 AI를 처음 구상한 시점부터 현재의 10-model 앙상블 + PairAttentionNet 시스템에 이르기까지, 수차례의 실패와 방향 전환이 있었다. 이 섹션은 그 과정을 시간순으로 기록한다.
 
-### 9.1 DGL + Python 3.13 호환성 문제
+### 9.1 자체 MPNN 구현의 한계 (v1-v5)
 
-**문제**: 프로젝트 초기 Python 3.13 환경에서 `pip install dgl`이 실패. Pre-built wheel이 존재하지 않아 구식 버전(0.1.3)이 설치되며 DLL 로드 오류 발생.
+**배경**: 프로젝트 초기, GNN 기반 향기 예측을 위해 PyTorch로 자체 Message Passing Neural Network를 구현했다. 분자를 그래프로 변환하고, 노드/엣지 특성을 GRU로 업데이트하는 기본적인 D-MPNN 아키텍처였다.
 
-**해결**: Python 3.12.7을 별도 설치하고 `py -3.12 -m venv openpom_env`로 전용 가상환경 생성. 메인 애플리케이션(3.13)은 서브프로세스 브릿지를 통해 3.12 환경의 AI 파이프라인을 호출.
+**결과**: Leffingwell 3,522개 분자 데이터셋에서 AUROC **0.62 ~ 0.68** 수준에 정체. 논문에서 보고한 0.83-0.89에 크게 미달했다.
 
-### 9.2 DGL CUDA 버전 불일치
+**원인 분석**:
+- Atom feature 차원이 낮았다 (자체 구현 32d vs 공식 134d). RDKit의 풍부한 화학 기술자를 활용하지 못함
+- Set2Set readout 대신 단순 mean pooling을 사용하여 그래프 수준 표현력이 부족
+- Bond feature를 아예 사용하지 않아 결합 유형(단일/이중/방향족) 정보가 누락
+- 학습률 스케줄링 없이 고정 LR로 학습하여 수렴이 불완전
 
-**문제**: `pip install dgl`로 설치된 Windows wheel에 CUDA 지원이 누락 (`DGLError: Device API cuda is not enabled`).
+**교훈**: "논문을 읽고 직접 구현"하는 것과 "논문의 성능을 재현"하는 것은 전혀 다른 문제다. 세부 하이퍼파라미터, 특성 설계, 평가 프로토콜의 차이가 AUROC 0.15 이상의 격차를 만든다.
 
-**문제 2**: `--force-reinstall`로 DGL을 재설치하면 종속성 해결 과정에서 CUDA 버전 PyTorch가 CPU 버전으로 교체됨.
+**전환 결정**: v5까지 자체 개선을 시도했으나 0.70 벽을 넘지 못해, 공식 OpenPOM 라이브러리로 전면 전환하기로 결정.
 
-**해결**: 정확한 호환성 매트릭스 확립:
+---
 
-| PyTorch | DGL | GPU |
-|---------|-----|-----|
-| **2.4.1 (cu121)** | **2.4.0 (cu121)** | OK |
-| 2.5.1 | 2.2.1 | CPU Fallback |
+### 9.2 OpenPOM 재현의 6가지 벽
 
-DGL 설치 후 반드시 PyTorch CUDA 버전을 재확인하고, 필요시 재설치.
+**배경**: OpenPOM(Lee et al. 2023)을 설치하고 공식 코드를 실행했으나, 처음에는 AUROC **0.71** 수준에 그쳤다. 논문의 0.83-0.89와 여전히 큰 차이가 있었다.
 
-### 9.3 Graphbolt DLL 로드 오류
+**원인 1 -- Best Weights 미복원**: D-MPNN은 Epoch 15-25에서 peak를 찍고 이후 급격히 과적합된다. `model.restore()`를 호출하지 않으면 과적합된 최종 가중치로 평가하게 되어 AUROC가 0.05-0.10 하락한다. 이 한 줄을 추가하자 AUROC가 0.71에서 **0.76**으로 상승.
 
-**문제**: DGL 2.x의 Graphbolt 모듈이 Windows에서 `FileNotFoundError` 발생 (DLL이 존재함에도).
+**원인 2 -- 잘못된 앙상블 평균**: 10개 모델의 AUROC를 개별 계산 후 평균내는 것과, 10개 모델의 확률을 먼저 평균 낸 후 단일 AUROC를 계산하는 것은 결과가 다르다. 후자(True Soft Voting)가 정확한 방법이며, 이것만으로 +0.02 향상.
 
-**해결**: `dgl/graphbolt/__init__.py`를 패치하여 DLL 로드 실패를 경고로 전환:
+**원인 3 -- Data Leakage**: `CC(=O)O`와 `O=C(O)C`는 동일한 아세트산이지만, SMILES 정규화 없이는 train/test 양쪽에 출현하여 성능이 과대 추정된다. Canonical SMILES 변환을 적용한 후 정직한 AUROC를 측정할 수 있게 되었다.
 
-```python
-try:
-    load_graphbolt()
-except (FileNotFoundError, ImportError, OSError) as e:
-    warnings.warn(f"DGL graphbolt not available: {e}")
+**원인 4 -- 라벨 오염 ("pine" vs "pineapple")**: 부분 문자열 매칭으로 라벨을 추출하면 "pine"이 "pineapple"에도 매칭되어 라벨이 오염된다. Regex word boundary(`\b`)를 적용하여 +602개의 정확한 라벨을 추가 확보하면서 오염은 제거.
+
+**원인 5 & 6 -- 검증 빈도와 학습률**: 매 Epoch 검증 + CosineAnnealingLR 적용.
+
+**최종 결과**: 6가지 수정을 모두 적용한 후 **AUROC 0.7890** (Scaffold Split) 달성. 자체 MPNN의 0.65에서 0.14 이상 향상되었고, 이 수치는 이후 모든 개선의 기준선(baseline)이 되었다.
+
+---
+
+### 9.3 메가데이터 통합의 역설 -- 더 많은 데이터가 더 나쁜 성능을 만든 사례
+
+**가설**: "데이터가 많을수록 모델이 좋아진다." GoodScents+Leffingwell 5,061개에 FlavorDB 25,207개, AromaDB 648개, FlavorNet 373개를 합쳐 28,101개 분자로 학습하면 AUROC가 크게 향상될 것으로 기대했다.
+
+**첫 시도 -- 단순 병합**: 모든 데이터셋의 라벨을 138 디스크립터에 매핑하고, 누락 라벨을 0(negative)으로 채워 학습. 결과: AUROC **0.58**. 기존 0.79에서 0.21이나 하락.
+
+**원인**: FlavorDB의 25,207개 분자 대부분은 1-2개의 라벨만 가지고 있었다. 나머지 136개 라벨은 "0"(없음)으로 처리되었는데, 이는 모델에게 "이 분자는 136개 향을 갖지 않는다"는 잘못된 정보를 학습시킨 것이다. 라벨 밀도가 0.033에서 0.0126으로 떨어져 gradient signal이 noise에 묻혔다.
+
+**해결 -- Masked BCE**: 누락 라벨을 0이 아닌 "모름(Unknown)"으로 처리. DeepChem의 weight matrix `w`를 활용하여 어노테이션이 있는 라벨만 loss에 반영. 결과: AUROC 0.58에서 **0.73**으로 회복. 하지만 여전히 baseline 0.79에 미달.
+
+**근본 원인**: FlavorDB 같은 대용량-저품질 데이터는 scaffold 다양성은 높이지만, 라벨 noise가 이득을 상쇄한다. 데이터의 "양"보다 "질"이 중요하다는 것을 실증적으로 확인.
+
+---
+
+### 9.4 앙상블 다양성 법칙의 발견 -- 사전학습이 앙상블을 죽이다
+
+**가설**: 28K 분자로 사전학습한 체크포인트에서 10개 모델을 파인튜닝하면, 각 모델이 더 좋은 초기값에서 출발하므로 앙상블 성능이 향상될 것이다.
+
+**결과**:
+
+| 전략 | AUROC |
+|------|-------|
+| Scratch 10-model 앙상블 | **0.789** |
+| Pre-trained 단일 모델 | 0.78 |
+| Pre-trained 10-model 앙상블 | **0.74** |
+
+사전학습된 앙상블이 **scratch 앙상블보다 0.05 낮았다.** 더 놀라운 것은 사전학습된 단일 모델(0.78)이 같은 체크포인트의 앙상블(0.74)보다 높다는 점이다.
+
+**원인**: 동일한 사전학습 체크포인트에서 파인튜닝하면, 10개 모델이 loss landscape의 비슷한 지점에 수렴한다. 모델 간 "다양성(diversity)"이 붕괴되어 soft voting의 핵심 원리인 "다양한 관점의 합의"가 작동하지 않는다.
+
+**교훈 (Ensemble Diversity Law)**: 앙상블의 성능은 개별 모델의 정확도뿐 아니라 모델 간의 예측 다양성에 의존한다. 동일 체크포인트 파인튜닝은 다양성을 제거하여 앙상블 이득을 파괴한다. 최적 전략은 서로 다른 random seed에서 독립적으로 scratch 학습하는 것이다.
+
+---
+
+### 9.5 Contrastive Learning 시도와 좌절
+
+**가설**: 유사한 향기를 가진 분자 쌍은 embedding 공간에서 가까이, 다른 향기의 분자 쌍은 멀리 위치하도록 contrastive loss를 추가하면 표현 품질이 향상될 것이다.
+
+**구현**: 기존 ASL(Asymmetric Loss) 학습에 contrastive learning을 결합. Positive pair(같은 향기 라벨 공유)와 Negative pair를 구성하여 InfoNCE loss를 추가.
+
+**결과**: AUROC가 baseline 0.789에서 **0.783**으로 오히려 하락. Contrastive loss가 분류 loss와 경쟁하며 gradient 방향이 충돌한 것으로 분석.
+
+**교훈**: 이미 높은 성능의 모델에 추가 학습 기법을 적용할 때는, 기존 학습 목표와의 간섭을 반드시 확인해야 한다. "좋은 기법의 병합"이 항상 "더 좋은 결과"를 만들지는 않는다.
+
+---
+
+### 9.6 혼합물 향기 예측 -- Naive Averaging의 실패
+
+**문제**: AI 조향의 핵심은 "여러 분자를 섞었을 때 어떤 향이 나는가"를 예측하는 것이다. 가장 직관적인 접근은 각 분자의 138d 벡터를 비율에 따라 가중 평균하는 것이었다.
+
+**결과**: 12개 reference 혼합물(Lavender, Citrus, Rose 등)에 대해 어코드 예측 정확도 **50%**. 동전 던지기 수준.
+
+**원인 분석**: 실제 혼합물의 향기에서는 비선형 현상이 지배적이다:
+- **마스킹**: 강한 향이 약한 향을 완전히 덮어버림 (벡터 평균으로 표현 불가)
+- **시너지**: 두 분자가 만나 완전히 새로운 향을 생성 (선형 결합에서 나타나지 않음)
+- **임계값**: 인간의 후각은 일정 농도 이하에서는 감지 불가 (연속적 평균과 다름)
+
+**해결 -- Stevens' Power Law + Max-pooling**:
+
+Stevens의 심리물리학 법칙에 따르면 감각 강도는 자극 강도의 거듭제곱에 비례한다. 후각의 경우 지수는 약 0.5-0.7이다:
+
+```
+perceived = concentration ^ 0.6
 ```
 
-### 9.4 DeepChem AdamW Import 오류
-
-**문제**: OpenPOM이 `deepchem.models.optimizers.AdamW`를 하드코딩 import하는데, DeepChem 2.5.0 이후 네임스페이스 변경으로 `ImportError` 발생.
-
-**해결**: `openpom/utils/optimizer.py`에 fallback 패치:
+이를 적용하고, 벡터 평균 대신 각 차원의 최대값을 취하는 Max-pooling으로 전환:
 
 ```python
-from deepchem.models.optimizers import Adam
-try:
-    from deepchem.models.optimizers import AdamW
-except ImportError:
-    AdamW = Adam  # Safe fallback
+weight = (ratio / 100.0) ** 0.6  # Stevens
+accord = np.max(weighted_vectors, axis=0)  # Max-pooling
 ```
 
-### 9.5 Windows 파일 잠금과 체크포인트 저장
+**결과**: 정확도 50%에서 **92%**로 도약. 이 개선은 모델 자체를 바꾸지 않고, 예측값의 후처리 방식만 심리물리학 법칙에 맞추어 변경한 것이다.
 
-**문제**: `deepchem.models.torch_models.torch_model.save_checkpoint`에서 `os.rename` 호출 시 `PermissionError: [WinError 32]` 발생. Windows의 파일 잠금 메커니즘과 충돌.
+---
 
-**해결**: `os.rename`을 `shutil.move` 기반의 재시도 로직(`_safe_move`)으로 교체. 5회 재시도 + 0.3초 대기 후 `shutil.copy2` fallback.
+### 9.7 GoodScents Blind Test -- 0%에서 91%까지
 
-### 9.6 과대평가의 유혹 -- Cherry-pick 검증의 함정
+**배경**: 모델의 진짜 성능을 측정하기 위해 GoodScents 데이터를 blind test용으로 사용하기로 결정. 학습에 사용한 분자를 제외하고 500개 분자를 무작위 추출하여 Top-5 정확도를 측정.
 
-**문제**: 초기 검증에서 시스템 빌더가 알고 있는 15개 분자를 선정하여 89% 정확도를 보고했으나, 이는 잠재적인 selection bias를 포함.
+**1차 시도 -- 0% 정확도**: GoodScents `behavior.csv`의 `Stimulus` 컬럼이 PubChem CID가 아닌 CAS 번호 형식(예: "100-52-7")이었다. 파서가 이를 숫자 CID로 해석하려 했으므로 하나도 매칭되지 않았다. 또한 `Descriptors` 컬럼이 semicolon으로 구분되어 있었는데(예: "almond;cherry;marzipan"), 이를 단일 문자열로 처리하여 라벨 매칭이 완전 실패.
 
-**발견**: 500개 GoodScents blind test로 전환한 결과, Top-5 정확도가 **91%**로 오히려 더 높게 측정됨. 이는 모델이 실제로 일반화 능력이 있음을 증명.
+**2차 시도 -- 매핑 체인 구축**:
+```
+CAS(behavior.csv) -> PubChem CID(molecules.csv) -> IsomericSMILES -> Canonical SMILES
+```
+4,622개 entries 중 3,896개의 SMILES를 성공적으로 해석. Semicolon 파서를 구현하여 디스크립터를 올바르게 추출.
 
-**교훈**: 자체 선정 테스트는 의미가 없다. 반드시 외부 blind 데이터로 검증해야 한다.
+**결과**:
 
-### 9.7 Cost 모델 과적합
+| Rank | 정확도 |
+|------|--------|
+| Top-1 | 65% |
+| Top-3 | 86% |
+| Top-5 | **91%** |
 
-**문제**: 31개 분자로 학습한 Cost 모델이 R^2 = 0.823을 보고했으나, Leave-One-Out Cross-Validation 결과 R^2 = 0.674로 하락.
+**의미**: 자체 선정한 15개 분자의 검증(89%)보다 무작위 500개 blind test(91%)가 오히려 높았다. 이는 모델이 특정 분자에 과적합된 것이 아니라, 일반적인 화학 구조-향기 관계를 학습했음을 의미한다.
 
-**대응**: 112개 분자로 학습 데이터를 4배 확장하고, 20-bag Bagged Ridge 앙상블 + 5-fold CV로 전환. Band(저/중/고) 분류 정확도 76%, 2배 이내 정확도 82% 달성.
+---
 
-**교훈**: 소규모 데이터셋에서의 R^2는 과적합의 산물일 수 있다. 반드시 교차검증으로 확인.
+### 9.8 Cost 모델 -- 소규모 데이터의 과적합 함정
 
-### 9.8 Fragrantica 이름 매칭 실패
+**1차 시도**: 향료 원료 가격을 예측하기 위해 19개 분자의 도매가로 다항 회귀 모델을 학습. R^2 = 0.89로 매우 높은 성능이라고 판단.
 
-**문제**: 478개 실제 Fragrantica 향수의 backtest에서 원료 이름 매칭이 거의 실패. 향수 업계의 common name(예: "Hedione", "Ambroxan")과 화학 데이터베이스의 IUPAC/SMILES 간 체계적인 매핑이 부재.
+**현실**: Leave-One-Out Cross-Validation을 수행하자 R^2가 **0.45**로 폭락. 19개 데이터로 다항 특성(2차항, 교호항)까지 포함하면 설명 변수가 데이터 수보다 많아져 완벽한 과적합이 발생했던 것이다.
 
-**현재**: 미해결. 향수 업계 고유의 상품명-to-CAS 사전 구축이 필요.
+**2차 시도**: 60개 분자로 확장 + Ridge 회귀로 정규화. R^2 = 0.823, LOOCV R^2 = 0.674. 개선되었지만 여전히 과적합 징후.
 
-### 9.9 Mixture Prediction의 비선형성
+**3차 시도 (현재)**: 검증된 도매가 112개 + 20-bag Bagged Ridge 앙상블 + 5-fold CV. Band(저/중/고) 정확도 76%, 2배 이내 82%. R^2는 여전히 낮지만(가격 범위가 $1.5~$200으로 100배 차이), 실용적인 가격 범주 분류 성능은 확보.
 
-**문제**: 혼합물의 향기는 단순한 성분 벡터의 선형 결합이 아니다. 특정 분자 조합은 완전히 새로운 향기를 생성하거나(시너지), 서로의 향기를 차단한다(마스킹).
+**교훈**: 소규모 데이터에서 R^2는 믿을 수 없다. 반드시 교차검증으로 일반화 성능을 확인해야 하며, 극단적 가격 범위에서는 R^2 대신 band accuracy나 within-2x 같은 실용적 메트릭이 더 유의미하다.
 
-**대응**: Stevens' Power Law + Max-pooling으로 1차 근사. Naive averaging 50% -> 92% 향상. Set Transformer 등 attention 기반 모델은 향후 과제.
+---
 
-### 9.10 GoodScents Blind Test에서 0% 정확도 (v1)
+### 9.9 PairAttentionNet -- 돌파구
 
-**문제**: 최초 blind test에서 0% 정확도를 기록. GoodScents behavior.csv의 `Stimulus` 컬럼이 CID가 아닌 CAS 형식이었고, `Descriptors` 컬럼이 semicolon 구분자로 되어 있었는데, 이를 파싱하지 못함.
+**배경**: Scaffold Split AUROC 0.789는 앙상블 크기를 늘려도, 학습률을 조정해도, 데이터를 추가해도 더 이상 올라가지 않았다. GNN 아키텍처 자체의 한계에 도달한 것으로 판단.
 
-**해결**: CAS --> CID --> SMILES 매핑 체인 구축 + semicolon 파서 구현 후, 4,622개 entries 중 3,896개 SMILES 해석 성공. 결과: 500분자 blind test에서 Top-5 **91%** 달성.
+**접근**: 분자들 사이의 "관계"를 직접 학습하는 Pair Attention 메커니즘을 도입. 기존 GNN이 각 분자를 독립적으로 인코딩하는 반면, PairAttentionNet은 분자 쌍의 유사성/차이를 attention weight로 학습한다.
 
-**교훈**: 데이터 형식을 가정하지 말 것. 반드시 원본 데이터의 구조를 직접 확인해야 한다.
+**결과**: Molecule-level split에서 AUROC **0.929**. 기존 0.789 대비 0.14 향상. 108개 라벨에 대해 높은 정확도를 보여, 실제 inference에서 PairAttentionNet을 주 모델로 사용하게 되었다.
+
+**단, 주의점**: 이 성능은 molecule-level split(분자 단위의 무작위 분할)에서 측정된 것이다. Scaffold split(화학 골격 기반 분할)에서는 더 낮을 수 있다. 두 지표를 혼동하지 않는 것이 중요하다.
+
+---
+
+### 9.10 성분 DB 확장 -- 82개에서 7,310개까지
+
+**파도 1 (82개)**: 수동으로 선정한 핵심 천연물(Lavender, Rose, Bergamot)과 대표 합성물(Vanillin, Coumarin). 레시피 생성은 가능했지만 선택지가 너무 적어 대부분의 향을 표현할 수 없었다.
+
+**파도 2 (296개)**: Aldehyde, Terpene, Musk 계열을 체계적으로 추가. 향의 다양성은 개선되었으나 여전히 전문 조향사의 팔레트(2,000-3,000종)에 크게 미달.
+
+**파도 3 (477개)**: Pyrfume 데이터베이스에서 자동 매핑을 시도. SMILES가 있는 분자만 추출. 이 시점에서 발견한 문제: 많은 천연 원료(에센셜 오일)는 단일 분자가 아닌 복합 혼합물이라 SMILES로 표현이 불가능. 해결책으로 주요 화학 구성물(예: Lavender Oil -> Linalool + Linalyl Acetate)로 대리 분석하는 "가상 조성" 기법을 도입.
+
+**파도 4 (7,310개)**: GoodScents + Leffingwell + FlavorDB + AromaDB + FlavorNet + FragranceDB를 전수 통합. CAS-CID-SMILES 매핑 체인과 SMILES 정규화를 적용하여 중복 제거. 99%의 분자에 대해 BP, Note, Price, 138d embedding을 계산하여 상용 수준의 성분 DB 구축.
+
+**발견**: 성분 수가 500개를 넘어가면, 레시피 최적화 엔진이 검색 공간에서 길을 잃기 시작했다. 후보 성분의 사전 필터링(cosine similarity > 0.3인 것만 선별)을 도입하여 해결.
+
+---
+
+### 9.11 Fragrantica 검증 실패 -- 산업계와 학술계의 간극
+
+**시도**: Fragrantica.com에서 478개 실제 향수의 성분/노트 정보를 수집하여, AI 시스템의 예측과 비교하는 backtest를 시도.
+
+**결과**: 성분 이름 매칭률이 극히 낮았다. 향수 산업에서는 "Hedione", "Iso E Super", "Ambroxan" 같은 상품명을 사용하는데, 화학 데이터베이스에는 "methyl dihydrojasmonate", "1-(2,3,8,8-tetramethyl-1,2,3,4,5,6,7,8-octahydronaphthalen-2-yl)ethan-1-one" 같은 IUPAC명이 저장되어 있다. 두 체계 사이의 체계적인 매핑 사전이 존재하지 않는다.
+
+**현재 상태**: 미해결. 향수 업계 고유의 상품명-to-CAS 사전 구축이 필요하며, 이는 순수한 공학적 문제라기보다 도메인 지식의 영역이다.
 
 ---
 
@@ -581,3 +675,99 @@ Copyright (c) 2024-2026 junseong2im. All Rights Reserved.
 3. Pyrfume: A Python library for olfactory data. https://pyrfume.org/
 4. IFRA 49th Amendment. International Fragrance Association.
 5. Stevens, S. S. (1957). "On the psychophysical law." *Psychological Review*, 64(3).
+
+---
+
+## 13. 데이터 출처
+
+본 프로젝트에서 사용한 모든 데이터, 모델, 외부 자료의 출처를 명시한다.
+
+### 13.1 Pyrfume 후각 데이터셋 (18개)
+
+Pyrfume(https://pyrfume.org/) 라이브러리를 통해 수집한 후각 연구 데이터셋:
+
+| Dataset | 출처 논문/기관 | 데이터 내용 | 사용 목적 |
+|---------|-------------|-----------|----------|
+| **GoodScents** | The Good Scents Company | 4,622 molecules, CAS, semicolon-separated descriptors | 핵심 학습 데이터, blind test |
+| **Leffingwell** | Leffingwell & Associates | 3,522 molecules, expert-curated binary labels | 핵심 학습 데이터 (GS-LF merged) |
+| **FlavorDB** | FlavorDB (Moon et al.) | 25,207 molecules, food-grade odorants | 메가데이터 통합 (Phase 3) |
+| **AromaDB** | AromaDB | 648 molecules, aromatic compounds | 메가데이터 통합 |
+| **FlavorNet** | Arn & Acree, Cornell Univ. | 373 molecules, GC-olfactometry | 메가데이터 통합 |
+| **FragranceDB** | FragranceDB | 향료 성분 DB | 성분 라이브러리 확장 |
+| **FooDB** | FooDB (The Metabolomics Innovation Centre) | 식품 화합물 데이터 | 분자 다양성 확장 |
+| **Dravnieks 1985** | Dravnieks, A. (1985) | 144 molecules, 146 descriptors, 507 panelists | 인간 후각 기준 데이터 |
+| **Keller 2012** | Keller & Vosshall, Rockefeller Univ. | 476 molecules, intensity/pleasantness | 심리물리학적 후각 데이터 |
+| **Keller 2016** | Keller et al. (2016) | 강도/향미 평가 확장 데이터 | 후각 예측 검증 |
+| **Snitz 2013** | Snitz et al. (2013) | 분자 유사성 평가 데이터 | 혼합물 유사도 모델링 |
+| **Bushdid 2014** | Bushdid et al. (2014), *Science* | 혼합물 변별 실험 데이터 | 혼합물 예측 평가 |
+| **Abraham 2012** | Abraham et al. (2012) | 221 molecules, ODT + solvation descriptors | ODT 보정 모델 학습 |
+| **Haddad 2008** | Haddad et al. (2008) | 분자 기술자-후각 관계 | 특성 엔지니어링 참고 |
+| **Arctander 1960** | Arctander, S. (1960) | 클래식 향료 참고 문헌 | 성분 분류 참고 |
+| **Arshamian 2022** | Arshamian et al. (2022) | 범문화적 후각 인지 연구 | 디스크립터 보편성 검증 |
+| **IFRA 2019** | International Fragrance Assoc. (2019) | 453 규제 물질, CAS, 카테고리별 한도 | IFRA 안전 규제 시스템 |
+| **FreeSolv** | Mobley et al. | 수화 자유에너지 데이터 | 물리화학 특성 참고 |
+
+### 13.2 외부 컬렉션 데이터
+
+| Dataset | 출처 | 데이터 내용 | 사용 목적 |
+|---------|------|-----------|----------|
+| **Osmo POM (Lee 2023)** | Lee et al. / Osmo Inc. | curated_GS_LF_merged_4983.csv (138 labels) | 공식 GS-LF 학습 데이터 |
+| **Osmo Taxonomy** | Osmo Inc. | 22d scent taxonomy mapping | 138d -> 22d 산업 표준 변환 |
+| **Fragrantica** | Fragrantica.com | 478+ 실제 향수 성분/노트 정보 | Backtest 검증 |
+| **DREAM Mixture** | DREAM Challenge 2015 | 혼합물 향기 예측 도전 과제 데이터 | 혼합물 모델 학습 |
+| **Zenodo** | Zenodo Open Repository | 보충 후각 데이터셋 | 데이터 확장 |
+
+### 13.3 화학 데이터베이스 및 API
+
+| 출처 | URL | 사용 목적 |
+|------|-----|----------|
+| **PubChem** | https://pubchem.ncbi.nlm.nih.gov/ | CAS -> CID -> SMILES 매핑, 분자 정보 |
+| **PubChem PUG REST API** | https://pubchem.ncbi.nlm.nih.gov/rest/pug/ | 분자 식별자 해석, 물성 조회 |
+| **NIST Chemistry WebBook** | https://webbook.nist.gov/ | 끓는점 calibration (30 molecules) |
+| **RDKit** | https://www.rdkit.org/ | 134d atom features, 분자 기술자 계산 |
+
+### 13.4 모델 및 프레임워크
+
+| 모델/프레임워크 | 출처 | 버전 | 사용 목적 |
+|-------------|------|------|----------|
+| **OpenPOM** | https://github.com/BioML-UGD/OpenPOM | 1.0.0 | MPNN 앙상블 아키텍처 |
+| **DeepChem** | https://deepchem.io/ | 2.5.0 | 모델 학습/추론 프레임워크 |
+| **DGL (Deep Graph Library)** | https://www.dgl.ai/ | 2.4.0 (cu121) | 그래프 신경망 백엔드 |
+| **PyTorch** | https://pytorch.org/ | 2.4.1 (cu121) | 딥러닝 프레임워크 |
+| **ChemBERTa** | Chithrananda et al. (2020) | LoRA v22 | 분자 임베딩 (보조) |
+
+### 13.5 가격 데이터 출처
+
+원가 추정 모델의 학습에 사용한 도매가 데이터 (112 molecules):
+
+| 출처 | 데이터 범위 | 비고 |
+|------|-----------|------|
+| **Vigon International** | 향료 원료 도매가 | 2024 catalogue, 100kg+ lots |
+| **Penta Manufacturing** | 합성 방향제 가격 | Fine chemicals supplier |
+| **Bedoukian Research** | Terpene/specialty 가격 | Aroma chemicals, terpenoids |
+| **PerfumersWorld** | 향료 소매/교육용 가격 | 가격 범위 참고 |
+| **Creating Perfume Guide** | 산업 평균 가격 | 가격 band 분류 기준 |
+
+### 13.6 규제 데이터
+
+| 출처 | 내용 | 적용 |
+|------|------|------|
+| **IFRA 49th Amendment** (2019) | 453 물질, 11 카테고리, 금지/제한 한도 | SafetyNet 규제 필터 |
+| **REACH (EU)** | 화학물질 등록/평가 규정 | 규제 참조 (직접 미사용) |
+
+### 13.7 참고 논문
+
+| No. | 논문 | 인용 |
+|-----|------|------|
+| 1 | Lee, B. K., et al. (2023) | "A principal odor map unifies diverse tasks in human olfaction." *Science*, 381(6661) |
+| 2 | Dravnieks, A. (1985) | "Atlas of Odor Character Profiles." ASTM Data Series 61 |
+| 3 | Keller, A. & Vosshall, L. B. (2016) | "Olfactory perception of chemically diverse molecules." *BMC Neuroscience*, 17(1) |
+| 4 | Bushdid, C. et al. (2014) | "Humans can discriminate more than 1 trillion olfactory stimuli." *Science*, 343(6177) |
+| 5 | Snitz, K. et al. (2013) | "Predicting odor perceptual similarity from odor structure." *PLoS Computational Biology* |
+| 6 | Abraham, M. H. et al. (2012) | "An algorithm for 353 odor detection thresholds in humans." *Chemical Senses*, 37(3) |
+| 7 | Stevens, S. S. (1957) | "On the psychophysical law." *Psychological Review*, 64(3) |
+| 8 | Haddad, R. et al. (2008) | "A metric for odorant comparison." *Nature Methods*, 5(5) |
+| 9 | Arshamian, A. et al. (2022) | "The perception of odor pleasantness is shared across cultures." *Current Biology* |
+| 10 | Chithrananda, S. et al. (2020) | "ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction." *arXiv* |
+| 11 | Moon, S. et al. (2020) | "FlavorDB2: An Updated Database of Flavor Molecules." *Frontiers in Nutrition* |
+
