@@ -19,20 +19,10 @@ venv/
 env/
 .venv/
 
-# ===== Model Weights (too large for Git) =====
-# Use Git LFS or host separately
-*.pt
-*.pth
-*.bin
-*.pkl
-*.h5
+# ===== Model Weights =====
+# 모델 가중치는 Git LFS로 관리 (검증용)
 *.onnx
 *.safetensors
-server/weights/
-server/models/openpom_ensemble/
-server/models/*.pt
-server/data/bert_cache.*
-server/data/rl_model.*
 
 # ===== Large Data Files =====
 server/data/pom_data/pyrfume_all/
