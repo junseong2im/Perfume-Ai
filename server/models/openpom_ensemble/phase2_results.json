@@ -1,0 +1,22 @@
+{
+  "phase1_ensemble_auroc": 0.789,
+  "phase2_results": {
+    "XGBoost": {
+      "auroc": 0.7511222777265619,
+      "n_tasks": 128,
+      "time": 145.73640298843384
+    },
+    "RandomForest": {
+      "auroc": 0.7217590072338667,
+      "n_tasks": 128,
+      "time": 90.4037606716156
+    },
+    "MLP": {
+      "auroc": 0.6664610501433779,
+      "n_tasks": 128,
+      "time": 43.6365692615509
+    }
+  },
+  "embedding_dim": 256,
+  "n_molecules": 5050
+}
